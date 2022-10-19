@@ -1,0 +1,22 @@
+{
+  "Id": "taxus-canadensus",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "american yew",
+    "Binomial": "taxus canadensus",
+    "Synonyms": [
+      "canada yew",
+      "canadian yew"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "taxaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

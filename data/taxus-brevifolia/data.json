@@ -1,0 +1,24 @@
+{
+  "Id": "taxus-brevifolia",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "western yew",
+    "Binomial": "taxus brevifolia",
+    "Synonyms": [
+      "english yew",
+      "pacific yew",
+      "japanese yew",
+      "anglo-japanese yew"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "taxaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

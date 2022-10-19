@@ -1,0 +1,21 @@
+{
+  "Id": "mentha-sp",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "mint",
+    "Binomial": "mentha sp.",
+    "Synonyms": [
+      "garden mint"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "lamiaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

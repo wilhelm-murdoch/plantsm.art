@@ -1,0 +1,24 @@
+{
+  "Id": "cycas-revoluta",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "sago palm",
+    "Binomial": "cycas revoluta",
+    "Synonyms": [
+      "coontie palm",
+      "cardboard palm",
+      "cycads",
+      "zamias"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "zamia species,cycadaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

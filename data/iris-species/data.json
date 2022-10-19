@@ -1,0 +1,23 @@
+{
+  "Id": "iris-species",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "water flag",
+    "Binomial": "iris species",
+    "Synonyms": [
+      "iris",
+      "snake lily",
+      "flag"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "iridaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

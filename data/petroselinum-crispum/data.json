@@ -1,0 +1,23 @@
+{
+  "Id": "petroselinum-crispum",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "parsley",
+    "Binomial": "petroselinum crispum",
+    "Synonyms": [
+      "italian parsley",
+      "hamburg parsley",
+      "turnip-rooted parsley"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "apiaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Id": "gladiolus-species",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "gladiola",
+    "Binomial": "gladiolus species",
+    "Synonyms": []
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "iridaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

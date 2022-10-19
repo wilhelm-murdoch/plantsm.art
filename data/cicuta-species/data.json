@@ -1,0 +1,22 @@
+{
+  "Id": "cicuta-species",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "cowbane",
+    "Binomial": "cicuta species",
+    "Synonyms": [
+      "water hemlock",
+      "poison parsnip"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "apiaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

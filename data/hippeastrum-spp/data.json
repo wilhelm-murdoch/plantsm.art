@@ -1,0 +1,24 @@
+{
+  "Id": "hippeastrum-spp",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "ridderstjerne",
+    "Binomial": "hippeastrum spp.",
+    "Synonyms": [
+      "amaryllis",
+      "fire lily",
+      "lily of the palace",
+      "barbados lily"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "amaryllidaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

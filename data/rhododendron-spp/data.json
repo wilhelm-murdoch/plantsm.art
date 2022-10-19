@@ -1,0 +1,22 @@
+{
+  "Id": "rhododendron-spp",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "rosebay",
+    "Binomial": "rhododendron spp",
+    "Synonyms": [
+      "rhododendron",
+      "azalea"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "ericaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

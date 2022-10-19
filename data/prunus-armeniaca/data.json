@@ -1,0 +1,23 @@
+{
+  "Id": "prunus-armeniaca",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "apricot",
+    "Binomial": "prunus armeniaca",
+    "Synonyms": [
+      "plum",
+      "peach",
+      "cherry"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "rosaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

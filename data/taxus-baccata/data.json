@@ -1,0 +1,24 @@
+{
+  "Id": "taxus-baccata",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "english yew",
+    "Binomial": "taxus baccata",
+    "Synonyms": [
+      "western yew",
+      "pacific yew",
+      "japanese yew",
+      "anglo-japanese yew"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "taxaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

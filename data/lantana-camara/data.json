@@ -1,0 +1,23 @@
+{
+  "Id": "lantana-camara",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "lantana",
+    "Binomial": "lantana camara",
+    "Synonyms": [
+      "shrub verbena",
+      "yellow sage",
+      "red sage"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "verbenaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

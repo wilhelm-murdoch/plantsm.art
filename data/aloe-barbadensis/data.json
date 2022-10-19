@@ -1,0 +1,23 @@
+{
+  "Id": "aloe-barbadensis",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "true aloe",
+    "Binomial": "aloe barbadensis",
+    "Synonyms": [
+      "medicine plant",
+      "aloe",
+      "barbados aloe"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "aloaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

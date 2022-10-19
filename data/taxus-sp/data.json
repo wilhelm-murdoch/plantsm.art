@@ -1,0 +1,24 @@
+{
+  "Id": "taxus-sp",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "japanese yew",
+    "Binomial": "taxus sp.",
+    "Synonyms": [
+      "english yew",
+      "western yew",
+      "pacific yew",
+      "anglo-japanese yew"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "taxaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

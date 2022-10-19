@@ -1,0 +1,19 @@
+{
+  "Id": "lilium-species",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "lily",
+    "Binomial": "lilium species",
+    "Synonyms": []
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "liliaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

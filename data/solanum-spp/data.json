@@ -1,0 +1,22 @@
+{
+  "Id": "solanum-spp",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Names": {
+    "Common": "nightshade",
+    "Binomial": "solanum spp",
+    "Synonyms": [
+      "deadly nightshade",
+      "black nightshade"
+    ]
+  },
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "solanaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}
