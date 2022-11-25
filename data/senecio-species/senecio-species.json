@@ -1,0 +1,20 @@
+{
+  "Id": "senecio-species",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Name": "ragwort",
+  "Binomial": "senecio species",
+  "Common": [
+    "golden ragwort",
+    "tansy"
+  ],
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "compositae",
+    "Genus": "",
+    "Species": ""
+  }
+}

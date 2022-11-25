@@ -1,0 +1,20 @@
+{
+  "Id": "cycas-and-zamia-species",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Name": "cycads",
+  "Binomial": "cycas and zamia species",
+  "Common": [
+    "sago palm",
+    "fern palm"
+  ],
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "cycadaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

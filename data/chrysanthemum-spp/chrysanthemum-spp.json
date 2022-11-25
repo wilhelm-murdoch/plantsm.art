@@ -1,0 +1,20 @@
+{
+  "Id": "chrysanthemum-spp",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Name": "chrysanthemum",
+  "Binomial": "chrysanthemum spp.",
+  "Common": [
+    "daisy",
+    "mum"
+  ],
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "compositae",
+    "Genus": "",
+    "Species": ""
+  }
+}

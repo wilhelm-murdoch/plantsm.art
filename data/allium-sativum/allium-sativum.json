@@ -1,0 +1,24 @@
+{
+  "Id": "allium-sativum",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Name": "garlic",
+  "Binomial": "allium sativum",
+  "Common": [
+    "stinking rose",
+    "rustic treacle",
+    "camphor of the poor",
+    "nectar of the gods",
+    "serpent garlic",
+    "rocambole"
+  ],
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "liliaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

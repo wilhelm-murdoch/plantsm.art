@@ -1,0 +1,20 @@
+{
+  "Id": "zamia-spp",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Name": "fern palm",
+  "Binomial": "zamia spp.",
+  "Common": [
+    "sago palm",
+    "cycads"
+  ],
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "cycadaceae",
+    "Genus": "",
+    "Species": ""
+  }
+}

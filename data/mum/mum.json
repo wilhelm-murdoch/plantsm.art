@@ -1,0 +1,19 @@
+{
+  "Id": "mum",
+  "Description": "",
+  "Symptoms": [],
+  "Images": [],
+  "Name": "daisy",
+  "Binomial": "mum",
+  "Common": [
+    "chrysanthemum"
+  ],
+  "Classification": {
+    "Kingdom": "",
+    "Clade": "",
+    "Order": "",
+    "Family": "chrysanthemum species,compositae",
+    "Genus": "",
+    "Species": ""
+  }
+}

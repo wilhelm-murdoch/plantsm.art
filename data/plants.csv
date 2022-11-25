@@ -1,4 +1,4 @@
-COMMON,SYNONYMS,BINOMIAL,FAMILY
+NAME,COMMON,BINOMIAL,FAMILY
 adam-and-eve,arum|lord-and-ladies|wake robin|starch root|bobbins|cuckoo plant,arum maculatum,araceae
 african wonder tree,,ricinus communis,
 alocasia,elephant's ear,alocasia spp.,araceae
@@ -248,7 +248,6 @@ mauna loa peace lily,peace lily,spathiphyllum,araceae
 mayapple,indian apple root|umbrella leaf|wild lemon|hog apple|duck's foot|raccoonberry|american mandrake,podophyllum peltatum,berberidaceae
 mayweed,poison daisy|stinking chamomile,anthemis cotula,asteraceae
 meadow saffron,autumn crocus,colchicum autumnale,liliaceae
-medicine plant,aloe|true aloe|barbados aloe,,aloaceae
 metallic leaf begonia,,begonia metallica,begoniaceae
 mexican breadfruit,cutleaf philodendron|hurricane plant|swiss cheese plant|ceriman|split-leaf philodendron|window leaf plant,monstera deliciosa,araceae
 milfoil,yarrow,achillea millefolium,asteraceae
