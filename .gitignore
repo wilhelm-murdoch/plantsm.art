@@ -3,6 +3,7 @@
 devenv.local.nix
 .devenv.flake*
 *-shell
+.devenv
 
 .yarn/cache
 .yarn/unplugged
