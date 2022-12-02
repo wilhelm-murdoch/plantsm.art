@@ -1,5 +1,5 @@
 .envrc
-.DS_Store.devenv*
+.DS_Store*
 devenv.local.nix
 .devenv.flake*
 *-shell
