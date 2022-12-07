@@ -16,7 +16,6 @@ type Plant struct {
 	Name           string         `json:"name"`
 	ScientificName string         `json:"scientific_name"`
 	Common         []string       `json:"common"`
-	Images         []string       `json:"images"`
 	Symptoms       []string       `json:"symptoms"`
 	SourceUrl      string         `json:"source_url"`
 	Classification Classification `json:"classification"`

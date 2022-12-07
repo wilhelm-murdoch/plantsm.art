@@ -5,7 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"strings"
 	"time"
@@ -89,18 +91,14 @@ func importPlantsForAnimal(animal string, data *models.Data) error {
 	return nil
 }
 
-type UnmarshalData struct {
-	PlantsByCat      []string   `json:"plants_by_cat"`
-	PlantsByDog      []string   `json:"plants_by_dog"`
-	PlantsBySymptoms [][]string `json:"plants_by_symptoms"`
-	Plants           []struct {
-		Id             string   `json:"id"`
-		Name           string   `json:"name"`
-		ScientificName string   `json:"scientific_name"`
-		Common         []string `json:"common"`
-		Images         []struct {
-			SourceUrl   string `json:"source_url"`
+type UnmarshalledPlants struct {
+	Data []struct {
+		Id     string   `json:"id"`
+		Name   string   `json:"name"`
+		Common []string `json:"common"`
+		Images []struct {
 			Url         string `json:"url"`
+			SourceUrl   string `json:"source_url"`
 			License     string `json:"license"`
 			Attribution string `json:"attribution"`
 		} `json:"images"`
@@ -149,94 +147,155 @@ type SortableResult struct {
 }
 
 type Search struct {
-	Id    string
-	Terms *collection.Collection[string]
+	Id, Term string
 }
 
-func NewSearch(id, name, scientific_name string, common []string) *Search {
-	terms := collection.New(common...)
-	terms.Push(name, scientific_name)
+func NewSearch(id, name string) *Search {
 	return &Search{
-		Id:    id,
-		Terms: terms,
+		Id:   id,
+		Term: name,
 	}
 }
 
-func (Scrape) Images(ctx context.Context, sourcePath, savePath string) error {
-	if _, err := os.Stat(sourcePath); err != nil {
-		return fmt.Errorf("cannot locate scaffold file %s; regenerate and try again", sourcePath)
-	}
+// func (Scrape) Images(ctx context.Context, sourcePath, savePath string) error {
+// 	if _, err := os.Stat(sourcePath); err != nil {
+// 		return fmt.Errorf("cannot locate scaffold file %s; regenerate and try again", sourcePath)
+// 	}
 
-	content, err := os.ReadFile(sourcePath)
-	if err != nil {
-		return err
-	}
+// 	content, err := os.ReadFile(sourcePath)
+// 	if err != nil {
+// 		return err
+// 	}
 
-	var parsed UnmarshalData
-	err = json.Unmarshal(content, &parsed)
+// 	var parsed UnmarshalledPlants
+// 	err = json.Unmarshal(content, &parsed)
 
-	var searches collection.Collection[*Search]
+// 	var searches collection.Collection[*Search]
 
-	for _, p := range parsed.Plants {
-		searches.Push(NewSearch(p.Id, p.Name, p.ScientificName, p.Common))
-	}
+// 	for _, p := range parsed.Data {
+// 		searches.Push(NewSearch(p.Id, p.Name))
+// 	}
 
-	var sortable_results collection.Collection[*SortableResult]
+// 	var sortable_results collection.Collection[*SortableResult]
 
-	searches.Batch(func(b1, j1 int, s1 *Search) {
-		s1.Terms.Batch(func(b2, j2 int, s2 string) {
-			results, _ := imageSearch(s2)
+// 	limiter := rate.NewLimiter(rate.Every(1*time.Minute/60), 60)
 
-			var parsed UnmarshalSearchResults
-			json.Unmarshal(results, &parsed)
+// 	searches.Each(func(i int, s *Search) bool {
+// 		limiter.Wait(context.Background())
 
-			for _, r := range parsed.Results {
-				var photos []Photo
-				for _, p := range r.Record.Photos {
-					photos = append(photos, p.Photo)
-				}
+// 		fmt.Printf("`%s` ( %s ) searching\n", s.Id, s.Term)
+// 		results, _ := imageSearch(s.Term)
 
-				photos = append(photos, r.Record.DefaultPhoto)
+// 		var parsed UnmarshalSearchResults
+// 		json.Unmarshal(results, &parsed)
 
-				sortable_results.Push(&SortableResult{
-					Id:     s1.Id,
-					Score:  r.Score,
-					Term:   s2,
-					Photos: photos,
-				})
-			}
-		}, s1.Terms.Length())
-	}, 2)
+// 		for _, r := range parsed.Results {
+// 			var photos []Photo
+// 			for _, p := range r.Record.Photos {
+// 				photos = append(photos, p.Photo)
+// 			}
 
-	file, _ := os.OpenFile(savePath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, os.ModePerm)
-	defer file.Close()
+// 			photos = append(photos, r.Record.DefaultPhoto)
 
-	encoder := json.NewEncoder(file)
-	if err := encoder.Encode(sortable_results.Items()); err != nil {
-		return err
-	}
+// 			sortable_results.Push(&SortableResult{
+// 				Id:     s.Id,
+// 				Score:  r.Score,
+// 				Term:   s.Term,
+// 				Photos: photos,
+// 			})
+// 		}
+// 		return false
+// 	})
 
-	return err
+// 	file, _ := os.OpenFile(savePath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, os.ModePerm)
+// 	defer file.Close()
+
+// 	encoder := json.NewEncoder(file)
+// 	if err := encoder.Encode(sortable_results.Items()); err != nil {
+// 		return err
+// 	}
+
+// 	return err
+// }
+
+type ImageDownload struct {
+	Source, Destination string
 }
+
+// func (Scrape) DownloadImages(ctx context.Context, sourcePath string) error {
+// 	content, err := os.ReadFile(sourcePath)
+// 	if err != nil {
+// 		return err
+// 	}
+
+// 	var parsed UnmarshalledPlants
+// 	if err = json.Unmarshal(content, &parsed); err != nil {
+// 		return err
+// 	}
+
+// 	// index[0] remote path
+// 	// index[1] local path
+// 	var images collection.Collection[[]string]
+// 	for _, plant := range parsed.Data {
+// 		for _, image := range *plant.Images {
+// 			images.Push([]string{image.SourceUrl, image.Url})
+// 		}
+// 	}
+
+// 	bar := progressbar.Default(int64(images.Length()))
+// 	images.Batch(func(b, j int, image []string) {
+// 		defer func() {
+// 			bar.Add(1)
+// 		}()
+
+// 		request, _ := http.NewRequest("GET", image[0], nil)
+// 		response, _ := http.DefaultClient.Do(request)
+// 		defer response.Body.Close()
+
+// 		file, _ := os.OpenFile(fmt.Sprintf("data/%s", image[1]), os.O_CREATE|os.O_WRONLY, 0644)
+// 		defer file.Close()
+
+// 		io.Copy(file, response.Body)
+// 	}, 10)
+
+// 	return nil
+// }
 
 func imageSearch(term string) ([]byte, error) {
+	url := fmt.Sprintf("https://api.inaturalist.org/v1/search?sources=taxa&q=%s", url.QueryEscape(term))
 	client := http.Client{
 		Timeout: 5 * time.Second,
 	}
 
-	request, _ := http.NewRequest("GET", fmt.Sprintf("https://api.inaturalist.org/v1/search?sources=taxa&q=%s", term), nil)
-	request.Header.Set("Accept", "application/json")
-	response, err := client.Do(request)
-	if err != nil {
-		return nil, err
+	var backoff time.Duration
+	maxAttempts := 10
+	for attempt := 1; attempt <= maxAttempts; attempt++ {
+		response, err := client.Get(url)
+		if err != nil {
+			return nil, err
+		}
+		defer response.Body.Close()
+
+		body, err := io.ReadAll(response.Body)
+		if err != nil {
+			return body, err
+		}
+
+		switch response.StatusCode {
+		case 429:
+			if attempt >= maxAttempts {
+				return nil, fmt.Errorf(fmt.Sprintf("could not find %s after %d attempts; skipping ...", term, attempt))
+			}
+
+			backoff = time.Duration(attempt) * time.Second
+			log.Printf("got rate-limited on term %s; waiting another %d seconds", term, (backoff / time.Second))
+			time.Sleep(backoff)
+		case 200:
+			return body, err
+		default:
+			return nil, fmt.Errorf("status code %d", response.StatusCode)
+		}
 	}
 
-	defer response.Body.Close()
-
-	if response.StatusCode == 200 {
-		b, _ := io.ReadAll(response.Body)
-		return b, nil
-	}
-
-	return nil, fmt.Errorf("status code %d", response.StatusCode)
+	return nil, nil
 }
