@@ -27,15 +27,15 @@
     },
     {
         "classification": {
+            "kingdom": "Plantae",
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
                 "Monocots"
             ],
+            "order": "Asparagales",
             "family": "Asphodelaceae",
             "genus": "Aloe",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
             "species": "A. vera"
         },
         "common": null,
@@ -131,7 +131,8 @@
             "vomiting",
             "lethargy",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aloe vera"
     },
     {
         "classification": {
@@ -167,12 +168,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Berberidaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Ranunculales",
+            "family": "Berberidaceae",
+            "genus": "Podophyllum",
+            "species": "P. peltatum"
         },
         "common": [
             "Mayapple",
@@ -248,7 +253,8 @@
             "panting",
             "coma",
             "skin ulcers"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Podophyllum peltatum"
     },
     {
         "classification": {
@@ -314,12 +320,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Araliaceae",
+            "genus": "Aralia",
+            "species": "A. spinosa"
         },
         "common": [
             "Hercules' Club",
@@ -397,7 +408,8 @@
             "hypersalivation",
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aralia spinosa"
     },
     {
         "classification": {
@@ -466,12 +478,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rosaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Rosaceae",
+            "genus": "Prunus",
+            "species": "P. armeniaca"
         },
         "common": [
             "Plum",
@@ -486,16 +503,21 @@
             "difficulty breathing",
             "panting",
             "shock"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus armeniaca"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Syngonium",
+            "species": "S. podophyllum"
         },
         "common": [
             "Nephthytis",
@@ -554,16 +576,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Syngonium podophyllum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Arum",
+            "species": "A. maculatum"
         },
         "common": [
             "Cuckoo-pint",
@@ -642,16 +669,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arum maculatum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Zantedeschia",
+            "species": "Z. aethiopica"
         },
         "common": [
             "Calla Lily",
@@ -718,7 +750,8 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zantedeschia aethiopica"
     },
     {
         "classification": {
@@ -774,12 +807,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Lauraceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Magnoliids"
+            ],
+            "order": "Laurales",
+            "family": "Lauraceae",
+            "genus": "Laurus",
+            "species": "L. nobilis"
         },
         "common": [
             "Sweet Bag",
@@ -826,16 +863,22 @@
             "vomiting",
             "diarrhea",
             "intestinal obstruction"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Laurus nobilis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Meliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Sapindales",
+            "family": "Meliaceae",
+            "genus": "Melia",
+            "species": "M. azedarach"
         },
         "common": [
             "China Ball Tree",
@@ -924,7 +967,8 @@
             "depression",
             "weakness",
             "seizures"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Melia azedarach"
     },
     {
         "classification": {
@@ -951,12 +995,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rutaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Sapindales",
+            "family": "Rutaceae",
+            "genus": "Citrus",
+            "species": "C. × aurantium"
         },
         "common": [
             "Bergamot",
@@ -1061,16 +1110,17 @@
             "diarrhea",
             "depression",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Citrus Aurantium"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Leguminosae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": null,
+            "order": "Fabales",
+            "family": "Fabaceae",
+            "genus": "Erythrostemon",
+            "species": "E. gilliesii"
         },
         "common": [
             "Peacock Flower",
@@ -1088,16 +1138,22 @@
             "diarrhea",
             "difficulty swallowing",
             "incoordination"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Caesalpinia gilliesii"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Strelitziaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots",
+                "Commelinids"
+            ],
+            "order": "Zingiberales",
+            "family": "Strelitziaceae",
+            "genus": "Strelitzia",
+            "species": "S. reginae"
         },
         "common": [
             "Crane Flower",
@@ -1165,16 +1221,22 @@
             "nausea",
             "vomiting",
             "drowsiness"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Strelitzia reginae"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "Ammi",
+            "species": "A. majus"
         },
         "common": [
             "Greater Ammi",
@@ -1213,16 +1275,22 @@
             "diarrhea",
             "depression",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ammi majus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apocynaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Gentianales",
+            "family": "Apocynaceae",
+            "genus": "Apocynum",
+            "species": "A. androsaemifolium"
         },
         "common": [
             "Dogbane Hemp",
@@ -1272,16 +1340,22 @@
             "diarrhea",
             "slow heart rate",
             "weakness"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Apocynum androsaemifolium"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rosaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Rosaceae",
+            "genus": "Prunus",
+            "species": "P. serotina"
         },
         "common": null,
         "id": "prunus-serotina",
@@ -1365,7 +1439,8 @@
             "difficulty breathing",
             "panting",
             "shock"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus serotina"
     },
     {
         "classification": {
@@ -1399,12 +1474,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Solanaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Solanales",
+            "family": "Solanaceae",
+            "genus": "Solanum",
+            "species": "S. nigrum"
         },
         "common": [
             "Nightshade",
@@ -1552,7 +1632,8 @@
             "weakness",
             "dilated pupils",
             "slow heart rate"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Solanum nigrum"
     },
     {
         "classification": {
@@ -1652,12 +1733,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Araliaceae",
+            "genus": "Hedera",
+            "species": "H. helix"
         },
         "common": [
             "English Ivy",
@@ -1759,7 +1845,8 @@
             "abdominal pain",
             "hypersalivation",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hedera helix"
     },
     {
         "classification": {
@@ -1789,12 +1876,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Labiatae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Lamiaceae",
+            "genus": "Coleus",
+            "species": "C. amboinicus"
         },
         "common": [
             "Indian Borage",
@@ -1849,7 +1941,8 @@
             "diarrhea",
             "depression",
             "anorexia"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Coleus amboinicus"
     },
     {
         "classification": {
@@ -2038,12 +2131,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Iridaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Iridaceae",
+            "genus": "Iris",
+            "species": "I. spuria"
         },
         "common": [
             "Spuria Iris"
@@ -2076,7 +2173,8 @@
             "drooling",
             "lethargy",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Iris spuria"
     },
     {
         "classification": {
@@ -2131,12 +2229,12 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rutaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": null,
+            "order": "Sapindales",
+            "family": "Rutaceae",
+            "genus": "Citrus",
+            "species": "C. microcarpa"
         },
         "common": null,
         "id": "citrus-mitis",
@@ -2147,16 +2245,22 @@
             "diarrhea",
             "depression",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Citrus mitis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Umbelliferae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "Carum",
+            "species": "C. carvi"
         },
         "common": [
             "Meridian Fennel",
@@ -2199,16 +2303,20 @@
         "symptoms": [
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Carum carvi"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Cycadaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Gymnosperms"
+            ],
+            "order": "Cycadales",
+            "family": "Zamiaceae",
+            "genus": "Zamia",
+            "species": "Z. furfuracea"
         },
         "common": null,
         "id": "zamia-furfuracea",
@@ -2254,16 +2362,22 @@
             "bruising",
             "liver failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zamia furfuracea"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Campanulaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Asterales",
+            "family": "Campanulaceae",
+            "genus": "Lobelia",
+            "species": "L. cardinalis"
         },
         "common": [
             "Lobelia",
@@ -2322,16 +2436,21 @@
             "hypersalivation",
             "abdominal pain",
             "cardiac arrhythmias"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lobelia cardinalis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Caryophyllaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Caryophyllales",
+            "family": "Caryophyllaceae",
+            "genus": "Dianthus",
+            "species": "D. caryophyllus"
         },
         "common": [
             "Pinks",
@@ -2381,16 +2500,22 @@
         "symptoms": [
             "diarrhea",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dianthus caryophyllus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Euphorbiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Malpighiales",
+            "family": "Euphorbiaceae",
+            "genus": "RicinusL.",
+            "species": "R. communis"
         },
         "common": [
             "Castor Oil Plant",
@@ -2462,16 +2587,22 @@
             "fever",
             "coma",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ricinus communis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Lamiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Lamiaceae",
+            "genus": "Nepeta",
+            "species": "N. cataria"
         },
         "common": [
             "Catswort",
@@ -2516,16 +2647,22 @@
             "diarrhea",
             "lethargy",
             "hyperexcitability"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nepeta cataria"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Compositae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Asterales",
+            "family": "Asteraceae",
+            "genus": "Chamaemelum",
+            "species": "C. nobile"
         },
         "common": [
             "Manzanilla",
@@ -2565,7 +2702,8 @@
             "diarrhea",
             "anorexia",
             "allergic reactions"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anthemis nobilis"
     },
     {
         "classification": {
@@ -2632,12 +2770,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Aglaonema",
+            "species": "A. modestum"
         },
         "common": null,
         "id": "aglaonema-modestum",
@@ -2667,16 +2809,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aglaonema modestum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Amaryllidaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Amaryllidaceae",
+            "genus": "Allium",
+            "species": "A. schoenoprasum"
         },
         "common": null,
         "id": "allium-schoenoprasum",
@@ -2786,16 +2933,22 @@
             "weakness",
             "high heart rate",
             "panting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Allium schoenoprasum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rosaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Rosaceae",
+            "genus": "Prunus",
+            "species": "P. virginiana"
         },
         "common": null,
         "id": "prunus-virginiana",
@@ -2843,7 +2996,8 @@
             "difficulty breathing",
             "panting",
             "shock"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus virginiana"
     },
     {
         "classification": {
@@ -2871,12 +3025,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Celastraceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Celastrales",
+            "family": "Celastraceae",
+            "genus": "Celastrus",
+            "species": "C. scandens"
         },
         "common": [
             "Bittersweet",
@@ -2949,16 +3108,21 @@
             "convulsions",
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Celastrus scandens"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Liliales",
+            "family": "Colchicaceae",
+            "genus": "Gloriosa",
+            "species": "G. superba"
         },
         "common": [
             "Gloriosa Lily",
@@ -3001,16 +3165,22 @@
             "kidney failure",
             "liver damage",
             "bone marrow suppression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gloriosa superba"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Solanaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Solanales",
+            "family": "Solanaceae",
+            "genus": "Solanum",
+            "species": "S. dulcamara"
         },
         "common": [
             "European Bittersweet",
@@ -3083,7 +3253,8 @@
             "drowsiness",
             "low blood pressure",
             "low heart rate"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Solanum dulcamara"
     },
     {
         "classification": {
@@ -3116,12 +3287,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Clusiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Malpighiales",
+            "family": "Clusiaceae",
+            "genus": "Clusia",
+            "species": "C. major"
         },
         "common": [
             "Clusia"
@@ -3156,16 +3332,22 @@
         "name": "Clusia major",
         "symptoms": [
             "vomiting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clusia major"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Oleaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Oleaceae",
+            "genus": "Ligustrum",
+            "species": "L. vulgare"
         },
         "common": [
             "Privet",
@@ -3230,16 +3412,20 @@
             "diarrhea",
             "colic",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ligustrum vulgare"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Cycadaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Gymnosperms"
+            ],
+            "order": "Cycadales",
+            "family": "Zamiaceae",
+            "genus": "Zamia",
+            "species": "Z. integrifolia"
         },
         "common": [
             "Wild Sago",
@@ -3282,16 +3468,21 @@
             "bruising",
             "liver failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Zamia integrifolia"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Philodendron",
+            "species": "P. hederaceum"
         },
         "common": [
             "Fiddle-Leaf",
@@ -3312,16 +3503,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Philodendron oxycardium"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Asparagaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Dracaena",
+            "species": "D. fragrans"
         },
         "common": [
             "Corn Plant",
@@ -3418,16 +3614,23 @@
             "anorexia",
             "hypersalivation",
             "dilated pupils"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena fragrans"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids",
+                "Campanulids"
+            ],
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "Heracleum",
+            "species": "H. maximum"
         },
         "common": [
             "Giant Hogweed"
@@ -3498,7 +3701,8 @@
         "name": "Heracleum maximum",
         "symptoms": [
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Heracleum maximum"
     },
     {
         "classification": {
@@ -3530,12 +3734,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Monstera",
+            "species": "M. deliciosa"
         },
         "common": [
             "Hurricane Plant",
@@ -3609,7 +3817,8 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Monstera deliciosa"
     },
     {
         "classification": {
@@ -3740,12 +3949,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apocynaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Gentianales",
+            "family": "Apocynaceae",
+            "genus": "Adenium",
+            "species": "A. obesum"
         },
         "common": [
             "Desert Azalea",
@@ -3795,16 +4009,17 @@
             "depression",
             "cardiac arrhythmias",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Adenium obesum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": null,
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Dieffenbachia",
+            "species": "D. amoena"
         },
         "common": [
             "Charming Dieffenbachia",
@@ -3823,7 +4038,8 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dieffenbachia amoena"
     },
     {
         "classification": {
@@ -3848,16 +4064,16 @@
     },
     {
         "classification": {
+            "kingdom": "Plantae",
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
                 "Eudicots",
                 "Asterids"
             ],
+            "order": "Asterales",
             "family": "Asteraceae",
             "genus": "Eupatorium",
-            "kingdom": "Plantae",
-            "order": "Asterales",
             "species": "E. capillifolium"
         },
         "common": [
@@ -3902,7 +4118,8 @@
             "vomiting",
             "diarrhea",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eupatorium capillifolium"
     },
     {
         "classification": {
@@ -3954,12 +4171,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Liliales",
+            "family": "Liliaceae",
+            "genus": "Lilium",
+            "species": "L. longiflorum"
         },
         "common": null,
         "id": "lilium-longiflorum",
@@ -4044,7 +4265,8 @@
             "lethargy",
             "kidney failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium longiflorum"
     },
     {
         "classification": {
@@ -4085,12 +4307,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Asparagus",
+            "species": "A. densiflorus"
         },
         "common": [
             "Emerald Fern",
@@ -4129,16 +4355,20 @@
             "vomiting",
             "abdominal pain",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asparagus densiflorus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Taxaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Gymnosperms"
+            ],
+            "order": "Cupressales",
+            "family": "Taxaceae",
+            "genus": "Taxus",
+            "species": "T. baccata"
         },
         "common": [
             "Western Yew",
@@ -4223,16 +4453,21 @@
             "seizures",
             "cardiac failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Taxus baccata"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Chenopodiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Caryophyllales",
+            "family": "Amaranthaceae",
+            "genus": "Dysphania",
+            "species": "D. ambrosioides"
         },
         "common": [
             "Wormseed",
@@ -4289,16 +4524,22 @@
         "symptoms": [
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chenopodium ambrosioides"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Myrtaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Myrtales",
+            "family": "Myrtaceae",
+            "genus": "Eucalyptus",
+            "species": "E. obliqua"
         },
         "common": null,
         "id": "eucalyptus-obliqua",
@@ -4310,16 +4551,22 @@
             "diarrhea",
             "depression",
             "weakness"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Eucalyptus obliqua"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Aquifoliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Aquifoliales",
+            "family": "Aquifoliaceae",
+            "genus": "Ilex",
+            "species": "I. aquifolium"
         },
         "common": [
             "European Holly",
@@ -4367,7 +4614,8 @@
             "vomiting",
             "diarrhea",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ilex aquifolium"
     },
     {
         "classification": {
@@ -4399,12 +4647,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Moraceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Moraceae",
+            "genus": "Ficus",
+            "species": "F. benjamina"
         },
         "common": [
             "Weeping Fig",
@@ -4502,16 +4755,21 @@
             "dermal irritation",
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ficus benjamina"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Ranunculaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Ranunculales",
+            "family": "Ranunculaceae",
+            "genus": "Ranunculus",
+            "species": "R. acris"
         },
         "common": [
             "Buttercup",
@@ -4560,7 +4818,8 @@
             "anorexia",
             "hypersalivation",
             "incoordination"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ranunculus acris"
     },
     {
         "classification": {
@@ -4618,12 +4877,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Asparagaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Dracaena",
+            "species": "D. surculosa"
         },
         "common": [
             "Gold Dust Dracaena",
@@ -4661,16 +4924,22 @@
             "drooling",
             "incoordination",
             "weakness"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena surculosa"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Scrophalariaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Plantaginaceae",
+            "genus": "Digitalis",
+            "species": "D. purpurea"
         },
         "common": null,
         "id": "digitalis-purpurea",
@@ -4738,16 +5007,22 @@
             "weakness",
             "cardiac failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Digitalis purpurea"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rubiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Gentianales",
+            "family": "Rubiaceae",
+            "genus": "Gardenia",
+            "species": "G. jasminoides"
         },
         "common": [
             "Cape Jasmine"
@@ -4796,16 +5071,21 @@
             "vomiting",
             "diarrhea",
             "hives"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gardenia jasminoides"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Amaryllidaceae",
+            "genus": "Allium",
+            "species": "A. sativum"
         },
         "common": [
             "Stinking Rose",
@@ -4862,7 +5142,8 @@
             "weakness",
             "high heart rate",
             "panting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Allium sativum"
     },
     {
         "classification": {
@@ -4930,12 +5211,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Dieffenbachia",
+            "species": "D. seguine"
         },
         "common": [
             "Variable Dieffenbachia"
@@ -4973,7 +5258,8 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dieffenbachia picta"
     },
     {
         "classification": {
@@ -5094,12 +5380,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Philodendron",
+            "species": "P. hederaceum"
         },
         "common": [
             "Cordatum",
@@ -5113,16 +5403,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Philodendron hederaceum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Berberidaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Ranunculales",
+            "family": "Berberidaceae",
+            "genus": "NandinaThunb.",
+            "species": "N. domestica"
         },
         "common": [
             "Sacred Bamboo",
@@ -5181,16 +5476,21 @@
             "coma",
             "respiratory failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nandina domestica"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Ranunculaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Ranunculales",
+            "family": "Ranunculaceae",
+            "genus": "Helleborus",
+            "species": "H. niger"
         },
         "common": [
             "Christmas Rose",
@@ -5243,16 +5543,22 @@
             "diarrhea",
             "colic",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Helleborus niger"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Aquifoliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Aquifoliales",
+            "family": "Aquifoliaceae",
+            "genus": "Ilex",
+            "species": "I. opaca"
         },
         "common": [
             "English Holly",
@@ -5360,16 +5666,22 @@
             "vomiting",
             "diarrhea",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ilex opaca"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Hippocastanaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Sapindales",
+            "family": "Sapindaceae",
+            "genus": "Aesculus",
+            "species": "A. glabra"
         },
         "common": [
             "Buckeye"
@@ -5441,16 +5753,22 @@
             "coma",
             "convulsions",
             "wobbly"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aesculus glabra"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Asteraceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Asterales",
+            "family": "Asteraceae",
+            "genus": "Erigeron",
+            "species": "E. speciosus"
         },
         "common": [
             "Showy Daisy",
@@ -5483,16 +5801,22 @@
             "vomiting",
             "diarrhea",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Erigeron speciosus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Hydrangeaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Cornales",
+            "family": "Hydrangeaceae",
+            "genus": "Hydrangea",
+            "species": "H. arborescens"
         },
         "common": [
             "Hydrangea",
@@ -5506,7 +5830,8 @@
             "vomiting",
             "depression",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrangea arborescens"
     },
     {
         "classification": {
@@ -5532,12 +5857,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Hyacinthus",
+            "species": "H. orientalis"
         },
         "common": [
             "Garden Hyacinth"
@@ -5600,7 +5929,8 @@
             "depression",
             "tremors",
             "allergic reactions"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hyacinthus orientalis"
     },
     {
         "classification": {
@@ -5650,12 +5980,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Cucurbitales",
+            "family": "Begoniaceae",
+            "genus": "Begonia",
+            "species": "B. masoniana"
         },
         "common": null,
         "id": "begonia-masoniana",
@@ -5665,16 +6000,21 @@
             "kidney failure",
             "vomiting",
             "hypersalivation"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Begonia masoniana"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Epipremnum",
+            "species": "E. aureum"
         },
         "common": [
             "Pothos",
@@ -5721,16 +6061,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Epipremnum aureum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Arisaema",
+            "species": "A. triphyllum"
         },
         "common": [
             "Three-leaved indian turnip",
@@ -5837,16 +6182,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arisaema triphyllum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Crassulaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Saxifragales",
+            "family": "Crassulaceae",
+            "genus": "Crassula",
+            "species": "C. ovata"
         },
         "common": [
             "Baby Jade",
@@ -5905,16 +6255,21 @@
             "vomiting",
             "depression",
             "incoordination"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Crassula argentea"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Liliales",
+            "family": "Liliaceae",
+            "genus": "Lilium",
+            "species": "L. speciosum"
         },
         "common": [
             "Rubrum Lily"
@@ -5959,16 +6314,21 @@
             "lethargy",
             "kidney failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium speciosum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Amaranthaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Caryophyllales",
+            "family": "Amaranthaceae",
+            "genus": "Dysphania",
+            "species": "D. botrys"
         },
         "common": [
             "Feather Geranium",
@@ -6050,16 +6410,21 @@
             "vomiting",
             "anorexia",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chenopodium botrys"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Amaryllidaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Amaryllidaceae",
+            "genus": "Narcissus",
+            "species": "N. jonquilla"
         },
         "common": [
             "Daffodil",
@@ -6131,16 +6496,21 @@
             "low blood pressure",
             "tremors",
             "cardiac arrhythmias"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Narcissus jonquilla"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Amaryllidaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Amaryllidaceae",
+            "genus": "Clivia",
+            "species": "C. miniata"
         },
         "common": [
             "Clivia Lily"
@@ -6155,7 +6525,8 @@
             "low blood pressure",
             "tremors",
             "cardiac arrhythmias"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clivia minata"
     },
     {
         "classification": {
@@ -6205,12 +6576,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Verbenaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Verbenaceae",
+            "genus": "Lantana",
+            "species": "L. camara"
         },
         "common": [
             "Shrub Verbena",
@@ -6251,7 +6627,8 @@
             "labored breathing",
             "weakness",
             "liver failure"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lantana camara"
     },
     {
         "classification": {
@@ -6281,12 +6658,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Ericaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Ericales",
+            "family": "Ericaceae",
+            "genus": "Kalmia",
+            "species": "K. latifolia"
         },
         "common": [
             "Mountain laurel",
@@ -6334,7 +6716,8 @@
             "diarrhea",
             "weakness",
             "cardiac failure"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kalmia latifolia"
     },
     {
         "classification": {
@@ -6376,7 +6759,7 @@
                 "url": "plants/lavendula-angustifolia/images/4.jpg"
             }
         ],
-        "name": "Lavendula angustifolia",
+        "name": "Lavendula angustifolia",
         "symptoms": [
             "nausea",
             "vomiting",
@@ -6407,12 +6790,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Amaryllidaceae",
+            "genus": "Allium",
+            "species": "A. ampeloprasum"
         },
         "common": [
             "Elephant Garlic"
@@ -6469,16 +6856,17 @@
             "weakness",
             "high heart rate",
             "panting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Allium ampeloprasum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rutaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": null,
+            "order": "Sapindales",
+            "family": "Rutaceae",
+            "genus": "Citrus",
+            "species": "C. × limonia"
         },
         "common": null,
         "id": "citrus-limonia",
@@ -6532,16 +6920,22 @@
             "diarrhea",
             "depression",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Citrus limonia"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Poaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots",
+                "Commelinids"
+            ],
+            "order": "Poales",
+            "family": "Poaceae",
+            "genus": "Cymbopogon",
+            "species": "C. citratus"
         },
         "common": [
             "Oil Grass"
@@ -6590,16 +6984,22 @@
             "difficulty breathing",
             "weakness",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cymbopogon citratus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Verbenaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Verbenaceae",
+            "genus": "Aloysia",
+            "species": "A. citrodora"
         },
         "common": [
             "Lemon Beebrush"
@@ -6636,7 +7036,8 @@
             "vomiting",
             "diarrhea",
             "colic"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aloysia triphylla"
     },
     {
         "classification": {
@@ -6657,12 +7058,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Asparagaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Convallaria",
+            "species": "C. majalis"
         },
         "common": null,
         "id": "convallaria-majalis",
@@ -6736,16 +7141,22 @@
             "disorientation",
             "coma",
             "seizures"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Convallaria majalis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rutaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Sapindales",
+            "family": "Rutaceae",
+            "genus": "Citrus",
+            "species": "C. × aurantiifolia"
         },
         "common": null,
         "id": "citrus-aurantifolia",
@@ -6793,16 +7204,22 @@
             "diarrhea",
             "depression",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Citrus aurantifolia"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Mimosaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Fabales",
+            "family": "Fabaceae",
+            "genus": "Robinia",
+            "species": "R. pseudoacacia"
         },
         "common": [
             "Black Locust",
@@ -6868,16 +7285,22 @@
             "difficulty breathing",
             "diarrhea",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Robinia pseudoacacia"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "LevisticumHill",
+            "species": "L. officinale"
         },
         "common": [
             "Maggi plant",
@@ -6888,20 +7311,21 @@
         "name": "Levisticum officinale",
         "symptoms": [
             "diuretic"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Levisticum officinale"
     },
     {
         "classification": {
+            "kingdom": "Plantae",
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
                 "Monocots"
             ],
-            "family": "Asparagaceae",
-            "genus": "Nolinoideae",
-            "kingdom": "Plantae",
             "order": "Asparagales",
-            "species": "Dracaena reflexa"
+            "family": "Asparagaceae",
+            "genus": "Dracaena",
+            "species": "D. reflexa"
         },
         "common": [
             "Straight-Marginated Dracaena",
@@ -6959,16 +7383,21 @@
             "drooling",
             "incoordination",
             "weakness"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena marginata"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Caryophyllaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Caryophyllales",
+            "family": "Caryophyllaceae",
+            "genus": "Gypsophila",
+            "species": "G. elegans"
         },
         "common": [
             "Baby's Breath"
@@ -7010,16 +7439,21 @@
         "symptoms": [
             "diarrhea",
             "vomiting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gypsophila elegans"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Colocasia",
+            "species": "C. esculenta"
         },
         "common": [
             "Caladium",
@@ -7064,7 +7498,8 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colocasia esculenta"
     },
     {
         "classification": {
@@ -7087,12 +7522,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Epipremnum",
+            "species": "E. aureum"
         },
         "common": [
             "Golden Pothos"
@@ -7134,16 +7573,22 @@
         "symptoms": [
             "diarrhea",
             "vomiting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Scindapsus aureus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Cannabaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Cannabaceae",
+            "genus": "Cannabis",
+            "species": "C. sativa"
         },
         "common": [
             "Indian Hemp",
@@ -7226,16 +7671,22 @@
             "seizure",
             "coma",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cannabis sativa"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Lamiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Lamiaceae",
+            "genus": "Origanum",
+            "species": "O. majorana"
         },
         "common": [
             "Knotted Marjoram",
@@ -7284,16 +7735,21 @@
         "symptoms": [
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Origanum majorana"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Liliales",
+            "family": "Colchicaceae",
+            "genus": "Colchicum",
+            "species": "C. autumnale"
         },
         "common": [
             "Autumn Crocus"
@@ -7369,7 +7825,8 @@
             "shock",
             "multi-organ damage",
             "bone marrow suppression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Colchicum autumnale"
     },
     {
         "classification": {
@@ -7394,12 +7851,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Begoniaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Cucurbitales",
+            "family": "Begoniaceae",
+            "genus": "Begonia",
+            "species": "B. incarnata"
         },
         "common": null,
         "id": "begonia-metallica",
@@ -7434,7 +7896,8 @@
             "kidney failure",
             "vomiting",
             "hypersalivation"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Begonia metallica"
     },
     {
         "classification": {
@@ -7674,7 +8137,7 @@
                 "url": "plants/mentha-sp/images/23.jpg"
             }
         ],
-        "name": "Mentha sp.",
+        "name": "Mentha sp.",
         "symptoms": [
             "vomiting",
             "diarrhea"
@@ -7682,12 +8145,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Viscaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Santalales",
+            "family": "Santalaceae",
+            "genus": "Phoradendron",
+            "species": "P. leucarpum"
         },
         "common": [
             "American Mistletoe"
@@ -7744,7 +8211,8 @@
             "low blood pressure",
             "difficulty breathing",
             "low heart rate"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Phoradendron flavescens"
     },
     {
         "classification": {
@@ -7766,12 +8234,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Crassulaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Saxifragales",
+            "family": "Crassulaceae",
+            "genus": "Kalanchoe",
+            "species": "K. delagoensis"
         },
         "common": [
             "Mother of Millions",
@@ -7817,16 +8289,21 @@
             "vomiting",
             "diarrhea",
             "cardiac arrhythmias"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kalanchoe tubiflora"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Agavaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Dracaena",
+            "species": "D. trifasciata"
         },
         "common": [
             "Snake Plant",
@@ -7889,16 +8366,22 @@
             "nausea",
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sansevieria trifasciata"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Brassicaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Brassicales",
+            "family": "Brassicaceae",
+            "genus": "Nasturtium",
+            "species": "N. officinale"
         },
         "common": [
             "Watercress"
@@ -7940,7 +8423,8 @@
         "symptoms": [
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nasturtium officinale"
     },
     {
         "classification": {
@@ -7999,12 +8483,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apocynaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Gentianales",
+            "family": "Apocynaceae",
+            "genus": "NeriumL.",
+            "species": "N. oleander"
         },
         "common": [
             "Rose-Bay"
@@ -8068,16 +8557,21 @@
             "colic",
             "depression",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nerium oleander"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Amaryllidaceae",
+            "genus": "Allium",
+            "species": "A. cepa"
         },
         "common": null,
         "id": "allium-cepa",
@@ -8150,16 +8644,22 @@
             "weakness",
             "high heart rate",
             "panting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Allium cepa"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rutaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Sapindales",
+            "family": "Rutaceae",
+            "genus": "Citrus",
+            "species": "C. × sinensis"
         },
         "common": null,
         "id": "citrus-sinensis",
@@ -8225,7 +8725,8 @@
             "diarrhea",
             "depression",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Citrus sinensis"
     },
     {
         "classification": {
@@ -8250,32 +8751,43 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Lamiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Lamiaceae",
+            "genus": "Origanum",
+            "species": "O. vulgare"
         },
         "common": [
             "Greek Oregano"
         ],
         "id": "origanum-vulgare-hirtum",
         "images": [],
-        "name": "Origanum vulgare hirtum",
+        "name": "Origanum vulgare hirtum",
         "symptoms": [
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Origanum vulgare hirtum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Solanaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Solanales",
+            "family": "Solanaceae",
+            "genus": "Solanum",
+            "species": "S. pseudocapsicum"
         },
         "common": [
             "Natal Cherry",
@@ -8330,16 +8842,20 @@
             "depression",
             "respiratory depression",
             "shock"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Solanum pseudocapsicum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Taxaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Gymnosperms"
+            ],
+            "order": "Cupressales",
+            "family": "Taxaceae",
+            "genus": "Taxus",
+            "species": "T. brevifolia"
         },
         "common": [
             "English Yew",
@@ -8418,16 +8934,21 @@
             "seizures",
             "cardiac failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Taxus brevifolia"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Agavaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Cordyline",
+            "species": "C. australis"
         },
         "common": [
             "Giant Dracaena",
@@ -8503,16 +9024,22 @@
             "anorexia",
             "hypersalivation",
             "dilated pupils"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cordyline australis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "Petroselinum",
+            "species": "P. crispum"
         },
         "common": [
             "Italian Parsley",
@@ -8562,15 +9089,20 @@
         "symptoms": [
             "dermatitis",
             "photosensitivity"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Petroselinum crispum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "SpathiphyllumSchott",
             "species": ""
         },
         "common": [
@@ -8639,16 +9171,22 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Spathiphyllum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rosaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Rosaceae",
+            "genus": "Prunus",
+            "species": "P. persica"
         },
         "common": [
             "Similar plants: Plum",
@@ -8724,16 +9262,22 @@
             "difficulty breathing",
             "panting",
             "shock"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus persica"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Fabaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Fabales",
+            "family": "Fabaceae",
+            "genus": "Caesalpinia",
+            "species": "C. pulcherrima"
         },
         "common": [
             "Barbados Pride",
@@ -8806,16 +9350,22 @@
         "symptoms": [
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Caesalpinia pulcherrima"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Euphorbiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Malpighiales",
+            "family": "Euphorbiaceae",
+            "genus": "Euphorbia",
+            "species": "E. tirucalli"
         },
         "common": [
             "Sticks of Fire"
@@ -8856,7 +9406,8 @@
         "name": "Euphorbia tirucalli",
         "symptoms": [
             "vomiting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Euphorbia tirucalli"
     },
     {
         "classification": {
@@ -8904,12 +9455,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apocynaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Gentianales",
+            "family": "Apocynaceae",
+            "genus": "Catharanthus",
+            "species": "C. roseus"
         },
         "common": [
             "Running Myrtle",
@@ -8970,7 +9526,8 @@
             "seizures",
             "coma",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Vinca rosea"
     },
     {
         "classification": {
@@ -8994,12 +9551,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Ericaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Ericales",
+            "family": "Ericaceae",
+            "genus": "Pieris",
+            "species": "P. japonica"
         },
         "common": [
             "Lily-of-the-Valley Bush",
@@ -9068,7 +9630,8 @@
             "coma",
             "low blood pressure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pieris japonica"
     },
     {
         "classification": {
@@ -9091,12 +9654,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Hosta",
+            "species": "H. plantaginea"
         },
         "common": [
             "Hosta"
@@ -9108,16 +9675,22 @@
             "vomiting",
             "diarrhea",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hosta plantaginea"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rosaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Rosaceae",
+            "genus": "Prunus",
+            "species": "P. domestica"
         },
         "common": [
             "similar plants: apricot",
@@ -9187,7 +9760,8 @@
             "difficulty breathing",
             "panting",
             "shock"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus domestica"
     },
     {
         "classification": {
@@ -9218,12 +9792,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Euphorbiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Malpighiales",
+            "family": "Euphorbiaceae",
+            "genus": "Euphorbia",
+            "species": "E. pulcherrima"
         },
         "common": null,
         "id": "euphorbia-pulcherrima",
@@ -9258,16 +9837,22 @@
             "oral irritation",
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Euphorbia pulcherrima"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Asteraceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Asterales",
+            "family": "Asteraceae",
+            "genus": "Anthemis",
+            "species": "A. cotula"
         },
         "common": [
             "Mayweed",
@@ -9282,16 +9867,22 @@
             "diarrhea",
             "anorexia",
             "allergic reactions"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anthemis cotula"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Umbelliferae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "Conium",
+            "species": "C. maculatum"
         },
         "common": [
             "Poison Parsley",
@@ -9372,16 +9963,22 @@
             "diarrhea",
             "paralysis",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Conium maculatum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Leguminosae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Fabales",
+            "family": "Fabaceae",
+            "genus": "Abrus",
+            "species": "A. precatorius"
         },
         "common": [
             "Rosary Pea",
@@ -9424,16 +10021,22 @@
             "fever",
             "shock",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Abrus precatorius"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Primulaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Ericales",
+            "family": "Primulaceae",
+            "genus": "Primula",
+            "species": "P. vulgaris"
         },
         "common": null,
         "id": "primula-vulgaris",
@@ -9466,7 +10069,8 @@
         "name": "Primula vulgaris",
         "symptoms": [
             "vomiting"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Primula vulgaris"
     },
     {
         "classification": {
@@ -9504,12 +10108,12 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": null,
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "SphenosciadiumA.Gray",
+            "species": "S. capitellatum"
         },
         "common": [
             "White Heads"
@@ -9557,16 +10161,22 @@
         "symptoms": [
             "photosensitivity",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sphenosciadium capitellatum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Begoniaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Cucurbitales",
+            "family": "Begoniaceae",
+            "genus": "Begonia",
+            "species": "B. rex"
         },
         "common": null,
         "id": "begonia-rex",
@@ -9625,7 +10235,8 @@
             "kidney failure",
             "vomiting",
             "hypersalivation"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Begonia rex"
     },
     {
         "classification": {
@@ -9718,12 +10329,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Portulacaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Caryophyllales",
+            "family": "Portulacaceae",
+            "genus": "Portulaca",
+            "species": "P. oleracea"
         },
         "common": [
             "Wild Portulaca",
@@ -9802,16 +10417,20 @@
             "kidney failure",
             "tremors",
             "hypersalivation"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Portulaca oleracea"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Cycadaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Gymnosperms"
+            ],
+            "order": "Cycadales",
+            "family": "Cycadaceae",
+            "genus": "Cycas",
+            "species": "C. revoluta"
         },
         "common": [
             "Coontie Palm",
@@ -9873,16 +10492,21 @@
             "liver damage",
             "liver failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cycas revoluta"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Scindapsus",
+            "species": "S. pictus"
         },
         "common": [
             "Silk Pothos"
@@ -9914,7 +10538,8 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Scindapsus pictus"
     },
     {
         "classification": {
@@ -10020,12 +10645,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Crassulaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Saxifragales",
+            "family": "Crassulaceae",
+            "genus": "Crassula",
+            "species": "C. arborescens"
         },
         "common": [
             "Silver Jade Plant",
@@ -10074,16 +10703,21 @@
         "symptoms": [
             "nausea",
             "retching"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Crassula arborescens"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Symplocarpus",
+            "species": "S. foetidus"
         },
         "common": [
             "Skunk Weed",
@@ -10154,16 +10788,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Symplocarpus foetidus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Polygonaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Caryophyllales",
+            "family": "Polygonaceae",
+            "genus": "Rumex",
+            "species": "R. scutatus"
         },
         "common": [
             "Common Sorrel",
@@ -10219,7 +10858,8 @@
             "seizures",
             "cardiac arrhythmias",
             "kidney failure"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rumex scutatus"
     },
     {
         "classification": {
@@ -10299,12 +10939,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Clusiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Malpighiales",
+            "family": "Hypericaceae",
+            "genus": "Hypericum",
+            "species": "H. perforatum"
         },
         "common": [
             "Klamath Weed"
@@ -10370,15 +11015,16 @@
         "symptoms": [
             "photosensitivity",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hypericum perforatum"
     },
     {
         "classification": {
+            "kingdom": "",
             "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
-            "kingdom": "Plantae",
             "order": "",
+            "family": "",
+            "genus": "",
             "species": ""
         },
         "common": null,
@@ -10391,16 +11037,22 @@
             "lethargy",
             "kidney failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium orientalis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Araliaceae",
+            "genus": "Heptapleurum",
+            "species": "H. actinophyllum"
         },
         "common": [
             "Schefflera",
@@ -10441,16 +11093,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brassaia actinophylla"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Agavaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Dracaena",
+            "species": "D. fragrans"
         },
         "common": [
             "Warneckii",
@@ -10531,16 +11188,22 @@
             "drooling",
             "incoordination",
             "weakness"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena deremensis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Rosaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Rosaceae",
+            "genus": "Prunus",
+            "species": "P. avium"
         },
         "common": null,
         "id": "prunus-avium",
@@ -10612,16 +11275,22 @@
             "difficulty breathing",
             "panting",
             "shock"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus avium"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Fabaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Fabales",
+            "family": "Fabaceae",
+            "genus": "Lathyrus",
+            "species": "L. latifolius"
         },
         "common": [
             "Perennial Pea",
@@ -10669,7 +11338,8 @@
             "tremors",
             "seizures",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lathyrus latifolius"
     },
     {
         "classification": {
@@ -10694,12 +11364,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Asteraceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Asterales",
+            "family": "Asteraceae",
+            "genus": "Artemisia",
+            "species": "A. dracunculus"
         },
         "common": [
             "French Tarragon",
@@ -10772,16 +11447,21 @@
         "symptoms": [
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Artemisia dracunculus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Agavaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asparagaceae",
+            "genus": "Cordyline",
+            "species": "C. fruticosa"
         },
         "common": [
             "Baby Doll Ti Plant",
@@ -10821,16 +11501,21 @@
             "anorexia",
             "hypersalivation",
             "dilated pupils"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cordyline terminalis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Liliales",
+            "family": "Liliaceae",
+            "genus": "Lilium",
+            "species": "L. lancifolium"
         },
         "common": null,
         "id": "lilium-tigrinum",
@@ -10885,16 +11570,22 @@
             "lethargy",
             "kidney failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium tigrinum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Solanaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Solanales",
+            "family": "Solanaceae",
+            "genus": "Nicotiana",
+            "species": "N. glauca"
         },
         "common": [
             "Tree Tobacco",
@@ -10954,7 +11645,8 @@
             "incoordination",
             "paralysis",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Nicotiana glauca"
     },
     {
         "classification": {
@@ -10982,12 +11674,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Alismatales",
+            "family": "Araceae",
+            "genus": "Thaumatophyllum",
+            "species": "T. bipinnatifidum"
         },
         "common": [
             "Lacy Tree Philodendron"
@@ -11019,16 +11715,21 @@
             "drooling",
             "vomiting",
             "difficulty swallowing"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Philodendron selloum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Aloaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Asparagales",
+            "family": "Asphodelaceae",
+            "genus": "Aloe",
+            "species": "A. vera"
         },
         "common": [
             "Medicine Plant",
@@ -11097,7 +11798,8 @@
             "vomiting",
             "lethargy",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aloe barbadensis"
     },
     {
         "classification": {
@@ -11146,12 +11848,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Celastraceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Celastrales",
+            "family": "Celastraceae",
+            "genus": "Euonymus",
+            "species": "E. occidentalis"
         },
         "common": [
             "Burning Bush",
@@ -11221,16 +11928,22 @@
             "abdominal pain",
             "weakness",
             "cardiac arrhythmias"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Euonymus occidentalis"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apiaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Apiaceae",
+            "genus": "Cicuta",
+            "species": "C. maculata"
         },
         "common": [
             "Cowbane",
@@ -11273,16 +11986,22 @@
             "bloat",
             "respiratory depression",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cicuta maculata"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Oleaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Lamiales",
+            "family": "Oleaceae",
+            "genus": "Ligustrum",
+            "species": "L. japonicum"
         },
         "common": [
             "Privet",
@@ -11365,7 +12084,8 @@
             "incoordination",
             "increased heart rate",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ligustrum japonicum"
     },
     {
         "classification": {
@@ -11433,12 +12153,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Apiales",
+            "family": "Araliaceae",
+            "genus": "Polyscias",
+            "species": "P. guilfoylei"
         },
         "common": [
             "Geranium-Leaf Aralia",
@@ -11452,7 +12177,8 @@
             "vomiting",
             "anorexia",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Polyscias guilfoylei"
     },
     {
         "classification": {
@@ -11475,12 +12201,16 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "order": "Liliales",
+            "family": "Liliaceae",
+            "genus": "Lilium",
+            "species": "L. philadelphicum"
         },
         "common": [
             "Red Lily"
@@ -11494,16 +12224,22 @@
             "lethargy",
             "kidney failure",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium umbellatum"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Compositae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "order": "Asterales",
+            "family": "Asteraceae",
+            "genus": "Achillea",
+            "species": "A. millefolium"
         },
         "common": [
             "Milfoil",
@@ -11596,16 +12332,17 @@
             "dermatitis",
             "hypersalivation",
             "depression"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Achillea millefolium"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Apocynaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": null,
+            "order": "Gentianales",
+            "family": "Apocynaceae",
+            "genus": "Cascabela",
+            "species": "C. thevetia"
         },
         "common": null,
         "id": "thevetia-peruviana",
@@ -11640,7 +12377,8 @@
             "vomiting",
             "diarrhea",
             "slow heart rate"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Thevetia peruviana"
     },
     {
         "classification": {
@@ -11845,12 +12583,17 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Juglandaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Fagales",
+            "family": "Juglandaceae",
+            "genus": "Juglans",
+            "species": "J. nigra"
         },
         "common": null,
         "id": "juglans-nigra",
@@ -11923,16 +12666,22 @@
             "incoordination",
             "laminitis",
             "colic"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Juglans nigra"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Cannabidaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "order": "Rosales",
+            "family": "Cannabaceae",
+            "genus": "Humulus",
+            "species": "H. lupulus"
         },
         "common": null,
         "id": "humulus-lupulus",
@@ -12004,16 +12753,21 @@
             "high body temperature",
             "seizures",
             "death"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Humulus lupulus"
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Proteaceae",
-            "genus": "",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
+            "order": "Proteales",
+            "family": "Proteaceae",
+            "genus": "Macadamia",
+            "species": "M. integrifolia"
         },
         "common": [
             "Australia Nut",
@@ -12051,6 +12805,7 @@
             "vomiting",
             "tremors",
             "cardiac arrhythmias"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Macadamia integrifolia"
     }
 ]

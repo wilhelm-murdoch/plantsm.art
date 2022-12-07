@@ -4,13 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"io"
-	"log"
-	"net/http"
-	"net/url"
 	"os"
 	"strings"
-	"time"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/magefile/mage/mg"
@@ -112,7 +107,7 @@ type UnmarshalledPlants struct {
 			Genus   string   `json:"genus"`
 			Species string   `json:"species"`
 		} `json:"classification"`
-	} `json:"plants"`
+	}
 }
 
 type Photo struct {
@@ -260,42 +255,3 @@ type ImageDownload struct {
 
 // 	return nil
 // }
-
-func imageSearch(term string) ([]byte, error) {
-	url := fmt.Sprintf("https://api.inaturalist.org/v1/search?sources=taxa&q=%s", url.QueryEscape(term))
-	client := http.Client{
-		Timeout: 5 * time.Second,
-	}
-
-	var backoff time.Duration
-	maxAttempts := 10
-	for attempt := 1; attempt <= maxAttempts; attempt++ {
-		response, err := client.Get(url)
-		if err != nil {
-			return nil, err
-		}
-		defer response.Body.Close()
-
-		body, err := io.ReadAll(response.Body)
-		if err != nil {
-			return body, err
-		}
-
-		switch response.StatusCode {
-		case 429:
-			if attempt >= maxAttempts {
-				return nil, fmt.Errorf(fmt.Sprintf("could not find %s after %d attempts; skipping ...", term, attempt))
-			}
-
-			backoff = time.Duration(attempt) * time.Second
-			log.Printf("got rate-limited on term %s; waiting another %d seconds", term, (backoff / time.Second))
-			time.Sleep(backoff)
-		case 200:
-			return body, err
-		default:
-			return nil, fmt.Errorf("status code %d", response.StatusCode)
-		}
-	}
-
-	return nil, nil
-}

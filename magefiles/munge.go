@@ -155,12 +155,12 @@ func (Munge) PlantsBySymptom(ctx context.Context) error {
 		symptoms.PushDistinct(plant.Symptoms...)
 	}
 
-	var symptoms_by_plant map[string][]string
+	symptoms_by_plant := make(map[string][]string)
 	symptoms.Each(func(i int, symptom string) bool {
 		for _, plant := range plants.Data {
 			for _, s := range plant.Symptoms {
 				if symptom == s {
-					// symptoms_by_plant[symptom] = append(symptoms_by_plant[symptom], plant.Id)
+					symptoms_by_plant[symptom] = append(symptoms_by_plant[symptom], plant.Id)
 				}
 			}
 		}
