@@ -3,10 +3,12 @@ package main
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 
 	"github.com/gosimple/slug"
@@ -29,7 +31,7 @@ func (Images) Bootstrap(ctx context.Context, sourcePath, savePath string) error 
 	}
 
 	var parsed UnmarshalledPlants
-	err = json.Unmarshal(content, &parsed)
+	err = json.Unmarshal(content, &parsed.Data)
 
 	var searches collection.Collection[*Search]
 
@@ -45,7 +47,7 @@ func (Images) Bootstrap(ctx context.Context, sourcePath, savePath string) error 
 		limiter.Wait(context.Background())
 
 		fmt.Printf("`%s` ( %s ) searching\n", s.Id, s.Term)
-		results, _ := imageSearch(s.Term)
+		results, _ := imageSearch(strings.TrimSuffix(s.Term, "sp."))
 
 		var parsed UnmarshalSearchResults
 		json.Unmarshal(results, &parsed)
@@ -99,13 +101,13 @@ func (Images) Filter(ctx context.Context, sourcePath, writePath string) error {
 	var photos collection.Collection[SortableResult]
 	photos.Push(parsed.Photos...)
 
-	plantsJson, err := os.ReadFile("data/plants.json")
+	plantsJson, err := os.ReadFile("data/plants-copy.json")
 	if err != nil {
 		return err
 	}
 
 	var plants UnmarshalledPlants
-	json.Unmarshal(plantsJson, &plants)
+	json.Unmarshal(plantsJson, &plants.Data)
 
 	var ids collection.Collection[string]
 	for _, plant := range plants.Data {
@@ -173,22 +175,24 @@ func (Images) Filter(ctx context.Context, sourcePath, writePath string) error {
 	var derp interface{}
 	json.Unmarshal(plantsJson, &derp)
 
-	for _, plant := range derp.(map[string]interface{})["plants"].([]interface{}) {
+	for _, plant := range derp.([]interface{}) {
 		id := plant.(map[string]interface{})["id"].(string)
-		name := plant.(map[string]interface{})["scientific_name"].(string)
-		if photos, ok := plant_id_to_photos[id]; ok {
-			for i, photo := range photos {
-				plant.(map[string]interface{})["images"] = append(plant.(map[string]interface{})["images"].([]interface{}), struct {
-					Url         string `json:"url"`
-					SourceUrl   string `json:"source_url"`
-					License     string `json:"license"`
-					Attribution string `json:"attribution"`
-				}{
-					Url:         fmt.Sprintf("plants/%s/images/%d.jpg", slug.Make(name), i+1),
-					SourceUrl:   photo.UrlMedium,
-					License:     photo.License,
-					Attribution: photo.Attribution,
-				})
+		name := plant.(map[string]interface{})["name"].(string)
+		if len(plant.(map[string]interface{})["images"].([]interface{})) <= 0 {
+			if photos, ok := plant_id_to_photos[id]; ok {
+				for i, photo := range photos {
+					plant.(map[string]interface{})["images"] = append(plant.(map[string]interface{})["images"].([]interface{}), struct {
+						Url         string `json:"url"`
+						SourceUrl   string `json:"source_url"`
+						License     string `json:"license"`
+						Attribution string `json:"attribution"`
+					}{
+						Url:         fmt.Sprintf("plants/%s/images/%d.jpg", slug.Make(name), i+1),
+						SourceUrl:   photo.UrlMedium,
+						License:     photo.License,
+						Attribution: photo.Attribution,
+					})
+				}
 			}
 		}
 	}
@@ -229,14 +233,16 @@ func (Images) Download(ctx context.Context, sourcePath string) error {
 			bar.Add(1)
 		}()
 
-		request, _ := http.NewRequest("GET", image[0], nil)
-		response, _ := http.DefaultClient.Do(request)
-		defer response.Body.Close()
+		if _, err := os.Stat(fmt.Sprintf("data/%s", image[1])); errors.Is(err, os.ErrNotExist) {
+			request, _ := http.NewRequest("GET", image[0], nil)
+			response, _ := http.DefaultClient.Do(request)
+			defer response.Body.Close()
 
-		file, _ := os.OpenFile(fmt.Sprintf("data/%s", image[1]), os.O_CREATE|os.O_WRONLY, 0644)
-		defer file.Close()
+			file, _ := os.OpenFile(fmt.Sprintf("data/%s", image[1]), os.O_CREATE|os.O_WRONLY, 0644)
+			defer file.Close()
 
-		io.Copy(file, response.Body)
+			io.Copy(file, response.Body)
+		}
 	}, 10)
 
 	return nil
