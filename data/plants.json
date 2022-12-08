@@ -1398,7 +1398,20 @@
             "Pride of Barbados"
         ],
         "id": "erythrostemon-gilliesii",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Tony Palmer, some rights reserved (CC BY-NC), uploaded by Tony Palmer",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21702452/medium.jpg",
+                "url": "plants/erythrostemon-gilliesii/images/1.jpg"
+            },
+            {
+                "attribution": "(c) onírico, some rights reserved (CC BY-NC-ND)",
+                "license": "cc-by-nc-nd",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242924/medium.jpg",
+                "url": "plants/erythrostemon-gilliesii/images/2.jpg"
+            }
+        ],
         "name": "Erythrostemon gilliesii",
         "symptoms": [
             "oral irritation",
@@ -1689,7 +1702,38 @@
         ],
         "id": "kalmia-polifolia",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Kalmia_polifolia",
-        "images": [],
+        "images": [
+            {
+                "url": "plants/kalmia-polifolia/images/1.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31044670/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Rob Routledge, some rights reserved (CC BY-NC), uploaded by Rob Routledge"
+            },
+            {
+                "url": "plants/kalmia-polifolia/images/2.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19940412/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Joseph Kurtz, some rights reserved (CC BY-NC), uploaded by Joseph Kurtz"
+            },
+            {
+                "url": "plants/kalmia-polifolia/images/3.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141352851/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Nathaniel Sharp, some rights reserved (CC BY-NC), uploaded by Nathaniel Sharp"
+            },
+            {
+                "url": "plants/kalmia-polifolia/images/4.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10906028/medium.jpg",
+                "license": "cc-by",
+                "attribution": "(c) aarongunnar, some rights reserved (CC BY), uploaded by aarongunnar"
+            },
+            {
+                "url": "plants/kalmia-polifolia/images/5.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31044670/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Rob Routledge, some rights reserved (CC BY-NC), uploaded by Rob Routledge"
+            }
+        ],
         "name": "Kalmia polifolia",
         "symptoms": [
             "vomiting",
@@ -2729,7 +2773,152 @@
         },
         "common": null,
         "id": "calamansi",
-        "images": [],
+        "images": [
+            {
+                "url": "plants/calamansi/images/1.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105875876/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子"
+            },
+            {
+                "url": "plants/calamansi/images/2.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105875870/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子"
+            },
+            {
+                "url": "plants/calamansi/images/3.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105875863/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子"
+            },
+            {
+                "url": "plants/calamansi/images/4.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1471163/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) Ahmad Fuad Morad, some rights reserved (CC BY-NC-SA)"
+            },
+            {
+                "url": "plants/calamansi/images/5.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13708982/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) AnnLazaro, some rights reserved (CC BY-SA), uploaded by AnnLazaro"
+            },
+            {
+                "url": "plants/calamansi/images/6.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105875876/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子"
+            },
+            {
+                "url": "plants/calamansi/images/7.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30905190/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) spencer_riffle, some rights reserved (CC BY-NC), uploaded by spencer_riffle"
+            },
+            {
+                "url": "plants/calamansi/images/8.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2014930/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Alex Baecher, some rights reserved (CC BY-NC), uploaded by Alex Baecher"
+            },
+            {
+                "url": "plants/calamansi/images/9.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18512605/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) RD, some rights reserved (CC BY-NC), uploaded by RD"
+            },
+            {
+                "url": "plants/calamansi/images/10.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30225387/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Zach Lim, some rights reserved (CC BY-NC), uploaded by Zach Lim"
+            },
+            {
+                "url": "plants/calamansi/images/11.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30905190/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) spencer_riffle, some rights reserved (CC BY-NC), uploaded by spencer_riffle"
+            },
+            {
+                "url": "plants/calamansi/images/12.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189614794/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith"
+            },
+            {
+                "url": "plants/calamansi/images/13.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/845909/medium.JPG",
+                "license": "cc-by-nc",
+                "attribution": "(c) Robby Deans, some rights reserved (CC BY-NC), uploaded by Robby Deans"
+            },
+            {
+                "url": "plants/calamansi/images/14.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/362754/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Park Visitor, some rights reserved (CC BY-NC), uploaded by Park Visitor"
+            },
+            {
+                "url": "plants/calamansi/images/15.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/135895342/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith"
+            },
+            {
+                "url": "plants/calamansi/images/16.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/902410/medium.jpg",
+                "license": "cc-by",
+                "attribution": "(c) Brian Gratwicke, some rights reserved (CC BY)"
+            },
+            {
+                "url": "plants/calamansi/images/17.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28665158/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Jance S Carter, some rights reserved (CC BY-NC), uploaded by Jance S Carter"
+            },
+            {
+                "url": "plants/calamansi/images/18.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89869754/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith"
+            },
+            {
+                "url": "plants/calamansi/images/19.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13472008/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Zach Lim, some rights reserved (CC BY-NC), uploaded by Zach Lim"
+            },
+            {
+                "url": "plants/calamansi/images/20.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14278/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) Zack, some rights reserved (CC BY-NC-SA)"
+            },
+            {
+                "url": "plants/calamansi/images/21.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70066257/medium.jpg",
+                "license": "cc-by",
+                "attribution": "(c) Gordon C. Snelling, some rights reserved (CC BY), uploaded by Gordon C. Snelling"
+            },
+            {
+                "url": "plants/calamansi/images/22.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14280/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) Patrick Coin, some rights reserved (CC BY-NC-SA)"
+            },
+            {
+                "url": "plants/calamansi/images/23.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14281/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) Patrick Coin, some rights reserved (CC BY-NC-SA)"
+            },
+            {
+                "url": "plants/calamansi/images/24.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189614794/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Ty Smith, some rights reserved (CC BY-NC), uploaded by Ty Smith"
+            }
+        ],
         "name": "Calamansi",
         "symptoms": [
             "vomiting",
@@ -4915,7 +5104,20 @@
             "Exotica Perfection"
         ],
         "id": "dieffenbachia-amoena",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Ahmad Fuad Morad, some rights reserved (CC BY-NC-SA)",
+                "license": "cc-by-nc-sa",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170993/medium.jpg",
+                "url": "plants/dieffenbachia-amoena/images/1.jpg"
+            },
+            {
+                "attribution": "(c) Andrés Nicolás Ramírez, some rights reserved (CC BY), uploaded by Andrés Nicolás Ramírez",
+                "license": "cc-by",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54265349/medium.jpg",
+                "url": "plants/dieffenbachia-amoena/images/2.jpg"
+            }
+        ],
         "name": "Dieffenbachia amoena",
         "symptoms": [
             "oral irritation",
@@ -5592,7 +5794,26 @@
         },
         "common": null,
         "id": "eucalyptus-obliqua",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Greg Holland, some rights reserved (CC BY-NC), uploaded by Greg Holland",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65128543/medium.jpg",
+                "url": "plants/eucalyptus-obliqua/images/1.jpg"
+            },
+            {
+                "attribution": "(c) Greg Holland, some rights reserved (CC BY-NC), uploaded by Greg Holland",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65129106/medium.jpg",
+                "url": "plants/eucalyptus-obliqua/images/2.jpg"
+            },
+            {
+                "attribution": "(c) Alan Melville, some rights reserved (CC BY-NC-ND), uploaded by Alan Melville",
+                "license": "cc-by-nc-nd",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/47209951/medium.jpg",
+                "url": "plants/eucalyptus-obliqua/images/3.jpg"
+            }
+        ],
         "name": "Eucalyptus obliqua",
         "symptoms": [
             "hypersalivation",
@@ -5867,7 +6088,7 @@
                 "Tracheophytes",
                 "Angiosperms",
                 "Monocots"
-            ],            
+            ],
             "family": "Amaryllidaceae",
             "genus": "Hippeastrum",
             "kingdom": "Plantae",
@@ -6000,7 +6221,20 @@
             "Painter's Pallet"
         ],
         "id": "anthurium-scherzerianum",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Tanya K. Minott, some rights reserved (CC BY-NC), uploaded by Tanya K. Minott",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139652638/medium.jpg",
+                "url": "plants/danthurium-scherzerianum/images/1.jpg"
+            },
+            {
+                "attribution": "(c) Sara Henderson, some rights reserved (CC BY-NC), uploaded by Sara Henderson",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38201494/medium.jpeg",
+                "url": "plants/danthurium-scherzerianum/images/2.jpg"
+            }
+        ],
         "name": "Anthurium scherzerianum",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Anthurium_scherzerianum",
         "symptoms": [
@@ -6910,14 +7144,27 @@
             "Seven Bark"
         ],
         "id": "hydrangea-arborescens",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Nate Hartley, some rights reserved (CC BY-NC), uploaded by Nate Hartley",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30485485/medium.jpeg",
+                "url": "plants/hydrangea-arborescens/images/1.jpg"
+            },
+            {
+                "attribution": "(c) Whitney Mattila, some rights reserved (CC BY-NC-ND), uploaded by Whitney Mattila",
+                "license": "cc-by-nc-nd",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22218192/medium.jpeg",
+                "url": "plants/hydrangea-arborescens/images/2.jpg"
+            }
+        ],
         "name": "Hydrangea arborescens",
         "symptoms": [
             "vomiting",
             "depression",
             "diarrhea"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrangea arborescens"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrangea_arborescens"
     },
     {
         "classification": {
@@ -6938,7 +7185,20 @@
             "August Lily"
         ],
         "id": "hosta-plantaginea",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Whitney Mattila, some rights reserved (CC BY-NC-ND), uploaded by Whitney Mattila",
+                "license": "cc-by-nc-nd",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22218192/medium.jpeg",
+                "url": "plants/hosta-plantaginea/images/1.jpg"
+            },
+            {
+                "attribution": "(c) Nate Hartley, some rights reserved (CC BY-NC), uploaded by Nate Hartley",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30485485/medium.jpeg",
+                "url": "plants/hosta-plantaginea/images/2.jpg"
+            }
+        ],
         "name": "Hosta plantaginea",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Hosta_plantaginea",
         "symptoms": [
@@ -7760,7 +8020,38 @@
             "Sheep Laurel"
         ],
         "id": "kalmia-angustifolia",
-        "images": [],
+        "images": [
+            {
+                "url": "plants/kalmia-angustifolia/images/1.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5198/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Charles Kinsley, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/kalmia-angustifolia/images/2.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10586429/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Bob McDonald, some rights reserved (CC BY-NC), uploaded by Bob McDonald"
+            },
+            {
+                "url": "plants/kalmia-angustifolia/images/3.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8755519/medium.jpeg",
+                "license": "cc-by",
+                "attribution": "(c) Kristof Zyskowski, some rights reserved (CC BY), uploaded by Kristof Zyskowski"
+            },
+            {
+                "url": "plants/kalmia-angustifolia/images/4.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50867247/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) sandrineguay, some rights reserved (CC BY-NC)"
+            },
+            {
+                "url": "plants/kalmia-angustifolia/images/5.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55924754/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Jean Besset, some rights reserved (CC BY-NC), uploaded by Jean Besset"
+            }
+        ],
         "name": "Kalmia angustifolia",
         "wikipedia_url": "https://en.wikipedia.org/wiki/Kalmia_angustifolia",
         "symptoms": [
@@ -8884,12 +9175,19 @@
             "Smellage"
         ],
         "id": "levisticum-officinale",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Klasse im Garten, some rights reserved (CC BY-NC-ND)",
+                "license": "cc-by-nc-nd",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/929366/medium.jpg",
+                "url": "plants/levisticum-officinale/images/1.jpg"
+            }
+        ],
         "name": "Levisticum officinale",
         "symptoms": [
             "diuretic"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Levisticum officinale"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lovage"
     },
     {
         "classification": {
@@ -10415,14 +10713,39 @@
         "common": [
             "Greek Oregano"
         ],
-        "id": "origanum-vulgare-hirtum",
-        "images": [],
-        "name": "Origanum vulgare hirtum",
+        "id": "origanum-vulgare",
+        "images": [
+            {
+                "attribution": "(c) reddad, some rights reserved (CC BY-NC), uploaded by reddad",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5072932/medium.jpeg",
+                "url": "plants/origanum-vulgare/images/1.jpg"
+            },
+            {
+                "attribution": "(c) Эвелина Ишмухаметова, some rights reserved (CC BY-NC), uploaded by Эвелина Ишмухаметова",
+                "license": "cc-by-nc",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84345631/medium.jpeg",
+                "url": "plants/origanum-vulgare/images/2.jpg"
+            },
+            {
+                "attribution": "(c) Andreas Rockstein, some rights reserved (CC BY-SA)",
+                "license": "cc-by-sa",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5097478/medium.jpg",
+                "url": "plants/origanum-vulgare/images/3.jpg"
+            },
+            {
+                "attribution": "(c) Luis nunes alberto, some rights reserved (CC BY-SA)",
+                "license": "cc-by-sa",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1168379/medium.jpg",
+                "url": "plants/origanum-vulgare/images/4.jpg"
+            }
+        ],
+        "name": "Origanum vulgare",
         "symptoms": [
             "vomiting",
             "diarrhea"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Origanum vulgare hirtum"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oregano"
     },
     {
         "classification": {
@@ -11113,32 +11436,6 @@
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Asparagaceae",
-            "genus": "Hosta",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "H. plantaginea"
-        },
-        "common": [
-            "Hosta"
-        ],
-        "id": "hosta-plantaginea",
-        "images": [],
-        "name": "Hosta plantaginea",
-        "symptoms": [
-            "vomiting",
-            "diarrhea",
-            "depression"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Hosta plantaginea"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
                 "Eudicots",
                 "Rosids"
             ],
@@ -11203,7 +11500,32 @@
             "Stinking Chamomile"
         ],
         "id": "anthemis-cotula",
-        "images": [],
+        "images": [
+            {
+                "attribution": "(c) Kate Bullock, some rights reserved (CC BY-NC), uploaded by Kate Bullock",
+                "license": "cc-by-nc-sa",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57488737/medium.jpeg",
+                "url": "plants/anthemis-cotula/images/1.jpg"
+            },
+            {
+                "attribution": "(c) Rob Palmer, some rights reserved (CC BY-NC-SA), uploaded by Rob Palmer",
+                "license": "cc-by-nc-sa",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57488705/medium.jpeg",
+                "url": "plants/anthemis-cotula/images/2.jpg"
+            },
+            {
+                "attribution": "(c) Andrea Cummins, some rights reserved (CC BY-NC-ND)",
+                "license": "cc-by-nc-nd",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4906/medium.jpg",
+                "url": "plants/anthemis-cotula/images/3.jpg"
+            },
+            {
+                "attribution": "(c) Jim, some rights reserved (CC BY-NC-SA)",
+                "license": "cc-by-nc-sa",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4905/medium.jpg",
+                "url": "plants/anthemis-cotula/images/4.jpg"
+            }
+        ],
         "name": "Anthemis cotula",
         "symptoms": [
             "dermatitis",
@@ -11212,7 +11534,7 @@
             "anorexia",
             "allergic reactions"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Anthemis cotula"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anthemis_cotula"
     },
     {
         "classification": {
@@ -12303,7 +12625,176 @@
             "Springparsley"
         ],
         "id": "cymopterus-sp",
-        "images": [],
+        "images": [
+            {
+                "url": "plants/cymopterus-sp/images/1.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301296/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) scottmo, some rights reserved (CC BY-NC), uploaded by scottmo"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/2.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21987306/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) catchang, some rights reserved (CC BY-NC), uploaded by catchang"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/3.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21987320/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) catchang, some rights reserved (CC BY-NC), uploaded by catchang"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/4.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7731935/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) robbielamons, some rights reserved (CC BY-NC)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/5.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440647/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/6.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/657774/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Richard Reynolds, some rights reserved (CC BY-NC), uploaded by Richard Reynolds"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/7.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301296/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) scottmo, some rights reserved (CC BY-NC), uploaded by scottmo"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/8.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81221102/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Peggy Lyon, some rights reserved (CC BY-NC), uploaded by Peggy Lyon"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/9.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106487118/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Carla Kishinami, some rights reserved (CC BY-NC), uploaded by Carla Kishinami"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/10.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77565698/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) jbp316, some rights reserved (CC BY-NC)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/11.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79219293/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) rpfo_aim2020, some rights reserved (CC BY-NC)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/12.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4142798/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) irinachen, some rights reserved (CC BY-NC)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/13.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/942381/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) V. Dern, some rights reserved (CC BY-NC), uploaded by V. Dern"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/14.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/942382/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) V. Dern, some rights reserved (CC BY-NC), uploaded by V. Dern"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/15.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1401730/medium.JPG",
+                "license": "cc-by-nc",
+                "attribution": "(c) Gena Bentall, some rights reserved (CC BY-NC), uploaded by Gena Bentall"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/16.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81221102/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Peggy Lyon, some rights reserved (CC BY-NC), uploaded by Peggy Lyon"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/17.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4142865/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) 2010 Barry Breckling, some rights reserved (CC BY-NC-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/18.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4142881/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) brewbooks, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/19.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4142882/medium.jpg",
+                "license": "cc-by",
+                "attribution": "(c) Andrey Zharkikh, some rights reserved (CC BY)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/20.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934457/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) 2013 Barry Breckling, some rights reserved (CC BY-NC-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/21.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934492/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/22.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934493/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/23.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934444/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/24.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934497/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/25.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934498/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/26.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934499/medium.jpg",
+                "license": "cc-by-sa",
+                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/27.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934500/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) 2009 Barry Breckling, some rights reserved (CC BY-NC-SA)"
+            },
+            {
+                "url": "plants/cymopterus-sp/images/28.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4142865/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) 2010 Barry Breckling, some rights reserved (CC BY-NC-SA)"
+            }
+        ],
         "name": "Cymopterus sp.",
         "symptoms": [
             "photosensitivity",
@@ -12532,7 +13023,86 @@
             "Dayflower"
         ],
         "id": "tradescantia",
-        "images": [],
+        "images": [
+            {
+                "url": "plants/tradescantia/images/1.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74041727/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Matthias Buck, some rights reserved (CC BY-NC), uploaded by Matthias Buck"
+            },
+            {
+                "url": "plants/tradescantia/images/2.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44267819/medium.jpeg",
+                "license": "cc-by-sa",
+                "attribution": "(c) psweet, some rights reserved (CC BY-SA), uploaded by psweet"
+            },
+            {
+                "url": "plants/tradescantia/images/3.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35495789/medium.jpeg",
+                "license": "cc-by",
+                "attribution": "(c) John P. Friel Ph.D., some rights reserved (CC BY), uploaded by John P. Friel Ph.D."
+            },
+            {
+                "url": "plants/tradescantia/images/4.jpg",
+                "source_url": "https://static.inaturalist.org/photos/32437144/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) Maria Emília Martins, some rights reserved (CC BY-NC-SA), uploaded by Maria Emília Martins"
+            },
+            {
+                "url": "plants/tradescantia/images/5.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12959930/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Rich Stevenson, some rights reserved (CC BY-NC), uploaded by Rich Stevenson"
+            },
+            {
+                "url": "plants/tradescantia/images/6.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6807292/medium.jpeg",
+                "license": "cc-by",
+                "attribution": "(c) Jason Grant, some rights reserved (CC BY), uploaded by Jason Grant"
+            },
+            {
+                "url": "plants/tradescantia/images/7.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45274703/medium.jpg",
+                "license": "cc-by-nc",
+                "attribution": "(c) naturaladventurer, some rights reserved (CC BY-NC), uploaded by naturaladventurer"
+            },
+            {
+                "url": "plants/tradescantia/images/8.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68124664/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) Diego Manzano Méndez, some rights reserved (CC BY-NC), uploaded by Diego Manzano Méndez"
+            },
+            {
+                "url": "plants/tradescantia/images/9.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128566982/medium.jpeg",
+                "license": "cc-by-nc",
+                "attribution": "(c) suecee, some rights reserved (CC BY-NC), uploaded by suecee"
+            },
+            {
+                "url": "plants/tradescantia/images/10.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/554577/medium.jpg",
+                "license": "cc-by",
+                "attribution": "(c) Ettore Balocchi, some rights reserved (CC BY)"
+            },
+            {
+                "url": "plants/tradescantia/images/11.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29476487/medium.jpeg",
+                "license": "cc-by",
+                "attribution": "(c) Duarte Frade, some rights reserved (CC BY), uploaded by Duarte Frade"
+            },
+            {
+                "url": "plants/tradescantia/images/12.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1181713/medium.jpg",
+                "license": "cc-by",
+                "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)"
+            },
+            {
+                "url": "plants/tradescantia/images/13.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37778749/medium.jpeg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) Reiner Richter, some rights reserved (CC BY-NC-SA), uploaded by Reiner Richter"
+            }
+        ],
         "name": "Tradescantia",
         "symptoms": [
             "dermatitis",
@@ -13361,7 +13931,14 @@
             "Coffee Tree"
         ],
         "id": "polyscias-guilfoylei",
-        "images": [],
+        "images": [
+            {
+                "url": "plants/polyscias-guilfoylei/images/1.jpg",
+                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724245/medium.jpg",
+                "license": "cc-by-nc-sa",
+                "attribution": "(c) Mauricio Mercadante, some rights reserved (CC BY-NC-SA)"
+            }
+        ],
         "name": "Polyscias guilfoylei",
         "symptoms": [
             "dermatitis",
@@ -13369,7 +13946,7 @@
             "anorexia",
             "depression"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Polyscias guilfoylei"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Polyscias_guilfoylei"
     },
     {
         "classification": {

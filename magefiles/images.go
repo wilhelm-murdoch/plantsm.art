@@ -36,7 +36,9 @@ func (Images) Bootstrap(ctx context.Context, sourcePath, savePath string) error 
 	var searches collection.Collection[*Search]
 
 	for _, p := range parsed.Data {
-		searches.Push(NewSearch(p.Id, p.Name))
+		if len(p.Images) == 0 {
+			searches.Push(NewSearch(p.Id, p.Name))
+		}
 	}
 
 	var sortable_results collection.Collection[*SortableResult]
@@ -51,6 +53,8 @@ func (Images) Bootstrap(ctx context.Context, sourcePath, savePath string) error 
 
 		var parsed UnmarshalSearchResults
 		json.Unmarshal(results, &parsed)
+
+		fmt.Printf("`%s` ( %s ) found %d\n", s.Id, s.Term, len(parsed.Results))
 
 		for _, r := range parsed.Results {
 			var photos []Photo
@@ -67,6 +71,7 @@ func (Images) Bootstrap(ctx context.Context, sourcePath, savePath string) error 
 				Photos: photos,
 			})
 		}
+
 		return false
 	})
 
@@ -101,7 +106,7 @@ func (Images) Filter(ctx context.Context, sourcePath, writePath string) error {
 	var photos collection.Collection[SortableResult]
 	photos.Push(parsed.Photos...)
 
-	plantsJson, err := os.ReadFile("data/plants-copy.json")
+	plantsJson, err := os.ReadFile("data/plants.json")
 	if err != nil {
 		return err
 	}
@@ -148,7 +153,7 @@ func (Images) Filter(ctx context.Context, sourcePath, writePath string) error {
 		}
 
 		p := collection.New(photos...).Filter(func(p Photo) bool {
-			return p.License == "cc-by-nc" || p.License == "cc0" || p.License == "cc-by-sa" || p.License == "cc-by-nc-sa" || p.License == "cc-by"
+			return p.License == "cc-by-nc-nd" || p.License == "cc-by-nc" || p.License == "cc0" || p.License == "cc-by-sa" || p.License == "cc-by-nc-sa" || p.License == "cc-by"
 		})
 
 		if p.Length() <= 0 {
