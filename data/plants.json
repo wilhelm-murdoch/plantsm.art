@@ -410,68 +410,6 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Taxaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Canada Yew",
-            "Canadian Yew"
-        ],
-        "id": "taxus-canadensus",
-        "images": [
-            {
-                "attribution": "(c) Superior National Forest, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130279/medium.jpg",
-                "url": "plants/taxus-canadensus/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Luciana Ranelli, some rights reserved (CC BY-NC), uploaded by Luciana Ranelli",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5398383/medium.jpg",
-                "url": "plants/taxus-canadensus/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Simon Larouche, some rights reserved (CC BY-NC), uploaded by Simon Larouche",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52875485/medium.jpeg",
-                "url": "plants/taxus-canadensus/images/3.jpg"
-            },
-            {
-                "attribution": "(c) DoomBeya, some rights reserved (CC BY-NC), uploaded by DoomBeya",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50137485/medium.jpeg",
-                "url": "plants/taxus-canadensus/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Nick Tinker, some rights reserved (CC BY-NC), uploaded by Nick Tinker",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66303453/medium.jpeg",
-                "url": "plants/taxus-canadensus/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Superior National Forest, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130279/medium.jpg",
-                "url": "plants/taxus-canadensus/images/6.jpg"
-            }
-        ],
-        "name": "Taxus canadensus",
-        "symptoms": [
-            "tremors",
-            "difficulty breathing",
-            "vomiting",
-            "seizures",
-            "cardiac failure",
-            "death"
-        ]
-    },
-    {
-        "classification": {
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
@@ -627,36 +565,6 @@
             "panting",
             "shock"
         ]
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Rosaceae",
-            "genus": "Prunus",
-            "kingdom": "Plantae",
-            "order": "Rosales",
-            "species": "P. armeniaca"
-        },
-        "common": [
-            "Plum",
-            "Peach",
-            "Cherry"
-        ],
-        "id": "prunus-armeniaca",
-        "images": [],
-        "name": "Prunus armeniaca",
-        "symptoms": [
-            "dilated pupils",
-            "difficulty breathing",
-            "panting",
-            "shock"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus armeniaca"
     },
     {
         "classification": {
@@ -1124,18 +1032,19 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Begoniaceae",
-            "genus": "",
+            "genus": "Begonia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Cucurbitales",
+            "species": null
         },
-        "common": [
-            "Over 1",
-            "000 species and 10",
-            "000 hybrids"
-        ],
+        "common": null,
         "id": "begonia-sp",
         "images": [
             {
@@ -1386,6 +1295,7 @@
             }
         ],
         "name": "Begonia sp.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Begonia",
         "symptoms": [
             "kidney failure",
             "vomiting",
@@ -1685,170 +1595,11 @@
                 "Eudicots",
                 "Asterids"
             ],
-            "family": "Apocynaceae",
-            "genus": "Apocynum",
-            "kingdom": "Plantae",
-            "order": "Gentianales",
-            "species": "A. androsaemifolium"
-        },
-        "common": [
-            "Dogbane Hemp",
-            "Indian Hemp"
-        ],
-        "id": "apocynum-androsaemifolium",
-        "images": [
-            {
-                "attribution": "(c) Thayne Tuason, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375675/medium.jpg",
-                "url": "plants/apocynum-androsaemifolium/images/1.jpg"
-            },
-            {
-                "attribution": "(c) gwt2102, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85297263/medium.jpg",
-                "url": "plants/apocynum-androsaemifolium/images/2.jpg"
-            },
-            {
-                "attribution": "(c) odinbriem0, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145745131/medium.jpg",
-                "url": "plants/apocynum-androsaemifolium/images/3.jpg"
-            },
-            {
-                "attribution": "(c) François Plourde — Renard frak, some rights reserved (CC BY-NC), uploaded by François Plourde — Renard frak",
-                "license": "cc-by-nc",
-                "source_url": "https://static.inaturalist.org/photos/155992522/medium.jpeg",
-                "url": "plants/apocynum-androsaemifolium/images/4.jpg"
-            },
-            {
-                "attribution": "(c) stelluti, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138266515/medium.jpg",
-                "url": "plants/apocynum-androsaemifolium/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Thayne Tuason, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375675/medium.jpg",
-                "url": "plants/apocynum-androsaemifolium/images/6.jpg"
-            }
-        ],
-        "name": "Apocynum androsaemifolium",
-        "symptoms": [
-            "diarrhea",
-            "slow heart rate",
-            "weakness"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Apocynum androsaemifolium"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Rosaceae",
-            "genus": "Prunus",
-            "kingdom": "Plantae",
-            "order": "Rosales",
-            "species": "P. serotina"
-        },
-        "common": null,
-        "id": "prunus-serotina",
-        "images": [
-            {
-                "attribution": "(c) allysonv, some rights reserved (CC BY-NC), uploaded by allysonv",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22732777/medium.jpg",
-                "url": "plants/prunus-serotina/images/1.jpg"
-            },
-            {
-                "attribution": "(c) greenwitchvera, some rights reserved (CC BY-NC), uploaded by greenwitchvera",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64321751/medium.jpeg",
-                "url": "plants/prunus-serotina/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Suzanne Cadwell, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://static.inaturalist.org/photos/74554051/medium.jpg",
-                "url": "plants/prunus-serotina/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Nicholas A. Tonelli, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/74554055/medium.jpg",
-                "url": "plants/prunus-serotina/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Chuck Sexton, some rights reserved (CC BY-NC), uploaded by Chuck Sexton",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934782/medium.jpg",
-                "url": "plants/prunus-serotina/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Chuck Sexton, some rights reserved (CC BY-NC), uploaded by Chuck Sexton",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1934782/medium.jpg",
-                "url": "plants/prunus-serotina/images/6.jpg"
-            },
-            {
-                "attribution": "(c) lscknwrbiota, some rights reserved (CC BY-NC), uploaded by lscknwrbiota",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2332523/medium.JPG",
-                "url": "plants/prunus-serotina/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Bodo Nuñez Oberg, some rights reserved (CC BY-NC), uploaded by Bodo Nuñez Oberg",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23483294/medium.jpeg",
-                "url": "plants/prunus-serotina/images/8.jpg"
-            },
-            {
-                "attribution": "(c) Bodo Nuñez Oberg, some rights reserved (CC BY-NC), uploaded by Bodo Nuñez Oberg",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37246671/medium.jpeg",
-                "url": "plants/prunus-serotina/images/9.jpg"
-            },
-            {
-                "attribution": "(c) Bodo Nuñez Oberg, some rights reserved (CC BY-NC), uploaded by Bodo Nuñez Oberg",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11901916/medium.jpeg",
-                "url": "plants/prunus-serotina/images/10.jpg"
-            },
-            {
-                "attribution": "(c) Corey Lange, some rights reserved (CC BY-NC), uploaded by Corey Lange",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2389116/medium.jpg",
-                "url": "plants/prunus-serotina/images/11.jpg"
-            },
-            {
-                "attribution": "(c) lscknwrbiota, some rights reserved (CC BY-NC), uploaded by lscknwrbiota",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2332523/medium.JPG",
-                "url": "plants/prunus-serotina/images/12.jpg"
-            }
-        ],
-        "name": "Prunus serotina",
-        "symptoms": [
-            "dilated pupils",
-            "difficulty breathing",
-            "panting",
-            "shock"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus serotina"
-    },
-    {
-        "classification": {
-            "clades": null,
             "family": "Ericaceae",
-            "genus": "",
+            "genus": "Leucothoe",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ericales",
+            "species": null
         },
         "common": [
             "Dog Hobble",
@@ -1857,6 +1608,7 @@
             "Sierra Laurel"
         ],
         "id": "leucothoe-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Leucothoe_(plant)",
         "images": [
             {
                 "url": "plants/leucothoe-sp/images/1.jpg",
@@ -2197,15 +1949,23 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Buxaceae",
-            "genus": "",
+            "genus": "Buxus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Buxales",
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Box",
+            "Box Wood"
+        ],
         "id": "buxus-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Buxus",
         "images": [
             {
                 "url": "plants/buxus-sp/images/1.jpg",
@@ -2497,12 +2257,17 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Solanaceae",
-            "genus": "",
+            "genus": "Brunfelsia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Solanales",
+            "species": null
         },
         "common": [
             "Yesterday-Today-Tomorrow",
@@ -2510,9 +2275,11 @@
             "Lady-of-the-Night",
             "Franciscan Rain Tree",
             "Morning-Noon-and-Night",
-            "Paraguayan Jasmine"
+            "Paraguayan Jasmine",
+            "Raintree"
         ],
         "id": "brunfelsia-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Brunfelsia",
         "images": [
             {
                 "url": "plants/brunfelsia-sp/images/1.jpg",
@@ -2619,17 +2386,24 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Hippocastanaceae",
-            "genus": "",
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
+            "family": "Sapindaceae",
+            "genus": "Aesculus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Sapindales",
+            "species": null
         },
         "common": [
-            "Horse Chestnut"
+            "Horse Chestnut",
+            "Buckeye"
         ],
         "id": "aesculus-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Aesculus",
         "images": [
             {
                 "url": "plants/aesculus-sp/images/1.jpg",
@@ -2742,15 +2516,23 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Polygonaceae",
-            "genus": "",
+            "genus": "Fagopyrum",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Caryophyllales",
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Buckwheat",
+            "Tartary Buckwheat"
+        ],
         "id": "fagopyrum-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Fagopyrum",
         "images": [
             {
                 "url": "plants/fagopyrum-sp/images/1.jpg",
@@ -2893,18 +2675,27 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Ranunculaceae",
-            "genus": "",
+            "genus": "Ranunculus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ranunculales",
+            "species": null
         },
         "common": [
             "Butter Cress",
-            "Figwort"
+            "Figwort",
+            "Buttercup",
+            "Butter Cress",
+            "Burwort",
+            "Crowfoot Burwort"
         ],
         "id": "ranunculus-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ranunculus",
         "images": [
             {
                 "url": "plants/ranunculus-sp/images/1.jpg",
@@ -3652,14 +3443,26 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Rosaceae",
-            "genus": "",
+            "genus": "Prunus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Rosales",
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Plums",
+            "Cherries",
+            "Peaches",
+            "Nectarines",
+            "Apricots",
+            "Almonds"
+        ],
         "id": "prunus-sp",
         "images": [
             {
@@ -3705,6 +3508,7 @@
                 "url": "plants/prunus-sp/images/7.jpg"
             }
         ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus",
         "name": "Prunus sp.",
         "symptoms": [
             "dilated pupils",
@@ -3887,77 +3691,20 @@
                 "Tracheophytes",
                 "Angiosperms",
                 "Eudicots",
-                "Rosids"
+                "Asterids"
             ],
-            "family": "Rosaceae",
-            "genus": "Prunus",
-            "kingdom": "Plantae",
-            "order": "Rosales",
-            "species": "P. virginiana"
-        },
-        "common": null,
-        "id": "prunus-virginiana",
-        "images": [
-            {
-                "attribution": "(c) Douglas Goldman, some rights reserved (CC BY-NC), uploaded by Douglas Goldman",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208731123/medium.jpg",
-                "url": "plants/prunus-virginiana/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Brett Whaley, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://static.inaturalist.org/photos/146282564/medium.jpg",
-                "url": "plants/prunus-virginiana/images/2.jpg"
-            },
-            {
-                "attribution": "(c) born1945, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/146282565/medium.jpg",
-                "url": "plants/prunus-virginiana/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Mart Hughes, some rights reserved (CC BY-NC), uploaded by Mart Hughes",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19337236/medium.jpeg",
-                "url": "plants/prunus-virginiana/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Andrey Zharkikh, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/146282566/medium.jpg",
-                "url": "plants/prunus-virginiana/images/5.jpg"
-            },
-            {
-                "attribution": "(c) ksmith1, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10806005/medium.jpg",
-                "url": "plants/prunus-virginiana/images/6.jpg"
-            }
-        ],
-        "name": "Prunus virginiana",
-        "symptoms": [
-            "dilated pupils",
-            "difficulty breathing",
-            "panting",
-            "shock"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus virginiana"
-    },
-    {
-        "classification": {
-            "clades": null,
             "family": "Compositae",
-            "genus": "",
+            "genus": "Chrysanthemum",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asterales",
+            "species": null
         },
         "common": [
             "Daisy",
             "Mum"
         ],
         "id": "chrysanthemum-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Chrysanthemum",
         "images": [
             {
                 "url": "plants/chrysanthemum-sp/images/1.jpg",
@@ -4306,21 +4053,28 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
             "family": "Amaryllidaceae",
-            "genus": "",
+            "genus": "Clivia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
         "common": [
             "Kaffir Lily",
             "Clivies",
             "Caffre Lily",
             "Cape Clivia",
-            "Klivia"
+            "Klivia",
+            "Natal Lily",
+            "Bush Lily"
         ],
         "id": "clivia-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clivia",
         "images": [
             {
                 "url": "plants/clivia-sp/images/1.jpg",
@@ -4603,152 +4357,6 @@
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Araceae",
-            "genus": "Philodendron",
-            "kingdom": "Plantae",
-            "order": "Alismatales",
-            "species": "P. hederaceum"
-        },
-        "common": [
-            "Fiddle-Leaf",
-            "Horsehead Philodendron",
-            "Heartleaf Philodendron",
-            "Panda Plant",
-            "Split Leaf Philodendron",
-            "Fruit Salad Plant",
-            "Red Emerald",
-            "Red Princess",
-            "Saddle Leaf"
-        ],
-        "id": "philodendron-oxycardium",
-        "images": [],
-        "name": "Philodendron oxycardium",
-        "symptoms": [
-            "oral irritation",
-            "drooling",
-            "vomiting",
-            "difficulty swallowing"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Philodendron oxycardium"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Asparagaceae",
-            "genus": "Dracaena",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "D. fragrans"
-        },
-        "common": [
-            "Corn Plant",
-            "Cornstalk Plant",
-            "Dracaena",
-            "Dragon Tree",
-            "Ribbon Plant"
-        ],
-        "id": "dracaena-fragrans",
-        "images": [
-            {
-                "attribution": "(c) Jan Ho, some rights reserved (CC BY-NC), uploaded by Jan Ho",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69907178/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/1.jpg"
-            },
-            {
-                "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13625829/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Marco Schmidt, some rights reserved (CC BY-NC-SA), uploaded by Marco Schmidt",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41221497/medium.jpeg",
-                "url": "plants/dracaena-fragrans/images/3.jpg"
-            },
-            {
-                "attribution": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63932560/medium.jpeg",
-                "url": "plants/dracaena-fragrans/images/4.jpg"
-            },
-            {
-                "attribution": "(c) kathpa, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59783727/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/5.jpg"
-            },
-            {
-                "attribution": "(c) ALEJANDRA, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1281545/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Pete Woodall, some rights reserved (CC BY-NC), uploaded by Pete Woodall",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71713503/medium.jpeg",
-                "url": "plants/dracaena-fragrans/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Alan Kwok / Ada Tai, some rights reserved (CC BY-NC), uploaded by Alan Kwok / Ada Tai",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44862060/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/8.jpg"
-            },
-            {
-                "attribution": "(c) Bart  Wursten, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/81621168/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/9.jpg"
-            },
-            {
-                "attribution": "(c) Jan Ho, some rights reserved (CC BY-NC), uploaded by Jan Ho",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69907178/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/10.jpg"
-            },
-            {
-                "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/23078111/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/11.jpg"
-            },
-            {
-                "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/23078089/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/12.jpg"
-            },
-            {
-                "attribution": "(c) Gabriel Camilo Jaramillo Giraldo, some rights reserved (CC BY-NC-SA), uploaded by Gabriel Camilo Jaramillo Giraldo",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/23078111/medium.jpg",
-                "url": "plants/dracaena-fragrans/images/13.jpg"
-            }
-        ],
-        "name": "Dracaena fragrans",
-        "symptoms": [
-            "vomiting",
-            "depression",
-            "anorexia",
-            "hypersalivation",
-            "dilated pupils"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena fragrans"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
                 "Eudicots",
                 "Asterids",
                 "Campanulids"
@@ -4833,18 +4441,25 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Apiaceae",
-            "genus": "",
+            "genus": "Cicuta",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Apiales",
+            "species": null
         },
         "common": [
             "Water Hemlock",
-            "Poison Parsnip"
+            "Poison Parsnip",
+            "Cowbane"
         ],
         "id": "cicuta-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cicuta",
         "images": [
             {
                 "url": "plants/cicuta-sp/images/1.jpg",
@@ -5034,12 +4649,15 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Gymnosperms"
+            ],
             "family": "Cycadaceae",
-            "genus": "",
+            "genus": "Cyca",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Cycadales",
+            "species": null
         },
         "common": [
             "Sago Palm",
@@ -5052,6 +4670,7 @@
             "Queen Sago"
         ],
         "id": "cycas-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cycas",
         "images": [
             {
                 "url": "plants/cycas-sp/images/1.jpg",
@@ -5170,17 +4789,24 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Primulaceae",
-            "genus": "",
+            "genus": "Cyclamen",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ericales",
+            "species": null
         },
         "common": [
-            "Sowbread"
+            "Sowbread",
+            "Swinebread"
         ],
         "id": "cyclamen-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cyclamen",
         "images": [
             {
                 "url": "plants/cyclamen-sp/images/1.jpg",
@@ -5255,19 +4881,25 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
             "family": "Amaryllidaceae",
-            "genus": "",
+            "genus": "Narcissus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
         "common": [
             "Narcissus",
             "Jonquil",
-            "Paper White"
+            "Paper White",
+            "Daffodil"
         ],
         "id": "narcissus-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Narcissus_(plant)",
         "images": [
             {
                 "url": "plants/narcissus-sp/images/1.jpg",
@@ -5355,17 +4987,21 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Compositae",
-            "genus": "",
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
+            "family": "Asteraceae",
+            "genus": "Dahlia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asterales",
+            "species": null
         },
-        "common": [
-            "Many varieties"
-        ],
+        "common": null,
         "id": "dahlia-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dahlia",
         "images": [
             {
                 "url": "plants/dahlia-sp/images/1.jpg",
@@ -5466,17 +5102,22 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Xanthorrhoeaceae",
-            "genus": "",
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "family": "Asphodelaceae",
+            "genus": "Hemerocallis",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
         "common": [
-            "many varieties"
+            "Day Lily"
         ],
         "id": "hemerocallis-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Daylily",
         "images": [
             {
                 "url": "plants/hemerocallis-sp/images/1.jpg",
@@ -5680,17 +5321,25 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Polygonaceae",
-            "genus": "",
+            "genus": "Rumex",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Caryophyllales",
+            "species": null
         },
         "common": [
-            "Sorrel"
+            "Common Sorrel",
+            "Spinach-Dock",
+            "Narrow-leaved Dock",
+            "Garden sorrel"
         ],
         "id": "rumex-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rumex",
         "images": [
             {
                 "url": "plants/rumex-sp/images/1.jpg",
@@ -5899,18 +5548,25 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Apocynaceae",
-            "genus": "",
+            "genus": "Apocynum",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Gentianales",
+            "species": null
         },
         "common": [
             "Bitterroot",
-            "Indian Hemp"
+            "Indian Hemp",
+            "Dogbane"
         ],
         "id": "apocynum-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Apocynum",
         "images": [
             {
                 "url": "plants/apocynum-sp/images/1.jpg",
@@ -5964,20 +5620,31 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
             "family": "Agavaceae",
-            "genus": "",
+            "genus": "Dracaena",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
         "common": [
+            "Straight-Marginated Dracaena",
+            "Song of India",
+            "Song of Jamaica",
+            "Warneckii",
+            "Janet Craig Plant",
             "Corn Plant",
             "Cornstalk Plant",
+            "Dracaena",
             "Dragon Tree",
             "Ribbon Plant"
         ],
         "id": "dracaena-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena_(plant)",
         "images": [
             {
                 "url": "plants/dracaena-sp/images/1.jpg",
@@ -6054,11 +5721,17 @@
         ],
         "name": "Dracaena sp.",
         "symptoms": [
-            "vomiting",
-            "depression",
             "anorexia",
             "hypersalivation",
-            "dilated pupils"
+            "dilated pupils",
+            "abdominal pain",
+            "increased heart rate",
+            "vomiting",
+            "depression",
+            "inappetence",
+            "drooling",
+            "incoordination",
+            "weakness"
         ]
     },
     {
@@ -6265,25 +5938,6 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Begoniaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": null,
-        "id": "begonia-scharfii",
-        "images": [],
-        "name": "Begonia scharfii",
-        "symptoms": [
-            "kidney failure",
-            "vomiting",
-            "hypersalivation"
-        ]
-    },
-    {
-        "classification": {
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
@@ -6334,104 +5988,6 @@
             "diarrhea"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Asparagus densiflorus"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Gymnosperms"
-            ],
-            "family": "Taxaceae",
-            "genus": "Taxus",
-            "kingdom": "Plantae",
-            "order": "Cupressales",
-            "species": "T. baccata"
-        },
-        "common": [
-            "Western Yew",
-            "Pacific Yew",
-            "Japanese Yew",
-            "Anglo-Japanese Yew"
-        ],
-        "id": "taxus-baccata",
-        "images": [
-            {
-                "attribution": "(c) Jonathan Tyler, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8502/medium.jpg",
-                "url": "plants/taxus-baccata/images/1.jpg"
-            },
-            {
-                "attribution": "(c) jaimebraschi, some rights reserved (CC BY-NC), uploaded by jaimebraschi",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/167165354/medium.jpeg",
-                "url": "plants/taxus-baccata/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Florin Feneru, some rights reserved (CC BY), uploaded by Florin Feneru",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/69373138/medium.jpeg",
-                "url": "plants/taxus-baccata/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Miguel A. Casado, some rights reserved (CC BY-NC), uploaded by Miguel A. Casado",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156028483/medium.jpeg",
-                "url": "plants/taxus-baccata/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Вадим Пермин, some rights reserved (CC BY-NC), uploaded by Вадим Пермин",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60943434/medium.jpeg",
-                "url": "plants/taxus-baccata/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Colin Meurk, some rights reserved (CC BY-SA), uploaded by Colin Meurk",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1203032/medium.",
-                "url": "plants/taxus-baccata/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Douglas Goldman, some rights reserved (CC BY), uploaded by Douglas Goldman",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79446798/medium.jpg",
-                "url": "plants/taxus-baccata/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Jon Sullivan, some rights reserved (CC BY), uploaded by Jon Sullivan",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1205127/medium.",
-                "url": "plants/taxus-baccata/images/8.jpg"
-            },
-            {
-                "attribution": "(c) Jon Sullivan, some rights reserved (CC BY), uploaded by Jon Sullivan",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1202988/medium.",
-                "url": "plants/taxus-baccata/images/9.jpg"
-            },
-            {
-                "attribution": "(c) Jon Sullivan, some rights reserved (CC BY), uploaded by Jon Sullivan",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1205126/medium.",
-                "url": "plants/taxus-baccata/images/10.jpg"
-            },
-            {
-                "attribution": "(c) Jonathan Tyler, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8502/medium.jpg",
-                "url": "plants/taxus-baccata/images/11.jpg"
-            }
-        ],
-        "name": "Taxus baccata",
-        "symptoms": [
-            "tremors",
-            "difficulty breathing",
-            "vomiting",
-            "seizures",
-            "cardiac failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Taxus baccata"
     },
     {
         "classification": {
@@ -6786,69 +6342,6 @@
     },
     {
         "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots"
-            ],
-            "family": "Ranunculaceae",
-            "genus": "Ranunculus",
-            "kingdom": "Plantae",
-            "order": "Ranunculales",
-            "species": "R. acris"
-        },
-        "common": [
-            "Buttercup",
-            "Butter Cress",
-            "Burwort",
-            "Crowfoot burwort"
-        ],
-        "id": "ranunculus-acris",
-        "images": [
-            {
-                "attribution": "(c) Cody Hough, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10459/medium.jpg",
-                "url": "plants/ranunculus-acris/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Douglas Goldman, some rights reserved (CC BY-NC), uploaded by Douglas Goldman",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178823025/medium.jpg",
-                "url": "plants/ranunculus-acris/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Enrico Blasutto, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461314/medium.jpeg",
-                "url": "plants/ranunculus-acris/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Matt Lavin, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461310/medium.jpg",
-                "url": "plants/ranunculus-acris/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Cody Hough, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10459/medium.jpg",
-                "url": "plants/ranunculus-acris/images/5.jpg"
-            }
-        ],
-        "name": "Ranunculus acris",
-        "symptoms": [
-            "vomiting",
-            "diarrhea",
-            "depression",
-            "anorexia",
-            "hypersalivation",
-            "incoordination"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Ranunculus acris"
-    },
-    {
-        "classification": {
             "clades": null,
             "family": "Amaryllidaceae",
             "genus": "",
@@ -6985,58 +6478,6 @@
             "vomiting",
             "difficulty swallowing"
         ]
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Asparagaceae",
-            "genus": "Dracaena",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "D. surculosa"
-        },
-        "common": [
-            "Gold Dust Dracaena",
-            "Spotted Dracaena"
-        ],
-        "id": "dracaena-surculosa",
-        "images": [
-            {
-                "attribution": "(c) 106611639464075912591, some rights reserved (CC BY-NC-SA), uploaded by Jonathan Hiew",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/715973/medium.JPG",
-                "url": "plants/dracaena-surculosa/images/1.jpg"
-            },
-            {
-                "attribution": "(c) alessandradalia, some rights reserved (CC BY-SA), uploaded by alessandradalia",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17056182/medium.jpg",
-                "url": "plants/dracaena-surculosa/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Jason Alexander, some rights reserved (CC BY-NC), uploaded by Jason Alexander",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13462268/medium.jpeg",
-                "url": "plants/dracaena-surculosa/images/3.jpg"
-            }
-        ],
-        "name": "Dracaena surculosa",
-        "symptoms": [
-            "dilated pupils",
-            "abdominal pain",
-            "increased heart rate",
-            "vomiting",
-            "depression",
-            "inappetence",
-            "drooling",
-            "incoordination",
-            "weakness"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena surculosa"
     },
     {
         "classification": {
@@ -7588,58 +7029,6 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Agavaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Snake Plant",
-            "Giant Dracaena"
-        ],
-        "id": "giant-dracaena",
-        "images": [],
-        "name": "Giant Dracaena",
-        "symptoms": [
-            "vomiting",
-            "depression",
-            "anorexia",
-            "hypersalivation",
-            "dilated pupils"
-        ]
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Araceae",
-            "genus": "Philodendron",
-            "kingdom": "Plantae",
-            "order": "Alismatales",
-            "species": "P. hederaceum"
-        },
-        "common": [
-            "Cordatum",
-            "Sweetheart Plant"
-        ],
-        "id": "philodendron-hederaceum",
-        "images": [],
-        "name": "Philodendron hederaceum",
-        "symptoms": [
-            "oral irritation",
-            "drooling",
-            "vomiting",
-            "difficulty swallowing"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Philodendron hederaceum"
-    },
-    {
-        "classification": {
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
@@ -7907,93 +7296,6 @@
                 "Tracheophytes",
                 "Angiosperms",
                 "Eudicots",
-                "Rosids"
-            ],
-            "family": "Sapindaceae",
-            "genus": "Aesculus",
-            "kingdom": "Plantae",
-            "order": "Sapindales",
-            "species": "A. glabra"
-        },
-        "common": [
-            "Buckeye"
-        ],
-        "id": "aesculus-glabra",
-        "images": [
-            {
-                "attribution": "no rights reserved, uploaded by Christian Grenier",
-                "license": "cc0",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41607756/medium.jpeg",
-                "url": "plants/aesculus-glabra/images/1.jpg"
-            },
-            {
-                "attribution": "no rights reserved, uploaded by Christian Grenier",
-                "license": "cc0",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41607681/medium.jpeg",
-                "url": "plants/aesculus-glabra/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23265/medium.jpg",
-                "url": "plants/aesculus-glabra/images/3.jpg"
-            },
-            {
-                "attribution": "(c) dogtooth77, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23262/medium.jpg",
-                "url": "plants/aesculus-glabra/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Rick Joosten, some rights reserved (CC BY-NC), uploaded by Rick Joosten",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1677685/medium.JPG",
-                "url": "plants/aesculus-glabra/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Bob O'Kennon, some rights reserved (CC BY-NC), uploaded by Bob O'Kennon",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3305372/medium.JPG",
-                "url": "plants/aesculus-glabra/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Matt Tomlinson, some rights reserved (CC BY-NC), uploaded by Matt Tomlinson",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118673517/medium.jpeg",
-                "url": "plants/aesculus-glabra/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Robby Deans, some rights reserved (CC BY-NC), uploaded by Robby Deans",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63785418/medium.jpeg",
-                "url": "plants/aesculus-glabra/images/8.jpg"
-            },
-            {
-                "attribution": "no rights reserved, uploaded by Christian Grenier",
-                "license": "cc0",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41607756/medium.jpeg",
-                "url": "plants/aesculus-glabra/images/9.jpg"
-            }
-        ],
-        "name": "Aesculus glabra",
-        "symptoms": [
-            "vomiting",
-            "diarrhea",
-            "depression",
-            "hyperexcitability",
-            "dilated pupils",
-            "coma",
-            "convulsions",
-            "wobbly"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Aesculus glabra"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
                 "Asterids"
             ],
             "family": "Asteraceae",
@@ -8167,27 +7469,6 @@
     {
         "classification": {
             "clades": null,
-            "family": "Commelinaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Speedy Henry",
-            "Variegated Inch Plant",
-            "Variegated Laurel"
-        ],
-        "id": "tradescantia-flumeninsis",
-        "images": [],
-        "name": "Tradescantia flumeninsis",
-        "symptoms": [
-            "dermatitis"
-        ]
-    },
-    {
-        "classification": {
-            "clades": null,
             "family": "Iridaceae",
             "genus": "",
             "kingdom": "Plantae",
@@ -8348,31 +7629,6 @@
             "lethargy",
             "diarrhea"
         ]
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Begoniaceae",
-            "genus": "Begonia",
-            "kingdom": "Plantae",
-            "order": "Cucurbitales",
-            "species": "B. masoniana"
-        },
-        "common": null,
-        "id": "begonia-masoniana",
-        "images": [],
-        "name": "Begonia masoniana",
-        "symptoms": [
-            "kidney failure",
-            "vomiting",
-            "hypersalivation"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Begonia masoniana"
     },
     {
         "classification": {
@@ -8783,121 +8039,6 @@
             "depression"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Chenopodium botrys"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Amaryllidaceae",
-            "genus": "Narcissus",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "N. jonquilla"
-        },
-        "common": [
-            "Daffodil",
-            "Narcissus",
-            "Paper White"
-        ],
-        "id": "narcissus-jonquilla",
-        "images": [
-            {
-                "attribution": "(c) G. L. Dearman, some rights reserved (CC BY-NC), uploaded by G. L. Dearman",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19406157/medium.jpg",
-                "url": "plants/narcissus-jonquilla/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Cosmic Cat, some rights reserved (CC BY-NC), uploaded by Cosmic Cat",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6460604/medium.jpeg",
-                "url": "plants/narcissus-jonquilla/images/2.jpg"
-            },
-            {
-                "attribution": "(c) G. L. Dearman, some rights reserved (CC BY-NC), uploaded by G. L. Dearman",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19406157/medium.jpg",
-                "url": "plants/narcissus-jonquilla/images/3.jpg"
-            },
-            {
-                "attribution": "(c) adri6, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16009641/medium.jpeg",
-                "url": "plants/narcissus-jonquilla/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Maria Emília Martins, some rights reserved (CC BY-NC-SA), uploaded by Maria Emília Martins",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/61985980/medium.jpg",
-                "url": "plants/narcissus-jonquilla/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Christoph Schmidtlein, some rights reserved (CC BY-NC), uploaded by Christoph Schmidtlein",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181031163/medium.jpg",
-                "url": "plants/narcissus-jonquilla/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Yael Orgad, some rights reserved (CC BY-NC), uploaded by Yael Orgad",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/105812633/medium.jpeg",
-                "url": "plants/narcissus-jonquilla/images/7.jpg"
-            },
-            {
-                "attribution": "(c) David~O, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/144920120/medium.jpg",
-                "url": "plants/narcissus-jonquilla/images/8.jpg"
-            },
-            {
-                "attribution": "(c) adri6, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16009641/medium.jpeg",
-                "url": "plants/narcissus-jonquilla/images/9.jpg"
-            }
-        ],
-        "name": "Narcissus jonquilla",
-        "symptoms": [
-            "vomiting",
-            "salvation",
-            "diarrhea",
-            "low blood pressure",
-            "tremors",
-            "cardiac arrhythmias"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Narcissus jonquilla"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Amaryllidaceae",
-            "genus": "Clivia",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "C. miniata"
-        },
-        "common": [
-            "Clivia Lily"
-        ],
-        "id": "clivia-minata",
-        "images": [],
-        "name": "Clivia minata",
-        "symptoms": [
-            "vomiting",
-            "salvation",
-            "diarrhea",
-            "low blood pressure",
-            "tremors",
-            "cardiac arrhythmias"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Clivia minata"
     },
     {
         "classification": {
@@ -10204,78 +9345,6 @@
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Asparagaceae",
-            "genus": "Dracaena",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "D. reflexa"
-        },
-        "common": [
-            "Straight-Marginated Dracaena",
-            "Song of India",
-            "Song of Jamaica"
-        ],
-        "id": "dracaena-marginata",
-        "images": [
-            {
-                "attribution": "(c) melibees, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85543245/medium.jpg",
-                "url": "plants/dracaena-marginata/images/1.jpg"
-            },
-            {
-                "attribution": "(c) thierrycordenos, some rights reserved (CC BY-NC), uploaded by thierrycordenos",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102482840/medium.jpg",
-                "url": "plants/dracaena-marginata/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Luis Villanueva-Cubero, some rights reserved (CC BY-NC), uploaded by Luis Villanueva-Cubero",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8454481/medium.jpeg",
-                "url": "plants/dracaena-marginata/images/3.jpg"
-            },
-            {
-                "attribution": "(c) David Rabehevitra, some rights reserved (CC BY-NC), uploaded by David Rabehevitra",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52095581/medium.jpeg",
-                "url": "plants/dracaena-marginata/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Jayra, some rights reserved (CC BY-NC), uploaded by Jayra",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127760470/medium.jpeg",
-                "url": "plants/dracaena-marginata/images/5.jpg"
-            },
-            {
-                "attribution": "(c) melibees, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85543245/medium.jpg",
-                "url": "plants/dracaena-marginata/images/6.jpg"
-            }
-        ],
-        "name": "Dracaena marginata",
-        "symptoms": [
-            "dilated pupils",
-            "abdominal pain",
-            "drooling",
-            "vomiting",
-            "cardiac arrhythmias",
-            "depression",
-            "inappetence",
-            "drooling",
-            "incoordination",
-            "weakness"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena marginata"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
                 "Eudicots"
             ],
             "family": "Caryophyllaceae",
@@ -10385,25 +9454,6 @@
             "difficulty swallowing"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Colocasia esculenta"
-    },
-    {
-        "classification": {
-            "clades": null,
-            "family": "Begoniaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": null,
-        "id": "begonia-cleopatra",
-        "images": [],
-        "name": "Begonia cleopatra",
-        "symptoms": [
-            "kidney failure",
-            "vomiting",
-            "hypersalivation"
-        ]
     },
     {
         "classification": {
@@ -10712,56 +9762,6 @@
             "bone marrow suppression"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Colchicum autumnale"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Begoniaceae",
-            "genus": "Begonia",
-            "kingdom": "Plantae",
-            "order": "Cucurbitales",
-            "species": "B. incarnata"
-        },
-        "common": null,
-        "id": "begonia-metallica",
-        "images": [
-            {
-                "attribution": "(c) \nFree Public Domain Illustrations by rawpixel, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174711443/medium.jpg",
-                "url": "plants/begonia-metallica/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Averater, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/63348505/medium.jpg",
-                "url": "plants/begonia-metallica/images/2.jpg"
-            },
-            {
-                "attribution": "(c) \nRaffi Kojian, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://static.inaturalist.org/photos/63348507/medium.jpg",
-                "url": "plants/begonia-metallica/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Averater, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/63348508/medium.jpg",
-                "url": "plants/begonia-metallica/images/4.jpg"
-            }
-        ],
-        "name": "Begonia metallica",
-        "symptoms": [
-            "kidney failure",
-            "vomiting",
-            "hypersalivation"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Begonia metallica"
     },
     {
         "classification": {
@@ -11620,29 +10620,6 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Araliaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Schefflera",
-            "Umbrella Tree",
-            "Australian Ivy Palm",
-            "Starleaf"
-        ],
-        "id": "schefflera-or-brassia-actinoplylla",
-        "images": [],
-        "name": "Schefflera or Brassia actinoplylla",
-        "symptoms": [
-            "vomiting",
-            "diarrhea"
-        ]
-    },
-    {
-        "classification": {
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
@@ -11890,27 +10867,6 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": null,
-        "id": "hemerocallis-graminea",
-        "images": [],
-        "name": "Hemerocallis graminea",
-        "symptoms": [
-            "vomiting",
-            "inappetence",
-            "lethargy",
-            "kidney failure",
-            "death"
-        ]
-    },
-    {
-        "classification": {
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
@@ -12004,98 +10960,6 @@
             "shock"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Solanum pseudocapsicum"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Gymnosperms"
-            ],
-            "family": "Taxaceae",
-            "genus": "Taxus",
-            "kingdom": "Plantae",
-            "order": "Cupressales",
-            "species": "T. brevifolia"
-        },
-        "common": [
-            "English Yew",
-            "Western Yew",
-            "Japanese Yew",
-            "Anglo-Japanese Yew"
-        ],
-        "id": "taxus-brevifolia",
-        "images": [
-            {
-                "attribution": "(c) Joanne Siderius, some rights reserved (CC BY-NC), uploaded by Joanne Siderius",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3575790/medium.jpg",
-                "url": "plants/taxus-brevifolia/images/1.jpg"
-            },
-            {
-                "attribution": "(c) mhays, some rights reserved (CC BY-NC), uploaded by mhays",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62760133/medium.jpeg",
-                "url": "plants/taxus-brevifolia/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Christopher J. Earle, some rights reserved (CC BY-NC), uploaded by Christopher J. Earle",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45251266/medium.jpg",
-                "url": "plants/taxus-brevifolia/images/3.jpg"
-            },
-            {
-                "attribution": "(c) CARLOS VELAZCO, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81570/medium.jpg",
-                "url": "plants/taxus-brevifolia/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Radd Icenoggle, some rights reserved (CC BY-NC), uploaded by Radd Icenoggle",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122836386/medium.jpg",
-                "url": "plants/taxus-brevifolia/images/5.jpg"
-            },
-            {
-                "attribution": "(c) kg-, some rights reserved (CC BY-NC), uploaded by kg-",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45368460/medium.jpeg",
-                "url": "plants/taxus-brevifolia/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Don Loarie, some rights reserved (CC BY), uploaded by Don Loarie",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6456309/medium.jpg",
-                "url": "plants/taxus-brevifolia/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Asa Spade, some rights reserved (CC BY-NC), uploaded by Asa Spade",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34076156/medium.jpeg",
-                "url": "plants/taxus-brevifolia/images/8.jpg"
-            },
-            {
-                "attribution": "(c) Asa Spade, some rights reserved (CC BY-NC), uploaded by Asa Spade",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34076161/medium.jpeg",
-                "url": "plants/taxus-brevifolia/images/9.jpg"
-            },
-            {
-                "attribution": "(c) Joanne Siderius, some rights reserved (CC BY-NC), uploaded by Joanne Siderius",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3575790/medium.jpg",
-                "url": "plants/taxus-brevifolia/images/10.jpg"
-            }
-        ],
-        "name": "Taxus brevifolia",
-        "symptoms": [
-            "tremors",
-            "difficulty breathing",
-            "vomiting",
-            "seizures",
-            "cardiac failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Taxus brevifolia"
     },
     {
         "classification": {
@@ -12333,97 +11197,6 @@
             "difficulty swallowing"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Spathiphyllum"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Rosaceae",
-            "genus": "Prunus",
-            "kingdom": "Plantae",
-            "order": "Rosales",
-            "species": "P. persica"
-        },
-        "common": [
-            "Similar plants: Plum",
-            "Apricot",
-            "Cherry"
-        ],
-        "id": "prunus-persica",
-        "images": [
-            {
-                "attribution": "(c) Evan M. Raskin, some rights reserved (CC BY), uploaded by Evan M. Raskin",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6882160/medium.jpeg",
-                "url": "plants/prunus-persica/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Cass Garrison, some rights reserved (CC BY-NC), uploaded by Cass Garrison",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16149361/medium.jpg",
-                "url": "plants/prunus-persica/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Young Chan, some rights reserved (CC BY-NC), uploaded by Young Chan",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/49155654/medium.jpg",
-                "url": "plants/prunus-persica/images/3.jpg"
-            },
-            {
-                "attribution": "(c) vladimir_epiktetov, some rights reserved (CC BY-NC), uploaded by vladimir_epiktetov",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59219247/medium.jpeg",
-                "url": "plants/prunus-persica/images/4.jpg"
-            },
-            {
-                "attribution": "(c) sharp_observation, some rights reserved (CC BY-NC), uploaded by sharp_observation",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94086873/medium.jpeg",
-                "url": "plants/prunus-persica/images/5.jpg"
-            },
-            {
-                "attribution": "(c) cvalentino19, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50176779/medium.jpg",
-                "url": "plants/prunus-persica/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Evan M. Raskin, some rights reserved (CC BY), uploaded by Evan M. Raskin",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6882160/medium.jpeg",
-                "url": "plants/prunus-persica/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Forest and Kim Starr, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/93586249/medium.jpg",
-                "url": "plants/prunus-persica/images/8.jpg"
-            },
-            {
-                "attribution": "(c) \nPhoto by David J. Stang, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://static.inaturalist.org/photos/93586250/medium.jpg",
-                "url": "plants/prunus-persica/images/9.jpg"
-            },
-            {
-                "attribution": "(c) Forest and Kim Starr, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://static.inaturalist.org/photos/93586249/medium.jpg",
-                "url": "plants/prunus-persica/images/10.jpg"
-            }
-        ],
-        "name": "Prunus persica",
-        "symptoms": [
-            "dilated pupils",
-            "difficulty breathing",
-            "panting",
-            "shock"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus persica"
     },
     {
         "classification": {
@@ -12691,14 +11464,29 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
             "family": "Araceae",
-            "genus": "",
+            "genus": "Philodendron",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Alismatales",
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Fiddle-Leaf",
+            "Horsehead Philodendron",
+            "Heartleaf Philodendron",
+            "Panda Plant",
+            "Split Leaf Philodendron",
+            "Fruit Salad Plant",
+            "Red Emerald",
+            "Red Princess",
+            "Saddle Leaf"
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Philodendron",
         "id": "philodendron-sp",
         "images": [
             {
@@ -12850,25 +11638,6 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Begoniaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": null,
-        "id": "begonia-semperflorens-cultivar",
-        "images": [],
-        "name": "Begonia semperflorens cultivar",
-        "symptoms": [
-            "kidney failure",
-            "tremors",
-            "hypersalivation"
-        ]
-    },
-    {
-        "classification": {
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
@@ -12892,91 +11661,6 @@
             "depression"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Hosta plantaginea"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Rosaceae",
-            "genus": "Prunus",
-            "kingdom": "Plantae",
-            "order": "Rosales",
-            "species": "P. domestica"
-        },
-        "common": [
-            "similar plants: apricot",
-            "peach",
-            "cherry"
-        ],
-        "id": "prunus-domestica",
-        "images": [
-            {
-                "attribution": "(c) Bodo Nuñez Oberg, some rights reserved (CC BY-NC), uploaded by Bodo Nuñez Oberg",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23729765/medium.jpeg",
-                "url": "plants/prunus-domestica/images/1.jpg"
-            },
-            {
-                "attribution": "(c) İpek Oskay, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4430171/medium.jpg",
-                "url": "plants/prunus-domestica/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Crusier, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://static.inaturalist.org/photos/93581278/medium.jpeg",
-                "url": "plants/prunus-domestica/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Bodo Nuñez Oberg, some rights reserved (CC BY-NC), uploaded by Bodo Nuñez Oberg",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23729765/medium.jpeg",
-                "url": "plants/prunus-domestica/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Hugo Gaspar, some rights reserved (CC BY-NC), uploaded by Hugo Gaspar",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11530825/medium.jpeg",
-                "url": "plants/prunus-domestica/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Trachemys, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://static.inaturalist.org/photos/93584919/medium.jpg",
-                "url": "plants/prunus-domestica/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Hugo Gaspar, some rights reserved (CC BY-NC), uploaded by Hugo Gaspar",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11530825/medium.jpeg",
-                "url": "plants/prunus-domestica/images/7.jpg"
-            },
-            {
-                "attribution": "(c) crabchick, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1012653/medium.jpg",
-                "url": "plants/prunus-domestica/images/8.jpg"
-            },
-            {
-                "attribution": "(c) crabchick, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1012653/medium.jpg",
-                "url": "plants/prunus-domestica/images/9.jpg"
-            }
-        ],
-        "name": "Prunus domestica",
-        "symptoms": [
-            "dilated pupils",
-            "difficulty breathing",
-            "panting",
-            "shock"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus domestica"
     },
     {
         "classification": {
@@ -13442,80 +12126,6 @@
     },
     {
         "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Begoniaceae",
-            "genus": "Begonia",
-            "kingdom": "Plantae",
-            "order": "Cucurbitales",
-            "species": "B. rex"
-        },
-        "common": null,
-        "id": "begonia-rex",
-        "images": [
-            {
-                "attribution": "(c) tomten, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213309920/medium.jpg",
-                "url": "plants/begonia-rex/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Mininain, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29233978/medium.jpeg",
-                "url": "plants/begonia-rex/images/2.jpg"
-            },
-            {
-                "attribution": "(c) tomten, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213309920/medium.jpg",
-                "url": "plants/begonia-rex/images/3.jpg"
-            },
-            {
-                "attribution": "(c) manuelabaiochi, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53302046/medium.jpeg",
-                "url": "plants/begonia-rex/images/4.jpg"
-            },
-            {
-                "attribution": "(c) ar-puente-rolon, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66527877/medium.jpg",
-                "url": "plants/begonia-rex/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Sidney, some rights reserved (CC BY-NC), uploaded by Sidney",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61461425/medium.jpg",
-                "url": "plants/begonia-rex/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Alix Sanchis, some rights reserved (CC BY), uploaded by Alix Sanchis",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132990325/medium.jpg",
-                "url": "plants/begonia-rex/images/7.jpg"
-            },
-            {
-                "attribution": "(c) manuelabaiochi, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53302046/medium.jpeg",
-                "url": "plants/begonia-rex/images/8.jpg"
-            }
-        ],
-        "name": "Begonia rex",
-        "symptoms": [
-            "kidney failure",
-            "vomiting",
-            "hypersalivation"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Begonia rex"
-    },
-    {
-        "classification": {
             "clades": null,
             "family": "Ericaceae",
             "genus": "",
@@ -13815,81 +12425,6 @@
         "classification": {
             "clades": [
                 "Tracheophytes",
-                "Gymnosperms"
-            ],
-            "family": "Cycadaceae",
-            "genus": "Cycas",
-            "kingdom": "Plantae",
-            "order": "Cycadales",
-            "species": "C. revoluta"
-        },
-        "common": [
-            "Coontie Palm",
-            "Cardboard Palm"
-        ],
-        "id": "cycas-revoluta",
-        "images": [
-            {
-                "attribution": "(c) Choo Yut Shing, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/108202005/medium.jpg",
-                "url": "plants/cycas-revoluta/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Yennifer Alfaro, some rights reserved (CC BY-NC), uploaded by Yennifer Alfaro",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68448955/medium.jpg",
-                "url": "plants/cycas-revoluta/images/2.jpg"
-            },
-            {
-                "attribution": "(c) kuroshio, some rights reserved (CC BY-NC), uploaded by kuroshio",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36463017/medium.jpeg",
-                "url": "plants/cycas-revoluta/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Kenneth Bader, some rights reserved (CC BY-NC), uploaded by Kenneth Bader",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63743710/medium.jpeg",
-                "url": "plants/cycas-revoluta/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Saimara Alejandro, some rights reserved (CC BY-NC), uploaded by Saimara Alejandro",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66682774/medium.jpg",
-                "url": "plants/cycas-revoluta/images/5.jpg"
-            },
-            {
-                "attribution": "(c) minhui31, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69619954/medium.jpg",
-                "url": "plants/cycas-revoluta/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Choo Yut Shing, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/108202005/medium.jpg",
-                "url": "plants/cycas-revoluta/images/7.jpg"
-            }
-        ],
-        "name": "Cycas revoluta",
-        "symptoms": [
-            "vomiting",
-            "melena",
-            "icterus",
-            "increased thirst",
-            "bruising",
-            "coagulopathy",
-            "liver damage",
-            "liver failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Cycas revoluta"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
                 "Angiosperms",
                 "Monocots"
             ],
@@ -13934,12 +12469,17 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Araliaceae",
-            "genus": "",
+            "genus": "Schefflera",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Apiales",
+            "species": null
         },
         "common": [
             "Umbrella Tree",
@@ -14035,6 +12575,7 @@
             }
         ],
         "name": "Schefflera sp.",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Schefflera",
         "symptoms": [
             "oral irritation",
             "drooling",
@@ -14044,16 +12585,23 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Oxalidaceae",
-            "genus": "",
+            "genus": "Oxalis",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Oxalidales",
+            "species": null
         },
         "common": [
             "Good Luck Plant",
-            "Sorrel"
+            "Sorrel",
+            "False Shamrock",
+            "Sourgrass"
         ],
         "id": "oxalis-sp",
         "images": [
@@ -14112,6 +12660,7 @@
                 "url": "plants/oxalis-sp/images/9.jpg"
             }
         ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Oxalis",
         "name": "Oxalis sp.",
         "symptoms": [
             "kidney failure",
@@ -14270,148 +12819,27 @@
     {
         "classification": {
             "clades": [
-                "Tracheophytes",
                 "Angiosperms",
-                "Eudicots"
+                "Eudicots",
+                "Asterids"
             ],
-            "family": "Polygonaceae",
-            "genus": "Rumex",
-            "kingdom": "Plantae",
-            "order": "Caryophyllales",
-            "species": "R. scutatus"
-        },
-        "common": [
-            "Common Sorrel",
-            "Spinach-Dock",
-            "Narrow-leaved Dock",
-            "Garden sorrel"
-        ],
-        "id": "rumex-scutatus",
-        "images": [
-            {
-                "attribution": "(c) Nuuuuuuuuuuul, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/947730/medium.jpg",
-                "url": "plants/rumex-scutatus/images/1.jpg"
-            },
-            {
-                "attribution": "(c) wolff christiane, some rights reserved (CC BY-NC), uploaded by wolff christiane",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93435183/medium.jpg",
-                "url": "plants/rumex-scutatus/images/2.jpg"
-            },
-            {
-                "attribution": "(c) wolff christiane, some rights reserved (CC BY-NC), uploaded by wolff christiane",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/93435153/medium.jpg",
-                "url": "plants/rumex-scutatus/images/3.jpg"
-            },
-            {
-                "attribution": "(c) lauribanane, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204683252/medium.jpg",
-                "url": "plants/rumex-scutatus/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Elisabeth Brugger-Schiefermüller, some rights reserved (CC BY-NC), uploaded by Elisabeth Brugger-Schiefermüller",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195334505/medium.jpeg",
-                "url": "plants/rumex-scutatus/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Nuuuuuuuuuuul, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/947730/medium.jpg",
-                "url": "plants/rumex-scutatus/images/6.jpg"
-            }
-        ],
-        "name": "Rumex scutatus",
-        "symptoms": [
-            "weakness",
-            "lethargy",
-            "vomiting",
-            "diarrhea",
-            "seizures",
-            "cardiac arrhythmias",
-            "kidney failure"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Rumex scutatus"
-    },
-    {
-        "classification": {
-            "clades": null,
-            "family": "Labiatae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Bread and Butter Plant",
-            "Country Borage",
-            "Spanish Thyme",
-            "Coleus",
-            "Maratha",
-            "Militini",
-            "East Indian Thyme"
-        ],
-        "id": "coleus-ampoinicus",
-        "images": [],
-        "name": "Coleus ampoinicus",
-        "symptoms": [
-            "vomiting",
-            "diarrhea",
-            "depression",
-            "anorexia"
-        ]
-    },
-    {
-        "classification": {
-            "clades": null,
-            "family": "Araceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Horsehead Philodendron",
-            "Cordatum",
-            "Heartleaf Philodendron",
-            "Panda Plant",
-            "Fiddle-Leaf",
-            "Fruit Salad Plant",
-            "Red Emerald",
-            "Red Princess",
-            "Saddle Leaf"
-        ],
-        "id": "philodendron-bipennifolium",
-        "images": [],
-        "name": "Philodendron bipennifolium",
-        "symptoms": [
-            "oral irritation",
-            "drooling",
-            "vomiting",
-            "difficulty swallowing"
-        ]
-    },
-    {
-        "classification": {
-            "clades": null,
             "family": "Apiaceae",
-            "genus": "",
+            "genus": "Cymopterus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Apiales",
+            "species": null
         },
-        "common": null,
-        "id": "cymopterus-watsonii",
+        "common": [
+            "Springparsley"
+        ],
+        "id": "cymopterus",
         "images": [],
-        "name": "Cymopterus watsonii",
+        "name": "Cymopterus",
         "symptoms": [
             "photosensitivity",
             "dermatitis"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Cymopterus"
     },
     {
         "classification": {
@@ -14496,14 +12924,20 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "",
-            "genus": "",
-            "kingdom": "",
-            "order": "",
-            "species": ""
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "family": "Liliaceae",
+            "genus": "Lilium",
+            "kingdom": "Plantae",
+            "order": "Liliales",
+            "species": "Lilium 'Stargazer'"
         },
-        "common": null,
+        "common": [
+            "Stargazer"
+        ],
         "id": "lilium-orientalis",
         "images": [],
         "name": "Lilium orientalis",
@@ -14514,7 +12948,7 @@
             "kidney failure",
             "death"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium orientalis"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium_%27Stargazer%27"
     },
     {
         "classification": {
@@ -14571,188 +13005,6 @@
             "difficulty swallowing"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Brassaia actinophylla"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Asparagaceae",
-            "genus": "Dracaena",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "D. fragrans"
-        },
-        "common": [
-            "Warneckii",
-            "Janet Craig Plant"
-        ],
-        "id": "dracaena-deremensis",
-        "images": [
-            {
-                "attribution": "(c) Jan Ho, some rights reserved (CC BY-NC), uploaded by Jan Ho",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69907178/medium.jpg",
-                "url": "plants/dracaena-deremensis/images/1.jpg"
-            },
-            {
-                "attribution": "(c) budak, some rights reserved (CC BY-NC), uploaded by budak",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13625829/medium.jpg",
-                "url": "plants/dracaena-deremensis/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Marco Schmidt, some rights reserved (CC BY-NC-SA), uploaded by Marco Schmidt",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41221497/medium.jpeg",
-                "url": "plants/dracaena-deremensis/images/3.jpg"
-            },
-            {
-                "attribution": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63932560/medium.jpeg",
-                "url": "plants/dracaena-deremensis/images/4.jpg"
-            },
-            {
-                "attribution": "(c) kathpa, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59783727/medium.jpg",
-                "url": "plants/dracaena-deremensis/images/5.jpg"
-            },
-            {
-                "attribution": "(c) ALEJANDRA, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1281545/medium.jpg",
-                "url": "plants/dracaena-deremensis/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Pete Woodall, some rights reserved (CC BY-NC), uploaded by Pete Woodall",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71713503/medium.jpeg",
-                "url": "plants/dracaena-deremensis/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Alan Kwok / Ada Tai, some rights reserved (CC BY-NC), uploaded by Alan Kwok / Ada Tai",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44862060/medium.jpg",
-                "url": "plants/dracaena-deremensis/images/8.jpg"
-            },
-            {
-                "attribution": "(c) Bart  Wursten, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://static.inaturalist.org/photos/81621168/medium.jpg",
-                "url": "plants/dracaena-deremensis/images/9.jpg"
-            },
-            {
-                "attribution": "(c) Jan Ho, some rights reserved (CC BY-NC), uploaded by Jan Ho",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69907178/medium.jpg",
-                "url": "plants/dracaena-deremensis/images/10.jpg"
-            }
-        ],
-        "name": "Dracaena deremensis",
-        "symptoms": [
-            "dilated pupils",
-            "abdominal pain",
-            "drooling",
-            "vomiting",
-            "cardiac arrhythmias",
-            "depression",
-            "inappetence",
-            "drooling",
-            "incoordination",
-            "weakness"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dracaena deremensis"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Rosids"
-            ],
-            "family": "Rosaceae",
-            "genus": "Prunus",
-            "kingdom": "Plantae",
-            "order": "Rosales",
-            "species": "P. avium"
-        },
-        "common": null,
-        "id": "prunus-avium",
-        "images": [
-            {
-                "attribution": "(c) igor_olshanskyi, some rights reserved (CC BY-NC), uploaded by igor_olshanskyi",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67740473/medium.jpg",
-                "url": "plants/prunus-avium/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Σάββας Ζαφειρίου (Savvas Zafeiriou), some rights reserved (CC BY-NC), uploaded by Σάββας Ζαφειρίου (Savvas Zafeiriou)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39935464/medium.jpeg",
-                "url": "plants/prunus-avium/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Nate Hartley, some rights reserved (CC BY-NC), uploaded by Nate Hartley",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68901502/medium.jpeg",
-                "url": "plants/prunus-avium/images/3.jpg"
-            },
-            {
-                "attribution": "(c) janegomes, some rights reserved (CC BY-NC), uploaded by janegomes",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56968645/medium.jpg",
-                "url": "plants/prunus-avium/images/4.jpg"
-            },
-            {
-                "attribution": "(c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68842781/medium.jpg",
-                "url": "plants/prunus-avium/images/5.jpg"
-            },
-            {
-                "attribution": "(c) hedera.baltica, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://static.inaturalist.org/photos/93580624/medium.jpg",
-                "url": "plants/prunus-avium/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Evgeny Pervakov, some rights reserved (CC BY-NC), uploaded by Evgeny Pervakov",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/68015258/medium.jpeg",
-                "url": "plants/prunus-avium/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Calli, some rights reserved (CC BY-NC), uploaded by Calli",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34054869/medium.jpeg",
-                "url": "plants/prunus-avium/images/8.jpg"
-            },
-            {
-                "attribution": "(c) igor_olshanskyi, some rights reserved (CC BY-NC), uploaded by igor_olshanskyi",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44225729/medium.jpeg",
-                "url": "plants/prunus-avium/images/9.jpg"
-            },
-            {
-                "attribution": "(c) igor_olshanskyi, some rights reserved (CC BY-NC), uploaded by igor_olshanskyi",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67740473/medium.jpg",
-                "url": "plants/prunus-avium/images/10.jpg"
-            }
-        ],
-        "name": "Prunus avium",
-        "symptoms": [
-            "dilated pupils",
-            "difficulty breathing",
-            "panting",
-            "shock"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Prunus avium"
     },
     {
         "classification": {
@@ -14819,24 +13071,33 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots",
+                "Commelinids"
+            ],
             "family": "Commelinaceae",
-            "genus": "",
+            "genus": "Tradescantia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Commelinales",
+            "species": "Tradescantia virginiana"
         },
         "common": [
-            "Gibasis Geniculata"
+            "Inchplant",
+            "Wandering Jew",
+            "Spiderwort",
+            "Dayflower"
         ],
-        "id": "tradescantia-multiflora",
+        "id": "tradescantia",
         "images": [],
-        "name": "tradescantia multiflora",
+        "name": "Tradescantia",
         "symptoms": [
             "dermatitis",
             "vomiting",
             "diarrhea"
-        ]
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Tradescantia"
     },
     {
         "classification": {
@@ -15128,12 +13389,15 @@
         "classification": {
             "clades": null,
             "family": "Solanaceae",
-            "genus": "",
+            "genus": "Lycopersicon",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": null,
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Wild Tomato"
+        ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lycopersicon",
         "id": "lycopersicon-sp",
         "images": [
             {
@@ -15264,52 +13528,6 @@
                 "Angiosperms",
                 "Monocots"
             ],
-            "family": "Araceae",
-            "genus": "Thaumatophyllum",
-            "kingdom": "Plantae",
-            "order": "Alismatales",
-            "species": "T. bipinnatifidum"
-        },
-        "common": [
-            "Lacy Tree Philodendron"
-        ],
-        "id": "philodendron-selloum",
-        "images": [
-            {
-                "attribution": "(c) tay_berube, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61739556/medium.jpg",
-                "url": "plants/philodendron-selloum/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Scott Zona, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://static.inaturalist.org/photos/112548000/medium.jpg",
-                "url": "plants/philodendron-selloum/images/2.jpg"
-            },
-            {
-                "attribution": "(c) tay_berube, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61739556/medium.jpg",
-                "url": "plants/philodendron-selloum/images/3.jpg"
-            }
-        ],
-        "name": "Philodendron selloum",
-        "symptoms": [
-            "oral irritation",
-            "drooling",
-            "vomiting",
-            "difficulty swallowing"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Philodendron selloum"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
             "family": "Asphodelaceae",
             "genus": "Aloe",
             "kingdom": "Plantae",
@@ -15388,42 +13606,46 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
             "family": "Liliaceae",
-            "genus": "",
+            "genus": "Tulipa",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Liliales",
+            "species": null
         },
         "common": null,
-        "id": "tulipa-sp",
+        "id": "tulip-sp",
         "images": [
             {
                 "attribution": "(c) Fabio Moretzsohn, some rights reserved (CC BY-NC), uploaded by Fabio Moretzsohn",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7858852/medium.jpg",
-                "url": "plants/tulipa-sp/images/1.jpg"
+                "url": "plants/tulip-sp/images/1.jpg"
             },
             {
                 "attribution": "(c) Maria Conchita, some rights reserved (CC BY-NC), uploaded by Maria Conchita",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29961853/medium.jpg",
-                "url": "plants/tulipa-sp/images/2.jpg"
+                "url": "plants/tulip-sp/images/2.jpg"
             },
             {
                 "attribution": "(c) Eridan Xharahi, some rights reserved (CC BY), uploaded by Eridan Xharahi",
                 "license": "cc-by",
                 "source_url": "https://static.inaturalist.org/photos/6251395/medium.jpg",
-                "url": "plants/tulipa-sp/images/3.jpg"
+                "url": "plants/tulip-sp/images/3.jpg"
             },
             {
                 "attribution": "(c) Joe MDO, some rights reserved (CC BY-NC), uploaded by Joe MDO",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40142177/medium.jpeg",
-                "url": "plants/tulipa-sp/images/4.jpg"
+                "url": "plants/tulip-sp/images/4.jpg"
             }
         ],
-        "name": "Tulipa sp.",
+        "name": "Tulip sp.",
         "symptoms": [
             "vomiting",
             "depression",
@@ -15515,64 +13737,6 @@
             "cardiac arrhythmias"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Euonymus occidentalis"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Asterids"
-            ],
-            "family": "Apiaceae",
-            "genus": "Cicuta",
-            "kingdom": "Plantae",
-            "order": "Apiales",
-            "species": "C. maculata"
-        },
-        "common": [
-            "Cowbane",
-            "Poison Parsnip"
-        ],
-        "id": "cicuta-maculata",
-        "images": [
-            {
-                "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14180/medium.jpg",
-                "url": "plants/cicuta-maculata/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Shane Hussey, some rights reserved (CC BY-NC), uploaded by Shane Hussey",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8623780/medium.jpeg",
-                "url": "plants/cicuta-maculata/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14181/medium.jpg",
-                "url": "plants/cicuta-maculata/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Jerry Oldenettel, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14180/medium.jpg",
-                "url": "plants/cicuta-maculata/images/4.jpg"
-            }
-        ],
-        "name": "Cicuta maculata",
-        "symptoms": [
-            "diarrhea",
-            "seizures",
-            "tremors",
-            "dilated pupils",
-            "fever",
-            "bloat",
-            "respiratory depression",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Cicuta maculata"
     },
     {
         "classification": {
@@ -15674,16 +13838,22 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Moraceae",
-            "genus": "",
+            "genus": "Ficus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Rosales",
+            "species": null
         },
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ficus",
         "common": [
-            "fig",
-            "indian rubber plant"
+            "Fig",
+            "Indian Rubber Plant"
         ],
         "id": "ficus-sp",
         "images": [
@@ -15750,40 +13920,48 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
             "family": "Araceae",
-            "genus": "",
+            "genus": "Arum",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Alismatales",
+            "species": "Arum Palaestinum"
         },
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Arum_palaestinum",
         "common": [
             "Black Calla",
             "Wild Calla",
-            "Solomon's Lily"
+            "Solomon's Lily",
+            "Priest's Hood",
+            "Noo-ah Loof",
+            "Kardi"
         ],
-        "id": "arum-palestinum",
+        "id": "arum-palaestinum",
         "images": [
             {
                 "attribution": "(c) Yael Orgad, some rights reserved (CC BY-NC), uploaded by Yael Orgad",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64220178/medium.jpeg",
-                "url": "plants/arum-palestinum/images/1.jpg"
+                "url": "plants/arum-palaestinum/images/1.jpg"
             },
             {
                 "attribution": "(c) Yael Orgad, some rights reserved (CC BY-NC), uploaded by Yael Orgad",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64220187/medium.jpeg",
-                "url": "plants/arum-palestinum/images/2.jpg"
+                "url": "plants/arum-palaestinum/images/2.jpg"
             },
             {
                 "attribution": "(c) Yuval, some rights reserved (CC BY-NC), uploaded by Yuval",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/71453942/medium.jpeg",
-                "url": "plants/arum-palestinum/images/3.jpg"
+                "url": "plants/arum-palaestinum/images/3.jpg"
             }
         ],
-        "name": "Arum palestinum",
+        "name": "Arum Palaestinum",
         "symptoms": [
             "oral irritation",
             "drooling",
@@ -15822,13 +14000,19 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Fabaceae",
-            "genus": "",
+            "genus": "Wisteria",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Fabales",
+            "species": null
         },
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Wisteria",
         "common": null,
         "id": "wisteria-sp",
         "images": [
@@ -16068,42 +14252,49 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Apocynaceae",
             "genus": "Cascabela",
             "kingdom": "Plantae",
             "order": "Gentianales",
             "species": "C. thevetia"
         },
-        "common": null,
-        "id": "thevetia-peruviana",
+        "common": [
+            "Yellow Oleander",
+            "Lucky Nut"
+        ],
+        "id": "cascabela-thevetia",
         "images": [
             {
                 "attribution": "(c) 104623964081378888743, some rights reserved (CC BY-NC), uploaded by David R",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85303/medium.jpg",
-                "url": "plants/thevetia-peruviana/images/1.jpg"
+                "url": "plants/cascabela-thevetia/images/1.jpg"
             },
             {
                 "attribution": "(c) Alan Kwok / Ada Tai, some rights reserved (CC BY-NC), uploaded by Alan Kwok / Ada Tai",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52265509/medium.jpg",
-                "url": "plants/thevetia-peruviana/images/2.jpg"
+                "url": "plants/cascabela-thevetia/images/2.jpg"
             },
             {
                 "attribution": "(c) José Humberto Castañón González, some rights reserved (CC BY-NC), uploaded by José Humberto Castañón González",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36398975/medium.jpg",
-                "url": "plants/thevetia-peruviana/images/3.jpg"
+                "url": "plants/cascabela-thevetia/images/3.jpg"
             },
             {
                 "attribution": "(c) Ricard Busquets Reverte, some rights reserved (CC BY), uploaded by Ricard Busquets Reverte",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157342459/medium.jpeg",
-                "url": "plants/thevetia-peruviana/images/4.jpg"
+                "url": "plants/cascabela-thevetia/images/4.jpg"
             }
         ],
-        "name": "Thevetia peruviana",
+        "name": "Cascabela peruviana",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -16124,7 +14315,13 @@
             "species": null
         },
         "common": [
-            "Japanese Yew"
+            "Japanese Yew",
+            "Pacific Yew",
+            "Western Yew",
+            "Asian Limestone Yew",
+            "Canada Yew",
+            "West Himalayan Yew",
+            "Maire Yew"
         ],
         "id": "taxus-sp",
         "images": [
@@ -16147,6 +14344,7 @@
                 "url": "plants/taxus-sp/images/3.jpg"
             }
         ],
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Taxus",
         "name": "Taxus sp.",
         "symptoms": [
             "tremors",
@@ -16200,13 +14398,18 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Agavaceae",
-            "genus": "",
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],
+            "family": "Asparagaceae",
+            "genus": "Yucca",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Yucca",
         "common": null,
         "id": "yucca-sp",
         "images": [

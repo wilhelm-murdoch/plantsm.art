@@ -103,7 +103,7 @@ func (Classify) Missing(ctx context.Context, sourcePath string) error {
 			missing = append(missing, "genus")
 		}
 
-		if plant.Classification.Species == "" {
+		if plant.Classification.Species == "" && !strings.HasSuffix(plant.Id, "-sp") {
 			missing = append(missing, "species")
 		}
 
@@ -113,6 +113,7 @@ func (Classify) Missing(ctx context.Context, sourcePath string) error {
 
 		if len(missing) > 0 {
 			fmt.Println(plant.Name, "is missing:")
+			fmt.Println(plant.WikipediaUrl)
 			for _, m := range missing {
 				fmt.Println("-", m)
 			}
