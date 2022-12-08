@@ -8,6 +8,7 @@ require (
 	github.com/magefile/mage v1.14.0
 	github.com/schollz/progressbar/v3 v3.12.2
 	github.com/wilhelm-murdoch/go-collection v1.0.10
+	golang.org/x/time v0.3.0
 )
 
 require (

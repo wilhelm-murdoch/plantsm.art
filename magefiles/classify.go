@@ -16,26 +16,16 @@ import (
 
 type Classify mg.Namespace
 
-func (Classify) Plants(ctx context.Context, sourcePath string) error {
-	if _, err := os.Stat(sourcePath); err != nil {
-		return fmt.Errorf("cannot locate scaffold file %s; regenerate and try again", sourcePath)
-	}
-
-	plantsJson, err := os.ReadFile(sourcePath)
+func (Classify) Plants(ctx context.Context, sourcePath, writePath string) error {
+	plants, err := unmarshalPlantsFromSource(sourcePath)
 	if err != nil {
 		return err
 	}
 
-	var plants UnmarshalledPlants
-	json.Unmarshal(plantsJson, &plants.Data)
-
 	var names collection.Collection[string]
 	for _, plant := range plants.Data {
-		names.PushDistinct(TrimSuffix(plant.Name, " sp."))
+		names.PushDistinct(strings.TrimSuffix(plant.Name, " sp."))
 	}
-
-	var derp interface{}
-	json.Unmarshal(plantsJson, &derp)
 
 	bar := progressbar.Default(int64(names.Length()))
 	names.Batch(func(i1, i2 int, name string) {
@@ -54,10 +44,10 @@ func (Classify) Plants(ctx context.Context, sourcePath string) error {
 				}
 			})
 
-			for _, plant := range derp.([]interface{}) {
-				if plant.(map[string]interface{})["id"].(string) == slug.Make(name) {
-					plant.(map[string]interface{})["wikipedia_url"] = fmt.Sprintf("https://en.wikipedia.org/wiki/%s", name)
-					plant.(map[string]interface{})["classification"] = struct {
+			for _, plant := range plants.Data {
+				if plant.Id == slug.Make(name) {
+					plant.WikipediaUrl = fmt.Sprintf("https://en.wikipedia.org/wiki/%s", name)
+					plant.Classification = struct {
 						Kingdom string   `json:"kingdom"`
 						Clades  []string `json:"clades"`
 						Order   string   `json:"order"`
@@ -77,11 +67,11 @@ func (Classify) Plants(ctx context.Context, sourcePath string) error {
 		})
 	}, 10)
 
-	file, _ := os.OpenFile("data/plants-classified.json", os.O_CREATE|os.O_WRONLY, os.ModePerm)
+	file, _ := os.OpenFile(writePath, os.O_CREATE|os.O_WRONLY, os.ModePerm)
 	defer file.Close()
 
 	encoder := json.NewEncoder(file)
-	if err := encoder.Encode(derp); err != nil {
+	if err := encoder.Encode(plants.Data); err != nil {
 		return err
 	}
 
@@ -89,17 +79,10 @@ func (Classify) Plants(ctx context.Context, sourcePath string) error {
 }
 
 func (Classify) Missing(ctx context.Context, sourcePath string) error {
-	if _, err := os.Stat(sourcePath); err != nil {
-		return fmt.Errorf("cannot locate scaffold file %s; regenerate and try again", sourcePath)
-	}
-
-	plantsJson, err := os.ReadFile(sourcePath)
+	plants, err := unmarshalPlantsFromSource(sourcePath)
 	if err != nil {
 		return err
 	}
-
-	var plants UnmarshalledPlants
-	json.Unmarshal(plantsJson, &plants.Data)
 
 	var missing []string
 	var count int

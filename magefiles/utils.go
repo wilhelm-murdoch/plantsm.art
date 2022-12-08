@@ -1,12 +1,13 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"net/url"
-	"strings"
+	"os"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
@@ -88,9 +89,18 @@ func imageSearch(term string) ([]byte, error) {
 	return nil, nil
 }
 
-func TrimSuffix(s, suffix string) string {
-	if strings.HasSuffix(s, suffix) {
-		s = s[:len(s)-len(suffix)]
+func unmarshalPlantsFromSource(sourcePath string) (UnmarshalledPlants, error) {
+	if _, err := os.Stat(sourcePath); err != nil {
+		return UnmarshalledPlants{}, err
 	}
-	return s
+
+	plantsJson, err := os.ReadFile(sourcePath)
+	if err != nil {
+		return UnmarshalledPlants{}, err
+	}
+
+	var plants UnmarshalledPlants
+	json.Unmarshal(plantsJson, &plants.Data)
+
+	return plants, nil
 }

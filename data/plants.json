@@ -7830,27 +7830,6 @@
     },
     {
         "classification": {
-            "clades": null,
-            "family": "Aloaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Aloe",
-            "True Aloe",
-            "Barbados Aloe"
-        ],
-        "id": "",
-        "images": [],
-        "name": "",
-        "symptoms": [
-            "vomiting"
-        ]
-    },
-    {
-        "classification": {
             "kingdom": "Plantae",
             "clades": [
                 "Tracheophytes",
