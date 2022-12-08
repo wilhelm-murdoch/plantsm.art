@@ -823,29 +823,6 @@
             "species": ""
         },
         "common": [
-            "Asiatic Lily"
-        ],
-        "id": "lilium-asiatica",
-        "images": [],
-        "name": "Lilium asiatica",
-        "symptoms": [
-            "vomiting",
-            "inappetence",
-            "lethargy",
-            "kidney failure",
-            "death"
-        ]
-    },
-    {
-        "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
             "Asparagus",
             "Emerald Feather",
             "Emerald Fern",
@@ -1707,169 +1684,6 @@
             "low blood pressure",
             "death"
         ]
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Asterids"
-            ],
-            "family": "Solanaceae",
-            "genus": "Solanum",
-            "kingdom": "Plantae",
-            "order": "Solanales",
-            "species": "S. nigrum"
-        },
-        "common": [
-            "Nightshade",
-            "Deadly Nightshade"
-        ],
-        "id": "solanum-nigrum",
-        "images": [
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199968095/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/1.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199968101/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Alexandra Gruzdeva, some rights reserved (CC BY-NC), uploaded by Alexandra Gruzdeva",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149914597/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Igor, some rights reserved (CC BY-NC), uploaded by Igor",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90881099/medium.jpg",
-                "url": "plants/solanum-nigrum/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Frederick Nunley, some rights reserved (CC BY-NC), uploaded by Frederick Nunley",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95900696/medium.jpg",
-                "url": "plants/solanum-nigrum/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Alexandra Gruzdeva, some rights reserved (CC BY-NC), uploaded by Alexandra Gruzdeva",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149914643/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/6.jpg"
-            },
-            {
-                "attribution": "(c) Evan M. Raskin, some rights reserved (CC BY), uploaded by Evan M. Raskin",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5046733/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Takaaki Hattori, some rights reserved (CC BY-NC), uploaded by Takaaki Hattori",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63087125/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/8.jpg"
-            },
-            {
-                "attribution": "(c) 傻子, some rights reserved (CC BY-NC), uploaded by 傻子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24051829/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/9.jpg"
-            },
-            {
-                "attribution": "(c) Martin A. Prinz, some rights reserved (CC BY-NC), uploaded by Martin A. Prinz",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/168061158/medium.jpg",
-                "url": "plants/solanum-nigrum/images/10.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199968095/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/11.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199968101/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/12.jpg"
-            },
-            {
-                "attribution": "(c) aminde, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231603705/medium.jpg",
-                "url": "plants/solanum-nigrum/images/13.jpg"
-            },
-            {
-                "attribution": "(c) Andrew Garn, some rights reserved (CC BY), uploaded by Andrew Garn",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42975338/medium.jpg",
-                "url": "plants/solanum-nigrum/images/14.jpg"
-            },
-            {
-                "attribution": "(c) Benigno Veraz, some rights reserved (CC BY-NC), uploaded by Benigno Veraz",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50097123/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/15.jpg"
-            },
-            {
-                "attribution": "(c) James Bailey, some rights reserved (CC BY-NC), uploaded by James Bailey",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48073764/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/16.jpg"
-            },
-            {
-                "attribution": "(c) pavlinkarozinka, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231201115/medium.jpg",
-                "url": "plants/solanum-nigrum/images/17.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199968101/medium.jpeg",
-                "url": "plants/solanum-nigrum/images/18.jpg"
-            },
-            {
-                "attribution": "(c) portioid, some rights reserved (CC BY-SA), uploaded by portioid",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8471471/medium.jpg",
-                "url": "plants/solanum-nigrum/images/19.jpg"
-            },
-            {
-                "attribution": "(c) Pavel Kacl, some rights reserved (CC BY), uploaded by Pavel Kacl",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50810941/medium.jpg",
-                "url": "plants/solanum-nigrum/images/20.jpg"
-            },
-            {
-                "attribution": "(c) portioid, some rights reserved (CC BY-SA), uploaded by portioid",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8471471/medium.jpg",
-                "url": "plants/solanum-nigrum/images/21.jpg"
-            }
-        ],
-        "name": "Solanum nigrum",
-        "symptoms": [
-            "hypersalivation",
-            "inappetence",
-            "severe gastrointestinal upset",
-            "diarrhea",
-            "drowsiness",
-            "CNS depression",
-            "confusion",
-            "behavioral change",
-            "weakness",
-            "dilated pupils",
-            "slow heart rate"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Solanum nigrum"
     },
     {
         "classification": {
@@ -2867,53 +2681,6 @@
     },
     {
         "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Iridaceae",
-            "genus": "Iris",
-            "kingdom": "Plantae",
-            "order": "Asparagales",
-            "species": "I. spuria"
-        },
-        "common": [
-            "Spuria Iris"
-        ],
-        "id": "iris-spuria",
-        "images": [
-            {
-                "attribution": "(c) peganum, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104884/medium.jpg",
-                "url": "plants/iris-spuria/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Gergely Pápay, some rights reserved (CC BY-NC), uploaded by Gergely Pápay",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55192960/medium.jpg",
-                "url": "plants/iris-spuria/images/2.jpg"
-            },
-            {
-                "attribution": "(c) peganum, some rights reserved (CC BY-SA)",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104884/medium.jpg",
-                "url": "plants/iris-spuria/images/3.jpg"
-            }
-        ],
-        "name": "Iris spuria",
-        "symptoms": [
-            "hypersalivation",
-            "vomiting",
-            "drooling",
-            "lethargy",
-            "diarrhea"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Iris spuria"
-    },
-    {
-        "classification": {
             "clades": null,
             "family": "Araceae",
             "genus": "",
@@ -3174,70 +2941,6 @@
             "cardiac arrhythmias"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Lobelia cardinalis"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots"
-            ],
-            "family": "Caryophyllaceae",
-            "genus": "Dianthus",
-            "kingdom": "Plantae",
-            "order": "Caryophyllales",
-            "species": "D. caryophyllus"
-        },
-        "common": [
-            "Pinks",
-            "Wild Carnation",
-            "Sweet William"
-        ],
-        "id": "dianthus-caryophyllus",
-        "images": [
-            {
-                "attribution": "(c) nite dan, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38101/medium.jpg",
-                "url": "plants/dianthus-caryophyllus/images/1.jpg"
-            },
-            {
-                "attribution": "(c) aejandra_sabates, some rights reserved (CC BY-NC), uploaded by aejandra_sabates",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1138521/medium.jpg",
-                "url": "plants/dianthus-caryophyllus/images/2.jpg"
-            },
-            {
-                "attribution": "(c) cindymagana, some rights reserved (CC BY-NC), uploaded by cindymagana",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6353572/medium.jpg",
-                "url": "plants/dianthus-caryophyllus/images/3.jpg"
-            },
-            {
-                "attribution": "(c) nite dan, some rights reserved (CC BY)",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38101/medium.jpg",
-                "url": "plants/dianthus-caryophyllus/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Marion Zöller, some rights reserved (CC BY-NC), uploaded by Marion Zöller",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1316985/medium.jpg",
-                "url": "plants/dianthus-caryophyllus/images/5.jpg"
-            },
-            {
-                "attribution": "no rights reserved, uploaded by Quentin Groom",
-                "license": "cc0",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9701514/medium.jpeg",
-                "url": "plants/dianthus-caryophyllus/images/6.jpg"
-            }
-        ],
-        "name": "Dianthus caryophyllus",
-        "symptoms": [
-            "diarrhea",
-            "dermatitis"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dianthus caryophyllus"
     },
     {
         "classification": {
@@ -3962,94 +3665,6 @@
             "bone marrow suppression"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Gloriosa superba"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Asterids"
-            ],
-            "family": "Solanaceae",
-            "genus": "Solanum",
-            "kingdom": "Plantae",
-            "order": "Solanales",
-            "species": "S. dulcamara"
-        },
-        "common": [
-            "European Bittersweet",
-            "Deadly Nightshade",
-            "Violet Bloom",
-            "Blue Nightshade",
-            "Soda Apple",
-            "Poisonous Nightshade",
-            "Felonwort",
-            "Devil's Apple",
-            "Scarlet Berry",
-            "Woody Nightshade",
-            "Blue Blindweed"
-        ],
-        "id": "solanum-dulcamara",
-        "images": [
-            {
-                "attribution": "(c) Alexander Baransky, some rights reserved (CC BY-NC), uploaded by Alexander Baransky",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70860715/medium.jpeg",
-                "url": "plants/solanum-dulcamara/images/1.jpg"
-            },
-            {
-                "attribution": "(c) John Barkla, some rights reserved (CC BY), uploaded by John Barkla",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1209945/medium.",
-                "url": "plants/solanum-dulcamara/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Douglas Goldman, some rights reserved (CC BY-NC), uploaded by Douglas Goldman",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177145747/medium.jpg",
-                "url": "plants/solanum-dulcamara/images/3.jpg"
-            },
-            {
-                "attribution": "(c) nparthenais, some rights reserved (CC BY-SA), uploaded by nparthenais",
-                "license": "cc-by-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21742268/medium.jpg",
-                "url": "plants/solanum-dulcamara/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Jeff Ward, some rights reserved (CC BY-NC-SA), uploaded by Jeff Ward",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77748560/medium.jpeg",
-                "url": "plants/solanum-dulcamara/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Forest Botial-Jarvis, some rights reserved (CC BY-NC), uploaded by Forest Botial-Jarvis",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81408883/medium.jpg",
-                "url": "plants/solanum-dulcamara/images/6.jpg"
-            },
-            {
-                "attribution": "(c) marmst11, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24421260/medium.jpg",
-                "url": "plants/solanum-dulcamara/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Alexander Baransky, some rights reserved (CC BY-NC), uploaded by Alexander Baransky",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70860715/medium.jpeg",
-                "url": "plants/solanum-dulcamara/images/8.jpg"
-            }
-        ],
-        "name": "Solanum dulcamara",
-        "symptoms": [
-            "vomiting",
-            "diarrhea",
-            "drowsiness",
-            "low blood pressure",
-            "low heart rate"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Solanum dulcamara"
     },
     {
         "classification": {
@@ -5739,111 +5354,21 @@
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
-                "Monocots"
+                "Eudicots"
             ],
-            "family": "Liliaceae",
-            "genus": "Lilium",
-            "kingdom": "Plantae",
-            "order": "Liliales",
-            "species": "L. longiflorum"
-        },
-        "common": null,
-        "id": "lilium-longiflorum",
-        "images": [
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62229867/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/1.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43483105/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/2.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43483118/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/3.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62229850/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/4.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62229867/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/5.jpg"
-            },
-            {
-                "attribution": "(c) WU CHI YI, some rights reserved (CC BY-NC), uploaded by WU CHI YI",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128162731/medium.jpg",
-                "url": "plants/lilium-longiflorum/images/6.jpg"
-            },
-            {
-                "attribution": "(c) lecanorchis, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161688730/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/7.jpg"
-            },
-            {
-                "attribution": "(c) Kinmatsu Lin, some rights reserved (CC BY-NC), uploaded by Kinmatsu Lin",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/139917304/medium.jpg",
-                "url": "plants/lilium-longiflorum/images/8.jpg"
-            },
-            {
-                "attribution": "(c) 王佳琪, some rights reserved (CC BY-NC), uploaded by 王佳琪",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177019111/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/9.jpg"
-            },
-            {
-                "attribution": "(c) odonata99, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142841993/medium.jpg",
-                "url": "plants/lilium-longiflorum/images/10.jpg"
-            },
-            {
-                "attribution": "(c) thierrycordenos, some rights reserved (CC BY-NC), uploaded by thierrycordenos",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/160445259/medium.jpeg",
-                "url": "plants/lilium-longiflorum/images/11.jpg"
-            },
-            {
-                "attribution": "(c) WU CHI YI, some rights reserved (CC BY-NC), uploaded by WU CHI YI",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128162731/medium.jpg",
-                "url": "plants/lilium-longiflorum/images/12.jpg"
-            }
-        ],
-        "name": "Lilium longiflorum",
-        "symptoms": [
-            "vomiting",
-            "inappetence",
-            "lethargy",
-            "kidney failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium longiflorum"
-    },
-    {
-        "classification": {
-            "clades": null,
             "family": "Caryophyllaceae",
-            "genus": "",
+            "genus": "Dianthus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Caryophyllales",
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Pinks",
+            "Wild Carnation",
+            "Sweet William"
+        ],
         "id": "dianthus-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dianthus",
         "images": [
             {
                 "url": "plants/dianthus-sp/images/1.jpg",
@@ -6152,18 +5677,23 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Ericaceae",
-            "genus": "",
+            "genus": "Lyonia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ericales",
+            "species": null
         },
         "common": [
             "Staggerbush",
             "Maleberry"
         ],
         "id": "lyonia-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lyonia_(plant)",
         "images": [
             {
                 "url": "plants/lyonia-sp/images/1.jpg",
@@ -6342,12 +5872,16 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocots"
+            ],            
             "family": "Amaryllidaceae",
-            "genus": "",
+            "genus": "Hippeastrum",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
         "common": [
             "Amaryllis",
@@ -6356,6 +5890,7 @@
             "Ridderstjerne"
         ],
         "id": "hippeastrum-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hippeastrum",
         "images": [
             {
                 "url": "plants/hippeastrum-sp/images/1.jpg",
@@ -6699,17 +6234,25 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Geraniaceae",
-            "genus": "",
+            "genus": "Pelargonium",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Geraniales",
+            "species": null
         },
         "common": [
-            "Many cultivars"
+            "Geraniums",
+            "Pelargoniums",
+            "Storkbills"
         ],
         "id": "pelargonium-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Pelargonium",
         "images": [
             {
                 "url": "plants/pelargonium-sp/images/1.jpg",
@@ -6842,17 +6385,22 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocot"
+            ],
             "family": "Iridaceae",
-            "genus": "",
+            "genus": "Gladiolus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
         "common": [
-            "Many cultivars"
+            "Sword Lily"
         ],
         "id": "gladiolus-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Gladiolus",
         "images": [
             {
                 "attribution": "(c) Robert Archer, some rights reserved (CC BY-NC), uploaded by Robert Archer",
@@ -7468,12 +7016,16 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocot"
+            ],
             "family": "Iridaceae",
-            "genus": "",
+            "genus": "Iris",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": null
         },
         "common": [
             "Flag",
@@ -7481,6 +7033,7 @@
             "Water Flag"
         ],
         "id": "iris-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Iris_(plant)",
         "images": [
             {
                 "url": "plants/iris-sp/images/1.jpg",
@@ -7890,65 +7443,6 @@
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Liliaceae",
-            "genus": "Lilium",
-            "kingdom": "Plantae",
-            "order": "Liliales",
-            "species": "L. speciosum"
-        },
-        "common": [
-            "Rubrum Lily"
-        ],
-        "id": "lilium-speciosum",
-        "images": [
-            {
-                "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44406851/medium.jpeg",
-                "url": "plants/lilium-speciosum/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44406833/medium.jpeg",
-                "url": "plants/lilium-speciosum/images/2.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51106968/medium.jpeg",
-                "url": "plants/lilium-speciosum/images/3.jpg"
-            },
-            {
-                "attribution": "(c) 葉子, some rights reserved (CC BY-NC), uploaded by 葉子",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51106994/medium.jpeg",
-                "url": "plants/lilium-speciosum/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Jing-Yi Lu, some rights reserved (CC BY-NC), uploaded by Jing-Yi Lu",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/44406851/medium.jpeg",
-                "url": "plants/lilium-speciosum/images/5.jpg"
-            }
-        ],
-        "name": "Lilium speciosum",
-        "symptoms": [
-            "vomiting",
-            "inappetence",
-            "lethargy",
-            "kidney failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium speciosum"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
                 "Eudicots"
             ],
             "family": "Amaranthaceae",
@@ -8042,12 +7536,16 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Crassulaceae",
-            "genus": "",
+            "genus": "Kalanchoe",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Saxifragales",
+            "species": null
         },
         "common": [
             "Mother-In-Law-Plant",
@@ -8056,6 +7554,7 @@
             "Mother of Millions"
         ],
         "id": "kalanchoe-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kalanchoe",
         "images": [
             {
                 "url": "plants/kalanchoe-sp/images/1.jpg",
@@ -8313,14 +7812,20 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Ranunculaceae",
-            "genus": "",
+            "genus": "Delphinium",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ranunculales",
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Larkspur"
+        ],
         "id": "delphinium-sp",
         "images": [
             {
@@ -8582,18 +8087,27 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Ranunculaceae",
-            "genus": "",
+            "genus": "Clematis",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ranunculales",
+            "species": null
         },
         "common": [
             "Clematis",
-            "Virgin's Bower"
+            "Virgin's Bower",
+            "Traveller's Joy",
+            "Old Man's Beard",
+            "Leather Flower",
+            "Vase Vine"
         ],
         "id": "clematis-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Clematis",
         "images": [
             {
                 "url": "plants/clematis-sp/images/1.jpg",
@@ -8970,15 +8484,20 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocot"
+            ],
             "family": "Liliaceae",
-            "genus": "",
+            "genus": "Lilium",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Liliales",
+            "species": null
         },
         "common": null,
         "id": "lilium-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium",
         "images": [
             {
                 "url": "plants/lilium-sp/images/1.jpg",
@@ -9079,7 +8598,11 @@
         ],
         "name": "Lilium sp.",
         "symptoms": [
-            "kidney failure"
+            "vomiting",
+            "inappetence",
+            "lethargy",
+            "kidney failure",
+            "death"
         ]
     },
     {
@@ -9765,15 +9288,20 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Asclepiadaceae",
-            "genus": "",
+            "genus": "Asclepias",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Gentianales",
+            "species": null
         },
         "common": null,
         "id": "asclepias-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asclepias",
         "images": [
             {
                 "attribution": "(c) stormcatcher, some rights reserved (CC BY-NC), uploaded by stormcatcher",
@@ -9850,17 +9378,23 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Lamiaceae",
-            "genus": "",
+            "genus": "Mentha",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Lamiales",
+            "species": null
         },
         "common": [
             "Garden Mint"
         ],
         "id": "mentha-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Mentha",
         "images": [
             {
                 "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
@@ -10080,15 +9614,28 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Convolvulaceae",
-            "genus": "",
+            "genus": "Ipomoea",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Solanales",
+            "species": null
         },
-        "common": null,
+        "common": [
+            "Morning Glory",
+            "Water Convolvulus",
+            "Water Spinach",
+            "Sweet Potato",
+            "Bindweed",
+            "Moonflower"
+        ],
         "id": "ipomoea-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ipomoea",
         "images": [
             {
                 "url": "plants/ipomoea-sp/images/1.jpg",
@@ -10234,66 +9781,6 @@
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
-                "Eudicots"
-            ],
-            "family": "Crassulaceae",
-            "genus": "Kalanchoe",
-            "kingdom": "Plantae",
-            "order": "Saxifragales",
-            "species": "K. delagoensis"
-        },
-        "common": [
-            "Mother of Millions",
-            "Kalanchoe",
-            "Devils Backbone",
-            "Chandelier Plant"
-        ],
-        "id": "kalanchoe-tubiflora",
-        "images": [
-            {
-                "attribution": "(c) silverside11, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4476647/medium.jpg",
-                "url": "plants/kalanchoe-tubiflora/images/1.jpg"
-            },
-            {
-                "attribution": "(c) Eric Ching, some rights reserved (CC BY-NC), uploaded by Eric Ching",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60839330/medium.jpeg",
-                "url": "plants/kalanchoe-tubiflora/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Arthur Chapman, some rights reserved (CC BY-NC-SA)",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/467801/medium.jpg",
-                "url": "plants/kalanchoe-tubiflora/images/3.jpg"
-            },
-            {
-                "attribution": "(c) plappert_n_903, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112394007/medium.jpg",
-                "url": "plants/kalanchoe-tubiflora/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-SA), uploaded by Sunnetchan",
-                "license": "cc-by-nc-sa",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507093/medium.JPG",
-                "url": "plants/kalanchoe-tubiflora/images/5.jpg"
-            }
-        ],
-        "name": "Kalanchoe tubiflora",
-        "symptoms": [
-            "vomiting",
-            "diarrhea",
-            "cardiac arrhythmias"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Kalanchoe tubiflora"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
                 "Monocots"
             ],
             "family": "Asparagaceae",
@@ -10425,21 +9912,39 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Solanaceae",
-            "genus": "",
+            "genus": "Solanum",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Solanales",
+            "species": null
         },
         "common": [
-            "Deadly Nightshade",
             "Nightshade",
             "Black Nightshade",
+            "Climbing Nightshade",
+            "Natal Cherry",
+            "Winter Cherry",
+            "Jerusalem Cherry",
             "European Bittersweet",
-            "Climbing Nightshade"
+            "Deadly Nightshade",
+            "Violet Bloom",
+            "Blue Nightshade",
+            "Soda Apple",
+            "Poisonous Nightshade",
+            "Felonwort",
+            "Devil's Apple",
+            "Scarlet Berry",
+            "Woody Nightshade",
+            "Blue Blindweed"
         ],
         "id": "solanum-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Ipomoea",
         "images": [
             {
                 "url": "plants/solanum-sp/images/1.jpg",
@@ -10890,76 +10395,6 @@
             "diarrhea"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Origanum vulgare hirtum"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Eudicots",
-                "Asterids"
-            ],
-            "family": "Solanaceae",
-            "genus": "Solanum",
-            "kingdom": "Plantae",
-            "order": "Solanales",
-            "species": "S. pseudocapsicum"
-        },
-        "common": [
-            "Natal Cherry",
-            "Winter Cherry",
-            "Jerusalem Cherry"
-        ],
-        "id": "solanum-pseudocapsicum",
-        "images": [
-            {
-                "attribution": "(c) symisme840, some rights reserved (CC BY-NC), uploaded by symisme840",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34797463/medium.jpeg",
-                "url": "plants/solanum-pseudocapsicum/images/1.jpg"
-            },
-            {
-                "attribution": "(c) wendykelsey, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72331649/medium.jpg",
-                "url": "plants/solanum-pseudocapsicum/images/2.jpg"
-            },
-            {
-                "attribution": "(c) Matt Campbell, some rights reserved (CC BY-NC), uploaded by Matt Campbell",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63067455/medium.jpeg",
-                "url": "plants/solanum-pseudocapsicum/images/3.jpg"
-            },
-            {
-                "attribution": "(c) Sue Stutzman, some rights reserved (CC BY-NC), uploaded by Sue Stutzman",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40908650/medium.jpeg",
-                "url": "plants/solanum-pseudocapsicum/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Pat Enright, some rights reserved (CC BY-NC), uploaded by Pat Enright",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21358917/medium.jpg",
-                "url": "plants/solanum-pseudocapsicum/images/5.jpg"
-            },
-            {
-                "attribution": "(c) symisme840, some rights reserved (CC BY-NC), uploaded by symisme840",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34797463/medium.jpeg",
-                "url": "plants/solanum-pseudocapsicum/images/6.jpg"
-            }
-        ],
-        "name": "Solanum pseudocapsicum",
-        "symptoms": [
-            "vomiting",
-            "diarrhea",
-            "intestinal ulcers",
-            "seizures",
-            "depression",
-            "respiratory depression",
-            "shock"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Solanum pseudocapsicum"
     },
     {
         "classification": {
@@ -11973,12 +11408,17 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Compositae",
-            "genus": "",
+            "genus": "Senecio",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asterales",
+            "species": null
         },
         "common": [
             "Golden Ragwort",
@@ -11987,6 +11427,7 @@
             "Groundsel"
         ],
         "id": "senecio-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Senecio",
         "images": [
             {
                 "url": "plants/senecio-sp/images/1.jpg",
@@ -12126,18 +11567,24 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Ericaceae",
-            "genus": "",
+            "genus": "Rhododendron",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ericales",
+            "species": null
         },
         "common": [
             "Rosebay",
             "Azalea"
         ],
         "id": "rhododendron-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rhododendron",
         "images": [
             {
                 "url": "plants/rhododendron-sp/images/1.jpg",
@@ -12927,34 +12374,6 @@
             "clades": [
                 "Tracheophytes",
                 "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Liliaceae",
-            "genus": "Lilium",
-            "kingdom": "Plantae",
-            "order": "Liliales",
-            "species": "Lilium 'Stargazer'"
-        },
-        "common": [
-            "Stargazer"
-        ],
-        "id": "lilium-orientalis",
-        "images": [],
-        "name": "Lilium orientalis",
-        "symptoms": [
-            "vomiting",
-            "inappetence",
-            "lethargy",
-            "kidney failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium_%27Stargazer%27"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
                 "Eudicots",
                 "Asterids"
             ],
@@ -13240,75 +12659,6 @@
             "dilated pupils"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Cordyline terminalis"
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Liliaceae",
-            "genus": "Lilium",
-            "kingdom": "Plantae",
-            "order": "Liliales",
-            "species": "L. lancifolium"
-        },
-        "common": null,
-        "id": "lilium-tigrinum",
-        "images": [
-            {
-                "attribution": "(c) John, some rights reserved (CC BY-NC), uploaded by John",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145464159/medium.jpg",
-                "url": "plants/lilium-tigrinum/images/1.jpg"
-            },
-            {
-                "attribution": "(c) laird_o_grimhold, some rights reserved (CC BY-NC), uploaded by laird_o_grimhold",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70609233/medium.jpeg",
-                "url": "plants/lilium-tigrinum/images/2.jpg"
-            },
-            {
-                "attribution": "(c) williamdomenge9, some rights reserved (CC BY-NC), uploaded by williamdomenge9",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18681764/medium.jpg",
-                "url": "plants/lilium-tigrinum/images/3.jpg"
-            },
-            {
-                "attribution": "(c) phia0711, some rights reserved (CC BY-NC)",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36957327/medium.jpg",
-                "url": "plants/lilium-tigrinum/images/4.jpg"
-            },
-            {
-                "attribution": "(c) Ryan Watson, some rights reserved (CC BY), uploaded by Ryan Watson",
-                "license": "cc-by",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8766032/medium.jpeg",
-                "url": "plants/lilium-tigrinum/images/5.jpg"
-            },
-            {
-                "attribution": "(c) Mira, some rights reserved (CC BY-NC), uploaded by Mira",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150141050/medium.jpg",
-                "url": "plants/lilium-tigrinum/images/6.jpg"
-            },
-            {
-                "attribution": "(c) John, some rights reserved (CC BY-NC), uploaded by John",
-                "license": "cc-by-nc",
-                "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145464159/medium.jpg",
-                "url": "plants/lilium-tigrinum/images/7.jpg"
-            }
-        ],
-        "name": "Lilium tigrinum",
-        "symptoms": [
-            "vomiting",
-            "inappetence",
-            "lethargy",
-            "kidney failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium tigrinum"
     },
     {
         "classification": {
@@ -14113,34 +13463,6 @@
             "diarrhea",
             "depression"
         ]
-    },
-    {
-        "classification": {
-            "clades": [
-                "Tracheophytes",
-                "Angiosperms",
-                "Monocots"
-            ],
-            "family": "Liliaceae",
-            "genus": "Lilium",
-            "kingdom": "Plantae",
-            "order": "Liliales",
-            "species": "L. philadelphicum"
-        },
-        "common": [
-            "Red Lily"
-        ],
-        "id": "lilium-umbellatum",
-        "images": [],
-        "name": "Lilium umbellatum",
-        "symptoms": [
-            "vomiting",
-            "inappetence",
-            "lethargy",
-            "kidney failure",
-            "death"
-        ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Lilium umbellatum"
     },
     {
         "classification": {

@@ -1,6 +1,5 @@
 {
     "CNS depression": [
-        "solanum-nigrum",
         "solanum-sp",
         "rhododendron-sp"
     ],
@@ -52,7 +51,6 @@
         "senecio-sp"
     ],
     "behavioral change": [
-        "solanum-nigrum",
         "solanum-sp"
     ],
     "bloat": [
@@ -87,7 +85,6 @@
         "digitalis-purpurea",
         "kalanchoe-sp",
         "convallaria-majalis",
-        "kalanchoe-tubiflora",
         "rhododendron-sp",
         "euonymus-occidentalis",
         "macadamia-integrifolia"
@@ -132,7 +129,6 @@
         "rhododendron-sp"
     ],
     "confusion": [
-        "solanum-nigrum",
         "solanum-sp"
     ],
     "convulsions": [
@@ -154,7 +150,6 @@
         "cycas-sp"
     ],
     "death": [
-        "lilium-asiatica",
         "leucothoe-sp",
         "kalmia-poliifolia",
         "zamia-furfuracea",
@@ -165,28 +160,24 @@
         "cyclamen-sp",
         "hemerocallis-sp",
         "adenium-obesum",
-        "lilium-longiflorum",
         "lyonia-sp",
         "digitalis-purpurea",
         "nandina-domestica",
-        "lilium-speciosum",
         "delphinium-sp",
         "cymbopogon-citratus",
         "robinia-pseudoacacia",
         "cannabis-sativa",
         "asclepias-sp",
         "nerium-oleander",
+        "lilium-sp",
         "vinca-rosea",
         "pieris-japonica",
         "conium-maculatum",
         "abrus-precatorius",
         "rhododendron-sp",
-        "lilium-orientalis",
         "lathyrus-latifolius",
-        "lilium-tigrinum",
         "nicotiana-glauca",
         "ligustrum-japonicum",
-        "lilium-umbellatum",
         "taxus-sp",
         "humulus-lupulus"
     ],
@@ -225,7 +216,6 @@
         "asclepias-sp",
         "nerium-oleander",
         "citrus-sinensis",
-        "solanum-pseudocapsicum",
         "cordyline-australis",
         "paeonis-officinalis",
         "vinca-rosea",
@@ -252,7 +242,6 @@
         "borage-officinalis",
         "fagopyrum-sp",
         "citrus-mitis",
-        "dianthus-caryophyllus",
         "anthemis-nobilis",
         "chrysanthemum-sp",
         "heracleum-maximum",
@@ -288,7 +277,6 @@
         "caesalpinia-gilliesii",
         "ammi-majus",
         "leucothoe-sp",
-        "solanum-nigrum",
         "kalmia-poliifolia",
         "borage-officinalis",
         "buxus-sp",
@@ -299,18 +287,15 @@
         "aesculus-sp",
         "euonymus-atropurpurea",
         "ranunculus-sp",
-        "iris-spuria",
         "citrus-mitis",
         "carum-carvi",
         "lobelia-cardinalis",
-        "dianthus-caryophyllus",
         "ricinus-communis",
         "nepeta-cataria",
         "anthemis-nobilis",
         "chrysanthemum-sp",
         "celastrus-scandens",
         "gloriosa-superba",
-        "solanum-dulcamara",
         "clivia-sp",
         "ligustrum-vulgare",
         "cicuta-sp",
@@ -355,14 +340,12 @@
         "asclepias-sp",
         "mentha-sp",
         "phoradendron-flavescens",
-        "kalanchoe-tubiflora",
         "sansevieria-trifasciata",
         "nasturtium-officinale",
         "solanum-sp",
         "nerium-oleander",
         "citrus-sinensis",
         "origanum-vulgare-hirtum",
-        "solanum-pseudocapsicum",
         "caesalpinia-pulcherrima",
         "paeonis-officinalis",
         "vinca-rosea",
@@ -426,7 +409,6 @@
     ],
     "dilated pupils": [
         "malus-sylvestrus",
-        "solanum-nigrum",
         "aesculus-sp",
         "prunus-sp",
         "cicuta-sp",
@@ -453,7 +435,6 @@
         "zantedeschia-aethiopica",
         "caesalpinia-gilliesii",
         "poinciana-gilliesii",
-        "iris-spuria",
         "caladium-hortulanum",
         "aglaonema-modestum",
         "ligustrum-vulgare",
@@ -480,9 +461,7 @@
         "arum-palaestinum"
     ],
     "drowsiness": [
-        "strelitzia-reginae",
-        "solanum-nigrum",
-        "solanum-dulcamara"
+        "strelitzia-reginae"
     ],
     "dyspnea": [
         "taxus-sp"
@@ -527,11 +506,9 @@
         "melia-azedarach",
         "begonia-sp",
         "leucothoe-sp",
-        "solanum-nigrum",
         "hedera-helix",
         "brunfelsia-sp",
         "ranunculus-sp",
-        "iris-spuria",
         "lobelia-cardinalis",
         "chrysanthemum-sp",
         "gloriosa-superba",
@@ -566,17 +543,11 @@
         "senecio-sp"
     ],
     "inappetence": [
-        "lilium-asiatica",
-        "solanum-nigrum",
         "hemerocallis-sp",
-        "lilium-longiflorum",
-        "lilium-speciosum",
         "lavendula-angustifolia",
         "solanum-sp",
-        "lilium-orientalis",
-        "lilium-tigrinum",
-        "lycopersicon-sp",
-        "lilium-umbellatum"
+        "lilium-sp",
+        "lycopersicon-sp"
     ],
     "incoordination": [
         "caesalpinia-gilliesii",
@@ -609,31 +580,22 @@
     "intestinal obstruction": [
         "laurus-nobilis"
     ],
-    "intestinal ulcers": [
-        "solanum-pseudocapsicum"
-    ],
     "jaundice": [
         "zamia-furfuracea",
         "zamia-integrifolia",
         "cycas-sp"
     ],
     "kidney failure": [
-        "lilium-asiatica",
         "begonia-sp",
         "ricinus-communis",
         "gloriosa-superba",
         "hemerocallis-sp",
         "rumex-sp",
-        "lilium-longiflorum",
-        "lilium-speciosum",
         "lilium-sp",
         "asclepias-sp",
         "rheum-rhabarbarium",
         "portulaca-oleracea",
-        "oxalis-sp",
-        "lilium-orientalis",
-        "lilium-tigrinum",
-        "lilium-umbellatum"
+        "oxalis-sp"
     ],
     "labored breathing": [
         "lantana-camara"
@@ -643,24 +605,18 @@
     ],
     "lethargy": [
         "aloe-vera",
+        "lilium-sp",
         "podophyllum-peltatum",
-        "lilium-asiatica",
         "brunfelsia-sp",
-        "iris-spuria",
         "nepeta-cataria",
         "hemerocallis-sp",
-        "lilium-longiflorum",
         "gladiolus-sp",
         "iris-sp",
-        "lilium-speciosum",
         "cannabis-sativa",
         "solanum-sp",
         "senecio-sp",
-        "lilium-orientalis",
         "lathyrus-latifolius",
-        "lilium-tigrinum",
-        "aloe-barbadensis",
-        "lilium-umbellatum"
+        "aloe-barbadensis"
     ],
     "liver damage": [
         "gloriosa-superba",
@@ -683,7 +639,6 @@
     ],
     "low blood pressure": [
         "leucothoe-sp",
-        "solanum-dulcamara",
         "clivia-sp",
         "narcissus-sp",
         "lyonia-sp",
@@ -698,7 +653,6 @@
         "cannabis-sativa"
     ],
     "low heart rate": [
-        "solanum-dulcamara",
         "phoradendron-flavescens"
     ],
     "multi-organ damage": [
@@ -773,8 +727,7 @@
         "delphinium-sp"
     ],
     "respiratory depression": [
-        "cicuta-sp",
-        "solanum-pseudocapsicum"
+        "cicuta-sp"
     ],
     "respiratory failure": [
         "buxus-sp",
@@ -807,22 +760,17 @@
         "nandina-domestica",
         "convallaria-majalis",
         "asclepias-sp",
-        "solanum-pseudocapsicum",
         "vinca-rosea",
         "lathyrus-latifolius",
         "taxus-sp",
         "juglans-nigra",
         "humulus-lupulus"
     ],
-    "severe gastrointestinal upset": [
-        "solanum-nigrum"
-    ],
     "shock": [
         "malus-sylvestrus",
         "prunus-sp",
         "gloriosa-superba",
         "colchicum-autumnale",
-        "solanum-pseudocapsicum",
         "abrus-precatorius"
     ],
     "skin irritation": [
@@ -832,7 +780,6 @@
         "podophyllum-peltatum"
     ],
     "slow heart rate": [
-        "solanum-nigrum",
         "apocynum-sp",
         "solanum-sp",
         "lycopersicon-sp",
@@ -877,6 +824,7 @@
     ],
     "vomiting": [
         "alocasia-sp",
+        "lilium-sp",
         "aloe-vera",
         "amaryllis-sp",
         "podophyllum-peltatum",
@@ -884,7 +832,6 @@
         "syngonium-podophyllum",
         "arum-maculatum",
         "zantedeschia-aethiopica",
-        "lilium-asiatica",
         "asparagus-densiflorus-cv-sprengeri",
         "laurus-nobilis",
         "melia-azedarach",
@@ -904,7 +851,6 @@
         "aesculus-sp",
         "euonymus-atropurpurea",
         "ranunculus-sp",
-        "iris-spuria",
         "caladium-hortulanum",
         "citrus-mitis",
         "carum-carvi",
@@ -918,7 +864,6 @@
         "chrysanthemum-sp",
         "celastrus-scandens",
         "gloriosa-superba",
-        "solanum-dulcamara",
         "clivia-sp",
         "clusia-major",
         "zamia-integrifolia",
@@ -931,7 +876,6 @@
         "dieffenbachia-amoena",
         "eupatorium-capillifolium",
         "dracaena-sp",
-        "lilium-longiflorum",
         "dianthus-sp",
         "asparagus-densiflorus",
         "chenopodium-ambrosioides",
@@ -958,7 +902,6 @@
         "epipremnum-aureum",
         "arisaema-triphyllum",
         "crassula-argentea",
-        "lilium-speciosum",
         "chenopodium-botrys",
         "kalanchoe-sp",
         "kalmia-augustifolia",
@@ -982,13 +925,11 @@
         "mentha-sp",
         "phoradendron-flavescens",
         "ipomoea-sp",
-        "kalanchoe-tubiflora",
         "sansevieria-trifasciata",
         "nasturtium-officinale",
         "allium-cepa",
         "citrus-sinensis",
         "origanum-vulgare-hirtum",
-        "solanum-pseudocapsicum",
         "cordyline-australis",
         "spathiphyllum",
         "caesalpinia-pulcherrima",
@@ -1009,12 +950,10 @@
         "scindapsus-pictus",
         "schefflera-sp",
         "symplocarpus-foetidus",
-        "lilium-orientalis",
         "brassaia-actinophylla",
         "tradescantia",
         "artemisia-dracunculus",
         "cordyline-terminalis",
-        "lilium-tigrinum",
         "nicotiana-glauca",
         "lycopersicon-sp",
         "aloe-barbadensis",
@@ -1025,7 +964,6 @@
         "arum-palaestinum",
         "polyscias-guilfoylei",
         "wisteria-sp",
-        "lilium-umbellatum",
         "achillea-millefolium",
         "cascabela-thevetia",
         "taxus-sp",
@@ -1040,7 +978,6 @@
     "weakness": [
         "melia-azedarach",
         "leucothoe-sp",
-        "solanum-nigrum",
         "kalmia-poliifolia",
         "euonymus-atropurpurea",
         "ricinus-communis",
