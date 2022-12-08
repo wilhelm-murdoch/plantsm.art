@@ -88,10 +88,11 @@ func importPlantsForAnimal(animal string, data *models.Data) error {
 
 type UnmarshalledPlants struct {
 	Data []struct {
-		Id     string   `json:"id"`
-		Name   string   `json:"name"`
-		Common []string `json:"common"`
-		Images []struct {
+		Id      string   `json:"id"`
+		Name    string   `json:"name"`
+		Common  []string `json:"common"`
+		Animals []string `json:"animals"`
+		Images  []struct {
 			Url         string `json:"url"`
 			SourceUrl   string `json:"source_url"`
 			License     string `json:"license"`
