@@ -503,59 +503,66 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Rosaceae",
-            "genus": "",
+            "genus": "Malus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Rosales",
+            "species": "M. sylvestris"
         },
         "common": [
-            "Includes crabapples"
+            "Crab Apple",
+            "Forest Apple"
         ],
-        "id": "malus-sylvestrus",
+        "id": "malus-sylvestris",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Malus_sylvestris",
         "images": [
             {
                 "attribution": "(c) Gerhard Singer, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14004/medium.jpg",
-                "url": "plants/malus-sylvestrus/images/1.jpg"
+                "url": "plants/malus-sylvestris/images/1.jpg"
             },
             {
                 "attribution": "(c) José María Escolano, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/550769/medium.jpg",
-                "url": "plants/malus-sylvestrus/images/2.jpg"
+                "url": "plants/malus-sylvestris/images/2.jpg"
             },
             {
                 "attribution": "(c) Fox Jones, some rights reserved (CC BY-NC), uploaded by Fox Jones",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52154410/medium.jpg",
-                "url": "plants/malus-sylvestrus/images/3.jpg"
+                "url": "plants/malus-sylvestris/images/3.jpg"
             },
             {
                 "attribution": "(c) Gerhard Singer, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14004/medium.jpg",
-                "url": "plants/malus-sylvestrus/images/4.jpg"
+                "url": "plants/malus-sylvestris/images/4.jpg"
             },
             {
                 "attribution": "(c) Bas Kers, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15422/medium.jpg",
-                "url": "plants/malus-sylvestrus/images/5.jpg"
+                "url": "plants/malus-sylvestris/images/5.jpg"
             },
             {
                 "attribution": "(c) José María Escolano, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1089244/medium.jpg",
-                "url": "plants/malus-sylvestrus/images/6.jpg"
+                "url": "plants/malus-sylvestris/images/6.jpg"
             },
             {
                 "attribution": "(c) Bas Kers, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15422/medium.jpg",
-                "url": "plants/malus-sylvestrus/images/7.jpg"
+                "url": "plants/malus-sylvestris/images/7.jpg"
             }
         ],
         "name": "Malus sylvestrus",
@@ -812,35 +819,6 @@
             "difficulty swallowing"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Zantedeschia aethiopica"
-    },
-    {
-        "classification": {
-            "clades": null,
-            "family": "Liliaceae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Asparagus",
-            "Emerald Feather",
-            "Emerald Fern",
-            "Sprengeri Fern",
-            "Plumosa Fern",
-            "Lace Fern",
-            "Racemose Asparagus",
-            "Shatavari"
-        ],
-        "id": "asparagus-densiflorus-cv-sprengeri",
-        "images": [],
-        "name": "Asparagus densiflorus cv sprengeri",
-        "symptoms": [
-            "dermatitis",
-            "abdominal pain",
-            "vomiting",
-            "diarrhea"
-        ]
     },
     {
         "classification": {
@@ -1401,7 +1379,12 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Fabaceae",
             "genus": "Erythrostemon",
             "kingdom": "Plantae",
@@ -1414,9 +1397,9 @@
             "Poinciana",
             "Pride of Barbados"
         ],
-        "id": "caesalpinia-gilliesii",
+        "id": "erythrostemon-gilliesii",
         "images": [],
-        "name": "Caesalpinia gilliesii",
+        "name": "Erythrostemon gilliesii",
         "symptoms": [
             "oral irritation",
             "drooling",
@@ -1425,7 +1408,7 @@
             "difficulty swallowing",
             "incoordination"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Caesalpinia gilliesii"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Erythrostemon_gilliesii"
     },
     {
         "classification": {
@@ -1687,20 +1670,27 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Ericaceae",
-            "genus": "",
+            "genus": "Kalmia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ericales",
+            "species": "K. polifolia"
         },
         "common": [
             "Pale Laurel",
-            "Bog Kalmia"
+            "Bog Kalmia",
+            "Swamp Laurel"
         ],
-        "id": "kalmia-poliifolia",
+        "id": "kalmia-polifolia",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kalmia_polifolia",
         "images": [],
-        "name": "Kalmia poliifolia",
+        "name": "Kalmia polifolia",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -1711,50 +1701,56 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Boraginceae",
-            "genus": "",
+            "genus": "Borago",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Boraginales",
+            "species": "B. officinalis"
         },
         "common": [
             "Starflower"
         ],
-        "id": "borage-officinalis",
+        "id": "borago-officinalis",
         "images": [
             {
                 "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2737393/medium.jpg",
-                "url": "plants/borage-officinalis/images/1.jpg"
+                "url": "plants/borago-officinalis/images/1.jpg"
             },
             {
                 "attribution": "(c) Duarte Frade, some rights reserved (CC BY), uploaded by Duarte Frade",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32961493/medium.jpeg",
-                "url": "plants/borage-officinalis/images/2.jpg"
+                "url": "plants/borago-officinalis/images/2.jpg"
             },
             {
                 "attribution": "(c) Terrie Schweitzer, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://static.inaturalist.org/photos/59896916/medium.jpg",
-                "url": "plants/borage-officinalis/images/3.jpg"
+                "url": "plants/borago-officinalis/images/3.jpg"
             },
             {
                 "attribution": "(c) Benoit NABHOLZ, some rights reserved (CC BY-NC), uploaded by Benoit NABHOLZ",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32629572/medium.jpeg",
-                "url": "plants/borage-officinalis/images/4.jpg"
+                "url": "plants/borago-officinalis/images/4.jpg"
             },
             {
                 "attribution": "(c) Kim, Hyun-tae, some rights reserved (CC BY), uploaded by Kim, Hyun-tae",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2737393/medium.jpg",
-                "url": "plants/borage-officinalis/images/5.jpg"
+                "url": "plants/borago-officinalis/images/5.jpg"
             }
         ],
-        "name": "Borage officinalis",
+        "name": "Borago officinalis",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Borage",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -1972,32 +1968,6 @@
             "diarrhea"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Hedera helix"
-    },
-    {
-        "classification": {
-            "clades": null,
-            "family": "Leguminosae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Bird of Paradise",
-            "Poinciana",
-            "Barbados Pride"
-        ],
-        "id": "poinciana-gilliesii",
-        "images": [],
-        "name": "Poinciana gilliesii",
-        "symptoms": [
-            "oral irritation",
-            "drooling",
-            "vomiting",
-            "diarrhea",
-            "difficulty swallowing",
-            "incoordination"
-        ]
     },
     {
         "classification": {
@@ -2404,16 +2374,24 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Celastraceae",
-            "genus": "",
+            "genus": "Euonymus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Celastrales",
+            "species": "E. atropurpureus"
         },
         "common": [
             "Wahoo",
-            "Spindle Tree"
+            "Spindle Tree",
+            "Eastern Wahoo",
+            "Burning Bush",
+            "Hearts Bursting With Love"
         ],
         "id": "euonymus-atropurpurea",
         "images": [
@@ -2479,6 +2457,7 @@
             }
         ],
         "name": "Euonymus atropurpurea",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Euonymus_atropurpureus",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -2681,12 +2660,16 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocot"
+            ],
             "family": "Araceae",
-            "genus": "",
+            "genus": "Caladium",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Alismatales",
+            "species": null
         },
         "common": [
             "Malanga",
@@ -2701,28 +2684,29 @@
             "Candidum",
             "Fancy-leaved Caladium"
         ],
-        "id": "caladium-hortulanum",
+        "id": "caladium-sp",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Caladium",
         "images": [
             {
                 "attribution": "(c) Maxwell C. Obiakara, some rights reserved (CC BY-NC), uploaded by Maxwell C. Obiakara",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97296175/medium.jpeg",
-                "url": "plants/caladium-hortulanum/images/1.jpg"
+                "url": "plants/caladium-sp/images/1.jpg"
             },
             {
                 "attribution": "(c) valeria_scura, some rights reserved (CC BY-NC), uploaded by valeria_scura",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29047197/medium.jpeg",
-                "url": "plants/caladium-hortulanum/images/2.jpg"
+                "url": "plants/caladium-sp/images/2.jpg"
             },
             {
                 "attribution": "(c) ziva_7, some rights reserved (CC BY-NC), uploaded by ziva_7",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129443467/medium.jpeg",
-                "url": "plants/caladium-hortulanum/images/3.jpg"
+                "url": "plants/caladium-sp/images/3.jpg"
             }
         ],
-        "name": "Caladium hortulanum",
+        "name": "Caladium sp.",
         "symptoms": [
             "oral irritation",
             "drooling",
@@ -2732,7 +2716,11 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Rutaceae",
             "genus": "Citrus",
             "kingdom": "Plantae",
@@ -2740,16 +2728,16 @@
             "species": "C. microcarpa"
         },
         "common": null,
-        "id": "citrus-mitis",
+        "id": "calamansi",
         "images": [],
-        "name": "Citrus mitis",
+        "name": "Calamansi",
         "symptoms": [
             "vomiting",
             "diarrhea",
             "depression",
             "dermatitis"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Citrus mitis"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Calamansi"
     },
     {
         "classification": {
@@ -4907,7 +4895,10 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Angiosperms",
+                "Monocot"
+            ],
             "family": "Araceae",
             "genus": "Dieffenbachia",
             "kingdom": "Plantae",
@@ -4932,7 +4923,7 @@
             "vomiting",
             "difficulty swallowing"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Dieffenbachia amoena"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Dieffenbachia_amoena"
     },
     {
         "classification": {
@@ -5512,7 +5503,7 @@
             "abdominal pain",
             "diarrhea"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Asparagus densiflorus"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Asparagus_densiflorus"
     },
     {
         "classification": {
@@ -5990,12 +5981,16 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocot"
+            ],
             "family": "Araceae",
-            "genus": "",
+            "genus": "Anthurium",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Alismatales",
+            "species": "A. scherzerianum"
         },
         "common": [
             "Flamingo Lily",
@@ -6004,9 +5999,10 @@
             "Pigtail Plant",
             "Painter's Pallet"
         ],
-        "id": "anthurium-scherzeranum",
+        "id": "anthurium-scherzerianum",
         "images": [],
-        "name": "Anthurium scherzeranum",
+        "name": "Anthurium scherzerianum",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Anthurium_scherzerianum",
         "symptoms": [
             "oral irritation",
             "drooling",
@@ -6484,90 +6480,98 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Rutaceae",
-            "genus": "",
+            "genus": "Citrus",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Sapindales",
+            "species": "C. × paradisi"
         },
-        "common": null,
-        "id": "citrus-paradisii",
+        "common": [
+            "Forbidden Fruit"
+        ],
+        "id": "grapefruit",
         "images": [
             {
                 "attribution": "(c) Karen, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1181681/medium.jpg",
-                "url": "plants/citrus-paradisii/images/1.jpg"
+                "url": "plants/grapefruit/images/1.jpg"
             },
             {
                 "attribution": "(c) bbk-htx, some rights reserved (CC BY-NC)",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26098999/medium.jpeg",
-                "url": "plants/citrus-paradisii/images/2.jpg"
+                "url": "plants/grapefruit/images/2.jpg"
             },
             {
                 "attribution": "(c) Pete The Poet, some rights reserved (CC BY-NC)",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1539349/medium.jpg",
-                "url": "plants/citrus-paradisii/images/3.jpg"
+                "url": "plants/grapefruit/images/3.jpg"
             },
             {
                 "attribution": "(c) Ulf Swenson, some rights reserved (CC BY-NC), uploaded by Ulf Swenson",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73268917/medium.jpeg",
-                "url": "plants/citrus-paradisii/images/4.jpg"
+                "url": "plants/grapefruit/images/4.jpg"
             },
             {
                 "attribution": "(c) Vicky Sedgwick, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17412766/medium.jpg",
-                "url": "plants/citrus-paradisii/images/5.jpg"
+                "url": "plants/grapefruit/images/5.jpg"
             },
             {
                 "attribution": "(c) Salomé, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38117/medium.jpg",
-                "url": "plants/citrus-paradisii/images/6.jpg"
+                "url": "plants/grapefruit/images/6.jpg"
             },
             {
                 "attribution": "(c) Roberto R. Calderón, some rights reserved (CC BY-NC), uploaded by Roberto R. Calderón",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65848313/medium.jpg",
-                "url": "plants/citrus-paradisii/images/7.jpg"
+                "url": "plants/grapefruit/images/7.jpg"
             },
             {
                 "attribution": "(c) Roberto R. Calderón, some rights reserved (CC BY-NC), uploaded by Roberto R. Calderón",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65848421/medium.jpg",
-                "url": "plants/citrus-paradisii/images/8.jpg"
+                "url": "plants/grapefruit/images/8.jpg"
             },
             {
                 "attribution": "(c) Alex Abair, some rights reserved (CC BY-NC), uploaded by Alex Abair",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112644602/medium.jpg",
-                "url": "plants/citrus-paradisii/images/9.jpg"
+                "url": "plants/grapefruit/images/9.jpg"
             },
             {
                 "attribution": "(c) Andy, some rights reserved (CC BY), uploaded by Andy",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111754697/medium.jpeg",
-                "url": "plants/citrus-paradisii/images/10.jpg"
+                "url": "plants/grapefruit/images/10.jpg"
             },
             {
                 "attribution": "(c) Andy, some rights reserved (CC BY), uploaded by Andy",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111754703/medium.jpeg",
-                "url": "plants/citrus-paradisii/images/11.jpg"
+                "url": "plants/grapefruit/images/11.jpg"
             },
             {
                 "attribution": "(c) Ulf Swenson, some rights reserved (CC BY-NC), uploaded by Ulf Swenson",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73268917/medium.jpeg",
-                "url": "plants/citrus-paradisii/images/12.jpg"
+                "url": "plants/grapefruit/images/12.jpg"
             }
         ],
-        "name": "Citrus paradisii",
+        "name": "Grapefruit",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Grapefruit",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -6917,20 +6921,26 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Monocot"
+            ],
             "family": "Liliaceae",
-            "genus": "",
+            "genus": "Hosta",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Asparagales",
+            "species": "H. plantaginea"
         },
         "common": [
             "Plantain Lily",
-            "Funkia"
+            "Funkia",
+            "August Lily"
         ],
-        "id": "hosta-plataginea",
+        "id": "hosta-plantaginea",
         "images": [],
-        "name": "Hosta plataginea",
+        "name": "Hosta plantaginea",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Hosta_plantaginea",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -7734,19 +7744,25 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Ericaceae",
-            "genus": "",
+            "genus": "Kalmia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Ericales",
+            "species": "K. angustifolia"
         },
         "common": [
             "Sheep Laurel"
         ],
-        "id": "kalmia-augustifolia",
+        "id": "kalmia-angustifolia",
         "images": [],
-        "name": "Kalmia augustifolia",
+        "name": "Kalmia angustifolia",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Kalmia_angustifolia",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -8040,42 +8056,50 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Lamiaceae",
-            "genus": "",
+            "genus": "Lavandula",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Lamiales",
+            "species": "L. angustifolia"
         },
         "common": [
             "Common Lavender",
-            "English Lavender"
+            "English Lavender",
+            "True Lavender",
+            "Garden Lavender",
+            "Narrow-Leaved Lavender"
         ],
-        "id": "lavendula-angustifolia",
+        "id": "lavandula-angustifolia",
         "images": [
             {
                 "attribution": "(c) epicnom, some rights reserved (CC BY-NC)",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157057/medium.jpg",
-                "url": "plants/lavendula-angustifolia/images/1.jpg"
+                "url": "plants/lavandula-angustifolia/images/1.jpg"
             },
             {
                 "attribution": "(c) Andrey Zharkikh, some rights reserved (CC BY)",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2697772/medium.jpg",
-                "url": "plants/lavendula-angustifolia/images/2.jpg"
+                "url": "plants/lavandula-angustifolia/images/2.jpg"
             },
             {
                 "attribution": "(c) Andrey Zharkikh, some rights reserved (CC BY)",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2697773/medium.jpg",
-                "url": "plants/lavendula-angustifolia/images/3.jpg"
+                "url": "plants/lavandula-angustifolia/images/3.jpg"
             },
             {
                 "attribution": "(c) epicnom, some rights reserved (CC BY-NC)",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/157057/medium.jpg",
-                "url": "plants/lavendula-angustifolia/images/4.jpg"
+                "url": "plants/lavandula-angustifolia/images/4.jpg"
             }
         ],
         "name": "Lavendula angustifolia",
@@ -8304,7 +8328,11 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Angiosperms",
+                "Eudicots",
+                "Rosids"
+            ],
             "family": "Rutaceae",
             "genus": "Citrus",
             "kingdom": "Plantae",
@@ -8312,59 +8340,59 @@
             "species": "C. × limonia"
         },
         "common": null,
-        "id": "citrus-limonia",
+        "id": "rangpur",
         "images": [
             {
                 "attribution": "(c) Stefano, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4062048/medium.jpg",
-                "url": "plants/citrus-limonia/images/1.jpg"
+                "url": "plants/rangpur/images/1.jpg"
             },
             {
                 "attribution": "(c) Dra. Laura Elvia Uribe Lara, some rights reserved (CC BY-NC), uploaded by Dra. Laura Elvia Uribe Lara",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2548584/medium.JPG",
-                "url": "plants/citrus-limonia/images/2.jpg"
+                "url": "plants/rangpur/images/2.jpg"
             },
             {
                 "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-SA), uploaded by Sunnetchan",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179364449/medium.jpeg",
-                "url": "plants/citrus-limonia/images/3.jpg"
+                "url": "plants/rangpur/images/3.jpg"
             },
             {
                 "attribution": "(c) Daniel Higuita Tamayo, some rights reserved (CC BY-NC), uploaded by Daniel Higuita Tamayo",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162185142/medium.jpeg",
-                "url": "plants/citrus-limonia/images/4.jpg"
+                "url": "plants/rangpur/images/4.jpg"
             },
             {
                 "attribution": "(c) Amuzujoe, some rights reserved (CC BY-SA)",
                 "license": "cc-by-sa",
                 "source_url": "https://static.inaturalist.org/photos/153283018/medium.jpg",
-                "url": "plants/citrus-limonia/images/5.jpg"
+                "url": "plants/rangpur/images/5.jpg"
             },
             {
                 "attribution": "(c) Forest Starr and Kim Starr, some rights reserved (CC BY)",
                 "license": "cc-by",
                 "source_url": "https://static.inaturalist.org/photos/153283019/medium.jpg",
-                "url": "plants/citrus-limonia/images/6.jpg"
+                "url": "plants/rangpur/images/6.jpg"
             },
             {
                 "attribution": "(c) Sunnetchan, some rights reserved (CC BY-NC-SA), uploaded by Sunnetchan",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179364449/medium.jpeg",
-                "url": "plants/citrus-limonia/images/7.jpg"
+                "url": "plants/rangpur/images/7.jpg"
             }
         ],
-        "name": "Citrus limonia",
+        "name": "Rangpur",
         "symptoms": [
             "vomiting",
             "diarrhea",
             "depression",
             "dermatitis"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Citrus limonia"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rangpur_(fruit)"
     },
     {
         "classification": {
@@ -10559,72 +10587,73 @@
                 "Monocots"
             ],
             "family": "Araceae",
-            "genus": "SpathiphyllumSchott",
+            "genus": "Spathiphyllum",
             "kingdom": "Plantae",
             "order": "Alismatales",
-            "species": ""
+            "species": null
         },
         "common": [
-            "Mauna Loa Peace Lily"
+            "Mauna Loa Peace Lily",
+            "Spath"
         ],
-        "id": "spathiphyllum",
+        "id": "spathiphyllum-sp",
         "images": [
             {
                 "attribution": "(c) Dick Culbert, some rights reserved (CC BY)",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439386/medium.jpg",
-                "url": "plants/spathiphyllum/images/1.jpg"
+                "url": "plants/spathiphyllum-sp/images/1.jpg"
             },
             {
                 "attribution": "(c) Mayuresh Kulkarni, some rights reserved (CC BY-NC), uploaded by Mayuresh Kulkarni",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30088532/medium.jpg",
-                "url": "plants/spathiphyllum/images/2.jpg"
+                "url": "plants/spathiphyllum-sp/images/2.jpg"
             },
             {
                 "attribution": "(c) jennyong, some rights reserved (CC BY-NC)",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31867366/medium.jpg",
-                "url": "plants/spathiphyllum/images/3.jpg"
+                "url": "plants/spathiphyllum-sp/images/3.jpg"
             },
             {
                 "attribution": "(c) Dick Culbert, some rights reserved (CC BY)",
                 "license": "cc-by",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439386/medium.jpg",
-                "url": "plants/spathiphyllum/images/4.jpg"
+                "url": "plants/spathiphyllum-sp/images/4.jpg"
             },
             {
                 "attribution": "(c) belvedere04, some rights reserved (CC BY-NC), uploaded by belvedere04",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29402740/medium.jpg",
-                "url": "plants/spathiphyllum/images/5.jpg"
+                "url": "plants/spathiphyllum-sp/images/5.jpg"
             },
             {
                 "attribution": "(c) Paulo Roberto C M Jr., some rights reserved (CC BY-SA)",
                 "license": "cc-by-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173607911/medium.jpeg",
-                "url": "plants/spathiphyllum/images/6.jpg"
+                "url": "plants/spathiphyllum-sp/images/6.jpg"
             },
             {
                 "attribution": "(c) David Monroy R, some rights reserved (CC BY-NC), uploaded by David Monroy R",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125244518/medium.jpeg",
-                "url": "plants/spathiphyllum/images/7.jpg"
+                "url": "plants/spathiphyllum-sp/images/7.jpg"
             },
             {
                 "attribution": "(c) Lyle Gordon, some rights reserved (CC BY-NC), uploaded by Lyle Gordon",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16535812/medium.jpg",
-                "url": "plants/spathiphyllum/images/8.jpg"
+                "url": "plants/spathiphyllum-sp/images/8.jpg"
             },
             {
                 "attribution": "(c) belvedere04, some rights reserved (CC BY-NC), uploaded by belvedere04",
                 "license": "cc-by-nc",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29402769/medium.jpg",
-                "url": "plants/spathiphyllum/images/9.jpg"
+                "url": "plants/spathiphyllum-sp/images/9.jpg"
             }
         ],
-        "name": "Spathiphyllum",
+        "name": "Spathiphyllum sp.",
         "symptoms": [
             "oral irritation",
             "drooling",
@@ -10719,7 +10748,7 @@
             "vomiting",
             "diarrhea"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Caesalpinia pulcherrima"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Caesalpinia_pulcherrima"
     },
     {
         "classification": {
@@ -10779,42 +10808,50 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Paeniaceae",
-            "genus": "",
+            "genus": "Paeonia",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Saxifragales",
+            "species": "P. officinalis"
         },
-        "common": null,
-        "id": "paeonis-officinalis",
+        "common": [
+            "Common Peony",
+            "Garden Peony"
+        ],
+        "id": "paeonia-officinalis",
         "images": [
             {
                 "attribution": "(c) Xavier Béjar, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/887114/medium.jpg",
-                "url": "plants/paeonis-officinalis/images/1.jpg"
+                "url": "plants/paeonia-officinalis/images/1.jpg"
             },
             {
                 "attribution": "(c) Sarah Gregg, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/708077/medium.jpg",
-                "url": "plants/paeonis-officinalis/images/2.jpg"
+                "url": "plants/paeonia-officinalis/images/2.jpg"
             },
             {
                 "attribution": "(c) Xavier Béjar, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/887117/medium.jpg",
-                "url": "plants/paeonis-officinalis/images/3.jpg"
+                "url": "plants/paeonia-officinalis/images/3.jpg"
             },
             {
                 "attribution": "(c) Xavier Béjar, some rights reserved (CC BY-NC-SA)",
                 "license": "cc-by-nc-sa",
                 "source_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/887114/medium.jpg",
-                "url": "plants/paeonis-officinalis/images/4.jpg"
+                "url": "plants/paeonia-officinalis/images/4.jpg"
             }
         ],
-        "name": "Paeonis officinalis",
+        "name": "Paeonia officinalis",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Paeonia_officinalis",
         "symptoms": [
             "vomiting",
             "diarrhea",
@@ -11096,33 +11133,6 @@
             "depression"
         ],
         "wikipedia_url": "https://en.wikipedia.org/wiki/Hosta plantaginea"
-    },
-    {
-        "classification": {
-            "clades": null,
-            "family": "Leguminosae",
-            "genus": "",
-            "kingdom": "Plantae",
-            "order": "",
-            "species": ""
-        },
-        "common": [
-            "Peacock Flower",
-            "Bird of Paradise",
-            "Barbados Pride",
-            "Pride of Barbados"
-        ],
-        "id": "caesalpinia-gilliessi",
-        "images": [],
-        "name": "Caesalpinia gilliessi",
-        "symptoms": [
-            "oral irritation",
-            "drooling",
-            "vomiting",
-            "diarrhea",
-            "difficulty swallowing",
-            "incoordination"
-        ]
     },
     {
         "classification": {
@@ -11509,15 +11519,23 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Angiosperms",
+                "Eudicots",
+                "Asterids"
+            ],
             "family": "Apiaceae",
-            "genus": "SphenosciadiumA.Gray",
+            "genus": "Sphenosciadium",
             "kingdom": "Plantae",
             "order": "Apiales",
             "species": "S. capitellatum"
         },
         "common": [
-            "White Heads"
+            "White Heads",
+            "Woollyhead Parsnip",
+            "Ranger's Buttons",
+            "Button Parsley",
+            "Swamp White Headers"
         ],
         "id": "sphenosciadium-capitellatum",
         "images": [
@@ -11563,7 +11581,7 @@
             "photosensitivity",
             "dermatitis"
         ],
-        "wikipedia_url": "https://en.wikipedia.org/wiki/Sphenosciadium capitellatum"
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Sphenosciadium"
     },
     {
         "classification": {
@@ -11725,17 +11743,22 @@
     },
     {
         "classification": {
-            "clades": null,
+            "clades": [
+                "Tracheophytes",
+                "Angiosperms",
+                "Eudicots"
+            ],
             "family": "Polygonaceae",
-            "genus": "",
+            "genus": "Rheum",
             "kingdom": "Plantae",
-            "order": "",
-            "species": ""
+            "order": "Caryophyllales",
+            "species": "R. × hybridum"
         },
         "common": [
             "Pie Plant"
         ],
         "id": "rheum-rhabarbarium",
+        "wikipedia_url": "https://en.wikipedia.org/wiki/Rhubarb",
         "images": [
             {
                 "attribution": "(c) Anja Cervencl, some rights reserved (CC BY-NC), uploaded by Anja Cervencl",
@@ -12279,9 +12302,9 @@
         "common": [
             "Springparsley"
         ],
-        "id": "cymopterus",
+        "id": "cymopterus-sp",
         "images": [],
-        "name": "Cymopterus",
+        "name": "Cymopterus sp.",
         "symptoms": [
             "photosensitivity",
             "dermatitis"
