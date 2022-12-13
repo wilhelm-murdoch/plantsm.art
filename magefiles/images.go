@@ -234,7 +234,8 @@ func (Images) Download(ctx context.Context, sourcePath string) error {
 				path := parts[0]
 				ext := parts[1]
 
-				images.Push([]string{image.SourceUrl, fmt.Sprintf("%s-square.%s", path, ext)})
+				images.Push([]string{image.SourceUrl, image.Url})
+				images.Push([]string{strings.Replace(image.SourceUrl, "medium", "square", -1), fmt.Sprintf("%s-square.%s", path, ext)})
 			}
 		}
 	}
