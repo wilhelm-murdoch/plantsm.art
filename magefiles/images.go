@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 	"os"
 	"strings"
 	"time"
@@ -228,7 +229,13 @@ func (Images) Download(ctx context.Context, sourcePath string) error {
 	var images collection.Collection[[]string]
 	for _, plant := range plants.Data {
 		for _, image := range plant.Images {
-			images.Push([]string{image.SourceUrl, image.Url})
+			if u, err := url.Parse(image.Url); err == nil {
+				parts := strings.Split(u.Path, ".")
+				path := parts[0]
+				ext := parts[1]
+
+				images.Push([]string{image.SourceUrl, fmt.Sprintf("%s-square.%s", path, ext)})
+			}
 		}
 	}
 
