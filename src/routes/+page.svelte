@@ -16,11 +16,11 @@
 			});
 	});
 
-	let page = 1;
+	let page = 0;
 	let size = 9;
 	let plants: any[] = [];
 
-	$: plants = [...plants, ...apiPlants.splice((page - 1) * size, page * size)];
+	$: plants = [...plants, ...apiPlants.slice(size * page, size * (page + 1))];
 </script>
 
 {#if plants.length == 0}
