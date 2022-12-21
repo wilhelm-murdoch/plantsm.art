@@ -1,5 +1,6 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,10 +11,17 @@ const config = {
 			postcss: true
 		})
 	],
-
 	kit: {
-		adapter: adapter()
-	}
+		adapter: adapter({
+			pages: 'build',
+			assets: 'build',
+			fallback: null,
+			precompress: false,
+			strict: true
+		})
+	},
+
+	preprocess: vitePreprocess()
 };
 
 export default config;
