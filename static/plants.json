@@ -2,11 +2,7 @@
     {
         "animals": [
             "dog",
-            "cat",
-            "rat",
-            "horse",
-            "rabbit",
-            "bird"
+            "cat"
         ],
         "classification": {
             "clades": [

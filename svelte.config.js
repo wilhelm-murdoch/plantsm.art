@@ -18,7 +18,15 @@ const config = {
 			fallback: null,
 			precompress: false,
 			strict: true
-		})
+		}),
+		prerender: {
+			entries: [
+				"/",
+				"/about",
+				"/plant/aloe-vera",
+				"/plant/alocasia-sp"
+			],
+		},
 	},
 
 	preprocess: vitePreprocess()

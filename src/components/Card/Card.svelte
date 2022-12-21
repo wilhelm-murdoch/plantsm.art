@@ -1,45 +1,13 @@
 <script lang="ts">
-	import type { CardPlant, Badge } from './Card';
+	import type { CardPlant } from './Card';
+	import { animalToBadge } from './Card';
 
 	export let plant: CardPlant;
-
-	const animalToBadge: { [char: string]: Badge } = {
-		cat: {
-			foreground: 'text-yellow-900',
-			background: 'bg-yellow-100',
-			emoji: '🐱'
-		},
-		dog: {
-			foreground: 'text-orange-900',
-			background: 'bg-orange-100',
-			emoji: '🐶'
-		},
-		horse: {
-			foreground: 'text-green-900',
-			background: 'bg-green-100',
-			emoji: '🐴'
-		},
-		rat: {
-			foreground: 'text-slate-900',
-			background: 'bg-slate-100',
-			emoji: '🐭'
-		},
-		bird: {
-			foreground: 'text-blue-900',
-			background: 'bg-blue-100',
-			emoji: '🐦'
-		},
-		rabbit: {
-			foreground: 'text-gray-900',
-			background: 'bg-gray-100',
-			emoji: '🐰'
-		}
-	};
 </script>
 
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg fade-in-animation">
 	<div class="flex-shrink-0">
-		<a href="/">
+		<a href="/plant/{plant.id}" title="Read more about {plant.name}.">
 			<img
 				class="h-48 w-full object-cover"
 				src={plant.images[0].url}
@@ -130,7 +98,7 @@
 
 		<div class="-mt-px flex border-t">
 			<a
-				href="/"
+				href="/plant/{plant.id}"
 				title="Read more about {plant.name}."
 				class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-1 text-sm font-medium text-gray-700 hover:bg-slate-50 hover:text-gray-500"
 			>

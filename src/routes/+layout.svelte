@@ -13,7 +13,9 @@
 <div class="relative mx-auto max-w-7xl">
 	<Logo classes={'p-2.5 text-center'} />
 </div>
-<div class="relative bg-gray-50 pb-5 sm:px-6 sm:pt-4 lg:px-8 lg:pt-4 lg:pb-4 border-b border-t">
+<div
+	class="relative bg-gray-50 pb-5 mb-8 sm:px-6 sm:pt-4 lg:px-8 lg:pt-4 lg:pb-4 border-b border-t"
+>
 	<div class="relative mx-auto max-w-7xl">
 		<slot />
 	</div>
