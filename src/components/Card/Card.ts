@@ -47,5 +47,15 @@ export const animalToBadge: { [char: string]: Badge } = {
     foreground: 'text-gray-900',
     background: 'bg-gray-100',
     emoji: '🐰'
+  },
+  reptile: {
+    foreground: 'text-gray-900',
+    background: 'bg-gray-100',
+    emoji: '🦎'
+  },
+  hamster: {
+    foreground: 'text-gray-900',
+    background: 'bg-gray-100',
+    emoji: '🐹'
   }
 };

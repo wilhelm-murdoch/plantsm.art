@@ -8,6 +8,6 @@ declare namespace App {
 	// interface Platform {}
 }
 
-declare module 'svelte-carousel';
-
 export const prerender = true;
+
+declare module 'svelte-carousel';

@@ -6,7 +6,23 @@
 </script>
 
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg fade-in-animation">
-	<div class="flex-shrink-0">
+	<div class="flex-shrink-0 relative">
+		<span
+			class="absolute top-1 right-1 inline-flex items-center rounded-md bg-black px-2.5 py-1 text-xs font-medium text-white opacity-75"
+			><svg
+				class="w-4 h-4 mr-1"
+				fill="none"
+				stroke="currentColor"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+				/></svg
+			>+{plant.images.length - 1}</span
+		>
 		<a href="/plant/{plant.id}" title="Read more about {plant.name}.">
 			<img
 				class="h-48 w-full object-cover"
@@ -45,7 +61,7 @@
 				{#each plant.animals.slice(0, 4) as animal}
 					<span
 						class="inline-flex items-center rounded-md {animalToBadge[animal]
-							.background} p-1 {animalToBadge[animal].foreground}"
+							.background} px-2.5 py-1 {animalToBadge[animal].foreground}"
 						>{animalToBadge[animal].emoji} {animal}s</span
 					>{/each}{#if plant.animals.length > 4}<span
 						class="inline-flex items-center rounded-md bg-gray-100 py-1 px-2.5 text-gray-800"

@@ -21,19 +21,17 @@
 		</div>
 
 		<div class="px-5 py-2">
-			<a href="/" class="text-base text-gray-400 hover:text-gray-500">Symptoms</a>
+			<a href="/about" title="About" class="text-base text-gray-400 hover:text-gray-500">About</a>
 		</div>
 
 		<div class="px-5 py-2">
-			<a href="/" class="text-base text-gray-400 hover:text-gray-500">About</a>
+			<a href="/contribute" title="Contribute" class="text-base text-gray-400 hover:text-gray-500"
+				>Contribute</a
+			>
 		</div>
 
 		<div class="px-5 py-2">
-			<a href="/" class="text-base text-gray-400 hover:text-gray-500">Contribute</a>
-		</div>
-
-		<div class="px-5 py-2">
-			<a href="/" class="text-base text-gray-400 hover:text-gray-500">FAQ</a>
+			<a href="/faq" title="FAQ" class="text-base text-gray-400 hover:text-gray-500">FAQ</a>
 		</div>
 	</nav>
 
@@ -82,10 +80,7 @@
 	</div>
 
 	<div class="text-center text-sm text-slate-300 mb-8">
-		<span class="text-amber-400 font-serif">Plant</span>🪴<span
-			class="text-green-600 italic font-serif">Smart</span
-		>
-		is made with
+		Made with
 		<svg
 			class="w-6 h-6 text-red-600 inline-block heartbeat-animation"
 			fill="currentColor"

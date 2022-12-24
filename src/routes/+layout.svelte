@@ -10,7 +10,7 @@
 	</p>
 </div>
 
-<div class="relative mx-auto max-w-7xl">
+<div class="relative mx-auto max-w-7xl mb-8">
 	<Logo classes={'p-2.5 text-center'} />
 </div>
 <div

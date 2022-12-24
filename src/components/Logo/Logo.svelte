@@ -67,20 +67,19 @@
 	});
 </script>
 
-<h1 class={compositeClasses}>
-	<a href="/" title="Back to the main page.">
-		<span class=" text-amber-400 text-6xl mr-1">Plant</span>
-		{#if randomIcon}<img
-				src="/icons/plants/{randomIcon}.svg"
-				alt="An image of {randomIcon}."
-				class="inline-block h-14 w-14 align-baseline jello-animation"
-			/>
-		{:else}
-			<span class="inline-block animate-pulse align-baseline h-14 w-14 bg-slate-50 rounded-lg" />
-		{/if}
-		<span class="text-green-600 italic text-6xl ml-1">Smart</span></a
-	>
-</h1>
+<div class="h-16">
+	{#if randomIcon}
+		<h1 class={compositeClasses}>
+			<a href="/" title="Back to the main page.">
+				<span class=" text-amber-400 text-6xl mr-1">Plant</span><img
+					src="/icons/plants/{randomIcon}.svg"
+					alt="An image of {randomIcon}."
+					class="inline-block h-14 w-14 align-baseline jello-animation"
+				/><span class="text-green-600 italic text-6xl ml-1">Smart</span></a
+			>
+		</h1>
+	{/if}
+</div>
 
 <style>
 	.jello-animation {
