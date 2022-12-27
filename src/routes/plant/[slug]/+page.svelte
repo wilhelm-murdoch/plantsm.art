@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { ClassificationCard, Warning, DetailsCard } from '../../../components';
-
+	import { isDeadly } from '../../../components/Card/Card';
 	export let data: any;
 </script>
 
 <div class="fade-in-animation">
 	<div class="mb-4">
-		{#if data.plant.symptoms.includes('death')}
+		{#if isDeadly(data.plant)}
 			<h1
 				class="unstyled bg-black p-2.5 text-4xl font-extralight text-white rounded-tr-md rounded-tl-md"
 			>

@@ -15,7 +15,7 @@
 		<div class="text-md px-2.5 pb-2.5 text-gray-400">
 			{#if common}
 				{#each common as name, i}
-					{name}{#if i != common.length - 1},&nbsp;{/if}
+					{name.name}{#if i != common.length - 1},&nbsp;{/if}
 				{/each}
 			{:else}
 				<div class="rounded-md bg-slate-100 p-4">
@@ -39,7 +39,7 @@
 							<p class="text-sm text-slate-500">
 								<i
 									>We currently don't have any other common names for this entry on record. Feel
-									free to check out how you can <a
+									free to learn about how you can <a
 										href="/"
 										title="Missing details? Submit your own changes for approval."
 										class="border-b hover:text-slate-600">contribute</a
@@ -61,10 +61,7 @@
 				href="/"
 				title="View other plants with this symptom."
 				class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500"
-				>{symptom
-					.split(' ')
-					.map((x) => x[0].toUpperCase() + x.substring(1))
-					.join(' ')}</a
+				>{symptom.name}</a
 			>{#if i != symptoms.length - 1},&nbsp;{/if}
 		{/each}
 	</div>
@@ -77,7 +74,7 @@
 				<img
 					alt="gallery"
 					class="inline-block object-cover object-center h-32 w-full hover:opacity-75 cursor-pointer"
-					src="/{image.url}"
+					src="/images/{image.relative_path}"
 				/>
 			</a>
 		{/each}

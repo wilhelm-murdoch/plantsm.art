@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { CardPlant } from './Card';
-	import { animalToBadge } from './Card';
+	import { animalToBadge, isDeadly } from './Card';
 
 	export let plant: CardPlant;
 </script>
@@ -23,13 +23,13 @@
 				/></svg
 			>+{plant.images.length - 1}</span
 		>
-		<a href="/plant/{plant.id}" title="Read more about {plant.name}.">
+		<a href="/plant/{plant.pid}" title="Read more about {plant.name}.">
 			<img
 				class="h-48 w-full object-cover"
-				src={plant.images[0].url}
+				src="images/{plant.images[0].relative_path}"
 				alt="Cover image for {plant.name}."
 			/>
-			{#if plant.symptoms.includes('death')}
+			{#if isDeadly(plant)}
 				<h3 class="unstyled bg-black p-2.5 text-xl font-extralight text-white">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -72,8 +72,8 @@
 			<h3 class="unstyled font-sans mb-3 p-2.5 border-b text-sm bg-slate-50">Other Names</h3>
 			<p class="px-2.5 pb-2.5 text-sm text-slate-500">
 				{#if plant.common != null}
-					{#each plant.common.slice(0, 3) as name, i}
-						{name}{#if i != plant.common.slice(0, 3).length - 1},&nbsp;{/if}
+					{#each plant.common.slice(0, 3) as common, i}
+						{common.name}{#if i != plant.common.slice(0, 3).length - 1},&nbsp;{/if}
 					{/each}
 					{#if plant.common.length > 3}
 						<span
@@ -95,12 +95,12 @@
 			</p>
 			<h3 class="unstyled font-sans mb-3 p-2.5 border-b text-sm bg-slate-50">Symptoms</h3>
 			<p class="px-2.5 pb-2.5 text-sm text-slate-500">
-				{#each plant.symptoms.slice(0, 3) as name, i}
+				{#each plant.symptoms.slice(0, 3) as symptom, i}
 					<a
 						href="/"
 						title="View other plants with this symptom."
 						class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500"
-						>{name}</a
+						>{symptom.name}</a
 					>{#if i != plant.symptoms.slice(0, 3).length - 1},&nbsp;{/if}
 				{/each}
 				{#if plant.symptoms.length > 3}
@@ -114,7 +114,7 @@
 
 		<div class="-mt-px flex border-t">
 			<a
-				href="/plant/{plant.id}"
+				href="/plant/{plant.pid}"
 				title="Read more about {plant.name}."
 				class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-1 text-sm font-medium text-gray-700 hover:bg-slate-50 hover:text-gray-500"
 			>

@@ -27,15 +27,17 @@ func (Munge) Symptoms(ctx context.Context, sourcePath, writePath string) error {
 
 	var symptoms collection.Collection[string]
 	for _, plant := range plants.Data {
-		symptoms.PushDistinct(plant.Symptoms...)
+		for _, symptom := range plant.Symptoms {
+			symptoms.PushDistinct(symptom.Name)
+		}
 	}
 
 	symptoms_by_plant := make(map[string][]string)
 	symptoms.Each(func(i int, symptom string) bool {
 		for _, plant := range plants.Data {
 			for _, s := range plant.Symptoms {
-				if symptom == s {
-					symptoms_by_plant[symptom] = append(symptoms_by_plant[symptom], plant.Id)
+				if symptom == s.Name {
+					symptoms_by_plant[symptom] = append(symptoms_by_plant[symptom], plant.Pid)
 				}
 			}
 		}

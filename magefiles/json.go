@@ -22,7 +22,7 @@ func (Json) Pages(ctx context.Context, sourcePath, toPath string) error {
 	}
 
 	for _, plant := range plants.Data {
-		file, _ := os.OpenFile(fmt.Sprintf("%s/%s.json", toPath, plant.Id), os.O_CREATE|os.O_WRONLY, os.ModePerm)
+		file, _ := os.OpenFile(fmt.Sprintf("%s/%s.json", toPath, plant.Pid), os.O_CREATE|os.O_WRONLY, os.ModePerm)
 		defer file.Close()
 
 		encoder := json.NewEncoder(file)
@@ -30,7 +30,7 @@ func (Json) Pages(ctx context.Context, sourcePath, toPath string) error {
 			return err
 		}
 
-		fmt.Printf("Wrote: %s/%s.json\n", toPath, plant.Id)
+		fmt.Printf("Wrote: %s/%s.json\n", toPath, plant.Pid)
 	}
 
 	return nil
