@@ -129,7 +129,7 @@
 		<a
 			href={wikipedia_url}
 			title="Read more about this entry."
-			class=" text-slate-400 relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-2 text-md hover:bg-slate-50 hover:text-gray-500"
+			class=" text-slate-400 inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-2 text-md hover:bg-slate-50 hover:text-gray-500"
 		>
 			wikipedia<svg
 				class="w-5 h-5"

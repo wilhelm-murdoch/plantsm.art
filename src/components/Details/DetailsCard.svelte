@@ -1,8 +1,48 @@
 <script lang="ts">
+	import { fade } from 'svelte/transition';
 	export let plant: any = {};
 
-	export let symptoms: string[] = [];
-	export let common: string[] = [];
+	let lightboxImage: any = plant.images[0];
+	let lightboxImageIndex = 0;
+	let lightboxVisible = false;
+
+	function handlePreviousClick() {
+		let previous = lightboxImageIndex - 1;
+		if (lightboxImageIndex == 0) {
+			previous = plant.images.length - 1;
+		} else if (lightboxImageIndex + 1 > plant.images.length) {
+			previous = 0;
+		}
+
+		lightboxImageIndex = previous;
+		lightboxImage = plant.images[previous];
+	}
+
+	function handleNextClick() {
+		let next = lightboxImageIndex + 1;
+		if (lightboxImageIndex == plant.images.length - 1 || next > plant.images.length) {
+			next = 0;
+		}
+
+		lightboxImageIndex = next;
+		lightboxImage = plant.images[next];
+	}
+
+	function onLightboxKeyDown(e: any) {
+		switch (e.key) {
+			case 'Escape':
+				lightboxImage = {};
+				lightboxImageIndex = 0;
+				lightboxVisible = false;
+				break;
+			case 'ArrowLeft':
+				handlePreviousClick();
+				break;
+			case 'ArrowRight':
+				handleNextClick();
+				break;
+		}
+	}
 </script>
 
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg mb-4">
@@ -13,9 +53,9 @@
 			Other Names
 		</h3>
 		<div class="text-md px-2.5 pb-2.5 text-gray-400">
-			{#if common}
-				{#each common as name, i}
-					{name.name}{#if i != common.length - 1},&nbsp;{/if}
+			{#if plant.common}
+				{#each plant.common as name, i}
+					{name.name}{#if i != plant.common.length - 1},&nbsp;{/if}
 				{/each}
 			{:else}
 				<div class="rounded-md bg-slate-100 p-4">
@@ -56,27 +96,106 @@
 		Symptoms
 	</h3>
 	<div class="text-md p-2.5">
-		{#each symptoms as symptom, i}
+		{#each plant.symptoms as symptom, i}
 			<a
 				href="/"
 				title="View other plants with this symptom."
 				class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500"
 				>{symptom.name}</a
-			>{#if i != symptoms.length - 1},&nbsp;{/if}
+			>{#if i != plant.symptoms.length - 1},&nbsp;{/if}
 		{/each}
 	</div>
 	<h3 class="unstyled font-sans p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500">
 		Images
 	</h3>
 	<div class="grid grid-cols-4">
-		{#each plant.images as image}
-			<a href={image.source_url} title="">
-				<img
-					alt="gallery"
-					class="inline-block object-cover object-center h-32 w-full hover:opacity-75 cursor-pointer"
-					src="/images/{image.relative_path}"
-				/>
-			</a>
+		{#each plant.images as image, i}
+			<img
+				on:click={() => (
+					(lightboxVisible = !lightboxVisible), (lightboxImage = image), (lightboxImageIndex = i)
+				)}
+				on:keydown
+				alt={image.relative_path}
+				class="inline-block object-cover object-center h-32 w-full hover:opacity-75 cursor-pointer"
+				src="/images/{image.relative_path}"
+			/>
 		{/each}
 	</div>
 </div>
+
+{#if lightboxVisible}
+	<div
+		in:fade
+		out:fade
+		class="fixed top-0 left-0 z-800 w-screen h-screen bg-black/70 overflow-scroll"
+	>
+		<div class="w-screen bg-gradient-to-tr from-green-700 to-emerald-900 top-0">
+			<a on:click={() => (lightboxVisible = false)} href="#top" class="float-right mt-5 mr-5">
+				<svg
+					class="w-6 h-6 text-white"
+					fill="none"
+					stroke="currentColor"
+					viewBox="0 0 24 24"
+					xmlns="http://www.w3.org/2000/svg"
+					><path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M6 18L18 6M6 6l12 12"
+					/>
+				</svg>
+			</a>
+			<div class="p-2.5 text-4xl font-extralight text-white text-center">
+				{lightboxImageIndex + 1} of {plant.images.length}
+			</div>
+		</div>
+		<span
+			on:click|preventDefault={handlePreviousClick}
+			on:keypress={onLightboxKeyDown}
+			class="fixed top-1/2 text-white bg-black/20 hover:bg-black/40 p-2.5 rounded-full ml-2 cursor-pointer"
+		>
+			<svg
+				class="w-6 h-6"
+				fill="none"
+				stroke="currentColor"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M15 19l-7-7 7-7"
+				/></svg
+			>
+		</span>
+		<span
+			on:click|preventDefault={handleNextClick}
+			on:keypress={onLightboxKeyDown}
+			class="fixed top-1/2 right-0 text-white bg-black/20 hover:bg-black/40 p-2.5 rounded-full mr-2 cursor-pointer"
+		>
+			<svg
+				class="w-6 h-6"
+				fill="none"
+				stroke="currentColor"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+				><path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M9 5l7 7-7 7"
+				/></svg
+			>
+		</span>
+		<div class="items-center m-16 border-2">
+			<img
+				alt={lightboxImage.relative_path}
+				src="/images/{lightboxImage.relative_path}"
+				class="w-full"
+			/>
+			<div class="p-2.5 bg-white text-center text-slate-500">{lightboxImage.attribution}</div>
+		</div>
+	</div>
+{/if}
+
+<svelte:window on:keydown={onLightboxKeyDown} />
