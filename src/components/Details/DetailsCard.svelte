@@ -149,7 +149,7 @@
 				on:keydown
 				alt={image.relative_path}
 				class="inline-block object-cover object-center h-32 w-full hover:opacity-75 cursor-pointer"
-				src="/images/{image.relative_path}"
+				src="/images/{image.relative_path.replace('original', 'thumbnail')}"
 			/>
 		{/each}
 	</div>

@@ -26,7 +26,7 @@
 		<a href="/plant/{plant.pid}" title="Read more about {plant.name}.">
 			<img
 				class="h-48 w-full object-cover"
-				src="images/{plant.images[0].relative_path}"
+				src="images/{plant.images[0].relative_path.replace('original', 'medium')}"
 				alt="Cover image for {plant.name}."
 			/>
 			{#if isDeadly(plant)}
