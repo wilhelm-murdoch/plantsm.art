@@ -35,7 +35,7 @@
 	</div>
 
 	<div class="mx-auto grid max-w-lg lg:max-w-none lg:grid-cols-2 gap-4">
-		<DetailsCard common={data.plant.common} symptoms={data.plant.symptoms} plant={data.plant} />
+		<DetailsCard plant={data.plant} />
 
 		<ClassificationCard
 			animals={data.plant.animals}

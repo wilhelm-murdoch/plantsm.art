@@ -1,10 +1,13 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	export let plant: any = {};
 
 	let lightboxImage: any = plant.images[0];
 	let lightboxImageIndex = 0;
 	let lightboxVisible = false;
+
+	let toggleScrollLock = () => {};
 
 	function handlePreviousClick() {
 		let previous = lightboxImageIndex - 1;
@@ -34,6 +37,8 @@
 				lightboxImage = {};
 				lightboxImageIndex = 0;
 				lightboxVisible = false;
+
+				toggleScrollLock();
 				break;
 			case 'ArrowLeft':
 				handlePreviousClick();
@@ -43,6 +48,35 @@
 				break;
 		}
 	}
+
+	function closeLightbox() {
+		lightboxImage = {};
+		lightboxImageIndex = 0;
+		lightboxVisible = false;
+
+		toggleScrollLock();
+	}
+
+	function openLightbox(image: any, index: number) {
+		lightboxVisible = true;
+		lightboxImage = image;
+		lightboxImageIndex = index;
+
+		toggleScrollLock();
+	}
+
+	onMount(() => {
+		const defaultScroll = document.body.style.overflow;
+		toggleScrollLock = () => {
+			if (lightboxVisible) {
+				document.body.style.overflow = 'hidden';
+			} else {
+				document.body.style.overflow = defaultScroll;
+			}
+		};
+
+		toggleScrollLock();
+	});
 </script>
 
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg mb-4">
@@ -111,9 +145,7 @@
 	<div class="grid grid-cols-4">
 		{#each plant.images as image, i}
 			<img
-				on:click={() => (
-					(lightboxVisible = !lightboxVisible), (lightboxImage = image), (lightboxImageIndex = i)
-				)}
+				on:click={() => openLightbox(image, i)}
 				on:keydown
 				alt={image.relative_path}
 				class="inline-block object-cover object-center h-32 w-full hover:opacity-75 cursor-pointer"
@@ -130,7 +162,7 @@
 		class="fixed top-0 left-0 z-800 w-screen h-screen bg-black/70 overflow-scroll"
 	>
 		<div class="w-screen bg-gradient-to-tr from-green-700 to-emerald-900 top-0">
-			<a on:click={() => (lightboxVisible = false)} href="#top" class="float-right mt-5 mr-5">
+			<a on:click={() => closeLightbox()} href="#top" class="float-right mt-5 mr-5">
 				<svg
 					class="w-6 h-6 text-white"
 					fill="none"
@@ -150,7 +182,7 @@
 			</div>
 		</div>
 		<span
-			on:click|preventDefault={handlePreviousClick}
+			on:click={handlePreviousClick}
 			on:keypress={onLightboxKeyDown}
 			class="fixed top-1/2 text-white bg-black/20 hover:bg-black/40 p-2.5 rounded-full ml-2 cursor-pointer"
 		>
@@ -169,7 +201,7 @@
 			>
 		</span>
 		<span
-			on:click|preventDefault={handleNextClick}
+			on:click={handleNextClick}
 			on:keypress={onLightboxKeyDown}
 			class="fixed top-1/2 right-0 text-white bg-black/20 hover:bg-black/40 p-2.5 rounded-full mr-2 cursor-pointer"
 		>
