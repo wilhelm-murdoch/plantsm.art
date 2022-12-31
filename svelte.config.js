@@ -28,6 +28,8 @@ const config = {
 			entries: [
 				"/",
 				"/about",
+				"/contribute",
+				"/faq",
 				...entries
 			],
 		},

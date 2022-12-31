@@ -15,8 +15,8 @@
 		<p class="px-2.5 pb-3 text-md font-medium space-x-1 space-y-1">
 			{#each animals as animal}
 				<span
-					class="inline-flex items-center rounded-md {animalToBadge[animal]
-						.background} px-2.5 py-1 {animalToBadge[animal].foreground}"
+					class="inline-flex items-center rounded-md bg-{animalToBadge[animal]
+						.background} px-2.5 py-1 text-{animalToBadge[animal].foreground}"
 					>{animalToBadge[animal].emoji} {animal}s</span
 				>{/each}
 		</p>

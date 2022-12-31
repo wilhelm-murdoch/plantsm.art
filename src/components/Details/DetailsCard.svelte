@@ -177,7 +177,7 @@
 					/>
 				</svg>
 			</a>
-			<div class="p-2.5 text-4xl font-extralight text-white text-center">
+			<div class="p-2.5 text-3xl font-extralight text-white text-center">
 				{lightboxImageIndex + 1} of {plant.images.length}
 			</div>
 		</div>

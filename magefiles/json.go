@@ -7,6 +7,7 @@ import (
 	"os"
 
 	"github.com/magefile/mage/mg"
+	"github.com/wilhelm-murdoch/go-collection"
 )
 
 type Json mg.Namespace
@@ -31,6 +32,43 @@ func (Json) Pages(ctx context.Context, sourcePath, toPath string) error {
 		}
 
 		fmt.Printf("Wrote: %s/%s.json\n", toPath, plant.Pid)
+	}
+
+	return nil
+}
+
+type SymptomItem struct {
+	Name   string `json:"name"`
+	Slug   string `json:"slug"`
+	Plants int    `json:"plants"`
+}
+
+func (Json) Symptoms(ctx context.Context, sourcePath string) error {
+	plants, err := unmarshalPlantsFromSource(sourcePath)
+	if err != nil {
+		return err
+	}
+
+	var symptoms collection.Collection[*SymptomItem]
+
+	for _, plant := range plants.Data {
+		for _, symptom := range plant.Symptoms {
+			if found := symptoms.Find(func(i int, s *SymptomItem) bool {
+				return s.Slug == symptom.Slug
+			}); found != nil {
+				found.Plants += 1
+			} else {
+				symptoms.PushDistinct(&SymptomItem{
+					Name:   symptom.Name,
+					Slug:   symptom.Slug,
+					Plants: 1,
+				})
+			}
+		}
+	}
+
+	if err := json.NewEncoder(os.Stdout).Encode(symptoms.Items()); err != nil {
+		panic(err)
 	}
 
 	return nil

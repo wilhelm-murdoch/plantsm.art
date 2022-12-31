@@ -28,43 +28,43 @@ export function isDeadly(plant: CardPlant) {
 
 export const animalToBadge: { [char: string]: Badge } = {
   cat: {
-    foreground: 'text-yellow-900',
-    background: 'bg-yellow-100',
+    foreground: 'yellow-900',
+    background: 'yellow-100',
     emoji: '🐱'
   },
   dog: {
-    foreground: 'text-orange-900',
-    background: 'bg-orange-100',
+    foreground: 'orange-900',
+    background: 'orange-100',
     emoji: '🐶'
   },
   horse: {
-    foreground: 'text-green-900',
-    background: 'bg-green-100',
+    foreground: 'green-900',
+    background: 'green-100',
     emoji: '🐴'
   },
   rat: {
-    foreground: 'text-slate-900',
-    background: 'bg-slate-100',
+    foreground: 'slate-900',
+    background: 'slate-100',
     emoji: '🐭'
   },
   bird: {
-    foreground: 'text-blue-900',
-    background: 'bg-blue-100',
+    foreground: 'blue-900',
+    background: 'blue-100',
     emoji: '🐦'
   },
   rabbit: {
-    foreground: 'text-gray-900',
-    background: 'bg-gray-100',
+    foreground: 'slate-900',
+    background: 'slate-100',
     emoji: '🐰'
   },
   reptile: {
-    foreground: 'text-gray-900',
-    background: 'bg-gray-100',
+    foreground: 'green-700',
+    background: 'green-50',
     emoji: '🦎'
   },
   hamster: {
-    foreground: 'text-gray-900',
-    background: 'bg-gray-100',
+    foreground: 'yellow-700',
+    background: 'yellow-50',
     emoji: '🐹'
   }
 };

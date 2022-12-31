@@ -60,8 +60,8 @@
 			<p class="px-2.5 pb-2.5 text-sm font-medium space-x-1 space-y-1">
 				{#each plant.animals.slice(0, 4) as animal}
 					<span
-						class="inline-flex items-center rounded-md {animalToBadge[animal]
-							.background} px-2.5 py-1 {animalToBadge[animal].foreground}"
+						class="inline-flex items-center rounded-md bg-{animalToBadge[animal]
+							.background} px-2.5 py-1 text-{animalToBadge[animal].foreground}"
 						>{animalToBadge[animal].emoji} {animal}s</span
 					>{/each}{#if plant.animals.length > 4}<span
 						class="inline-flex items-center rounded-md bg-gray-100 py-1 px-2.5 text-gray-800"
