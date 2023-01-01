@@ -2,9 +2,11 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { fade } from 'svelte/transition';
-	import { animalToBadge } from '../Card/Card';
+	import { affectedAnimals } from '$utils/animals';
 	import { filters } from './filters';
 	import type { FilterItem, SymptomItem } from './filters';
+
+	export let resultCount: number = 0;
 
 	let isOsMac = false;
 	let affectsOpen = false;
@@ -182,7 +184,7 @@
 								class="absolute right-0 z-10 mt-2 origin-top-right rounded-md bg-white p-4 shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
 							>
 								<form class="space-y-4">
-									{#each Object.entries(animalToBadge) as animal, i}
+									{#each Object.entries(affectedAnimals) as animal, i}
 										<div class="flex items-center">
 											<input
 												id="filter-affects-{i}"
@@ -246,15 +248,15 @@
 
 							<div
 								class:hidden={!symptomsOpen}
-								class="absolute right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none max-h-96 w-64 overflow-scroll"
+								class="absolute right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none max-h-96 w-64 overflow-y-scroll"
 							>
 								<form>
-									<div class="relative flex items-center border-b text-center w-64 p-4 mb-4">
+									<div class="relative flex items-center border-b text-center p-4 mb-4">
 										<div
 											class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"
 										>
 											<svg
-												class="ml-6 h-4 w-4 text-gray-400"
+												class="ml-4 h-4 w-4 text-gray-400"
 												fill="none"
 												stroke="currentColor"
 												viewBox="0 0 20 20"
@@ -339,12 +341,12 @@
 							{#if filter.type == 'affects'}
 								<span
 									in:fade
-									class="m-1 inline-flex items-center rounded-md shadow-sm text-{animalToBadge[
+									class="m-1 inline-flex items-center rounded-md shadow-sm text-{affectedAnimals[
 										filter.term
-									].foreground} bg-{animalToBadge[filter.term]
+									].foreground} bg-{affectedAnimals[filter.term]
 										.background} py-1.5 pl-3 pr-2 text-sm font-medium"
 								>
-									<span>{animalToBadge[filter.term].emoji} {filter.term}s</span>
+									<span>{affectedAnimals[filter.term].emoji} {filter.term}s</span>
 									<button
 										type="button"
 										class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500"
@@ -419,6 +421,19 @@
 								</span>
 							{/if}
 						{/each}
+						{#if $filters.length}
+							<span
+								class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700"
+							>
+								{#if resultCount == 0}
+									no matches
+								{:else if resultCount == 1}
+									1 match
+								{:else}
+									{resultCount} matches
+								{/if}
+							</span>
+						{/if}
 					{:else}
 						<span class="text-slate-400 text-sm italic m-1 py-1.5">none specified &hellip;</span>
 					{/if}
@@ -427,4 +442,5 @@
 		</div>
 	</div>
 </section>
+
 <svelte:window on:keydown={onWindowKeydown} />

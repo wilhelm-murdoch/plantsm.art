@@ -1,82 +1,34 @@
 <script lang="ts">
-	import { Card, FilterPanel } from '../components';
+	import { onDestroy } from 'svelte';
+	import { Card, FilterPanel } from '$components';
 	import InfiniteScroll from 'svelte-infinite-scroll';
-	import { onMount } from 'svelte';
-	import { filters } from '../components/FilterPanel/filters';
+	import type { Plant, PlantsWrapped } from '$lib/types/plant';
+	import { createSearchStore, searchHandler } from '$utils/stores';
+	import { filters } from '$components/FilterPanel/filters';
 
-	type Slugged = {
-		name: string;
-		slug: string;
-	};
-
-	type Image = {
-		source_url: string;
-		attribution: string;
-		license: string;
-		relative_path: string;
-	};
-
-	type Classification = {
-		kingdom: string;
-		clades: string[];
-		order: string;
-		family: string;
-		genus: string;
-		species: string;
-	};
-
-	type Plant = {
-		pid: string;
-		name: string;
-		animals: string[];
-		common: Slugged[];
-		symptoms: Slugged[];
-		images: Image[];
-		classification: Classification;
-		wikipedia_url: string;
-		date_last_updated: string;
-	};
-
-	let apiPlants: Plant[] = [];
-
-	onMount(async () => {
-		const response = await fetch('/plants.json');
-		if (response.ok) {
-			apiPlants = await response.json();
-		} else {
-			console.log('no');
-		}
-	});
+	export let data: PlantsWrapped;
 
 	let page = 0;
 	let size = 9;
 	let plants: Plant[] = [];
 
-	$: plants = [
-		...plants,
-		...apiPlants
-			.filter((p: Plant) => {
-				console.log($filters.length);
-				if (!$filters.length) {
-					return true;
-				}
+	const searchStore = createSearchStore(data.plants);
+	const unsubscribePlants = searchStore.subscribe((model) => searchHandler(model));
+	const unsubscribeFilters = filters.subscribe((f) => {
+		page = 0;
+		plants = [];
+		$searchStore.search = '^(?=.*\\b' + f.map((t) => t.term).join('\\b)(?=.*\\b') + '\\b).*$';
+	});
 
-				let match = false;
-				$filters.forEach((f) => {
-					switch (f.type) {
-						case 'text':
-							// console.log(p.name, f.term, p.name.toLowerCase().includes(f.term));
-							match = p.name.toLowerCase().includes(f.term);
-							break;
-					}
-				});
-				return match;
-			})
-			.slice(size * page, size * (page + 1))
-	];
+	$: plants = [...plants, ...$searchStore.filtered.slice(size * page, size * (page + 1))];
+
+	onDestroy(() => {
+		unsubscribePlants();
+		unsubscribeFilters();
+	});
 </script>
 
-<FilterPanel />
+<FilterPanel resultCount={$searchStore.filtered.length} />
 
 <div class="relative bg-gray-50 pb-5 mb-8 sm:px-6 sm:pt-4 lg:px-8 lg:pt-4 lg:pb-4 border-b">
 	<div class="relative mx-auto max-w-7xl">
@@ -101,12 +53,14 @@
 					<span class="sr-only">Loading...</span>
 				</div>
 			</div>
+		{:else if $searchStore.filtered.length == 0}
+			no
 		{:else}
 			<div class="mx-auto grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3">
 				{#each plants as plant}
 					<Card {plant} />
 				{/each}
-				<InfiniteScroll window={true} threshold={100} on:loadMore={() => page++} />
+				<InfiniteScroll window={true} threshold={150} on:loadMore={() => page++} />
 			</div>
 		{/if}
 	</div>

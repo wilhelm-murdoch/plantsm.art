@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Logo from '../Logo/Logo.svelte';
+	import Logo from '$components/Logo/Logo.svelte';
 </script>
 
 <div class="relative mx-auto max-w-7xl mb-8">

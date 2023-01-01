@@ -24,6 +24,11 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
+		alias: {
+			'$components': path.resolve('./src/lib/components'),
+			'$lib': path.resolve('./src/lib'),
+			'$utils': path.resolve('./src/lib/utils')
+		},
 		prerender: {
 			entries: [
 				"/",

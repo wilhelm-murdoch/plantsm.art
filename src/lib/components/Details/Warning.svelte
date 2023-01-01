@@ -8,11 +8,11 @@
 				</li>
 				<li>
 					If you suspect your animal has ingested portions of this plant, immediately consult your
-					veternarian.
+					veterinarian.
 				</li>
 				<li>
 					If your animal is experiencing any of the following symptoms, immediately contact your
-					veternarian's emergency number for further instructions.
+					veterinarian's emergency number for further instructions.
 				</li>
 			</ul>
 		</div>

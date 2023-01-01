@@ -1,5 +1,6 @@
 <script lang="ts">
-	import { animalToBadge } from '../Card/Card';
+	import { affectedAnimals } from '$utils/animals';
+
 	export let animals: string[] = [];
 	export let classification: any = {};
 	export let wikipedia_url = '';
@@ -15,9 +16,9 @@
 		<p class="px-2.5 pb-3 text-md font-medium space-x-1 space-y-1">
 			{#each animals as animal}
 				<span
-					class="inline-flex items-center rounded-md bg-{animalToBadge[animal]
-						.background} px-2.5 py-1 text-{animalToBadge[animal].foreground}"
-					>{animalToBadge[animal].emoji} {animal}s</span
+					class="inline-flex items-center rounded-md bg-{affectedAnimals[animal]
+						.background} px-2.5 py-1 text-{affectedAnimals[animal].foreground}"
+					>{affectedAnimals[animal].emoji} {animal}s</span
 				>{/each}
 		</p>
 		<h3 class="unstyled font-sans p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500">

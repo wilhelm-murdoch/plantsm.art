@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+
 	export let plant: any = {};
 
 	let lightboxImage: any = plant.images[0];

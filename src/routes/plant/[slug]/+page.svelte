@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { ClassificationCard, Warning, DetailsCard } from '../../../components';
-	import { isDeadly } from '../../../components/Card/Card';
+	import { ClassificationCard, Warning, DetailsCard } from '$components';
+	import { isDeadly } from '$components/Card/Card';
 	export let data: any;
 </script>
 

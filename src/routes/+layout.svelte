@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
-	import { Header, Footer } from '../components';
+	import { Header, Footer } from '$components';
 </script>
 
 <div class="bg-yellow-50 p-4 text-sm text-center text-yellow-700 mb-8">

@@ -1,32 +1,11 @@
-export interface PlantImage {
-  relative_path: string;
-}
 
-export interface Term {
-  slug: string;
-  name: string;
-}
-
-export interface CardPlant {
-  animals: string[];
-  common: Term[];
-  pid: string;
-  name: string;
-  images: PlantImage[];
-  symptoms: Term[];
-}
-
-export interface Badge {
+export interface Animal {
   foreground: string;
   background: string;
   emoji: string;
 }
 
-export function isDeadly(plant: CardPlant) {
-  return plant.symptoms.filter(s => s.slug == "death").length >= 1
-}
-
-export const animalToBadge: { [char: string]: Badge } = {
+export const affectedAnimals: { [char: string]: Animal } = {
   cat: {
     foreground: 'yellow-900',
     background: 'yellow-100',
