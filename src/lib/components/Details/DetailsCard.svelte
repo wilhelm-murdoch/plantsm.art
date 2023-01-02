@@ -133,7 +133,7 @@
 	<div class="text-md p-2.5">
 		{#each plant.symptoms as symptom, i}
 			<a
-				href="/"
+				href="/?f=s:{symptom.name}"
 				title="View other plants with this symptom."
 				class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500"
 				>{symptom.name}</a

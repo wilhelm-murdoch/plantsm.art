@@ -3,18 +3,18 @@
 	import { Card, FilterPanel } from '$components';
 	import InfiniteScroll from 'svelte-infinite-scroll';
 	import type { Plant, PlantsWrapped } from '$lib/types/plant';
-	import { createSearchStore, searchHandler } from '$utils/stores';
-	import { filters } from '$components/FilterPanel/filters';
-
+	import { createSearchStore, searchHandler } from '$utils/stores/search';
+	import { filters as filterStore, type FilterItem } from '$components/FilterPanel/filters';
 	export let data: PlantsWrapped;
 
 	let page = 0;
 	let size = 9;
 	let plants: Plant[] = [];
+	let urlFilters: FilterItem[] = [];
 
 	const searchStore = createSearchStore(data.plants);
-	const unsubscribePlants = searchStore.subscribe((model) => searchHandler(model));
-	const unsubscribeFilters = filters.subscribe((f) => {
+	const unsubscribePlants = searchStore.subscribe((s) => searchHandler(s));
+	const unsubscribeFilters = filterStore.subscribe((f) => {
 		page = 0;
 		plants = [];
 		$searchStore.search = '^(?=.*\\b' + f.map((t) => t.term).join('\\b)(?=.*\\b') + '\\b).*$';

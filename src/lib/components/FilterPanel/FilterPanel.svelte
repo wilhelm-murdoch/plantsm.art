@@ -4,6 +4,7 @@
 	import { fade } from 'svelte/transition';
 	import { affectedAnimals } from '$utils/animals';
 	import { filters } from './filters';
+	import { goto } from '$app/navigation';
 	import type { FilterItem, SymptomItem } from './filters';
 
 	export let resultCount: number = 0;
@@ -316,6 +317,9 @@
 								aria-expanded="false"
 								on:click={() => {
 									$filters = [];
+									goto('/');
+									symptomsOpen = false;
+									affectsOpen = false;
 								}}
 							>
 								<span>Clear</span>

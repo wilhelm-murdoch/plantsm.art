@@ -2,6 +2,7 @@
 	import type { CardPlant } from './Card';
 	import { affectedAnimals } from '$utils/animals';
 	import { isDeadly } from './Card';
+	import { filters } from '$components/FilterPanel/filters';
 
 	export let plant: CardPlant;
 </script>
@@ -98,7 +99,7 @@
 			<p class="px-2.5 pb-2.5 text-sm text-slate-500">
 				{#each plant.symptoms.slice(0, 3) as symptom, i}
 					<a
-						href="/"
+						href="/?f=s:{symptom.name}"
 						title="View other plants with this symptom."
 						class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500"
 						>{symptom.name}</a
