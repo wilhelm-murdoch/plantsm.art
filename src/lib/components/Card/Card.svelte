@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { CardPlant } from './Card';
-	import { affectedAnimals } from '$utils/animals';
+	import { getAllAnimals, getByAnimal } from '$utils/animals';
 	import { isDeadly } from './Card';
 	import { filters } from '$components/FilterPanel/filters';
 
@@ -62,9 +62,9 @@
 			<p class="px-2.5 pb-2.5 text-sm font-medium space-x-1 space-y-1">
 				{#each plant.animals.slice(0, 4) as animal}
 					<span
-						class="inline-flex items-center rounded-md bg-{affectedAnimals[animal]
-							.background} px-2.5 py-1 text-{affectedAnimals[animal].foreground}"
-						>{affectedAnimals[animal].emoji} {animal}</span
+						class="inline-flex items-center rounded-md bg-{getByAnimal(animal)
+							.background} px-2.5 py-1 text-{getByAnimal(animal).foreground}"
+						>{getByAnimal(animal).emoji} {animal}</span
 					>{/each}{#if plant.animals.length > 4}<span
 						class="inline-flex items-center rounded-md bg-gray-100 py-1 px-2.5 text-gray-800"
 						>+{plant.animals.length - 4} more

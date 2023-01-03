@@ -6,7 +6,7 @@
 					<span class="block text-center text-lg font-semibold text-green-600">about</span>
 					<span
 						class="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
-						>Why I Went About Making This ...</span
+						>Why I went about making this site.</span
 					>
 				</h1>
 			</div>

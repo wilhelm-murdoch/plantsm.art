@@ -1,11 +1,11 @@
 
-export interface Animal {
+interface Animal {
   foreground: string;
   background: string;
   emoji: string;
 }
 
-export const affectedAnimals: { [char: string]: Animal } = {
+const animals: { [char: string]: Animal } = {
   cats: {
     foreground: 'yellow-900',
     background: 'yellow-100',
@@ -47,3 +47,17 @@ export const affectedAnimals: { [char: string]: Animal } = {
     emoji: '🐹'
   }
 };
+
+export const getByAnimal = (animal: string) => {
+  var _default = {
+    foreground: 'white',
+    background: 'black',
+    emoji: '🚫'
+  }
+
+  return animal in animals ? animals[animal] : _default;
+}
+
+export const getAllAnimals = () => {
+  return Object.keys(animals)
+}

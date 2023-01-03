@@ -6,7 +6,7 @@
 					<span class="block text-center text-lg font-semibold text-green-600">contribute</span>
 					<span
 						class="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
-						>Learn how you can help out</span
+						>Learn how you can help out.</span
 					>
 				</h1>
 			</div>

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 	import { fade } from 'svelte/transition';
-	import { affectedAnimals } from '$utils/animals';
+	import { getAllAnimals, getByAnimal } from '$utils/animals';
 	import { filters } from './filters';
 	import { goto } from '$app/navigation';
 	import type { FilterItem, SymptomItem } from './filters';
@@ -185,27 +185,27 @@
 								class="absolute right-0 z-10 mt-2 origin-top-right rounded-md bg-white p-4 shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none"
 							>
 								<form class="space-y-4">
-									{#each Object.entries(affectedAnimals) as animal, i}
+									{#each getAllAnimals() as animal}
 										<div class="flex items-center">
 											<input
-												id="filter-affects-{i}"
+												id="filter-affects-{animal}"
 												name="affects[]"
-												value={animal[0]}
+												value={animal}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
-												on:click={() => handleCheckboxFilter('affects', animal[0])}
+												on:click={() => handleCheckboxFilter('affects', animal)}
 												checked={$filters.some((f) => {
-													return f.type == 'affects' && f.term == animal[0];
+													return f.type == 'affects' && f.term == animal;
 												})}
 											/>
 											<label
-												for="filter-affects-{i}"
+												for="filter-affects-{animal}"
 												class="ml-3 whitespace-nowrap pr-6 text-sm font-medium text-gray-900 cursor-pointer"
 											>
 												<span
-													class="inline-flex items-center rounded-md bg-{animal[1]
-														.background} px-2.5 py-1 text-{animal[1].foreground}"
-													>{animal[1].emoji} {animal[0]}</span
+													class="inline-flex items-center rounded-md bg-{getByAnimal(animal)
+														.background} px-2.5 py-1 text-{getByAnimal(animal).foreground}"
+													>{getByAnimal(animal).emoji} {animal}</span
 												>
 											</label>
 										</div>
@@ -345,12 +345,12 @@
 							{#if filter.type == 'affects'}
 								<span
 									in:fade
-									class="m-1 inline-flex items-center rounded-md shadow-sm text-{affectedAnimals[
+									class="m-1 inline-flex items-center rounded-md shadow-sm text-{getByAnimal(
 										filter.term
-									].foreground} bg-{affectedAnimals[filter.term]
+									).foreground} bg-{getByAnimal(filter.term)
 										.background} py-1.5 pl-3 pr-2 text-sm font-medium"
 								>
-									<span>{affectedAnimals[filter.term].emoji} {filter.term}</span>
+									<span>{getByAnimal(filter.term).emoji} {filter.term}</span>
 									<button
 										type="button"
 										class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500"

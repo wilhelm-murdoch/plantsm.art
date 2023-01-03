@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+	import { getAllAnimals, getByAnimal } from '$utils/animals';
 
 	export let plant: any = {};
 
@@ -82,6 +83,20 @@
 
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg mb-4">
 	<div class="flex-shrink-0">
+		<h3
+			class="unstyled font-sans mb-3 p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500"
+		>
+			Affects
+		</h3>
+		<p class="px-2.5 pb-3 text-md font-medium space-x-1 space-y-1">
+			{#each plant.animals as animal}
+				<span
+					class="inline-flex items-center rounded-md bg-{getByAnimal(animal)
+						.background} px-2.5 py-1 text-{getByAnimal(animal).foreground}"
+					>{getByAnimal(animal).emoji} {animal}</span
+				>{/each}
+		</p>
+
 		<h3
 			class="unstyled font-sans mb-3 p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500"
 		>
