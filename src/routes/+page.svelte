@@ -4,13 +4,13 @@
 	import InfiniteScroll from 'svelte-infinite-scroll';
 	import type { Plant, PlantsWrapped } from '$lib/types/plant';
 	import { createSearchStore, searchHandler } from '$utils/stores/search';
-	import { filters as filterStore, type FilterItem } from '$components/FilterPanel/filters';
+	import { filters as filterStore } from '$components/FilterPanel/filters';
+
 	export let data: PlantsWrapped;
 
 	let page = 0;
 	let size = 9;
 	let plants: Plant[] = [];
-	let urlFilters: FilterItem[] = [];
 
 	const searchStore = createSearchStore(data.plants);
 	const unsubscribePlants = searchStore.subscribe((s) => searchHandler(s));
