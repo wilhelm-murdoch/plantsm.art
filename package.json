@@ -44,6 +44,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@tailwindcss/typography": "^0.5.8",
 		"flowbite": "^1.5.5",
 		"svelte-infinite-scroll": "^2.0.1"
 	}
