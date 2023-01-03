@@ -4,7 +4,7 @@
 	export let data: any;
 </script>
 
-<div class="relative bg-gray-50 pb-5 mb-8 sm:px-6 sm:pt-4 lg:px-8 lg:pt-4 lg:pb-4 border-b">
+<div class="relative bg-gray-50 pb-5 mb-8 sm:px-6 sm:pt-4 lg:px-8 lg:pt-4 lg:pb-4 border-y">
 	<div class="relative mx-auto max-w-7xl">
 		<div class="fade-in-animation">
 			<div class="mb-4">

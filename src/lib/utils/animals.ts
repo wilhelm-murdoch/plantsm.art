@@ -6,42 +6,42 @@ export interface Animal {
 }
 
 export const affectedAnimals: { [char: string]: Animal } = {
-  cat: {
+  cats: {
     foreground: 'yellow-900',
     background: 'yellow-100',
     emoji: '🐱'
   },
-  dog: {
+  dogs: {
     foreground: 'orange-900',
     background: 'orange-100',
     emoji: '🐶'
   },
-  horse: {
+  horses: {
     foreground: 'green-900',
     background: 'green-100',
     emoji: '🐴'
   },
-  rat: {
+  rats: {
     foreground: 'slate-900',
     background: 'slate-100',
     emoji: '🐭'
   },
-  bird: {
+  birds: {
     foreground: 'blue-900',
     background: 'blue-100',
     emoji: '🐦'
   },
-  rabbit: {
+  rabbits: {
     foreground: 'slate-900',
     background: 'slate-100',
     emoji: '🐰'
   },
-  reptile: {
+  reptiles: {
     foreground: 'green-700',
     background: 'green-50',
     emoji: '🦎'
   },
-  hamster: {
+  hamsters: {
     foreground: 'yellow-700',
     background: 'yellow-50',
     emoji: '🐹'

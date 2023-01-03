@@ -400,7 +400,7 @@ func (Pb) Import(ctx context.Context, sourcePath, databasePath string) error {
 			}
 		}
 
-		body, _ := json.Marshal(&Plant{
+		body, _ := json.Marshal(Plant{
 			Pid:          plant.Pid,
 			Name:         plant.Name,
 			Animals:      plant.Animals,

@@ -190,7 +190,7 @@
 											<input
 												id="filter-affects-{i}"
 												name="affects[]"
-												value="{animal[0]}s"
+												value={animal[0]}
 												type="checkbox"
 												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
 												on:click={() => handleCheckboxFilter('affects', animal[0])}
@@ -205,7 +205,7 @@
 												<span
 													class="inline-flex items-center rounded-md bg-{animal[1]
 														.background} px-2.5 py-1 text-{animal[1].foreground}"
-													>{animal[1].emoji} {animal[0]}s</span
+													>{animal[1].emoji} {animal[0]}</span
 												>
 											</label>
 										</div>
@@ -350,7 +350,7 @@
 									].foreground} bg-{affectedAnimals[filter.term]
 										.background} py-1.5 pl-3 pr-2 text-sm font-medium"
 								>
-									<span>{affectedAnimals[filter.term].emoji} {filter.term}s</span>
+									<span>{affectedAnimals[filter.term].emoji} {filter.term}</span>
 									<button
 										type="button"
 										class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-gray-400 hover:bg-gray-200 hover:text-gray-500"
@@ -393,12 +393,12 @@
 								{:else}
 									<span
 										in:fade
-										class="m-1 inline-flex items-center rounded-md shadow-sm text-white py-1.5 pl-3 pr-2 text-sm font-medium bg-green-500"
+										class="m-1 inline-flex items-center rounded-md shadow-sm text-white py-1.5 pl-3 pr-2 text-sm font-medium bg-green-700"
 									>
 										<span>{filter.term}</span>
 										<button
 											type="button"
-											class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-white bg-green-600 hover:bg-green-700"
+											class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-white hover:bg-green-800"
 											on:click={() => removeFilter(filter)}
 										>
 											<svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">

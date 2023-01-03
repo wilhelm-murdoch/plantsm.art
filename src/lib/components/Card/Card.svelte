@@ -64,7 +64,7 @@
 					<span
 						class="inline-flex items-center rounded-md bg-{affectedAnimals[animal]
 							.background} px-2.5 py-1 text-{affectedAnimals[animal].foreground}"
-						>{affectedAnimals[animal].emoji} {animal}s</span
+						>{affectedAnimals[animal].emoji} {animal}</span
 					>{/each}{#if plant.animals.length > 4}<span
 						class="inline-flex items-center rounded-md bg-gray-100 py-1 px-2.5 text-gray-800"
 						>+{plant.animals.length - 4} more

@@ -3,10 +3,10 @@
 		<div class="overflow-hidden rounded-lg shadow-lg mb-8 bg-white p-10">
 			<div class="mx-auto max-w-prose text-lg">
 				<h1>
-					<span class="block text-center text-lg font-semibold text-green-600">Wanna Help?</span>
+					<span class="block text-center text-lg font-semibold text-green-600">contribute</span>
 					<span
 						class="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
-						>Learn How to Contribute!</span
+						>Learn how you can help out</span
 					>
 				</h1>
 			</div>

@@ -3,12 +3,10 @@
 		<div class="overflow-hidden rounded-lg shadow-lg mb-8 bg-white p-10">
 			<div class="mx-auto max-w-prose text-lg">
 				<h1>
-					<span class="block text-center text-lg font-semibold text-green-600"
-						>If you have questions...</span
-					>
+					<span class="block text-center text-lg font-semibold text-green-600">api</span>
 					<span
 						class="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
-						>You Came to the Right Page!</span
+						>Accessing the Data Set</span
 					>
 				</h1>
 			</div>

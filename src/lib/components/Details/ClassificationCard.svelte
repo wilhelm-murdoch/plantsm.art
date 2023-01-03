@@ -18,7 +18,7 @@
 				<span
 					class="inline-flex items-center rounded-md bg-{affectedAnimals[animal]
 						.background} px-2.5 py-1 text-{affectedAnimals[animal].foreground}"
-					>{affectedAnimals[animal].emoji} {animal}s</span
+					>{affectedAnimals[animal].emoji} {animal}</span
 				>{/each}
 		</p>
 		<h3 class="unstyled font-sans p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500">
