@@ -102,24 +102,25 @@
 
 				<h3 id="contributors">Contributors</h3>
 				<p>The following is a list of people who have contributed on Github.</p>
-
-				{#each data.contributors as contributor}
-					<a
-						class="not-prose relative inline-block"
-						title="{contributor.login}'s profile image."
-						href={contributor.html_url}
-					>
-						<img
-							class="h-16 w-16 rounded-full"
-							src={contributor.avatar_url}
-							alt="{contributor.login}'s profile image."
-						/>
-						<span
-							class="not-prose absolute top-0 right-0 block rounded-md text-center py-0.5 px-1 bg-green-500 ring-2 ring-white text-white text-xs"
-							>{contributor.contributions}</span
+				<div class="flex space-x-5">
+					{#each data.contributors as contributor}
+						<a
+							class="not-prose relative inline-block"
+							title="{contributor.login}'s profile image."
+							href={contributor.html_url}
 						>
-					</a>
-				{/each}
+							<img
+								class="h-16 w-16 rounded-full border-black/25"
+								src={contributor.avatar_url}
+								alt="{contributor.login}'s profile image."
+							/>
+							<span
+								class="not-prose absolute top-0 right-0 block rounded-md text-center py-0.5 px-1 bg-green-500 ring-2 ring-white text-white text-xs"
+								>{contributor.contributions}</span
+							>
+						</a>
+					{/each}
+				</div>
 			</div>
 		</div>
 	</div>
