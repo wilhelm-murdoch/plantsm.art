@@ -77,7 +77,7 @@
 				<p>
 					All changes are peer-reviewed before merging into the <code>main</code> branch and
 					deploying to production. If you’re change is submitted, you’ll automatically show up in
-					the contributor’s list <a href="#contributors" title="Contributors">below</a>. 🙂
+					the contributors' list <a href="#contributors" title="Contributors">below</a>. 🙂
 				</p>
 
 				<h3>Shoot me a message</h3>
