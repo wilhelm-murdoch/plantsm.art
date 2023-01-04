@@ -46,7 +46,7 @@
 				<h3>Submit an issue</h3>
 
 				<p>
-					This is the probably the most pragmatic option for most people. <a
+					This is probably the most pragmatic option for most people. <a
 						href="https://github.com/login"
 						title="Log into Github.">Log into Github</a
 					>
