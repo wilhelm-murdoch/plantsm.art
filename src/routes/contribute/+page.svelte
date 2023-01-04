@@ -53,8 +53,8 @@
 					and
 					<a
 						href="https://github.com/wilhelm-murdoch/plantsm.art/issues/new"
-						title="Submit a new issue.">click here</a
-					> to submit a new issue. Be descriptive both the title and description and — most importantly
+						title="Submit a new issue.">submit a new issue</a
+					>. Be descriptive both the title and description and — most importantly
 					— ensure you’ve selected an appropriate tag to associate with the issue. This helps me quickly
 					when sorting though and prioritising other entries.
 				</p>
@@ -67,17 +67,17 @@
 						href="https://github.com/wilhelm-murdoch/plantsm.art/fork"
 						title="Fork the repository.">fork the repository</a
 					>
-					yourself and submit a
+					yourself and 
 					<a
 						href="https://github.com/wilhelm-murdoch/plantsm.art/compare"
-						title="Submit a pull request.">pull request</a
+						title="Submit a pull request.">submit a pull request</a
 					> when you’re finished.
 				</p>
 
 				<p>
 					All changes are peer-reviewed before merging into the <code>main</code> branch and
 					deploying to production. If you’re change is submitted, you’ll automatically show up in
-					the contributors' list <a href="#contributors" title="Contributors">below</a>. 🙂
+					the <a href="#contributors" title="Contributors">contributors' list</a> below. 🙂
 				</p>
 
 				<h3>Shoot me a message</h3>
