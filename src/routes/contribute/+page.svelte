@@ -110,7 +110,7 @@
 							href={contributor.html_url}
 						>
 							<img
-								class="h-16 w-16 rounded-full border-black/25"
+								class="h-16 w-16 rounded-full border-solid border-2 border-black/5"
 								src={contributor.avatar_url}
 								alt="{contributor.login}'s profile image."
 							/>
