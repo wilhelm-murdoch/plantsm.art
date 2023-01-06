@@ -2,7 +2,7 @@ export const prerender = true;
 
 export const load = async () => {
   const getEvents = async () => {
-    const res = await fetch('https://api.github.com/repos/wilhelm-murdoch/plantsm.art/events?per-page=100')
+    const res = await fetch('https://api.github.com/repos/wilhelm-murdoch/plantsm.art/events?per_page=100')
     const data: any[] = await res.json()
 
     return data.reduce((e, { type, created_at, actor, payload }) => {
