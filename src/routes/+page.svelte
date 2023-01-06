@@ -6,7 +6,6 @@
 	import { createSearchStore, searchHandler } from '$utils/stores/search';
 	import { filters as filterStore } from '$components/FilterPanel/filters';
 	import { _isLoading } from './+page';
-
 	export let data: PlantsWrapped;
 
 	let page = 0;

@@ -80,6 +80,7 @@ mage pb:import /static/plants.json
 This will populate the database. Once complete, you can go back to the admin panel and modify the records using a nice interface. When finished, be sure to run the following command to rebuild the `/static/plants.json` file:
 ```
 mage pb:export /static/plants.json
+cp /static/plants.json /src/routes/plants.json
 ```
 This will sync your all your changes. Be sure to run the previously-mentioned `mage` commands outlined in the first section under [Updating Datasets](#updating-datasets).
 

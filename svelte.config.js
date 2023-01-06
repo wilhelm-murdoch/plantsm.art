@@ -27,7 +27,8 @@ const config = {
 		alias: {
 			'$components': path.resolve('./src/lib/components'),
 			'$lib': path.resolve('./src/lib'),
-			'$utils': path.resolve('./src/lib/utils')
+			'$utils': path.resolve('./src/lib/utils'),
+			'$static': path.resolve('./static')
 		},
 		prerender: {
 			entries: [
