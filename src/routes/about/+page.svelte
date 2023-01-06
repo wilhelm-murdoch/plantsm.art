@@ -12,7 +12,7 @@
 				<h2
 					class="block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"
 				>
-					WIP
+					WIPs
 				</h2>
 			</div>
 		</div>
