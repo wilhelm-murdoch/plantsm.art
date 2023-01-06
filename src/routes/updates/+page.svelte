@@ -91,7 +91,7 @@
 												numEntries={grouped.events.length}
 												{event}
 											/>
-										{:else}???{/if}
+										{/if}
 									{/each}
 								</ul>
 							</div>
