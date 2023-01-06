@@ -7,7 +7,7 @@
 </script>
 
 <li class="relative py-2">
-	<div class="flex items-center mb-1 pb-5 pb-5">
+	<div class="flex items-center mb-1 pb-5">
 		<div
 			class:hidden={index == numEntries - 1}
 			class="absolute left-0 h-full w-0.5 bg-slate-200 self-start ml-4 -translate-x-1/2 translate-y-3"
