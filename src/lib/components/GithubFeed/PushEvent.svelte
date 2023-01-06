@@ -39,7 +39,7 @@
 			<p class="ml-12 border-b border-b-slate-100">
 				<span class="text-xs font-mono"
 					><a
-						href={commit.url}
+						href={commit.url.replace('api.', '').replace('repos/', '')}
 						title="sha: {commit.sha}"
 						class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500"
 						>{commit.sha.slice(0, 8)}</a
