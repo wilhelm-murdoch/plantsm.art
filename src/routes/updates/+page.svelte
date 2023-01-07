@@ -7,7 +7,8 @@
 		PublicEvent,
 		PullRequestEvent,
 		PullRequestReviewEvent,
-		PushEvent
+		PushEvent,
+		WatchEvent
 	} from '$components';
 
 	export let data: any;
@@ -85,6 +86,8 @@
 											<PublicEvent index={i} numEntries={grouped.events.length} {event} />
 										{:else if event.type == 'PullRequestEvent'}
 											<PullRequestEvent index={i} numEntries={grouped.events.length} {event} />
+										{:else if event.type == 'WatchEvent'}
+											<WatchEvent index={i} numEntries={grouped.events.length} {event} />
 										{:else if event.type == 'PullRequestReviewEvent'}
 											<PullRequestReviewEvent
 												index={i}

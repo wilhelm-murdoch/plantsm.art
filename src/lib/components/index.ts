@@ -16,3 +16,4 @@ export { default as PublicEvent } from './GithubFeed/PublicEvent.svelte';
 export { default as PullRequestEvent } from './GithubFeed/PullRequestEvent.svelte';
 export { default as PullRequestReviewEvent } from './GithubFeed/PullRequestReviewEvent.svelte';
 export { default as PushEvent } from './GithubFeed/PushEvent.svelte';
+export { default as WatchEvent } from './GithubFeed/WatchEvent.svelte';
