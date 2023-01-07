@@ -2,19 +2,19 @@
 A free service that aims to provide a detailed listing of dangerous plants for your pets.
 
 ## Install Locally
-Ensure you're using a recent version of `node`. This project was initially built using `19.3.0`.
+Ensure you're using a recent version of `node`. This project was initially built using `19.3.0`. 
+
+> Before you continue, be warned that this is a large repository. To keep costs down, I do not keep the associated plant images in remote object storage like S3. They are all stored here. So, if you're not comfortable with using over 1.5GB of local block storage to play with this project, you may want to take a pass.
 
 ```
-git clone git@github.com:wilhelm-murdoch/plantsm.art.git
+git clone https://github.com/wilhelm-murdoch/plantsm.art.git
 cd plantsm.art
 npm install
-npm run
+npm run dev
 
 > plantsm.art@0.0.1 dev
 > vite dev
 
-
-Forced re-optimization of dependencies
 
   VITE v4.0.4  ready in 1250 ms
 
@@ -26,21 +26,7 @@ Forced re-optimization of dependencies
 Open a browser window and point it to [http://localhost:5173/](http://localhost:5173/). You should now be able to modify anything under `/src` and the local dev build will perform a live update in your browser.
 
 ## Updating Datasets
-All persistent data is stored in the primary JSON database in `/static/plants.json`. Any changes to this file will require the execution of the following commands:
-```
-mage json:symptoms static/plants.json > static/symptoms.json
-mage json:animal static/plants.json static
-mage json:animals static/plants.json > static/animals.json
-mage json:pages static/plants.json src/routes/plant
-```
-A quick explainer of the commands:
-
-* `mage json:symptoms` is used to sync `/static/symptoms.json` with any changes `/static/plants.json`.
-* `mage json:animal` writes individual JSON files for each supported animal.
-* `mage json:animals` ( note the plural form ) writes a _single_ JSON document for all supported animals.
-* `mage json:pages` writes an individual JSON file for each plant object in `/static/plants.json`.
-
-Ensure you have at least Go version `1.19.0` installed locally and run the following commands:
+If you want to help out with the dataset, first ensure you have at least Go version `1.19.0` installed locally and run the following commands:
 ```
 cd magefiles/
 go mod download
@@ -60,6 +46,21 @@ Targets:
   pb:export
   pb:import
 ```
+
+All persistent data is stored in the primary JSON database in `/static/plants.json`. Any changes to this file will require the execution of the following commands:
+```
+mage json:symptoms static/plants.json > static/symptoms.json
+mage json:animal static/plants.json static
+mage json:animals static/plants.json > static/animals.json
+mage json:pages static/plants.json src/routes/plant
+```
+A quick explainer of the commands:
+
+* `mage json:symptoms` is used to sync `/static/symptoms.json` with any changes `/static/plants.json`.
+* `mage json:animal` writes individual JSON files for each supported animal.
+* `mage json:animals` ( note the plural form ) writes a _single_ JSON document for all supported animals.
+* `mage json:pages` writes an individual JSON file for each plant object in `/static/plants.json`.
+
 ### Using PocketBase
 Personally, I use [PocketBase](https://pocketbase.io/) to update `/static/plants.json`. Ensure you have [Docker](https://www.docker.com/), or [podman](https://podman.io/) if you prefer, installed and running locally. Use `docker-compose` to start the service:
 ```
