@@ -4,7 +4,8 @@
     "name": "Abrus precatorius",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -361,7 +362,8 @@
     "name": "Aesculus sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -1305,7 +1307,8 @@
     "name": "Amaryllis sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -2032,7 +2035,8 @@
     "name": "Arisaema triphyllum",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -3427,7 +3431,8 @@
     "name": "Caesalpinia pulcherrima",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -3526,7 +3531,8 @@
     "name": "Caladium sp.",
     "animals": [
       "cats",
-      "dogs"
+      "dogs",
+      "reptiles"
     ],
     "common": [
       {
@@ -3801,7 +3807,8 @@
     "name": "Cannabis sativa",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -4537,7 +4544,8 @@
     "name": "Cicuta sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -4971,7 +4979,8 @@
     "name": "Clematis sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -5547,11 +5556,12 @@
     }
   },
   {
-    "pid": "colocasia-esculenta",
-    "name": "Colocasia esculenta",
+    "pid": "colocasia-spp",
+    "name": "Colocasia spp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -5607,7 +5617,7 @@
         "relative_path": "plants/b9zkw76swyf1ap3/hsve54a0gmb8qtn/original.jpg"
       }
     ],
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Colocasia_esculenta",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Colocasia",
     "date_last_updated": "2022-12-24 15:53:31.245Z",
     "classification": {
       "kingdom": "Plantae",
@@ -5618,8 +5628,7 @@
       ],
       "order": "Alismatales",
       "family": "Araceae",
-      "genus": "Colocasia",
-      "species": "C. esculenta"
+      "genus": "Colocasia"
     }
   },
   {
@@ -5627,7 +5636,8 @@
     "name": "Conium maculatum",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -5758,7 +5768,8 @@
     "name": "Convallaria majalis",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": null,
     "symptoms": [
@@ -6229,7 +6240,8 @@
     "name": "Cycas sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -6874,7 +6886,8 @@
     "name": "Delphinium sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -7174,7 +7187,8 @@
     "name": "Dieffenbachia amoena",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -7601,7 +7615,8 @@
     "name": "Epipremnum aureum",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -7750,7 +7765,8 @@
     "name": "Erythrostemon gilliesii",
     "animals": [
       "cats",
-      "dogs"
+      "dogs",
+      "reptiles"
     ],
     "common": [
       {
@@ -8514,7 +8530,8 @@
     "name": "Ficus sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -9770,7 +9787,8 @@
     "name": "Hyacinthus orientalis",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -9864,7 +9882,8 @@
     "name": "Hydrangea arborescens",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -10018,7 +10037,8 @@
     "name": "Ilex aquifolium",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -10250,7 +10270,8 @@
     "name": "Ipomoea sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -10431,7 +10452,8 @@
     "name": "Iris sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -11183,7 +11205,8 @@
     "name": "Lantana camara",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -11686,12 +11709,12 @@
         "slug": "privet"
       },
       {
-        "name": "Amur",
-        "slug": "amur"
+        "name": "Japanese Privet",
+        "slug": "japanese-privet"
       },
       {
-        "name": "Common Privet",
-        "slug": "common-privet"
+        "name": "Wax-Leaf Privet",
+        "slug": "wax-leaf-privet"
       }
     ],
     "symptoms": [
@@ -12129,7 +12152,8 @@
     "name": "Lycopersicon sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -12713,7 +12737,8 @@
     "name": "Mentha sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -13096,7 +13121,8 @@
     "name": "Narcissus sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -13381,7 +13407,8 @@
     "name": "Nerium oleander",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -13721,7 +13748,8 @@
     "name": "Oxalis sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -13826,7 +13854,8 @@
     "name": "Paeonia officinalis",
     "animals": [
       "cats",
-      "dogs"
+      "dogs",
+      "reptiles"
     ],
     "common": [
       {
@@ -14136,7 +14165,8 @@
     "name": "Philodendron sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -14899,7 +14929,8 @@
     "name": "Prunus sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -15083,7 +15114,8 @@
     "name": "Ranunculus sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -15297,12 +15329,17 @@
     "name": "Rheum rhabarbarium",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
         "name": "Pie Plant",
         "slug": "pie-plant"
+      },
+      {
+        "name": "Rhubarb",
+        "slug": "rhubarb"
       }
     ],
     "symptoms": [
@@ -15365,7 +15402,8 @@
     "name": "Rhododendron sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -15566,7 +15604,8 @@
     "name": "Ricinus communis",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -15715,7 +15754,8 @@
     "name": "Robinia pseudoacacia",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -15822,7 +15862,8 @@
     "name": "Rumex sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -16355,12 +16396,17 @@
     "name": "Senecio sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
         "name": "Golden Ragwort",
         "slug": "golden-ragwort"
+      },
+      {
+        "name": "Ragwort",
+        "slug": "ragwort"
       },
       {
         "name": "Tansy",
@@ -16767,9 +16813,14 @@
     "name": "Symplocarpus foetidus",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
+      {
+        "name": "Skunk Cabbage",
+        "slug": "skunk-cabbage"
+      },
       {
         "name": "Skunk Weed",
         "slug": "skunk-weed"
@@ -16971,7 +17022,8 @@
     "name": "Taxus sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
@@ -17207,7 +17259,8 @@
     "name": "Tulip sp.",
     "animals": [
       "cats",
-      "dogs"
+      "dogs",
+      "reptiles"
     ],
     "common": null,
     "symptoms": [
@@ -17274,12 +17327,17 @@
     "name": "Vinca rosea",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
         "name": "Running Myrtle",
         "slug": "running-myrtle"
+      },
+      {
+        "name": "Periwinkle",
+        "slug": "periwinkle"
       },
       {
         "name": "Vinca",
@@ -17379,7 +17437,8 @@
     "name": "Wisteria sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": null,
     "symptoms": [
@@ -17817,7 +17876,8 @@
     "name": "Zantedeschia aethiopica",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "reptiles"
     ],
     "common": [
       {
