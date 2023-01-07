@@ -33,9 +33,6 @@ const config = {
 		prerender: {
 			entries: [
 				"/",
-				"/about",
-				"/contribute",
-				"/faq",
 				...entries
 			],
 		},

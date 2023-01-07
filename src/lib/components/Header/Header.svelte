@@ -7,16 +7,22 @@
 		<nav class="py-4 flex text-center md:text-left">
 			<div class="flex-1 space-x-4">
 				<a
-					href="/about"
+					href="/"
 					class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium"
-					>About</a
+					>Home</a
 				>
 
 				<a
+					href="/why"
+					class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium"
+					>Why?</a
+				>
+
+				<!-- <a
 					href="/faq"
 					class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium"
 					>FAQ</a
-				>
+				> -->
 
 				<a
 					href="/contribute"

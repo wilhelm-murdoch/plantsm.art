@@ -123,7 +123,7 @@ type Plant struct {
 					Play around with the data.
 				</h2>
 
-				<p class="text-xl leading-8 text-gray-500">
+				<p class="text-xl leading-8 text-gray-500 text-justify">
 					We've collated <a href="https://www.inaturalist.org/" title="iNaturalist">data</a>
 					<a href="https://www.aspca.org/" title="ASPCA">from</a>
 					<a href="https://en.wikipedia.org/wiki/Plant" title="Wikipedia">several</a> sources and munged

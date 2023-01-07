@@ -39,7 +39,7 @@
 					See how industrious we've been!
 				</h2>
 
-				<p class="text-xl leading-8 text-gray-500">
+				<p class="text-xl leading-8 text-gray-500 text-justify">
 					Here's a list of the last 100 development events grouped by contributor. Feel free to
 					check out our <a
 						href="https://github.com/wilhelm-murdoch/plantsm.art"

@@ -1,9 +1,6 @@
 import plants from './plants.json';
 
-export let _isLoading: boolean = true;
-
 export const load = async () => {
-  _isLoading = false
   return {
     plants: plants.map((plant: any) => ({
       ...plant,
