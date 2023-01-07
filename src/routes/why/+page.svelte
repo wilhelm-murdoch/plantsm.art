@@ -99,7 +99,7 @@
 						off the wheel and see if other interested parties would like to get involved and help
 						out with managing datasets and fixing bugs. Github allows for pretty much all of this.
 						Check how to <a href="/contribute" title="How to contribute.">contribute</a> or see the
-						<a href="/updaets" title="Latest Github contributions.">latest contributions</a>.
+						<a href="/updates" title="Latest Github contributions.">latest contributions</a>.
 					</li>
 				</ul>
 				<p>
