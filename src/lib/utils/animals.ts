@@ -60,6 +60,13 @@ const animals: { [char: string]: Animal } = {
     foreground: 'yellow-700',
     background: 'yellow-100',
     emoji: '🐹'
+  },
+
+  // text-indigo-700 bg-indigo-100
+  fish: {
+    foreground: 'indigo-700',
+    background: 'indigo-100',
+    emoji: '🐟'
   }
 };
 

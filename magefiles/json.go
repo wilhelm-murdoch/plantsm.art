@@ -10,7 +10,7 @@ import (
 	"github.com/wilhelm-murdoch/go-collection"
 )
 
-var supportedAnimals = []string{"cats", "dogs", "horses", "rats", "birds", "rabbits", "reptiles", "hamsters"}
+var supportedAnimals = []string{"cats", "dogs", "horses", "rats", "birds", "rabbits", "reptiles", "hamsters", "fish"}
 
 var found = func(animal string, animals []string) bool {
 	for _, a := range animals {

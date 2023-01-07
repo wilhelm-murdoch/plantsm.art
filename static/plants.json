@@ -363,7 +363,8 @@
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -3532,7 +3533,8 @@
     "animals": [
       "cats",
       "dogs",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -5769,7 +5771,8 @@
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": null,
     "symptoms": [
@@ -7079,7 +7082,8 @@
     "name": "Dianthus sp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "fish"
     ],
     "common": [
       {
@@ -10271,7 +10275,8 @@
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -10639,7 +10644,8 @@
     "name": "Juglans nigra",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "fish"
     ],
     "common": [
       {
@@ -11287,11 +11293,12 @@
     }
   },
   {
-    "pid": "lathyrus-latifolius",
-    "name": "Lathyrus latifolius",
+    "pid": "lathyrus-spp",
+    "name": "Lathyrus spp.",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "fish"
     ],
     "common": [
       {
@@ -11359,7 +11366,7 @@
         "relative_path": "plants/uoj9dukrotfo0hk/j441eynurvs25bs/original.jpg"
       }
     ],
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Lathyrus_latifolius",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lathyrus",
     "date_last_updated": "2022-12-24 15:53:33.098Z",
     "classification": {
       "kingdom": "Plantae",
@@ -11371,8 +11378,7 @@
       ],
       "order": "Fabales",
       "family": "Fabaceae",
-      "genus": "Lathyrus",
-      "species": "L. latifolius"
+      "genus": "Lathyrus"
     }
   },
   {
@@ -12153,7 +12159,8 @@
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -13507,7 +13514,8 @@
     "name": "Nicotiana glauca",
     "animals": [
       "dogs",
-      "cats"
+      "cats",
+      "fish"
     ],
     "common": [
       {
@@ -13850,12 +13858,13 @@
     }
   },
   {
-    "pid": "paeonia-officinalis",
-    "name": "Paeonia officinalis",
+    "pid": "paeonia-spp",
+    "name": "Paeonia spp.",
     "animals": [
       "cats",
       "dogs",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -13901,7 +13910,7 @@
         "relative_path": "plants/j3el2odn05slz0l/dcjceux9uhb0noj/original.jpg"
       }
     ],
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Paeonia_officinalis",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paeonia",
     "date_last_updated": "2022-12-24 15:53:32.007Z",
     "classification": {
       "kingdom": "Plantae",
@@ -13912,8 +13921,7 @@
       ],
       "order": "Saxifragales",
       "family": "Paeniaceae",
-      "genus": "Paeonia",
-      "species": "P. officinalis"
+      "genus": "Paeonia"
     }
   },
   {
@@ -14930,7 +14938,8 @@
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -15403,7 +15412,8 @@
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -15605,7 +15615,8 @@
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -17018,12 +17029,13 @@
     }
   },
   {
-    "pid": "taxus-sp",
-    "name": "Taxus sp.",
+    "pid": "taxus-spp",
+    "name": "Taxus spp.",
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": [
       {
@@ -17433,12 +17445,13 @@
     }
   },
   {
-    "pid": "wisteria-sp",
-    "name": "Wisteria sp.",
+    "pid": "wisteria-spp",
+    "name": "Wisteria spp.",
     "animals": [
       "dogs",
       "cats",
-      "reptiles"
+      "reptiles",
+      "fish"
     ],
     "common": null,
     "symptoms": [
