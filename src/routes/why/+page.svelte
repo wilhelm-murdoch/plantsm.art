@@ -149,7 +149,7 @@
 				<h3>Where to go from here?</h3>
 				<p>
 					I think I've met most, if not all, my requirements. The project still needs a lot of
-					handraulic love and I plant on supporting listings for loads of other pet types. I already
+					handraulic love and I plan on supporting listings for loads of other pet types. I already
 					have the data, just need to go through it with a comb.
 				</p>
 				<p>
