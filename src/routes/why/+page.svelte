@@ -44,10 +44,10 @@
 					<a href="https://en.wikipedia.org/wiki/DevOps" title="What does DevOps mean?"
 						>DevOps engineer</a
 					>. I have plenty of smarts when it comes to the technical side of hosting and running
-					things, but it's been years since I've done any front end work. Career-wise, it's
-					important for me to be able to speak the same language as teams I have to support. So,
-					understanding how far behind that portion of my skillset had become, I thought this would
-					be the perfect opportunity to brush up.
+					things, but it's been years since I've done any front-end work. Career-wise, I need to be
+					able to speak the same language as teams I have to support. So, understanding how far
+					behind that portion of my skillset had become, I thought this would be the perfect
+					opportunity to brush up.
 				</p>
 				<h4>The Requirements:</h4>
 				<ul>
@@ -59,8 +59,8 @@
 						Must be hosted on <a href="https://pages.cloudflare.com/" title="Cloudflare Pages"
 							>Cloudflare Pages</a
 						>. I could've chosen
-						<a href="https://pages.github.com/" title="Github Pages">Github Pages</a> to keep everything
-						in one place, but automated Cloudflare builds & deployments work out-of-the-box with minimal
+						<a href="https://pages.github.com/" title="GitHub Pages">GitHub Pages</a> to keep everything
+						in one place, but automated Cloudflare builds & deployments work out of the box with minimal
 						configuration. Besides, I've already worked with the latter and I wanted the challenge of
 						trying something new.
 					</li>
@@ -86,7 +86,7 @@
 						<a href="https://www.typescriptlang.org/" title="TypeScript">TypeScript</a>,
 						<a href="https://tailwindcss.com/" title="TailwindCSS">TailwindCSS</a>
 						and <a href="https://vitejs.dev/" title="Vite">Vite</a>. I had zero working knowledge of
-						any of these and my frontend peers can't seem to shut up about them. So... why not?
+						any of these and my front-end peers can't seem to shut up about them. So... why not?
 					</li>
 					<li>
 						Must be <i>fast</i>. Everything is static, compressed, cached and sitting behind a
@@ -95,11 +95,11 @@
 						this one. 😅
 					</li>
 					<li>
-						Must be open source and community driven. At one point, I would like to take the hands
+						Must be open source and community-driven. At one point, I would like to take the hands
 						off the wheel and see if other interested parties would like to get involved and help
-						out with managing datasets and fixing bugs. Github allows for pretty much all of this.
+						out with managing datasets and fixing bugs. GitHub allows for pretty much all of this.
 						Check how to <a href="/contribute" title="How to contribute.">contribute</a> or see the
-						<a href="/updates" title="Latest Github contributions.">latest contributions</a>.
+						<a href="/updates" title="Latest GitHub contributions.">latest contributions</a>.
 					</li>
 				</ul>
 				<p>
@@ -148,9 +148,9 @@
 				</p>
 				<h3>Where to go from here?</h3>
 				<p>
-					I think I've met most, if not all, my requirements. The project still needs a lot of
-					handraulic love and I plan on supporting listings for loads of other pet types. I already
-					have the data, just need to go through it with a comb.
+					I think I've met most, if not all, my requirements. The project still needs a lot of love
+					and I plan on supporting listings for a variety of other pet species. I already have the
+					data, just need to go through it with a fine-toothed comb.
 				</p>
 				<p>
 					I'm having loads of fun at the moment learning new things. I hope I can keep doing this
