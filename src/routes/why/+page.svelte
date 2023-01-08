@@ -36,7 +36,7 @@
 				<p>However, I didn't want to make it <i>too</i> easy for myself...</p>
 				<h3>A challenge!</h3>
 				<p>
-					I work as a wierd combination of <a
+					I work as a weird combination of <a
 						href="https://en.wikipedia.org/wiki/Site_reliability_engineering"
 						title="What does SRE mean?">SRE</a
 					>
@@ -60,7 +60,7 @@
 							>Cloudflare Pages</a
 						>. I could've chosen
 						<a href="https://pages.github.com/" title="GitHub Pages">GitHub Pages</a> to keep everything
-						in one place, but automated Cloudflare builds & deployments work out of the box with minimal
+						in one place, but automated Cloudflare builds & deployments work out-of-the-box with minimal
 						configuration. Besides, I've already worked with the latter and I wanted the challenge of
 						trying something new.
 					</li>
@@ -91,7 +91,7 @@
 					<li>
 						Must be <i>fast</i>. Everything is static, compressed, cached and sitting behind a
 						world-class CDN. I've worked in a network performance and load testing SaaS for close to
-						the 5 years now. I wouldn't be able to look myself in the mirror if I couldn't easily do
+						5 years now. I wouldn't be able to look myself in the mirror if I couldn't easily do
 						this one. 😅
 					</li>
 					<li>
@@ -112,7 +112,7 @@
 					only repository size &mdash; which currently clocks in at over 1.5GB &mdash; but, also
 					build and deployment speeds. I could shell out $5 - $10 for object storage and image
 					processing, but that would go against the first constraint. For now, image data will live
-					in the Github repository as a perfectly reasonable compromise.
+					in the GitHub repository as a perfectly reasonable compromise.
 				</p>
 			</div>
 
@@ -124,11 +124,11 @@
 
 			<div class="prose prose-lg prose-slate px-4 mx-auto text-gray-500 mb-8">
 				<h3>Where did you source all this data?</h3>
-				<p>There are quite a few sources I've collated from, but these are the main ones.</p>
+				<p>There are quite a few sources I've collated from, but these are the main ones:</p>
 				<ol>
 					<li>
 						<a href="https://www.inaturalist.org/" title="iNaturalist">iNaturalist</a> is the best source
-						of high-quality, community-driven creative commons license photography. All images have been
+						of high-quality, community-driven <a href="https://creativecommons.org/" title="Creative Commons">Creative Commons</a> license photography. All images have been
 						sourced from this site along with licensing and attribution data.
 					</li>
 					<li>
@@ -148,7 +148,7 @@
 				</p>
 				<h3>Where to go from here?</h3>
 				<p>
-					I think I've met most, if not all, my requirements. The project still needs a lot of love
+					I think I've met most, if not all, of my requirements. The project still needs a lot of love
 					and I plan on supporting listings for a variety of other pet species. I already have the
 					data, just need to go through it with a fine-toothed comb.
 				</p>
