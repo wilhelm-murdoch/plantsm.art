@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img.is-lazy {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.background-fallback {
+  background-image: url(/favicon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 64px 64px;
+}
