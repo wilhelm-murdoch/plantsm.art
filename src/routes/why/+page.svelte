@@ -84,8 +84,6 @@
 					</li>
 				</ul>
 				<p>So far, it's going quite well. I haven't had any issues with meeting any of these self-imposed development constraints.</p>
-				<h4>Any Caveats?</h4>
-				<p>Definitely. The most obvious one would be image storage which has a direct effect on not only repository size &mdash; which currently clocks in at over 2GB &mdash; but, also build and deployment speeds. I could shell out $5 - $10 for object storage and image processing, but that would go against the first constraint. For now, image data will live in the GitHub repository as a perfectly reasonable compromise.</p>
 			</div>
 
 			<div class="grid grid-cols-3 mb-8">

@@ -14,7 +14,7 @@
 				</svg>+{plant.image_total - 1}
 			</span>
 			<a href="/plant/{plant.pid}" title="Read more about {plant.name}.">
-				<img class="hover:scale-110 ease-in-out duration-200 h-52 w-full object-cover" src="https://plantsm.art/cdn-cgi/imagedelivery/qnkf0SBjwoY9e50dCCmY3Q/{plant.cover_image_url}/medium" alt="Cover image for {plant.name}." />
+				<img class="hover:scale-110 ease-in-out duration-1000 h-52 w-full object-cover" src="https://plantsm.art/cdn-cgi/imagedelivery/qnkf0SBjwoY9e50dCCmY3Q/{plant.cover_image_url}/medium" alt="Cover image for {plant.name}." />
 			</a>
 		</div>
 		{#if plant.is_deadly}

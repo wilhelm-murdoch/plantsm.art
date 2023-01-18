@@ -4,8 +4,6 @@ A free service that aims to provide a detailed listing of dangerous plants for y
 ## Install Locally
 Ensure you're using a recent version of `node`. This project was initially built using `19.3.0`. 
 
-> Before you continue, be warned that this is a large repository. To keep costs down, I do not keep the associated plant images in remote object storage like S3. They are all stored here. So, if you're not comfortable with using over 1.5GB of local block storage to play with this project, you may want to take a pass.
-
 ```
 git clone https://github.com/wilhelm-murdoch/plantsm.art.git
 cd plantsm.art
