@@ -1,14 +1,14 @@
 <script lang="ts">
-	import type { CardPlant } from './Card';
 	import { lazy } from '$lib/utils/lazy';
 	import { getByAnimal } from '$utils/animals';
+	import type { PlantSlim } from '$lib/types/plant';
 
-	export let plant: CardPlant;
+	export let plant: PlantSlim;
 </script>
 
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg fade-in-animation">
 	<div class="flex-shrink-0 relative">
-		<div class="overflow-hidden background-fallback bg-green-50 relative">
+		<div class="overflow-hidden background-fallback bg-slate-50 relative">
 			<span class="absolute top-1 right-1 inline-flex items-center rounded-md bg-black px-2.5 py-1 text-xs font-medium text-white opacity-75 z-50">
 				<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />

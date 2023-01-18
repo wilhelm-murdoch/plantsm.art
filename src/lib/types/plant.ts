@@ -32,6 +32,20 @@ export type Plant = {
   index?: string;
 };
 
+export type PlantSlim = {
+  pid: string;
+  name: string;
+  common: string[];
+  symptoms: string[];
+  animals: string[];
+  common_total: number;
+  symptoms_total: number;
+  image_total: number;
+  cover_image_url: string;
+  is_deadly: boolean;
+  search_index?: string;
+};
+
 export type PlantsWrapped = {
-  plants: Plant[]
+  plants: PlantSlim[]
 }

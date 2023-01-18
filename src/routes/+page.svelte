@@ -3,7 +3,7 @@
 	import { onDestroy } from 'svelte';
 	import { Card, FilterPanel } from '$components';
 	import InfiniteScroll from 'svelte-infinite-scroll';
-	import type { Plant, PlantsWrapped } from '$lib/types/plant';
+	import type { PlantSlim, PlantsWrapped } from '$lib/types/plant';
 	import { createSearchStore, searchHandler } from '$utils/stores/search';
 	import { filters as filterStore } from '$components/FilterPanel/filters';
 
@@ -11,7 +11,7 @@
 
 	let page = 0;
 	let size = 12;
-	let plants: Plant[] = [];
+	let plants: PlantSlim[] = [];
 
 	const searchStore = createSearchStore(data.plants);
 	const unsubscribePlants = searchStore.subscribe((s) => searchHandler(s));

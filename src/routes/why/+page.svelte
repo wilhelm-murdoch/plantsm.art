@@ -34,13 +34,13 @@
 			</div>
 
 			<div class="grid grid-cols-3 mb-8">
-				<div class="background-fallback overflow-hidden bg-green-50">
+				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-6.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-green-50">
+				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-2.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-green-50">
+				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-7.png'} alt="A very cute cat." />
 				</div>
 			</div>
@@ -87,13 +87,13 @@
 			</div>
 
 			<div class="grid grid-cols-3 mb-8">
-				<div class="background-fallback overflow-hidden bg-green-50">
+				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-1.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-green-50">
+				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-4.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-green-50">
+				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-5.png'} alt="A very cute cat." />
 				</div>
 			</div>
