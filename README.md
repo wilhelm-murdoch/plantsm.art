@@ -62,16 +62,14 @@ A quick explainer of the commands:
 * `mage json:pages` writes an individual JSON file for each plant object in `/static/plants.json`.
 * `mage json:slim` outputs a minified version of `/static/plants.json` to be saved as `/src/routes/slim.json`.
 
-### Downloading Images
+### Manage Images
 
-If you've added new plant records that require image downloads be sure to run the following commands:
+If you've added new plant records that contain new images, be sure to upload them to Cloudflare using the following command:
 
 ```
-mage images:download static/plants.json static/images
-for image in ./**/large.jpg; do convert "$image" -resize 50% "$(dirname $image)/medium.jpg"; done
-for image in ./**/large.jpg; do convert "$image" -resize 192x192 "$(dirname $image)/thumbnail.jpg"; done
+mage images:cloudflare static/plants.json
 ```
-This will download new images from `.[].images[].source_url` to the path defined in `.[].images[].relative_path`. The subsequent loops use ImageMagick's `convert` tool to create medium-sized and thumbnail versions of the original image.
+This will send new images discovered in `.[].images[].source_url` to Cloudflare which will be found on the path defined in `.[].images[].relative_path`. To access the newly-uploaded image, you simply go to `https://cdn.plantsm.art/cdn-cgi/imagedelivery/qnkf0SBjwoY9e50dCCmY3Q/${relative_path}/(large|medium|thumb)`.
 
 ### Using PocketBase
 Personally, I use [PocketBase](https://pocketbase.io/) to update `/static/plants.json`. Ensure you have [Docker](https://www.docker.com/), or [podman](https://podman.io/) if you prefer, installed and running locally. Use `docker-compose` to start the service:
