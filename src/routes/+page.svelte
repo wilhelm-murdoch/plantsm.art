@@ -73,7 +73,7 @@
 			</div>
 		{:else}
 			<div class="mx-auto grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-3 md:grid-cols-2 md:max-w-none">
-				{#each plants as plant}
+				{#each plants as plant (plant.pid)}
 					<Card {plant} />
 				{/each}
 				<InfiniteScroll window={true} threshold={150} on:loadMore={() => page++} />
