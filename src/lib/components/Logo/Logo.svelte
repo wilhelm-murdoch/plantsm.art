@@ -1,17 +1,23 @@
 <script lang="ts">
-	import { randomIcon } from './icons';
-	import { browser } from '$app/environment';
+	import { getRandomIcon } from './icons';
+	import { onMount } from 'svelte';
 
 	export let classes = '';
 
+	let randomIcon: string
+
 	const classesBase = 'font-serif font-bold logo';
+
+	onMount(() => {
+		randomIcon = getRandomIcon().svg
+	})
+
 
 	$: compositeClasses = `${classesBase} ${classes}`;
 </script>
 
 <div class="h-16">
 	<h1 class={compositeClasses}>
-		{#if browser}
 			<a href="/" title="Back to the main page.">
 				<span class="text-amber-400 text-4xl md:text-6xl mr-1">Plant</span>
 				<svg
@@ -20,29 +26,15 @@
 					height="512"
 					viewBox="0 0 512 512"
 					width="512"
-					xmlns="http://www.w3.org/2000/svg">{@html randomIcon.svg}</svg
-				>
-
-				<span class="text-green-600 italic text-4xl md:text-6xl ml-1">Smart</span></a
-			>
-		{/if}
+					xmlns="http://www.w3.org/2000/svg">
+					{@html randomIcon}
+				</svg>
+				<span class="text-green-600 italic text-4xl md:text-6xl ml-1">Smart</span>
+			</a>
 	</h1>
 </div>
 
 <style>
-	@keyframes fade-in {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
-	}
-
-	.logo {
-		animation: fade-in 0.2s;
-	}
-
 	.jello-animation {
 		transform-origin: 50% 100%;
 		-webkit-animation: jello-animation 0.9s both;

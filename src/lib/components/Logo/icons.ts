@@ -37,4 +37,6 @@ const icons: Icon[] = [
   }
 ]
 
-export const randomIcon: Icon = icons[Math.floor(Math.random() * icons.length)];
+export const getRandomIcon = () => {
+  return icons[Math.floor(Math.random() * icons.length)]
+}
