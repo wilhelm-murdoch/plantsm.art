@@ -2,7 +2,7 @@
 	import { lazy } from '$lib/utils/lazy';
 	import { getByAnimal } from '$utils/animals';
 	import type { PlantSlim } from '$lib/types/plant';
-	import { isDeadly } from '$lib/types/plant';
+	import { getImageUrl } from '$lib/utils/urls';
 
 	export let plant: PlantSlim;
 </script>
@@ -16,7 +16,7 @@
 				</svg>+{plant.image_total - 1}
 			</span>
 			<a href="/plant/{plant.pid}" title="Read more about {plant.name}.">
-				<img class="is-lazy hover:scale-110 ease-in-out duration-1000 h-52 w-full object-cover" use:lazy={'https://plantsm.art/cdn-cgi/imagedelivery/qnkf0SBjwoY9e50dCCmY3Q/' + plant.cover_image_url + '/medium'} alt="Cover image for {plant.name}." />
+				<img class="is-lazy hover:scale-110 ease-in-out duration-1000 h-52 w-full object-cover" use:lazy={getImageUrl(plant.cover_image_url, "medium")} alt="Cover image for {plant.name}." />
 			</a>
 		</div>
 		{#if plant.is_deadly}

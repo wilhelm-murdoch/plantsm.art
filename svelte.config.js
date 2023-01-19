@@ -5,12 +5,10 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 import fs from 'fs';
 import path from 'path'
 
-const entries = fs.readdirSync('./src/lib/data/plant').filter(file => path.extname(file) === '.json').map(file => "/plant/" + path.parse(file).name);
+const entries = fs.readdirSync('./src/lib/data/plants').filter(file => path.extname(file) === '.json').map(file => "/plant/" + path.parse(file).name);
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://github.com/sveltejs/svelte-preprocess
-	// for more information about preprocessors
 	preprocess: [
 		preprocess({
 			postcss: true

@@ -1,3 +1,3 @@
 export const getImageUrl = (path: string, variant: string) => {
-  return
+  return `https://cdn.plantsm.art/${path}/${variant}`
 }

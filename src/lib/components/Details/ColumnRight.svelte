@@ -2,6 +2,7 @@
 	import { lazy } from '$lib/utils/lazy';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+	import { getImageUrl } from '$lib/utils/urls';
 
 	export let plant: any = {};
 
@@ -85,9 +86,9 @@
 	<div class="flex-shrink-0">
 		<h3 class="unstyled font-sans p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500">Images</h3>
 		<div class="grid grid-cols-4">
-			{#each plant.images as image, i}
+			{#each plant.images as image, i (image)}
 				<div class="overflow-hidden background-fallback bg-slate-50">
-					<img on:click={() => openLightbox(image, i)} on:keydown alt={image.relative_path} class="is-lazy  inline-block object-cover object-center h-32 w-full hover:scale-110 ease-in-out duration-100 cursor-pointer" use:lazy={'https://plantsm.art/cdn-cgi/imagedelivery/qnkf0SBjwoY9e50dCCmY3Q/' + image.relative_path + '/thumbnail'} />
+					<img on:click={() => openLightbox(image, i)} on:keydown alt={image.relative_path} class="is-lazy  inline-block object-cover object-center h-32 w-full hover:scale-110 ease-in-out duration-100 cursor-pointer" use:lazy={getImageUrl(image.relative_path, "thumbnail")} />
 				</div>
 			{/each}
 		</div>
@@ -192,8 +193,8 @@
 		<span on:click={handleNextClick} on:keypress={onLightboxKeyDown} class="fixed top-1/2 right-4 text-white bg-black/20 hover:bg-black/40 p-2.5 rounded-full mr-2 cursor-pointer">
 			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
 		</span>
-		<div class="items-center m-16 border-2">
-			<img alt={lightboxImage.relative_path} src="https://plantsm.art/cdn-cgi/imagedelivery/qnkf0SBjwoY9e50dCCmY3Q/{lightboxImage.relative_path}/large" class="w-full" />
+		<div class="items-center m-16 border-2 background-fallback bg-green-50">
+			<img alt={getImageUrl(lightboxImage.relative_path, "large")} src={getImageUrl(lightboxImage.relative_path, "large")} class="w-full" />
 			<div class="p-2.5 bg-white text-center text-slate-500">{lightboxImage.attribution}</div>
 		</div>
 	</div>
