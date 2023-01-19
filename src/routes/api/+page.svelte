@@ -110,7 +110,7 @@ type Plant struct {
 		site: '@wilhelm',
 		title: 'Plant Smart &middot; API Documentation',
 		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		image: 'https://plantsm.art/og-cover.png',
+		image: 'https://plantsm.art/images/og-cover.png',
 		imageAlt: 'Plant Smart'
 	};
 
@@ -121,7 +121,7 @@ type Plant struct {
 		url: 'https://plantsm.art/api',
 		images: [
 			{
-				url: 'https://plantsm.art/og-cover.png',
+				url: 'https://plantsm.art/images/og-cover.png',
 				alt: 'Plant Smart'
 			}
 		]
@@ -149,30 +149,30 @@ type Plant struct {
 
 				<ul class="text-gray-400">
 					<li>
-						<a href="/plants.json"><code>plants.json</code></a>
+						<a href="/api/plants.json"><code>plants.json</code></a>
 						<p>Our primary database. This includes a breakdown of all currently-supported plants along with their common names, symptoms, images and affected animal types.</p>
 						<p>This is an array of objects with the following structure:</p>
 						<pre>{snippetPlantsStruct}</pre>
 						<h4>Download</h4>
-						<pre>$ curl -sL plantsm.art/plants.json > plants.json</pre>
+						<pre>$ curl -sL plantsm.art/api/plants.json > plants.json</pre>
 					</li>
 
 					<li>
-						<a href="/symptoms.json"><code>symptoms.json</code></a>
+						<a href="/api/symptoms.json"><code>symptoms.json</code></a>
 						<p>A distinct listing of all known symptoms with an associated listing of any related plant records.</p>
 						<p>This is an array of objects with the following structure:</p>
 						<pre>{snippetSymptomsStruct}</pre>
 						<h4>Download</h4>
-						<pre>$ curl -sL plantsm.art/symptoms.json > symptoms.json</pre>
+						<pre>$ curl -sL plantsm.art/api/symptoms.json > symptoms.json</pre>
 					</li>
 
 					<li>
-						<a href="/animals.json"><code>animals.json</code></a>
+						<a href="/api/animals.json"><code>animals.json</code></a>
 						<p>A distinct listing of all supported animal types with an associated listing of any related plant records.</p>
 						<p>This is an array of objects with the following structure:</p>
 						<pre>{snippetAnimalsStruct}</pre>
 						<h4>Download</h4>
-						<pre>$ curl -sL plantsm.art/animals.json > animals.json</pre>
+						<pre>$ curl -sL plantsm.art/api/animals.json > animals.json</pre>
 						<h4>Supplemental</h4>
 						<p>Use these files if you wish to have animal-specific listings.</p>
 						<ul>

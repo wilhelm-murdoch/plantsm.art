@@ -14,7 +14,7 @@
 	let apiSymptoms: SymptomItem[] = [];
 
 	onMount(async () => {
-		fetch('/symptoms.json')
+		fetch('/api/symptoms.json')
 			.then((response) => response.json())
 			.then((data) => {
 				apiSymptoms = data.sort(function (a: SymptomItem, b: SymptomItem) {

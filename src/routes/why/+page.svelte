@@ -6,7 +6,7 @@
 		site: '@wilhelm',
 		title: 'Plant Smart &middot; Why?',
 		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		image: 'https://plantsm.art/og-cover.png',
+		image: 'https://plantsm.art/images/og-cover.png',
 		imageAlt: 'Plant Smart'
 	};
 
@@ -17,7 +17,7 @@
 		url: 'https://plantsm.art/why',
 		images: [
 			{
-				url: 'https://plantsm.art/og-cover.png',
+				url: 'https://plantsm.art/images/og-cover.png',
 				alt: 'Plant Smart'
 			}
 		]
