@@ -50,7 +50,7 @@ All persistent data is stored in the primary JSON database in `/static/api/plant
 mage json:symptoms static/api/plants.json > static/api/symptoms.json
 mage json:animal static/api/plants.json static/api
 mage json:animals static/api/plants.json > static/api/animals.json
-mage json:slim static/api/plants.json > src/routes/slim.json
+mage json:slim static/api/plants.json > src/lib/data/slim.json
 mage json:pages static/api/plants.json src/routes/plant
 ```
 A quick explainer of the commands:

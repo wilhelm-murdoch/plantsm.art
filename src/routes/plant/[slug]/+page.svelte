@@ -1,7 +1,7 @@
 <script lang="ts">
 	import SvelteSeo from 'svelte-seo';
 	import { ColumnLeft, ColumnRight, Warning } from '$components';
-	import { isDeadly } from '$components/Card/Card';
+	import { isDeadly } from '$lib/types/plant';
 
 	export let data: any;
 

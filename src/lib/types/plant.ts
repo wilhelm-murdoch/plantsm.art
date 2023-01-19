@@ -49,3 +49,7 @@ export type PlantSlim = {
 export type PlantsWrapped = {
   plants: PlantSlim[]
 }
+
+export function isDeadly(plant: PlantSlim) {
+  return plant.symptoms.filter((s: any) => s.slug == "death").length >= 1
+}

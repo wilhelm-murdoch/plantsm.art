@@ -2,6 +2,7 @@
 	import { lazy } from '$lib/utils/lazy';
 	import { getByAnimal } from '$utils/animals';
 	import type { PlantSlim } from '$lib/types/plant';
+	import { isDeadly } from '$lib/types/plant';
 
 	export let plant: PlantSlim;
 </script>

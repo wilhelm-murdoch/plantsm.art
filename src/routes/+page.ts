@@ -1,4 +1,4 @@
-import plants from './slim.json';
+import plants from '$lib/data/slim.json';
 
 export const load = async () => {
   return {
