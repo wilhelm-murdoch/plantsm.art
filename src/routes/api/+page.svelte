@@ -178,7 +178,7 @@ type Plant struct {
 						<ul>
 							{#each getAllAnimals() as animal}
 								<li>
-									<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji}</span> <a href="/{animal}.json"><code>{animal}.json</code></a>
+									<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji}</span> <a href="/api/{animal}.json"><code>{animal}.json</code></a>
 								</li>
 							{/each}
 						</ul>
