@@ -42,10 +42,6 @@
 			</svg>
 		</a>
 	</div>
-	<p class="text-sm text-red-200 text-center pb-8 px-4">
-		<strong>Obligatory Disclaimer</strong>: This site is not meant to provide medical advice outside
-		of consulting your veterinarian if you believe your pet has ingested poisonous material.
-	</p>
 	<div class="text-center text-sm text-slate-300 mb-8">
 		Made with
 		<svg

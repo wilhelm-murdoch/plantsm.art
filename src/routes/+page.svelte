@@ -55,20 +55,15 @@
 <div class="relative bg-gray-50 pb-5 mb-8 px-6 sm:pt-4 lg:pt-4 lg:pb-4 border-b">
 	<div class="relative mx-auto max-w-7xl">
 		{#if $searchStore.filtered.length == 0}
-			<div class="my-auto flex-shrink-0 text-center py-16">
-				<p class="text-base font-semibold text-green-600">Wow.</p>
-				<h1 class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">No results!</h1>
-				<p class="mt-2 text-base text-gray-500">Looks like you went a bit too hard on the filter. Try loosening your search a bit.</p>
-				<div class="mt-6">
-					<a
-						href="/"
-						on:click={() => {
-							$filterStore = [];
-						}}
-						class="text-base font-medium text-green-600 hover:text-green-500"
-					>
-						Or, clear your filters ...
-					</a>
+			<div class="mx-auto flex-shrink-0 text-center py-16 prose">
+				<h2 class="text-base font-semibold text-green-600">Oh, no! 🙀</h2>
+				<h3 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">No matching results!</h3>
+				<div class="text-left">
+					<ol>
+						<li>Try loosening your search or <a href="/" title="Clear all filters." on:click={() => {$filterStore = []}}>clearing out</a> your filters.</li>
+						<li>The search mechanism doesn't account for <strike>speeling missed steaks</strike> spelling mistakes. Double-check your spelling.</li>
+						<li>Should this plant be listed? <a href="https://github.com/wilhelm-murdoch/plantsm.art/issues/new?title=Update%20Request" title="Create a request on GitHub.">Send us the details</a> and we'll look into adding it to our database.</li>
+					</ol>
 				</div>
 			</div>
 		{:else}
