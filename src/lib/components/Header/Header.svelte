@@ -47,12 +47,16 @@
 {/if}
 
 <div class="relative md:hidden">
-	<div class="relative mx-auto max-w-7xl mb-8">
+	<div class="relative mx-auto max-w-7xl mb-6 text-center">
 		<Logo classes={'pl-6 pt-4'} />
 	</div>
 	<button on:click={() => topMenuOpen = !topMenuOpen} type="button" class="absolute h-10 w-10 border top-8 right-6 inline-flex items-center rounded border-gray-300 bg-white px-2.5 py-1.5 text-slate-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2">
-		<svg class="w-12" stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
-			<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+		<svg stroke-width="2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+			{#if topMenuOpen}
+				<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+			{:else}
+				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+			{/if}
 		</svg>
 	</button>
 </div>
