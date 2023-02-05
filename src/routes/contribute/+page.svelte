@@ -63,4 +63,4 @@
 	</div>
 </div>
 
-<Seo title="How to contribute" canonical="https://plantsm.art/contribute" />
+<Seo title="How to contribute" canonical="https://plantsm.art/contribute" description="Learn how you can contribute to the project." />

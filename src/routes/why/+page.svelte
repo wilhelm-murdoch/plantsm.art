@@ -106,4 +106,4 @@
 	</div>
 </div>
 
-<Seo title="Why?" canonical="https://plantsm.art/why" />
+<Seo title="Why?" canonical="https://plantsm.art/why" description="Why I made Plant Smart." />

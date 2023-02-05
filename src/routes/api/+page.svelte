@@ -183,4 +183,4 @@ type Plant struct {
 	</div>
 </div>
 
-<Seo title="API Documentation" canonical="https://plantsm.art/api" />
+<Seo title="API Documentation" canonical="https://plantsm.art/api" description="Learn how you can access the Plant Smart API." />

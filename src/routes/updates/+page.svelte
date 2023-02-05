@@ -102,4 +102,4 @@
 	</div>
 </div>
 
-<Seo title="Updates" canonical="https://plantsm.art/updates" />
+<Seo title="Updates" canonical="https://plantsm.art/updates" description="View a list of recent development events." />
