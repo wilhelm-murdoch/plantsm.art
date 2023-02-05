@@ -16,7 +16,7 @@
 				</svg>+{plant.image_total - 1}
 			</span>
 			<a href="/plant/{plant.pid}" title="Read more about {plant.name}.">
-				<img class="is-lazy hover:scale-110 ease-in-out duration-1000 h-52 w-full object-cover" use:lazy={getImageUrl(plant.cover_image_url, 'medium')} alt="Cover image for {plant.name}." />
+				<img class="is-lazy hover:scale-105 ease-in-out duration-2000 h-52 w-full object-cover" use:lazy={getImageUrl(plant.cover_image_url, 'medium')} alt="Cover image for {plant.name}." />
 			</a>
 		</div>
 		{#if plant.is_deadly}

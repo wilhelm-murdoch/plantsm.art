@@ -27,6 +27,23 @@
 			}
 		]
 	};
+
+	const ldJson = {
+		'@context': 'https://schema.org/',
+		'@type': 'Article',
+		headline: { title },
+		author: {
+			'@type': 'Person',
+			name: 'Wilhelm Murdoch',
+			url: 'https://wilhelm.codes/'
+		},
+		image: [{ image }],
+		description: { description }
+	};
 </script>
+
+<svelte:head>
+	{@html '<script type="application/ld+json">' + JSON.stringify(ldJson) + '</script>'}
+</svelte:head>
 
 <SvelteSeo title="Plant Smart &middot; {title}" {description} {canonical} {twitter} {openGraph} />
