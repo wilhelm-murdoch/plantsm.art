@@ -88,7 +88,7 @@
 		<div class="grid grid-cols-4">
 			{#each plant.images as image, i (image)}
 				<div class="overflow-hidden background-fallback bg-slate-50">
-					<img on:click={() => openLightbox(image, i)} on:keydown alt={image.relative_path} class="is-lazy  inline-block object-cover object-center h-32 w-full hover:scale-110 ease-in-out duration-100 cursor-pointer" use:lazy={getImageUrl(image.relative_path, "thumbnail")} />
+					<img on:click={() => openLightbox(image, i)} on:keydown alt={image.relative_path} class="is-lazy  inline-block object-cover object-center h-32 w-full hover:scale-110 ease-in-out duration-100 cursor-pointer" use:lazy={getImageUrl(image.relative_path, 'thumbnail')} />
 				</div>
 			{/each}
 		</div>
@@ -163,6 +163,14 @@
 				>
 			</a>
 		</div>
+		<div class="flex w-0 flex-1">
+			<a href="https://plantsm.art/plant/{plant.pid}.json" title="Download the JSON representation of this plant's data." target="_blank" rel="noreferrer" class="text-slate-400 hover:text-gray-500 relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium">
+				Download
+				<svg class="w-5 h-5 ml-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75v6.75m0 0l-3-3m3 3l3-3m-8.25 6a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+				</svg>
+			</a>
+		</div>
 		<div class="-ml-px flex w-0 flex-1">
 			<a href={plant.wikipedia_url} title="Read more about this entry." class=" text-slate-400 inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-2 text-md hover:text-gray-500">
 				Wikipedia
@@ -194,7 +202,7 @@
 			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
 		</span>
 		<div class="items-center m-16 border-2 background-fallback bg-green-50">
-			<img alt={getImageUrl(lightboxImage.relative_path, "large")} src={getImageUrl(lightboxImage.relative_path, "large")} class="w-full" />
+			<img alt={getImageUrl(lightboxImage.relative_path, 'large')} src={getImageUrl(lightboxImage.relative_path, 'large')} class="w-full" />
 			<div class="p-2.5 bg-white text-center text-slate-500">{lightboxImage.attribution}</div>
 		</div>
 	</div>
