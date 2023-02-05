@@ -256,12 +256,12 @@
 	</div>
 
 	<div class="bg-gray-50">
-		<div class="mx-auto max-w-7xl py-3 sm:flex sm:items-center px-6 lg:px-0">
+		<div class="mx-auto max-w-7xl py-3 flex items-center px-6 md:px-0">
 			<h3 class="text-sm font-medium text-gray-500">Filters</h3>
 
-			<div aria-hidden="true" class="hidden h-5 w-px bg-gray-300 sm:ml-4 sm:block" />
+			<div aria-hidden="true" class="h-5 w-px bg-gray-300 ml-4 block" />
 
-			<div class="mt-2 sm:mt-0 sm:ml-4">
+			<div class="mt-2 sm:mt-0 ml-4">
 				<div class="-m-1 flex flex-wrap items-center">
 					{#if $filters.length}
 						{#each $filters as filter, i}
