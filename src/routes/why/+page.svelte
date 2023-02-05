@@ -33,14 +33,14 @@
 				<p class="text-xl leading-8 text-gray-500 text-justify">Simply put, I love plants and I love animals. I can't count how many times I've been to a plant nursery and had to stop and do a Google search to see if something was safe enough to bring home and keep around our little Pandora, or 🐼 for short.</p>
 			</div>
 
-			<div class="grid grid-cols-3 mb-8">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8">
 				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-6.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-slate-50">
+				<div class="background-fallback overflow-hidden bg-slate-50 hidden md:block">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-2.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-slate-50">
+				<div class="background-fallback overflow-hidden bg-slate-50 hidden lg:block">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-7.png'} alt="A very cute cat." />
 				</div>
 			</div>
@@ -86,14 +86,14 @@
 				<p>So far, it's going quite well. I haven't had any issues with meeting any of these self-imposed development constraints.</p>
 			</div>
 
-			<div class="grid grid-cols-3 mb-8">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-8">
 				<div class="background-fallback overflow-hidden bg-slate-50">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-1.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-slate-50">
+				<div class="background-fallback overflow-hidden bg-slate-50 hidden md:block">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-4.png'} alt="A very cute cat." />
 				</div>
-				<div class="background-fallback overflow-hidden bg-slate-50">
+				<div class="background-fallback overflow-hidden bg-slate-50 hidden lg:block">
 					<img class="is-lazy hover:scale-125 ease-in-out duration-1000 h-64 w-full object-cover object-center" use:lazy={'/images/why/panda-5.png'} alt="A very cute cat." />
 				</div>
 			</div>
