@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { ColumnLeft, ColumnRight, Warning, Seo } from '$components';
 	import { isDeadly } from '$lib/types/plant';
+	import { getImageUrl } from '$lib/utils/urls';
 
 	export let data: any;
 </script>
@@ -32,4 +33,4 @@
 	</div>
 </div>
 
-<Seo title={data.plant.name} canonical="https://plantsm.art/plant/{data.plant.pid}" description="Affected animals, common names and symptoms for {data.plant.name}." image={data.plant.images[0].relative_path} attribution={data.plant.images[0].attribution} />
+<Seo title={data.plant.name} canonical="https://plantsm.art/plant/{data.plant.pid}" description="Affected animals, common names and symptoms for {data.plant.name}." image={getImageUrl(data.plant.images[0].relative_path, 'medium')} attribution={data.plant.images[0].attribution} />
