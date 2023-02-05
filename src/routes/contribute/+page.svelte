@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Seo } from '$components';
 
-	// export let data: any;
+	export let data: any;
 </script>
 
 <div class="relative bg-gray-50 mb-4 p-4 border-y">
