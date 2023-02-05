@@ -117,7 +117,7 @@ func (Seo) Write(ctx context.Context, sourcePath, toPath string) error {
 	currentTime := time.Now()
 	currentTimeFormatted := fmt.Sprintf("%d-%02d-%02dT%02d:%02d:%02d-00:00", currentTime.Year(), currentTime.Month(), currentTime.Day(), currentTime.Hour(), currentTime.Minute(), currentTime.Second())
 	for _, plant := range plants.Data {
-		sitemap.AddUrl(fmt.Sprintf("https://plantsm.art/plant/%s/", plant.Pid), currentTimeFormatted)
+		sitemap.AddUrl(fmt.Sprintf("https://plantsm.art/plant/%s", plant.Pid), currentTimeFormatted)
 	}
 
 	sitemap.AddUrl("https://plantsm.art/", currentTimeFormatted)
