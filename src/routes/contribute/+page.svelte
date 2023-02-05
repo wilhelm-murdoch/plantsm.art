@@ -64,7 +64,14 @@
 
 				<h3 id="contributors">Contributors</h3>
 				<p>The following is a list of people who have contributed on Github.</p>
-				<div class="flex space-x-5" />
+				<div class="flex space-x-5">
+					{#each data.contributors as contributor}
+						<a class="not-prose relative inline-block" title="{contributor.name}'s Github profile." href={contributor.url}>
+							<img class="h-16 w-16 rounded-full border-solid border-2 border-black/5" src={contributor.avatar} alt="{contributor.name}'s profile image." />
+							<span class="not-prose absolute top-0 right-0 block rounded-md text-center py-0.5 px-1 bg-green-500 ring-2 ring-white text-white text-xs">{contributor.contributions}</span>
+						</a>
+					{/each}
+				</div>
 			</div>
 		</div>
 	</div>
