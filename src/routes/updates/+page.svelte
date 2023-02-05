@@ -58,17 +58,18 @@
 		<div class="overflow-hidden bg-white shadow-lg mb-4 pb-8 rounded-lg">
 			<h2 class="unstyled bg-gradient-to-tr from-green-700 to-emerald-900 p-2.5 text-2xl font-extralight text-white text-center mb-8">updates</h2>
 			<div class="prose prose-lg prose-slate px-4 mx-auto text-gray-500 mb-8">
-				<h2 class="block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">See how industrious we've been!</h2>
+				<h2 class="block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">We've been busy!</h2>
 
 				<p class="text-xl leading-8 text-gray-500 text-justify">
 					Here's a list of the last 100 development events grouped by contributor. Feel free to check out our <a href="https://github.com/wilhelm-murdoch/plantsm.art" title="The Plant Smart repository on GitHub.">GitHub repository</a> if you want to see a more exhaustive view.
 				</p>
 
-				<div class="flex mb-8 justify-center space-x-2 sm:space-x-8">
+				<div class="flex mb-8 justify-center space-x-4 md:space-x-8">
 					{#each Object.keys(eventCounts) as eventType}
 						{#if eventCounts[eventType] > 0}
 							<div class="relative inline-block rounded-full p-1 text-{eventIcons[eventType][0]}-800 bg-{eventIcons[eventType][0]}-100" aria-hidden="true">
-								<svg class="w-8 h-8" fill="none" stroke-width="1" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">{@html eventIcons[eventType][1]}</svg><span class="not-prose absolute -top-2 -right-2 block rounded-md text-center py-0.5 px-1 bg-green-500 ring-2 ring-white text-white text-xs">{eventCounts[eventType]}</span>
+								<svg class="w-6 h-6 md:w-8 md:h-8" fill="none" stroke-width="1" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">{@html eventIcons[eventType][1]}</svg>
+								<span class="not-prose absolute -top-2 -right-2 block rounded-md text-center py-0.5 px-1 bg-green-500 ring-2 ring-white text-white text-xs">{eventCounts[eventType]}</span>
 							</div>
 						{/if}
 					{/each}

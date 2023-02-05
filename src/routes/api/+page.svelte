@@ -182,6 +182,12 @@ type Plant struct {
 								</li>
 							{/each}
 						</ul>
+						<p>Adding <code>.json</code> to the end of any plant detail page will yield all associated data in the form of a JSON object.</p>
+						<ul>
+							{#each ['anthurium-scherzerianum', 'apocynum-spp', 'aralia-spinosa', 'arisaema-triphyllum', 'arum-maculatum', 'arum-palaestinum'] as plant}
+								<li><a href="https://plantsm.art/plant/{plant}.json" title="{plant}.json">https://plantsm.art/plant/{plant}.json</a></li>
+							{/each}
+						</ul>
 					</li>
 				</ul>
 
