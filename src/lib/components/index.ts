@@ -16,3 +16,4 @@ export { default as PullRequestEvent } from './GithubFeed/PullRequestEvent.svelt
 export { default as PullRequestReviewEvent } from './GithubFeed/PullRequestReviewEvent.svelte';
 export { default as PushEvent } from './GithubFeed/PushEvent.svelte';
 export { default as WatchEvent } from './GithubFeed/WatchEvent.svelte';
+export { default as Seo } from './Seo/Seo.svelte';

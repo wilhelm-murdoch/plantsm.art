@@ -1,7 +1,6 @@
 <script lang="ts">
-	import SvelteSeo from 'svelte-seo';
 	import { onDestroy } from 'svelte';
-	import { Card, FilterPanel } from '$components';
+	import { Card, FilterPanel, Seo } from '$components';
 	import InfiniteScroll from 'svelte-infinite-scroll';
 	import type { PlantSlim, PlantsWrapped } from '$lib/types/plant';
 	import { createSearchStore, searchHandler } from '$utils/stores/search';
@@ -27,27 +26,6 @@
 		unsubscribePlants();
 		unsubscribeFilters();
 	});
-
-	const twitterMeta = {
-		site: '@wilhelm',
-		title: 'Plant Smart &middot; Helping plants and pets peacefully coexist.',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		image: 'https://plantsm.art/images/og-cover.png',
-		imageAlt: 'Plant Smart'
-	};
-
-	const openGraphMeta = {
-		title: 'Plant Smart &middot; Helping plants and pets peacefully coexist.',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		type: 'article',
-		url: 'https://plantsm.art',
-		images: [
-			{
-				url: 'https://plantsm.art/images/og-cover.png',
-				alt: 'Plant Smart'
-			}
-		]
-	};
 </script>
 
 <FilterPanel resultCount={$searchStore.filtered.length} />
@@ -85,4 +63,4 @@
 	</div>
 </div>
 
-<SvelteSeo title="Plant Smart &middot; Helping plants and pets peacefully coexist." description="A free service that aims to provide a detailed listing of dangerous plants for your pets." canonical="https://plantsm.art" twitter={twitterMeta} openGraph={openGraphMeta} />
+<Seo />

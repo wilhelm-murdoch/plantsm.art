@@ -1,28 +1,7 @@
 <script lang="ts">
-	import SvelteSeo from 'svelte-seo';
+	import { Seo } from '$components';
 
 	export let data: any;
-
-	const twitterMeta = {
-		site: '@wilhelm',
-		title: 'Plant Smart &middot; How to contribute.',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		image: 'https://plantsm.art/images/og-cover.png',
-		imageAlt: 'Plant Smart'
-	};
-
-	const openGraphMeta = {
-		title: 'Plant Smart &middot; How to contribute.',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		type: 'article',
-		url: 'https://plantsm.art/contribute',
-		images: [
-			{
-				url: 'https://plantsm.art/images/og-cover.png',
-				alt: 'Plant Smart'
-			}
-		]
-	};
 </script>
 
 <div class="relative bg-gray-50 mb-4 p-4 border-y">
@@ -98,4 +77,4 @@
 	</div>
 </div>
 
-<SvelteSeo title="Plant Smart &middot; How to contribute." description="A free service that aims to provide a detailed listing of dangerous plants for your pets." canonical="https://plantsm.art/contribute" twitter={twitterMeta} openGraph={openGraphMeta} />
+<Seo title="How to contribute" canonical="https://plantsm.art/contribute" />

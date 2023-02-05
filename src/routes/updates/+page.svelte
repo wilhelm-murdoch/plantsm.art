@@ -1,6 +1,5 @@
 <script lang="ts">
-	import SvelteSeo from 'svelte-seo';
-	import { ForkEvent, IssueCommentEvent, IssuesEvent, PublicEvent, PullRequestEvent, PullRequestReviewEvent, PushEvent, WatchEvent } from '$components';
+	import { ForkEvent, IssueCommentEvent, IssuesEvent, PublicEvent, PullRequestEvent, PullRequestReviewEvent, PushEvent, WatchEvent, Seo } from '$components';
 	import { eventIcons } from '$components/GithubFeed/events';
 
 	export let data: any;
@@ -30,27 +29,6 @@
 	};
 
 	let eventCounts = getEventCounts();
-
-	const twitterMeta = {
-		site: '@wilhelm',
-		title: 'Plant Smart &middot; Updates',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		image: 'https://plantsm.art/images/og-cover.png',
-		imageAlt: 'Plant Smart'
-	};
-
-	const openGraphMeta = {
-		title: 'Plant Smart &middot; Updates',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		type: 'article',
-		url: 'https://plantsm.art/updates',
-		images: [
-			{
-				url: 'https://plantsm.art/images/og-cover.png',
-				alt: 'Plant Smart'
-			}
-		]
-	};
 </script>
 
 <div class="relative bg-gray-50 mb-4 p-4 border-y">
@@ -124,4 +102,4 @@
 	</div>
 </div>
 
-<SvelteSeo title="Plant Smart &middot; Updates" description="A free service that aims to provide a detailed listing of dangerous plants for your pets." canonical="https://plantsm.art/updates" twitter={twitterMeta} openGraph={openGraphMeta} />
+<Seo title="Updates" canonical="https://plantsm.art/updates" />

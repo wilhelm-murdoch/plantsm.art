@@ -1,34 +1,8 @@
 <script lang="ts">
-	import SvelteSeo from 'svelte-seo';
-	import { ColumnLeft, ColumnRight, Warning } from '$components';
+	import { ColumnLeft, ColumnRight, Warning, Seo } from '$components';
 	import { isDeadly } from '$lib/types/plant';
 
 	export let data: any;
-
-	const twitterMeta = {
-		site: '@wilhelm',
-		title: 'Plant Smart &middot; ' + data.plant.name,
-		description: 'Affected animals, common names and symptoms for ' + data.plant.name + '.',
-		image: data.plant.images[0].relative_path,
-		imageAlt: data.plant.images[0].attribution
-	};
-
-	const openGraphMeta = {
-		title: 'Plant Smart &middot; ' + data.plant.name,
-		description: 'Affected animals, common names and symptoms for ' + data.plant.name + '.',
-		type: 'article',
-		url: 'https://plantsm.art/plant/' + data.plant.pid,
-		article: {
-			publishedTime: data.plant.date_last_updated,
-			modifiedTime: data.plant.date_last_updated
-		},
-		images: [
-			{
-				url: 'https://plantsm.art/images/' + data.plant.images[0].relative_path,
-				alt: data.plant.images[0].attribution
-			}
-		]
-	};
 </script>
 
 <div class="relative bg-gray-50 pb-5 mb-8 sm:px-6 sm:pt-4 lg:px-8 lg:pt-4 lg:pb-4 border-y px-6 pt-4">
@@ -58,4 +32,4 @@
 	</div>
 </div>
 
-<SvelteSeo title="Plant Smart &middot; {data.plant.name}" description="Affected animals, common names and symptoms for {data.plant.name}." keywords="{data.plant.name} {data.plant.common && data.plant.common.map((c) => c.name).join(' ')} on pets {data.plant.animals.join(' ')} with symptoms {data.plant.symptoms && data.plant.symptoms.map((s) => s.name).join(' ')}" canonical="https://plantsm.art/plant/{data.plant.pid}" twitter={twitterMeta} openGraph={openGraphMeta} />
+<Seo title={data.plant.name} canonical="https://plantsm.art/plant/{data.plant.pid}" description="Affected animals, common names and symptoms for {data.plant.name}." image={data.plant.images[0].relative_path} attribution={data.plant.images[0].attribution} />

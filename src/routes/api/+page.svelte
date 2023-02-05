@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SvelteSeo from 'svelte-seo';
+	import { Seo } from '$components';
 	import { getByAnimal, getAllAnimals } from '$lib/utils/animals';
 
 	let snippetPlantsStruct: string = `type Symptom struct {
@@ -105,27 +105,6 @@ type Plant struct {
 	// A list of ids for each affecting plant
 	Plants []string \`json:"plants"\`
 }`;
-
-	const twitterMeta = {
-		site: '@wilhelm',
-		title: 'Plant Smart &middot; API Documentation',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		image: 'https://plantsm.art/images/og-cover.png',
-		imageAlt: 'Plant Smart'
-	};
-
-	const openGraphMeta = {
-		title: 'Plant Smart &middot; API Documentation',
-		description: 'A free service that aims to provide a detailed listing of dangerous plants for your pets.',
-		type: 'article',
-		url: 'https://plantsm.art/api',
-		images: [
-			{
-				url: 'https://plantsm.art/images/og-cover.png',
-				alt: 'Plant Smart'
-			}
-		]
-	};
 </script>
 
 <div class="relative bg-gray-50 mb-4 p-4 border-y">
@@ -204,4 +183,4 @@ type Plant struct {
 	</div>
 </div>
 
-<SvelteSeo title="Plant Smart &middot; API Documentation" description="A free service that aims to provide a detailed listing of dangerous plants for your pets." canonical="https://plantsm.art/api" twitter={twitterMeta} openGraph={openGraphMeta} />
+<Seo title="API Documentation" canonical="https://plantsm.art/api" />
