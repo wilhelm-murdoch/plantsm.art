@@ -31,6 +31,7 @@ const config = {
 		prerender: {
 			entries: [
 				"/",
+				...entries.map(e => e + ".json"),
 				...entries
 			],
 		},

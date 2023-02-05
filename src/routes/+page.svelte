@@ -60,7 +60,15 @@
 				<h3 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">No matching results!</h3>
 				<div class="text-left">
 					<ol>
-						<li>Try loosening your search or <a href="/" title="Clear all filters." on:click={() => {$filterStore = []}}>clearing out</a> your filters.</li>
+						<li>
+							Try loosening your search or <a
+								href="/"
+								title="Clear all filters."
+								on:click={() => {
+									$filterStore = [];
+								}}>clearing out</a
+							> your filters.
+						</li>
 						<li>The search mechanism doesn't account for <strike>speeling missed steaks</strike> spelling mistakes. Double-check your spelling.</li>
 						<li>Should this plant be listed? <a href="https://github.com/wilhelm-murdoch/plantsm.art/issues/new?title=Update%20Request" title="Create a request on GitHub.">Send us the details</a> and we'll look into adding it to our database.</li>
 					</ol>
