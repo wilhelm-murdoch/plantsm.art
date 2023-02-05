@@ -162,7 +162,7 @@
 												name="affects[]"
 												value={animal}
 												type="checkbox"
-												class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+												class="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500"
 												on:click={() => handleCheckboxFilter('affects', animal)}
 												checked={$filters.some((f) => {
 													return f.type == 'affects' && f.term == animal;
@@ -216,7 +216,7 @@
 													name="symptom[]"
 													value="white"
 													type="checkbox"
-													class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+													class="h-4 w-4 rounded border-gray-300 text-green-600 focus:ring-green-500"
 													on:click={() => handleCheckboxFilter('symptoms', symptom.name)}
 													checked={$filters.some((f) => {
 														return f.type == 'symptoms' && f.term == symptom.name;
