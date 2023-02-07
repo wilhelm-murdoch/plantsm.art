@@ -1,6 +1,6 @@
 module github.com/wilhelm-murdoch/plantsm.art
 
-go 1.19
+go 1.20
 
 require (
 	github.com/gosimple/slug v1.13.1
@@ -14,12 +14,8 @@ require github.com/lithammer/fuzzysearch v1.1.5
 
 require (
 	github.com/andybalholm/cascadia v1.3.1 // indirect
-	github.com/cloudflare/cloudflare-go v0.58.1 // indirect
-	github.com/google/go-querystring v1.1.0 // indirect
-	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
-	github.com/hashicorp/go-retryablehttp v0.7.2 // indirect
+	github.com/stretchr/testify v1.8.1 // indirect
 	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
-	golang.org/x/time v0.0.0-20220224211638-0e9765cccd65 // indirect
 )
 
 require (
