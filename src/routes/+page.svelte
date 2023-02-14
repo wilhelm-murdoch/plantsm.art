@@ -34,9 +34,9 @@
 	<div class="relative mx-auto max-w-7xl">
 		{#if $searchStore.filtered.length == 0}
 			<div class="mx-auto flex-shrink-0 text-center py-16 prose">
-				<h2 class="text-base font-semibold text-green-600">Oh, no! 🙀</h2>
 				<h3 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">No matching results!</h3>
 				<div class="text-left">
+					<p>This <em>probably</em> means that the plant you've searched for is safe for pets. However, while my goal is to list every plant that is potentially dangerous to pets, I have not yet reached that goal. Please exercise due diligence and check other sources for the plant you're searching for. Or, check for these common issues:</p>
 					<ol>
 						<li>
 							Try loosening your search or <a
