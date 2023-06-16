@@ -69,29 +69,3 @@ If you've added new plant records that contain new images, be sure to upload the
 mage images:cloudflare static/api/plants.json
 ```
 This will send new images discovered in `.[].images[].source_url` to Cloudflare which will be found on the path defined in `.[].images[].relative_path`. To access the newly-uploaded image, you simply go to `https://cdn.plantsm.art/cdn-cgi/imagedelivery/qnkf0SBjwoY9e50dCCmY3Q/${relative_path}/(large|medium|thumb)`.
-
-### Using PocketBase
-Personally, I use [PocketBase](https://pocketbase.io/) to update `/static/api/plants.json`. Ensure you have [Docker](https://www.docker.com/), or [podman](https://podman.io/) if you prefer, installed and running locally. Use `docker-compose` to start the service:
-```
-docker-compose up
-[+] Running 1/0
- ⠿ Container pocketbase  Created  0.0s
-Attaching to pocketbase
-pocketbase  | > Server started at: http://0.0.0.0:8090
-pocketbase  |   - REST API: http://0.0.0.0:8090/api/
-pocketbase  |   - Admin UI: http://0.0.0.0:8090/_/
-```
-Open [http://0.0.0.0:8090/_/](http://0.0.0.0:8090/_/) in your browser. If this is your first time running the service, you will be asked to create a new admin account. Create something memorable and sign in. Go to "Settings > Import Collections" and paste the body of `/data/pb_schema.json` into the textarea. Click "Review" and "Confirm and import" on the following screen.
-
-Next, you will prime this new database with the data from `/static/api/plants.json`. In your terminal, run the following command:
-```
-mage pb:import /static/api/plants.json
-```
-This will populate the database. Once complete, you can go back to the admin panel and modify the records using a nice interface. When finished, be sure to run the following command to rebuild the `/static/api/plants.json` file:
-```
-mage pb:export /static/api/plants.json
-```
-This will sync your all your changes. Be sure to run the previously-mentioned `mage` commands outlined in the first section under [Updating Datasets](#updating-datasets).
-
-All changes to any `*.json` database will be immediately reflected in your local dev environment.
-
