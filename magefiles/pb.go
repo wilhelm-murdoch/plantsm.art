@@ -77,15 +77,6 @@ type MarshalImage struct {
 	RelativePath string `json:"relative_path"`
 }
 
-type MarshalClassification struct {
-	Kingdom string        `json:"kingdom"`
-	Clades  []interface{} `json:"clades"`
-	Order   string        `json:"order"`
-	Family  string        `json:"family"`
-	Genus   string        `json:"genus"`
-	Species string        `json:"species"`
-}
-
 type MarshalPlant struct {
 	Pid             string                `json:"pid"`
 	Name            string                `json:"name"`
@@ -95,7 +86,6 @@ type MarshalPlant struct {
 	Images          []MarshalImage        `json:"images"`
 	WikipediaUrl    string                `json:"wikipedia_url"`
 	DateLastUpdated string                `json:"date_last_updated"`
-	Classification  MarshalClassification `json:"classification"`
 }
 
 func (Pb) Export(ctx context.Context) error {
@@ -172,14 +162,6 @@ func (Pb) Export(ctx context.Context) error {
 			Common:          common,
 			Symptoms:        symptoms,
 			Images:          images,
-			Classification: MarshalClassification{
-				Kingdom: plant.(map[string]interface{})["kingdom"].(string),
-				Clades:  plant.(map[string]interface{})["clades"].([]interface{}),
-				Order:   plant.(map[string]interface{})["order"].(string),
-				Family:  plant.(map[string]interface{})["family"].(string),
-				Genus:   plant.(map[string]interface{})["genus"].(string),
-				Species: plant.(map[string]interface{})["species"].(string),
-			},
 		})
 
 		common = nil
@@ -406,12 +388,6 @@ func (Pb) Import(ctx context.Context, sourcePath, databasePath string) error {
 			Name:         plant.Name,
 			Animals:      plant.Animals,
 			WikipediaUrl: plant.WikipediaUrl,
-			Clades:       plant.Classification.Clades,
-			Kingdom:      plant.Classification.Kingdom,
-			Family:       plant.Classification.Family,
-			Genus:        plant.Classification.Genus,
-			Order:        plant.Classification.Order,
-			Species:      plant.Classification.Species,
 			Symptoms:     symptomIds,
 			Common:       commonIds,
 			Images:       imageIds,

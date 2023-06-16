@@ -24,7 +24,7 @@ npm run dev
 Open a browser window and point it to [http://localhost:5173/](http://localhost:5173/). You should now be able to modify anything under `/src` and the local dev build will perform a live update in your browser.
 
 ## Updating Datasets
-If you want to help out with the dataset, first ensure you have at least Go version `1.19.0` installed locally and run the following commands:
+If you want to help out with the dataset, first ensure you have at least Go version `1.20.0` installed locally and run the following commands:
 ```
 cd magefiles/
 go mod download

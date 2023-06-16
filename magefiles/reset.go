@@ -32,15 +32,6 @@ type ResetImage struct {
 	RelativePath string `json:"relative_path"`
 }
 
-type ResetClassification struct {
-	Kingdom string   `json:"kingdom"`
-	Clades  []string `json:"clades"`
-	Order   string   `json:"order"`
-	Family  string   `json:"family"`
-	Genus   string   `json:"genus"`
-	Species string   `json:"species"`
-}
-
 type ResetPlant struct {
 	Pid             string              `json:"pid"`
 	Name            string              `json:"name"`
@@ -50,7 +41,6 @@ type ResetPlant struct {
 	Images          []ResetImage        `json:"images"`
 	WikipediaUrl    string              `json:"wikipedia_url"`
 	DateLastUpdated string              `json:"date_last_updated"`
-	Classification  ResetClassification `json:"classification"`
 }
 
 func (Reset) All(ctx context.Context, sourcePath string) error {
@@ -78,14 +68,6 @@ func (Reset) All(ctx context.Context, sourcePath string) error {
 			Symptoms:        symptoms,
 			WikipediaUrl:    plant.WikipediaUrl,
 			DateLastUpdated: plant.DateLastUpdated,
-			Classification: ResetClassification{
-				Kingdom: plant.Classification.Kingdom,
-				Clades:  plant.Classification.Clades,
-				Order:   plant.Classification.Order,
-				Family:  plant.Classification.Family,
-				Genus:   plant.Classification.Genus,
-				Species: plant.Classification.Species,
-			},
 		}
 
 		resetPlant, err = getiNaturalistImagesReset(resetPlant)

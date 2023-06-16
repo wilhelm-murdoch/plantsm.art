@@ -11,7 +11,6 @@ import (
 	"os"
 	"strings"
 
-	"github.com/PuerkitoBio/goquery"
 	"github.com/gosimple/slug"
 	"github.com/lithammer/fuzzysearch/fuzzy"
 	"github.com/magefile/mage/mg"
@@ -110,14 +109,6 @@ func (Data) AddAnimalToPlantsFromFile(ctx context.Context, sourcePath, plantFile
 			WikipediaUrl:    plant.WikipediaUrl,
 			DateLastUpdated: plant.DateLastUpdated,
 			Images:          images,
-			Classification: ResetClassification{
-				Kingdom: plant.Classification.Kingdom,
-				Clades:  plant.Classification.Clades,
-				Order:   plant.Classification.Order,
-				Family:  plant.Classification.Family,
-				Genus:   plant.Classification.Genus,
-				Species: plant.Classification.Species,
-			},
 		}
 
 		resetPlantsOutput = append(resetPlantsOutput, *resetPlant)
@@ -171,11 +162,6 @@ func (Data) File(ctx context.Context, sourcePath, plantFilePath, animal, symptom
 			return err
 		}
 
-		newPlant, err = getWikipediaDetails(newPlant)
-		if err != nil {
-			return err
-		}
-
 		newPlantsOutput = append(newPlantsOutput, *newPlant)
 	}
 
@@ -212,11 +198,6 @@ func (Data) Scaffold(ctx context.Context, sourcePath, animal, plantName string) 
 	}
 
 	newPlant, err = getiNaturalistImages(newPlant)
-	if err != nil {
-		return err
-	}
-
-	newPlant, err = getWikipediaDetails(newPlant)
 	if err != nil {
 		return err
 	}
@@ -291,39 +272,6 @@ func getiNaturalistImages(plant *MarshalPlant) (*MarshalPlant, error) {
 	if len(plant.Images) >= 10 {
 		plant.Images = plant.Images[0:9]
 	}
-
-	return plant, nil
-}
-
-func getWikipediaDetails(plant *MarshalPlant) (*MarshalPlant, error) {
-	wikipediaUrl := plant.WikipediaUrl
-	if wikipediaUrl == "" {
-		wikipediaUrl = fmt.Sprintf("https://en.wikipedia.org/wiki/%s", strings.TrimSuffix(strings.TrimSuffix(plant.Name, "sp."), "spp."))
-	}
-
-	document, err := getDocumentFromUrl(wikipediaUrl)
-	if err != nil {
-		return plant, err
-	}
-
-	var clades []interface{}
-	document.Find("table.biota").Each(func(i int, s *goquery.Selection) {
-		s.Find("tr:contains('Clade:') td").Each(func(i int, s *goquery.Selection) {
-			clade := strings.TrimSpace(s.First().Next().Text())
-			if clade != "" {
-				clades = append(clades, clade)
-			}
-		})
-
-		plant.Classification = MarshalClassification{
-			Kingdom: strings.TrimSpace(s.Find("tr:contains('Kingdom:') td").First().Next().Text()),
-			Order:   strings.TrimSpace(s.Find("tr:contains('Order:') td").First().Next().Text()),
-			Family:  strings.TrimSpace(s.Find("tr:contains('Family:') td").First().Next().Text()),
-			Genus:   strings.TrimSpace(s.Find("tr:contains('Genus:') td").First().Next().Text()),
-			Species: strings.TrimSpace(s.Find("tr:contains('Species:') td").First().Next().Text()),
-			Clades:  clades,
-		}
-	})
 
 	return plant, nil
 }
