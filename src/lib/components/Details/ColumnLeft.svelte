@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getByAnimal } from '$utils/animals';
+	import { getByAnimal, normalizeAnimal } from '$utils/animals';
 
 	export let plant: any = {};
 </script>
@@ -9,7 +9,7 @@
 		<h3 class="unstyled font-sans mb-3 p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500">Affects</h3>
 		<p class="px-2.5 pb-3 text-md font-medium space-x-1 space-y-1">
 			{#each plant.animals as animal}
-				<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji} {animal}</span>
+				<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji} {normalizeAnimal(animal)}</span>
 			{/each}
 		</p>
 

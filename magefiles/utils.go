@@ -13,7 +13,7 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-var supportedAnimals = []string{"cats", "dogs", "horses", "rats", "birds", "rabbits", "reptiles", "hamsters", "fish"}
+var supportedAnimals = []string{"cats", "dogs", "horses", "birds", "reptiles", "small-mammals", "fish"}
 
 var containsAnimal = func(animal string, animals []string) bool {
 	for _, a := range animals {

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
-	import { getByAnimal } from '$lib/utils/animals';
+	import { getByAnimal, normalizeAnimal } from '$lib/utils/animals';
 	import type { FilterItem } from './filters';
 
 	export let filter: FilterItem;
@@ -11,7 +11,7 @@
 	class="m-1 inline-flex items-center rounded-md shadow-sm text-{getByAnimal(filter.term)
 		.foreground} bg-{getByAnimal(filter.term).background} py-1.5 pl-3 pr-2 text-sm font-medium"
 >
-	<span>{getByAnimal(filter.term).emoji} {filter.term}</span>
+	<span>{getByAnimal(filter.term).emoji} {normalizeAnimal(filter.term)}</span>
 	<button
 		on:click
 		type="button"

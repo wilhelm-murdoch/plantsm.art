@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { lazy } from '$lib/utils/lazy';
-	import { getByAnimal } from '$utils/animals';
+	import { getByAnimal, normalizeAnimal } from '$utils/animals';
 	import type { PlantSlim } from '$lib/types/plant';
 	import { getImageUrl } from '$lib/utils/urls';
 
@@ -43,7 +43,7 @@
 			<h3 class="unstyled font-sans mb-3 p-2.5 border-b text-sm bg-slate-50">Affects</h3>
 			<p class="px-2.5 pb-2.5 text-sm font-medium space-x-1 space-y-1">
 				{#each plant.animals as animal}
-					<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}" title={animal}>{getByAnimal(animal).emoji}</span>
+					<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}" title={normalizeAnimal(animal)}>{getByAnimal(animal).emoji}</span>
 				{/each}
 			</p>
 			<h3 class="unstyled font-sans mb-3 p-2.5 border-b text-sm bg-slate-50">Common Names</h3>

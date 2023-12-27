@@ -11,7 +11,7 @@
 					veterinarian.
 				</li>
 				<li>
-					If your animal is experiencing any of the following symptoms, immediately contact your
+					If your animal is experiencing any of the associated symptoms, immediately contact your
 					veterinarian's emergency number for further instructions.
 				</li>
 			</ul>

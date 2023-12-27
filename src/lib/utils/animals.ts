@@ -27,13 +27,6 @@ const animals: { [char: string]: Animal } = {
     emoji: '🐴'
   },
 
-  // text-slate-800 bg-slate-100
-  rats: {
-    foreground: 'slate-800',
-    background: 'slate-100',
-    emoji: '🐭'
-  },
-
   // text-blue-800 bg-blue-100
   birds: {
     foreground: 'blue-800',
@@ -42,7 +35,7 @@ const animals: { [char: string]: Animal } = {
   },
 
   // text-slate-800 bg-slate-100
-  rabbits: {
+  "small-mammals": {
     foreground: 'slate-800',
     background: 'slate-100',
     emoji: '🐰'
@@ -53,20 +46,6 @@ const animals: { [char: string]: Animal } = {
     foreground: 'green-700',
     background: 'green-50',
     emoji: '🦎'
-  },
-
-  // text-yellow-700 bg-yellow-100
-  hamsters: {
-    foreground: 'yellow-700',
-    background: 'yellow-100',
-    emoji: '🐹'
-  },
-
-  // text-yellow-700 bg-yellow-100
-  "small mammals": {
-    foreground: 'yellow-700',
-    background: 'yellow-100',
-    emoji: '🐹'
   },
 
   // text-indigo-700 bg-indigo-100
@@ -90,4 +69,8 @@ export const getByAnimal = (animal: string) => {
 
 export const getAllAnimals = () => {
   return Object.keys(animals)
+}
+
+export const normalizeAnimal = (animal: string) => {
+  return animal.toLowerCase().replace('-', ' ')
 }

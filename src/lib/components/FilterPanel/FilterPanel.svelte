@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { getAllAnimals, getByAnimal } from '$utils/animals';
+	import { getAllAnimals, getByAnimal, normalizeAnimal } from '$utils/animals';
 	import { filters } from './filters';
 	import type { FilterItem, SymptomItem } from './filters';
 	import AffectFilterBadge from './AffectFilterBadge.svelte';
@@ -169,7 +169,7 @@
 												})}
 											/>
 											<label for="filter-affects-{animal}" class="ml-3 whitespace-nowrap pr-6 text-sm font-medium text-gray-900 cursor-pointer">
-												<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji} {animal}</span>
+												<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji} {normalizeAnimal(animal)}</span>
 											</label>
 										</div>
 									{/each}
