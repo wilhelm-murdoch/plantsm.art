@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"context"
-	"errors"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -48,26 +47,24 @@ func (Images) Download(ctx context.Context, sourcePath, writePath string) error 
 			bar.Add(1)
 		}()
 
-		if _, err := os.Stat(image[1]); errors.Is(err, os.ErrNotExist) {
-			response, err := http.Get(image[0])
-			if err != nil {
-				fmt.Println(err)
-			}
-			defer response.Body.Close()
+		response, err := http.Get(image[0])
+		if err != nil {
+			fmt.Println("http.get", err)
+		}
+		defer response.Body.Close()
 
-			if response.StatusCode != http.StatusOK {
-				fmt.Println(err)
-			}
+		if response.StatusCode != http.StatusOK {
+			return
+		}
 
-			var data bytes.Buffer
-			_, err = io.Copy(&data, response.Body)
-			if err != nil {
-				fmt.Println(err)
-			}
+		var data bytes.Buffer
+		_, err = io.Copy(&data, response.Body)
+		if err != nil {
+			fmt.Println("io.copy", err)
+		}
 
-			if err := os.WriteFile(image[1], data.Bytes(), 0644); err != nil {
-				fmt.Println(err)
-			}
+		if err := os.WriteFile(fmt.Sprintf("%s/%s", image[1], "original.jpg"), data.Bytes(), 0644); err != nil {
+			fmt.Println("os.writefile", err)
 		}
 	}, 10)
 

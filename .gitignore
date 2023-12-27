@@ -2,6 +2,7 @@
 node_modules
 /data/db
 /build
+/static/images/plants
 /.svelte-kit
 /package
 .envrc
