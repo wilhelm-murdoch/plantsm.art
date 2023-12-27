@@ -1,6 +1,6 @@
 export const prerender = true;
 
-export const load = async () => {
+export const load = async ({ fetch, params }) => {
   const getEvents = async () => {
     const res = await fetch('https://api.github.com/repos/wilhelm-murdoch/plantsm.art/events?per_page=100')
     const data: any[] = await res.json()
