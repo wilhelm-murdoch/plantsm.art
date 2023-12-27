@@ -18,6 +18,6 @@ export const load = async () => {
   }
 
   return {
-    events: getEvents()
+    events: await getEvents()
   }
 }
