@@ -32,26 +32,6 @@ type Image struct {
 	RelativePath string \`json:"relative_path"\`
 }
 
-type Classification struct {
-	// The assigned kingdom of the plant
-	Kingdom string   \`json:"kingdom"\`
-
-	// A list of any clades assigned to the plant
-	Clades  []string \`json:"clades"\`
-
-	// The assigned order of the plant
-	Order   string   \`json:"order"\`
-
-	// The assigned family of the plant
-	Family  string   \`json:"family"\`
-
-	// The assigned genus of the plant
-	Genus   string   \`json:"genus"\`
-
-	// The assigned species for the plant ( if applicable )
-	Species string   \`json:"species"\`
-}
-
 type Plant struct {
 	// The unique identifier of the plant
 	Pid string \`json:"pid"\`
@@ -76,9 +56,6 @@ type Plant struct {
 
 	// A timestamp representing the latest changes
 	DateLastUpdated string \`json:"date_last_updated"\`
-
-	// An object representing classification data ( see above )
-	Classification Classification \`json:"classification"\`
 }`;
 
 	let snippetSymptomsStruct: string = `type Symptom struct {

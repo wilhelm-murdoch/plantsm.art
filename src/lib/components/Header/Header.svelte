@@ -70,6 +70,7 @@
 					<a href="/why" class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium">Why?</a>
 					<a href="/contribute" class="border-b border-dotted border-b-green-600 hover:border-b-green-800 text-green-600 hover:text-green-500 font-medium">Contribute</a>
 					<a href="/api" class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium">API</a>
+					<a href="/attributions" class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium">Attributions</a>
 				</div>
 				<div class="flex-2 space-x-2 hidden md:inline-block">
 					<a href="https://twitter.com/wilhelm" title="Twitter" class="text-slate-300 hover:text-slate-400 inline-block align-middle border-r pr-4 border-r-slate-100">
