@@ -15,66 +15,6 @@
 				</div>
 			{/each}
 		</div>
-		<h3 class="unstyled font-sans p-2.5 border-b text-md font-semibold bg-slate-100 text-slate-500">Classification</h3>
-
-		<div class="flex bg-gray-100 border-b">
-			<div class="flex w-0 flex-1">
-				<span class="p-4 text-slate-400">Kingdom</span>
-			</div>
-			<div class="-ml-px flex w-0 flex-1">
-				<span class="p-4"> <a href="https://en.wikipedia.org/wiki/{plant.classification.kingdom}" title={plant.classification.kingdom} class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500">{plant.classification.kingdom}</a></span>
-			</div>
-		</div>
-
-		{#if plant.classification.clades}
-			{#each plant.classification.clades as clade}
-				<div class="flex border-b">
-					<div class="flex w-0 flex-1">
-						<span class="p-4 text-slate-400">— Clade</span>
-					</div>
-					<div class="-ml-px flex w-0 flex-1">
-						<span class="p-4"> <a href="https://en.wikipedia.org/wiki/{clade}" title={clade} class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500">{clade}</a></span>
-					</div>
-				</div>
-			{/each}
-		{/if}
-
-		<div class="flex bg-gray-100 border-b">
-			<div class="flex w-0 flex-1">
-				<span class="p-4 text-slate-400">Order</span>
-			</div>
-			<div class="-ml-px flex w-0 flex-1">
-				<span class="p-4"> <a href="https://en.wikipedia.org/wiki/{plant.classification.order}" title={plant.classification.order} class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500">{plant.classification.order}</a></span>
-			</div>
-		</div>
-
-		<div class="flex border-b">
-			<div class="flex w-0 flex-1">
-				<span class="p-4 text-slate-400">Family</span>
-			</div>
-			<div class="-ml-px flex w-0 flex-1">
-				<span class="p-4"> <a href="https://en.wikipedia.org/wiki/{plant.classification.family}" title={plant.classification.family} class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500">{plant.classification.family}</a></span>
-			</div>
-		</div>
-
-		<div class="flex bg-gray-100 border-b">
-			<div class="flex w-0 flex-1">
-				<span class="p-4 text-slate-400">Genus</span>
-			</div>
-			<div class="-ml-px flex w-0 flex-1">
-				<span class="p-4"> <a href="https://en.wikipedia.org/wiki/{plant.classification.genus}" title={plant.classification.genus} class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500">{plant.classification.genus}</a></span>
-			</div>
-		</div>
-		{#if plant.classification.species}
-			<div class="flex border-b">
-				<div class="flex w-0 flex-1">
-					<span class="p-4 text-slate-400">Species</span>
-				</div>
-				<div class="-ml-px flex w-0 flex-1">
-					<span class="p-4"> <a href="https://en.wikipedia.org/wiki/{plant.classification.species}" title={plant.classification.species} class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500">{plant.classification.species}</a></span>
-				</div>
-			</div>
-		{/if}
 	</div>
 	<div class="flex divide-x -mt-px divide-gray-200">
 		<div class="flex w-0 flex-1">

@@ -2,10 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-import fs from 'fs';
 import path from 'path'
-
-const entries = fs.readdirSync('./src/lib/data/plants').filter(file => path.extname(file) === '.json').map(file => "/plant/" + path.parse(file).name);
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -31,8 +28,6 @@ const config = {
 		prerender: {
 			entries: [
 				"/",
-				...entries.map(e => e + ".json"),
-				...entries
 			],
 		},
 	},
