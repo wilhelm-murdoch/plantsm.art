@@ -18,19 +18,19 @@
 
 <div class="h-16">
 	<h1 class={compositeClasses}>
-			<a href="/" title="Back to the main page.">
-				<span class="text-amber-400 text-4xl md:text-6xl mr-1">Plant</span>
-				<svg
-					class="inline-block h-12 w-12 md:h-14 md:w-14 align-baseline jello-animation"
-					enable-background="new 0 0 512 512"
-					height="512"
-					viewBox="0 0 512 512"
-					width="512"
-					xmlns="http://www.w3.org/2000/svg">
-					{@html randomIcon}
-				</svg>
-				<span class="text-green-600 italic text-4xl md:text-6xl ml-1">Smart</span>
-			</a>
+		<a href="/" title="Back to the main page.">
+			<span class="text-amber-400 text-4xl md:text-6xl mr-1">Plant</span>
+			<svg
+				class="inline-block h-12 w-12 md:h-14 md:w-14 align-baseline jello-animation"
+				enable-background="new 0 0 512 512"
+				height="512"
+				viewBox="0 0 512 512"
+				width="512"
+				xmlns="http://www.w3.org/2000/svg">
+				{@html randomIcon}
+			</svg>
+			<span class="text-green-600 italic text-4xl md:text-6xl ml-1">Smart</span>
+		</a>
 	</h1>
 </div>
 
