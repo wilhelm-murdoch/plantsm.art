@@ -1,85 +1,8 @@
 <script lang="ts">
 	import { lazy } from '$lib/utils/lazy';
-	import { onMount } from 'svelte';
-	import { fade } from 'svelte/transition';
 	import { getImageUrl } from '$lib/utils/urls';
 
 	export let plant: any = {};
-
-	let lightboxImage: any = plant.images[0];
-	let lightboxImageIndex = 0;
-	let lightboxVisible = false;
-
-	let toggleScrollLock = () => {};
-
-	function handlePreviousClick() {
-		let previous = lightboxImageIndex - 1;
-		if (lightboxImageIndex == 0) {
-			previous = plant.images.length - 1;
-		} else if (lightboxImageIndex + 1 > plant.images.length) {
-			previous = 0;
-		}
-
-		lightboxImageIndex = previous;
-		lightboxImage = plant.images[previous];
-	}
-
-	function handleNextClick() {
-		let next = lightboxImageIndex + 1;
-		if (lightboxImageIndex == plant.images.length - 1 || next > plant.images.length) {
-			next = 0;
-		}
-
-		lightboxImageIndex = next;
-		lightboxImage = plant.images[next];
-	}
-
-	function onLightboxKeyDown(e: any) {
-		switch (e.key) {
-			case 'Escape':
-				lightboxImage = {};
-				lightboxImageIndex = 0;
-				lightboxVisible = false;
-
-				toggleScrollLock();
-				break;
-			case 'ArrowLeft':
-				handlePreviousClick();
-				break;
-			case 'ArrowRight':
-				handleNextClick();
-				break;
-		}
-	}
-
-	function closeLightbox() {
-		lightboxImage = {};
-		lightboxImageIndex = 0;
-		lightboxVisible = false;
-
-		toggleScrollLock();
-	}
-
-	function openLightbox(image: any, index: number) {
-		lightboxVisible = true;
-		lightboxImage = image;
-		lightboxImageIndex = index;
-
-		toggleScrollLock();
-	}
-
-	onMount(() => {
-		const defaultScroll = document.body.style.overflow;
-		toggleScrollLock = () => {
-			if (lightboxVisible) {
-				document.body.style.overflow = 'hidden';
-			} else {
-				document.body.style.overflow = defaultScroll;
-			}
-		};
-
-		toggleScrollLock();
-	});
 </script>
 
 <div class="flex flex-col overflow-hidden rounded-lg shadow-lg mb-4">
@@ -174,30 +97,3 @@
 		</div>
 	</div>
 </div>
-
-{#if lightboxVisible}
-	<div in:fade out:fade class="fixed top-0 left-0 z-800 w-screen h-screen bg-black/70 overflow-y-scroll">
-		<div class="w-100 bg-gradient-to-tr from-green-700 to-emerald-900 top-0">
-			<a on:click={() => closeLightbox()} href="#top" class="float-right mt-4 mr-4">
-				<svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-				</svg>
-			</a>
-			<div class="p-2.5 text-xl font-extralight text-white text-center">
-				{lightboxImageIndex + 1} of {plant.images.length}
-			</div>
-		</div>
-		<span on:click={handlePreviousClick} on:keypress={onLightboxKeyDown} class="fixed top-1/2 text-white bg-black/20 hover:bg-black/40 p-2.5 rounded-full ml-2 cursor-pointer">
-			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
-		</span>
-		<span on:click={handleNextClick} on:keypress={onLightboxKeyDown} class="fixed top-1/2 right-4 text-white bg-black/20 hover:bg-black/40 p-2.5 rounded-full mr-2 cursor-pointer">
-			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
-		</span>
-		<div class="items-center m-16 border-2 background-fallback bg-green-50">
-			<img alt={getImageUrl(lightboxImage.relative_path, 'large')} src={getImageUrl(lightboxImage.relative_path, 'large')} class="w-full" />
-			<div class="p-2.5 bg-white text-center text-slate-500">{lightboxImage.attribution}</div>
-		</div>
-	</div>
-{/if}
-
-<svelte:window on:keydown={onLightboxKeyDown} />
