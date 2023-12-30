@@ -11,7 +11,7 @@
 		<div class="grid grid-cols-4">
 			{#each plant.images as image, i (image)}
 				<div class="overflow-hidden background-fallback bg-green-50">
-					<img on:click={() => openLightbox(image, i)} on:keydown alt={image.relative_path} class="is-lazy  inline-block object-cover object-center h-32 w-full hover:scale-110 ease-in-out duration-100 cursor-pointer" use:lazy={getImageUrl(image.relative_path, 'thumbnail')} />
+					<img alt={image.relative_path} class="is-lazy  inline-block object-cover object-center h-32 w-full hover:scale-110 ease-in-out duration-100 cursor-pointer" use:lazy={getImageUrl(image.relative_path, 'thumbnail')} />
 				</div>
 			{/each}
 		</div>
