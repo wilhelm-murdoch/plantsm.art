@@ -202,11 +202,11 @@
 								<form>
 									<div class="relative flex items-center border-b text-center p-4 mb-4">
 										<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-											<svg class="ml-4 h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+											<svg class="ml-5 h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 											</svg>
 										</div>
-										<input bind:value={symptomFilterSearch} type="text" id="filter-symptom-search" class="w-52 rounded-md text-gray-400 border-gray-300 pl-9 shadow-sm focus:border-green-400 focus:ring-green-400 sm:text-sm lg:text-base mx-auto" />
+										<input bind:value={symptomFilterSearch} type="text" id="filter-symptom-search" class="w-52 rounded-md text-gray-400 border-gray-300 pl-8 shadow-sm focus:border-green-400 focus:ring-green-400 sm:text-sm lg:text-base mx-auto" />
 									</div>
 									{#if filteredSymptoms.length}
 										{#each filteredSymptoms as symptom, i}
