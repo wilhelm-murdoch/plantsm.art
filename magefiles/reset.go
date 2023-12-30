@@ -78,14 +78,6 @@ func (Reset) All(ctx context.Context, sourcePath string) error {
 			Symptoms:        symptoms,
 			WikipediaUrl:    plant.WikipediaUrl,
 			DateLastUpdated: plant.DateLastUpdated,
-			Classification: ResetClassification{
-				Kingdom: plant.Classification.Kingdom,
-				Clades:  plant.Classification.Clades,
-				Order:   plant.Classification.Order,
-				Family:  plant.Classification.Family,
-				Genus:   plant.Classification.Genus,
-				Species: plant.Classification.Species,
-			},
 		}
 
 		resetPlant, err = getiNaturalistImagesReset(resetPlant)
