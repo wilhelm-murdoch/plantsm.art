@@ -169,7 +169,12 @@
 												})}
 											/>
 											<label for="filter-affects-{animal}" class="ml-3 whitespace-nowrap pr-6 text-sm font-medium text-gray-900 cursor-pointer">
-												<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji} {normalizeAnimal(animal)}</span>
+												<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">
+													<svg id="emoji" class="h-6 w-6 pr-1" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+														{@html getByAnimal(animal).svg}
+													</svg> 
+													{normalizeAnimal(animal)}
+												</span>
 											</label>
 										</div>
 									{/each}

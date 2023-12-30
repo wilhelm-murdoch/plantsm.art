@@ -157,7 +157,12 @@ type Plant struct {
 						<ul>
 							{#each getAllAnimals() as animal}
 								<li>
-									<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">{getByAnimal(animal).emoji}</span> <a href="/api/{animal}.json"><code>{animal}.json</code></a>
+									<span class="inline-flex bg-{getByAnimal(animal).background} p-1 rounded-md align-middle">
+										<svg id="emoji" class="h-6 w-6" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+											{@html getByAnimal(animal).svg}
+										</svg>
+									</span>
+									<a href="/api/{animal}.json"><code>{animal}.json</code></a>
 								</li>
 							{/each}
 						</ul>
