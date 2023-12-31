@@ -54,7 +54,11 @@
 			<p class="px-2.5 pb-2.5 text-sm text-slate-500">
 				{#if plant.common != null}
 					{#each plant.common as common, i}
-						{common}{#if plant.common.length != 1 && i != 2},&nbsp;{/if}
+						{#if plant.common.length == 2}
+							{common}{#if i == 0}&nbsp;&amp;&nbsp;{/if}
+						{:else}
+							{common}{#if plant.common.length != 1 && i != 2},&nbsp;{/if}
+						{/if}
 					{/each}
 					{#if plant.common_total > 3}
 						<span class="inline-flex items-center rounded-sm bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">+{plant.common_total - 3} more </span>
@@ -66,7 +70,11 @@
 			<h3 class="unstyled font-sans mb-3 p-2.5 border-b text-sm bg-slate-50">Symptoms</h3>
 			<p class="px-2.5 pb-2.5 text-sm text-slate-500">
 				{#each plant.symptoms as symptom, i}
-					{symptom}{#if plant.symptoms.length != 1 && i != 2},&nbsp;{/if}
+					{#if plant.symptoms.length == 2}
+						{symptom}{#if i == 0}&nbsp;&amp;&nbsp;{/if}
+					{:else}
+						{symptom}{#if plant.symptoms.length != 1 && i != 2},&nbsp;{/if}
+					{/if}
 				{/each}
 				{#if plant.symptoms_total > 3}
 					<span class="inline-flex items-center rounded-sm bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">+{plant.symptoms_total - 3} more </span>
