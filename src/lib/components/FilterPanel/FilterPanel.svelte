@@ -214,7 +214,7 @@
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 											</svg>
 										</div>
-										<input bind:value={symptomFilterSearch} type="text" id="filter-symptom-search" class="w-52 rounded-md text-gray-400 border-gray-300 pl-8 shadow-sm focus:border-green-400 focus:ring-green-400 sm:text-sm lg:text-base mx-auto" />
+										<input bind:value={symptomFilterSearch} type="text" id="filter-symptom-search" class="w-52 rounded-md text-gray-400 border-gray-300 pl-7 shadow-sm focus:border-green-400 focus:ring-green-400 text-sm mx-auto" />
 									</div>
 									{#if filteredSymptoms.length}
 										{#each filteredSymptoms as symptom, i}
@@ -249,51 +249,55 @@
 	</div>
 
 	{#if $filters.length}
-		<div class="bg-gray-50" transition:slide={{ duration: 300, axis: 'y' }}>
-			<div class="mx-auto max-w-7xl pt-4 flex items-center">
-				<h3 class="text-sm font-medium text-gray-500">Filters</h3>
+	<div class="bg-gray-50 px-6">
+		<div class="mx-auto max-w-7xl">
+			<div transition:slide={{ duration: 300, axis: 'y' }}>
+				<div class="mx-auto max-w-7xl pt-4 flex items-center">
+					<h3 class="text-sm font-medium text-gray-500">Filters</h3>
 
-				<div aria-hidden="true" class="h-5 w-px bg-gray-300 ml-4 block" />
+					<div aria-hidden="true" class="h-5 w-px bg-gray-300 ml-4 block" />
 
-				<div class="ml-4">
-					<div class="flex flex-wrap items-center">
-						{#each $filters as filter, i}
-							{#if filter.type == 'affects'}
-								<AffectFilterBadge {filter} on:click={() => removeFilter(filter)} />
-							{:else if filter.type == 'symptoms'}
-								<SymptomFilterBadge {filter} on:click={() => removeFilter(filter)} />
-							{:else}
-								<TextFilterBadge {filter} on:click={() => removeFilter(filter)} />
-							{/if}
-						{/each}
-						{#if $filters.length && resultCount != 0}
-							<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700">
-								{#if resultCount == 1}
-									1 match
+					<div class="ml-4">
+						<div class="flex flex-wrap items-center">
+							{#each $filters as filter, i}
+								{#if filter.type == 'affects'}
+									<AffectFilterBadge {filter} on:click={() => removeFilter(filter)} />
+								{:else if filter.type == 'symptoms'}
+									<SymptomFilterBadge {filter} on:click={() => removeFilter(filter)} />
 								{:else}
-									{resultCount} matches
+									<TextFilterBadge {filter} on:click={() => removeFilter(filter)} />
 								{/if}
-							</span>
-						{/if}
+							{/each}
+							{#if $filters.length && resultCount != 0}
+								<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700">
+									{#if resultCount == 1}
+										1 match
+									{:else}
+										{resultCount} matches
+									{/if}
+								</span>
+							{/if}
 
-						<div class="ml-2 mb-1">
-							<button
-								type="button"
-								class="group inline-flex justify-center text-xs text-green-600 hover:text-green-500"
-								aria-expanded="false"
-								on:click={() => {
-									$filters = [];
-									symptomsOpen = false;
-									affectsOpen = false;
-								}}
-							>
-								<span>clear all</span>
-							</button>
+							<div class="ml-2 mb-1">
+								<button
+									type="button"
+									class="group inline-flex justify-center text-xs text-green-600 hover:text-green-500"
+									aria-expanded="false"
+									on:click={() => {
+										$filters = [];
+										symptomsOpen = false;
+										affectsOpen = false;
+									}}
+								>
+									<span>clear all</span>
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	{/if}
 </section>
 
