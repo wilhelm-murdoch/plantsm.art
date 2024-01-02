@@ -43,7 +43,7 @@
 			<h3 class="unstyled font-sans mb-3 p-2.5 border-b text-sm bg-slate-50">Affects</h3>
 			<p class="px-2.5 pb-2.5 text-sm font-medium space-x-1 space-y-1">
 				{#each plant.animals as animal}
-					<span class="inline-flex bg-{getByAnimal(animal).background} p-1 rounded-md cursor-pointer" title="{normalizeAnimal(animal)}">
+					<span class="inline-flex bg-{getByAnimal(animal).background} p-1 rounded-md cursor-pointer border-solid border border-{getByAnimal(animal).foreground}/50" title="{normalizeAnimal(animal)}">
 						<svg id="emoji" class="h-8 w-8" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
 							{@html getByAnimal(animal).svg}
 						</svg>

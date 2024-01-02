@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
 	import type { FilterItem } from './filters';
 
 	export let filter: FilterItem;
@@ -8,7 +7,7 @@
 <span
 	class:bg-green-700={filter.term != 'Death'}
 	class:bg-black={filter.term == 'Death'}
-	class="m-1 inline-flex items-center rounded-md shadow-sm text-white py-1.5 pl-3 pr-2 text-sm font-medium"
+	class="m-1 inline-flex items-center rounded-md shadow-sm text-white py-2 pl-3 pr-2 text-sm font-medium"
 >
 	<svg
 		class:hidden={filter.term != 'Death'}

@@ -169,7 +169,7 @@
 												})}
 											/>
 											<label for="filter-affects-{animal}" class="ml-3 whitespace-nowrap pr-6 text-sm font-medium text-gray-900 cursor-pointer">
-												<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground}">
+												<span class="inline-flex items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground} border-solid border border-{getByAnimal(animal).foreground}/50">
 													<svg id="emoji" class="h-6 w-6 pr-1" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
 														{@html getByAnimal(animal).svg}
 													</svg> 
@@ -260,13 +260,13 @@
 		</div>
 	</div>
 
-	<div class="bg-gray-50">
-		<div class="mx-auto max-w-7xl py-3 flex items-center px-6">
+	<div class="bg-gray-50 pb-2">
+		<div class="mx-auto max-w-7xl pt-3 pb-0 flex items-center px-6">
 			<h3 class="text-sm font-medium text-gray-500">Filters</h3>
 
 			<div aria-hidden="true" class="h-5 w-px bg-gray-300 ml-4 block" />
 
-			<div class="mt-2 sm:mt-0 ml-4">
+			<div class="ml-4">
 				<div class="-m-1 flex flex-wrap items-center">
 					{#if $filters.length}
 						{#each $filters as filter, i}

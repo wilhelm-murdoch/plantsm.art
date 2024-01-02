@@ -4,7 +4,7 @@
 
 <div class="relative md:hidden">
 	<div class="relative mx-auto max-w-7xl mb-6 text-center">
-		<Logo classes={'pl-6 pt-4'} />
+		<Logo classes={'pt-4'} />
 	</div>
 </div>
 
