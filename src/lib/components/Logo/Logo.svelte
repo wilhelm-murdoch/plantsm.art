@@ -6,7 +6,7 @@
 
 	let randomIcon: string
 
-	const classesBase = 'font-serif font-bold logo';
+	const classesBase = 'font-serif font-bold logo pl-0';
 
 	onMount(() => {
 		randomIcon = getRandomIcon().svg

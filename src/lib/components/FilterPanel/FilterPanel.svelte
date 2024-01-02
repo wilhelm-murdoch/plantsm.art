@@ -261,7 +261,7 @@
 	</div>
 
 	<div class="bg-gray-50">
-		<div class="mx-auto max-w-7xl py-3 flex items-center px-6 md:px-0">
+		<div class="mx-auto max-w-7xl py-3 flex items-center px-6">
 			<h3 class="text-sm font-medium text-gray-500">Filters</h3>
 
 			<div aria-hidden="true" class="h-5 w-px bg-gray-300 ml-4 block" />

@@ -6,7 +6,6 @@
 </script>
 
 <span
-	in:fade
 	class:bg-green-700={filter.term != 'Death'}
 	class:bg-black={filter.term == 'Death'}
 	class="m-1 inline-flex items-center rounded-md shadow-sm text-white py-1.5 pl-3 pr-2 text-sm font-medium"
@@ -23,10 +22,8 @@
 	<span>{filter.term}</span>
 	<button
 		on:click
-		class:hover:bg-green-800={filter.term != 'Death'}
-		class:hover:bg-slate-700={filter.term == 'Death'}
 		type="button"
-		class="ml-1 inline-flex h-4 w-4 flex-shrink-0 rounded-full p-1 text-white "
+		class="ml-1 inline-flex h-4 w-4 flex-shrink-0 p-1 text-white opacity-50 hover:opacity-100"
 	>
 		<svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
 			<path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />
