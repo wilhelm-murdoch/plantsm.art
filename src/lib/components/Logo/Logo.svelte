@@ -16,7 +16,7 @@
 	$: compositeClasses = `${classesBase} ${classes}`;
 </script>
 
-<div class="h-16">
+<div class="h-10">
 	<h1 class={compositeClasses}>
 		<a href="/" title="Back to the main page.">
 			<span class="text-amber-400 text-4xl md:text-6xl mr-1">Plant</span>

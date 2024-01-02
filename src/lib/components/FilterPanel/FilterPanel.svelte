@@ -6,6 +6,9 @@
 	import AffectFilterBadge from './AffectFilterBadge.svelte';
 	import SymptomFilterBadge from './SymptomFilterBadge.svelte';
 	import TextFilterBadge from './TextFilterBadge.svelte';
+	import { slide } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+
 
 	export let resultCount: number = 0;
 
@@ -102,7 +105,7 @@
 	<div class="border-b border-gray-200 bg-white py-2 px-6">
 		<div class="mx-auto flex max-w-7xl items-center justify-between">
 			<div class="relative inline-block text-left w-full md:w-1/2 lg:w-1/2">
-				<div class="relative mt-1 flex items-center">
+				<div class="relative my-2 flex items-center">
 					<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
 						<svg class="-ml-1 mr-3 h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -122,7 +125,7 @@
 					/>
 
 					<div class="absolute inset-y-0 right-0 py-1.5 pr-1.5 hidden md:flex lg:flex text-gray-400">
-						<kbd class="ml-2 shortcut inline-flex items-center rounded border border-gray-200 px-2 font-sans text-sm font-medium text-gray-400">/</kbd>
+						<kbd class="ml-2 inline-flex items-center rounded border border-gray-200 px-2 font-sans text-sm font-medium text-gray-400">/</kbd>
 					</div>
 				</div>
 			</div>
@@ -239,36 +242,21 @@
 								</form>
 							</div>
 						</div>
-
-						<div class="relative inline-block px-4 text-left">
-							<button
-								type="button"
-								class="group inline-flex justify-center text-sm border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500"
-								aria-expanded="false"
-								on:click={() => {
-									$filters = [];
-									symptomsOpen = false;
-									affectsOpen = false;
-								}}
-							>
-								<span>Clear</span>
-							</button>
-						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="bg-gray-50 pb-2">
-		<div class="mx-auto max-w-7xl pt-3 pb-0 flex items-center px-6">
-			<h3 class="text-sm font-medium text-gray-500">Filters</h3>
+	{#if $filters.length}
+		<div class="bg-gray-50" transition:slide={{ duration: 300, axis: 'y' }}>
+			<div class="mx-auto max-w-7xl pt-4 flex items-center">
+				<h3 class="text-sm font-medium text-gray-500">Filters</h3>
 
-			<div aria-hidden="true" class="h-5 w-px bg-gray-300 ml-4 block" />
+				<div aria-hidden="true" class="h-5 w-px bg-gray-300 ml-4 block" />
 
-			<div class="ml-4">
-				<div class="-m-1 flex flex-wrap items-center">
-					{#if $filters.length}
+				<div class="ml-4">
+					<div class="flex flex-wrap items-center">
 						{#each $filters as filter, i}
 							{#if filter.type == 'affects'}
 								<AffectFilterBadge {filter} on:click={() => removeFilter(filter)} />
@@ -287,28 +275,26 @@
 								{/if}
 							</span>
 						{/if}
-					{:else}
-						<span class="text-slate-400 text-sm italic m-1 py-1.5">none specified &hellip;</span>
-					{/if}
+
+						<div class="ml-2 mb-1">
+							<button
+								type="button"
+								class="group inline-flex justify-center text-xs text-green-600 hover:text-green-500"
+								aria-expanded="false"
+								on:click={() => {
+									$filters = [];
+									symptomsOpen = false;
+									affectsOpen = false;
+								}}
+							>
+								<span>clear all</span>
+							</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	{/if}
 </section>
 
 <svelte:window on:keydown={onWindowKeydown} />
-
-<style>
-	@keyframes fade-in {
-		from {
-			opacity: 0;
-		}
-		to {
-			opacity: 1;
-		}
-	}
-
-	.shortcut {
-		animation: fade-in 0.2s;
-	}
-</style>

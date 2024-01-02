@@ -30,7 +30,7 @@
 
 <FilterPanel resultCount={$searchStore.filtered.length} />
 
-<div class="relative bg-gray-50 pb-5 mb-8 px-6 sm:pt-4 lg:pt-4 lg:pb-4 border-b">
+<div class="relative bg-gray-50 pb-5 mb-8 px-6 pt-4 border-b">
 	<div class="relative mx-auto max-w-7xl">
 		{#if $searchStore.filtered.length == 0}
 			<div class="mx-auto flex-shrink-0 text-center py-16 prose">
