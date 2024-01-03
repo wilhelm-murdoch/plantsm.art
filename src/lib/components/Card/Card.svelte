@@ -3,6 +3,7 @@
 	import { getByAnimal, normalizeAnimal } from '$utils/animals';
 	import type { PlantSlim } from '$lib/types/plant';
 	import { getImageUrl } from '$lib/utils/urls';
+	import { currentlySelectedPlant } from '$utils/stores/card';
 
 	export let plant: PlantSlim;
 </script>
@@ -15,7 +16,7 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
 				</svg>+{plant.image_total - 1}
 			</span>
-			<a href="/plant/{plant.pid}" title="Read more about {plant.name}.">
+			<a href="/plant/{plant.pid}" title="Read more about {plant.name}." on:click|preventDefault={() => { currentlySelectedPlant.update(a => plant.pid) }}>
 				<img class="is-lazy hover:scale-105 ease-in-out duration-2000 h-52 w-full object-cover" use:lazy={getImageUrl(plant.cover_image_url, 'medium')} alt="Cover image for {plant.name}." />
 			</a>
 		</div>

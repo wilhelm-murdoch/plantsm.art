@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { onDestroy } from 'svelte';
-	import { Card, FilterPanel, Seo } from '$components';
+	import { Modal, Card, FilterPanel, Seo } from '$components';
 	import InfiniteScroll from 'svelte-infinite-scroll';
 	import type { PlantSlim, PlantsWrapped } from '$lib/types/plant';
 	import { createSearchStore, searchHandler } from '$utils/stores/search';
+	import { currentlySelectedPlant } from '$utils/stores/card';
 	import { filters as filterStore } from '$components/FilterPanel/filters';
 
 	export let data: PlantsWrapped;
@@ -11,6 +12,7 @@
 	let page = 0;
 	let size = 12;
 	let plants: PlantSlim[] = [];
+	let showPlantDetailModal = false;
 
 	const searchStore = createSearchStore(data.plants);
 	const unsubscribePlants = searchStore.subscribe((s) => searchHandler(s));
@@ -22,6 +24,8 @@
 
 	$: plants = [...plants, ...$searchStore.filtered.slice(size * page, size * (page + 1))];
 
+	$: console.log($currentlySelectedPlant)
+
 	onDestroy(() => {
 		unsubscribePlants();
 		unsubscribeFilters();
@@ -30,7 +34,7 @@
 
 <FilterPanel resultCount={$searchStore.filtered.length} />
 
-<div class="relative bg-gray-50 pb-5 mb-8 px-6 pt-4 border-b">
+<div class="relative bg-gray-50 pb-5 mb-8 px-6 pt-4 border-b overflow-hidden">
 	<div class="relative mx-auto max-w-7xl">
 		{#if $searchStore.filtered.length == 0}
 			<div class="mx-auto flex-shrink-0 text-center py-16 prose">
@@ -64,5 +68,5 @@
 		{/if}
 	</div>
 </div>
-
+<Modal plant={$currentlySelectedPlant}/>
 <Seo />
