@@ -7,7 +7,7 @@
 <span
 	class:bg-green-700={filter.term != 'Death'}
 	class:bg-black={filter.term == 'Death'}
-	class="m-1 inline-flex items-center rounded-md shadow-sm text-white py-2 pl-3 pr-2 text-sm font-medium"
+	class="m-1 border border-green-700 inline-flex items-center rounded-md shadow-sm text-white py-1 pl-3 pr-2 text-sm font-medium"
 >
 	<svg
 		class:hidden={filter.term != 'Death'}
