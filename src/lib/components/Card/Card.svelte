@@ -82,13 +82,6 @@
 				{/if}
 			</p>
 		</div>
-		<div class="-mt-px flex border-t">
-			<a class:bg-black={plant.is_deadly} class:hover:bg-gray-900={plant.is_deadly} class:bg-emerald-700={!plant.is_deadly} class:hover:bg-emerald-600={!plant.is_deadly} href="/plant/{plant.pid}" title="Read more about {plant.name}." class="relative inline-flex w-0 flex-1 items-center justify-center rounded-br-lg border border-transparent py-1">
-				<svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
-				</svg>
-			</a>
-		</div>
 	</div>
 </div>
 

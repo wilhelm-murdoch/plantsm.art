@@ -5,7 +5,7 @@
 </script>
 
 <span
-	class="m-1 inline-flex items-center rounded-md border-solid border border-gray-900/50 bg-white p-1.5 text-sm font-medium text-gray-900"
+	class="m-1 inline-flex items-center rounded-md border-solid border border-gray-900/50 bg-white p-2 text-sm font-medium text-gray-900"
 >
 	<span>{filter.term}</span>
 	<button

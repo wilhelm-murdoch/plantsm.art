@@ -2,10 +2,11 @@
 	import { onMount } from 'svelte';
 	import { getAllAnimals, getByAnimal, normalizeAnimal } from '$utils/animals';
 	import { filters } from './filters';
-	import type { FilterItem, SymptomItem } from './filters';
+	import type { FilterItem, SymptomItem, FamilyItem } from './filters';
 	import AffectFilterBadge from './AffectFilterBadge.svelte';
 	import SymptomFilterBadge from './SymptomFilterBadge.svelte';
 	import TextFilterBadge from './TextFilterBadge.svelte';
+	import FamilyFilterBadge from './FamilyFilterBadge.svelte';
 	import { slide } from 'svelte/transition';
 
 	export let resultCount: number = 0;
@@ -20,11 +21,13 @@
 		fetch('/api/symptoms.json')
 			.then((response) => response.json())
 			.then((data) => {
-				apiSymptoms = data.sort(function (a: SymptomItem, b: SymptomItem) {
-					if (a.slug < b.slug) return -1;
-					if (a.slug > a.slug) return 1;
-					return 0;
-				});
+				apiSymptoms = data
+					.filter((s: SymptomItem) => s.slug != "")
+					.sort((a: SymptomItem, b: SymptomItem) => {
+						if (a.slug < b.slug) return -1;
+						if (a.slug > a.slug) return 1;
+						return 0;
+					});
 			})
 			.catch((error) => {
 				return [];
@@ -33,11 +36,13 @@
 		fetch('/api/families.json')
 			.then((response) => response.json())
 			.then((data) => {
-				apiFamilies = data.sort(function (a: string, b: string) {
-					if (a < b) return -1;
-					if (a > a) return 1;
-					return 0;
-				});
+				apiFamilies = data
+					.filter((f: FamilyItem) => f.slug != "")
+					.sort((a: FamilyItem, b: FamilyItem) => {
+						if (a.slug < b.slug) return -1;
+						if (a.slug > a.slug) return 1;
+						return 0;
+					});
 			})
 			.catch((error) => {
 				return [];
@@ -80,6 +85,23 @@
 		};
 
 		return filterExists(filter) ? removeFilter(filter) : addFilter(type, term);
+	}
+
+	const handleRadioFilter = (type: string, term: string) => {
+		let filter: FilterItem = {
+			type: type,
+			term: term
+		};
+
+		removeFilterByType(filter.type)
+
+		return addFilter(type, term);
+	}
+
+	const removeFilterByType = (type: string) => {
+		$filters = $filters.filter((f) => {
+			return f.type != type;
+		});
 	}
 
 	const removeFilter = (filter: FilterItem) => {
@@ -303,11 +325,11 @@
 									<button class="px-3 py-2 whitespace-nowrap text-sm font-medium text-gray-900 block w-max">
 										<input
 											id="filter-family-{i}"
-											name="family[]"
+											name="family"
 											value="white"
 											type="radio"
 											class="h-4 w-4 mr-2 rounded border-gray-300 text-green-600 focus:ring-green-500"
-											on:click={() => handleCheckboxFilter('families', family.name)}
+											on:click={() => handleRadioFilter('families', family.name)}
 											checked={$filters.some((f) => {
 												return f.type == 'families' && f.term == family.name;
 											})}
@@ -394,6 +416,8 @@
 										<AffectFilterBadge {filter} on:click={() => removeFilter(filter)} />
 									{:else if filter.type == 'symptoms'}
 										<SymptomFilterBadge {filter} on:click={() => removeFilter(filter)} />
+									{:else if filter.type == 'families'}
+										<FamilyFilterBadge {filter} on:click={() => removeFilter(filter)} />
 									{:else}
 										<TextFilterBadge {filter} on:click={() => removeFilter(filter)} />
 									{/if}

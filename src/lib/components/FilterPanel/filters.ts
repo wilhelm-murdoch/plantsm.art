@@ -7,6 +7,12 @@ export interface SymptomItem {
   count: number;
 }
 
+export interface FamilyItem {
+  slug: string;
+  name: string;
+  count: number;
+}
+
 export interface FilterItem {
   type: string;
   term: string;
