@@ -29,7 +29,7 @@
 				xmlns="http://www.w3.org/2000/svg">
 				{@html randomIcon}
 			</svg>
-			<span class="text-green-600 italic text-4xl md:text-6xl ml-1">Smart</span>
+			<span class="text-green-600 text-4xl md:text-6xl ml-1">Smart</span>
 		</a>
 	</h1>
 </div>

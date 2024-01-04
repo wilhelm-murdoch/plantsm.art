@@ -8,7 +8,7 @@
 	export let plant: PlantSlim;
 </script>
 
-<div class="flex flex-col overflow-hidden rounded-lg shadow-lg fade-in-animation">
+<div class="flex flex-col overflow-hidden rounded-lg shadow-lg fade-in-animation ring-2 ring-emerald-700 border-2 border-emerald-50">
 	<div class="flex-shrink-0 relative">
 		<div class="overflow-hidden background-fallback relative bg-green-50">
 			<span class="absolute top-1 right-1 inline-flex items-center rounded-md bg-black px-2.5 py-1 text-xs font-medium text-white opacity-75 z-[1]">

@@ -99,7 +99,7 @@
 				<p>I think I've met most, if not all, of my requirements. The project still needs a lot of love and I plan on supporting listings for a variety of other pet species. I already have the data, just need to go through it with a fine-toothed comb.</p>
 				<p>I'm having loads of fun at the moment learning new things. I hope I can keep doing this for a while longer. However, I do have other things planned for the future and will be using what I've learned here as a kind of launching pad.</p>
 				<p>
-					I sincerely hope you find <span class=" text-amber-400 mr-1 font-serif font-bold">Plant</span>🌱<span class="text-green-600 italic font-serif font-bold">Smart</span> as useful as I had fun making it.
+					I sincerely hope you find <span class=" text-amber-400 mr-1 font-serif font-bold">Plant</span>🌱<span class="text-green-600 font-serif font-bold">Smart</span> as useful as I had fun making it.
 				</p>
 			</div>
 		</div>

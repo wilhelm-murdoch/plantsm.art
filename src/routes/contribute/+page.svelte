@@ -10,7 +10,7 @@
 				<h2 class="block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Learn how you can help out.</h2>
 
 				<p class="text-xl leading-8 text-gray-500 text-justify">
-					<span class=" text-amber-400 mr-1 font-serif font-bold">Plant</span>🌱<span class="text-green-600 italic font-serif font-bold">Smart</span> is a free service built upon open source software. We welcome constructive feedback and participation from the public.
+					<span class=" text-amber-400 mr-1 font-serif font-bold">Plant</span>🌱<span class="text-green-600 font-serif font-bold">Smart</span> is a free service built upon open source software. We welcome constructive feedback and participation from the public.
 				</p>
 
 				<ul class="text-gray-400">
