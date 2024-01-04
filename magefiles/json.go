@@ -7,6 +7,7 @@ import (
 	"os"
 	"strings"
 
+	"github.com/gosimple/slug"
 	"github.com/magefile/mage/mg"
 	"github.com/wilhelm-murdoch/go-collection"
 )
@@ -25,6 +26,7 @@ type SlimPlant struct {
 	ImageTotal    int      `json:"image_total"`
 	SearchIndex   string   `json:"search_index"`
 	IsDeadly      bool     `json:"is_deadly"`
+	Family        string   `json:"family"`
 }
 
 func (Json) Slim(ctx context.Context, sourcePath string) error {
@@ -52,7 +54,10 @@ func (Json) Slim(ctx context.Context, sourcePath string) error {
 		slimCommon := convertToSlim(plant.Common)
 		slimSymptoms := convertToSlim(plant.Symptoms)
 
-		var searchIndex = strings.ToLower(plant.Name)
+		var searchIndex = strings.ToLower(plant.Classification.Family)
+
+		searchIndex += " " + strings.ToLower(plant.Name)
+
 		for _, a := range plant.Animals {
 			searchIndex += " " + strings.ToLower(a)
 		}
@@ -89,6 +94,7 @@ func (Json) Slim(ctx context.Context, sourcePath string) error {
 			ImageTotal:    len(plant.Images),
 			SearchIndex:   searchIndex,
 			IsDeadly:      IsDeadly,
+			Family:        plant.Classification.Family,
 		})
 
 		IsDeadly = false
@@ -121,6 +127,44 @@ func (Json) Pages(ctx context.Context, sourcePath, toPath string) error {
 		}
 
 		fmt.Printf("Wrote: %s/%s.json\n", toPath, plant.Pid)
+	}
+
+	return nil
+}
+
+type FamilyItem struct {
+	Name  string `json:"name"`
+	Slug  string `json:"slug"`
+	Count int    `json:"count"`
+}
+
+func (Json) Families(ctx context.Context, sourcePath string) error {
+	plants, err := unmarshalPlantsFromSource(sourcePath)
+	if err != nil {
+		return err
+	}
+
+	var families collection.Collection[*FamilyItem]
+
+	for _, plant := range plants.Data {
+		families.PushDistinct(&FamilyItem{
+			Name: plant.Classification.Family,
+			Slug: slug.Make(plant.Classification.Family),
+		})
+	}
+
+	families.Each(func(i int, s *FamilyItem) bool {
+		for _, plant := range plants.Data {
+			if slug.Make(plant.Classification.Family) == s.Slug {
+				s.Count += 1
+			}
+		}
+
+		return false
+	})
+
+	if err := json.NewEncoder(os.Stdout).Encode(families.Items()); err != nil {
+		panic(err)
 	}
 
 	return nil

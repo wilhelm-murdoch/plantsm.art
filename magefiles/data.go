@@ -35,7 +35,7 @@ var symptomItemsFromString = func(symptoms string) []MarshalSymptom {
 	for _, symptom := range strings.Split(symptoms, ",") {
 		symptomItems = append(symptomItems, MarshalSymptom{
 			Name: cases.Title(language.AmericanEnglish, cases.NoLower).String(symptom),
-			Slug: slug.Make(symptom),
+			Slug: (symptom),
 		})
 	}
 	return symptomItems
