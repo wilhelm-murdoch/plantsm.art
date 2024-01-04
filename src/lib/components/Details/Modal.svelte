@@ -13,15 +13,3 @@
 
 </script>
 
-<div class="modal-active fixed w-full h-full top-0 left-0 flex items-center justify-center z-50">
-    <div class="modal-overlay absolute w-full h-full bg-white opacity-95"></div>
-  
-    <div class="modal-container fixed w-full h-full z-50 overflow-y-auto ">
-      
-  
-    </div>
-  </div>
-
-<style>
-
-</style>

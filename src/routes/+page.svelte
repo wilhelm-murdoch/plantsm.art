@@ -12,7 +12,6 @@
 	let page = 0;
 	let size = 12;
 	let plants: PlantSlim[] = [];
-	let showPlantDetailModal = false;
 
 	const searchStore = createSearchStore(data.plants);
 	const unsubscribePlants = searchStore.subscribe((s) => searchHandler(s));
