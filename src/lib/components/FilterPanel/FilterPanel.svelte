@@ -50,9 +50,9 @@
 	});
 
 	let symptomFilterSearch = '';
-	let familyFilterSearch = '';
-
 	$: filteredSymptoms = apiSymptoms.filter((s) => s.name.toLowerCase().includes(symptomFilterSearch.toLowerCase()));
+
+	let familyFilterSearch = '';
 	$: filteredFamilies = apiFamilies.filter((s) => s.name.toLowerCase().includes(familyFilterSearch.toLowerCase()));
 
 	export const addFilter = (type: string, term: string) => {
@@ -93,7 +93,7 @@
 			term: term
 		};
 
-		removeFilterByType(filter.type)
+		removeFilterByType(filter.type);
 
 		return addFilter(type, term);
 	}
@@ -117,20 +117,25 @@
 	}
 
 	const handleSearchInput = (e: KeyboardEvent): void => {
-		if (e.key == 'Enter') {
-			let searchInputElement = <HTMLInputElement>document.getElementById('filter-search');
-			if (searchInputElement.value.trim() != '') {
-				addFilter('text', searchInputElement.value.trim());
-				searchInputElement.value = '';
-			}
+		if (e.key != 'Enter') {
+			return;
+		}
+
+		let searchInputElement = <HTMLInputElement>document.getElementById('filter-search');
+
+		if (searchInputElement.value.trim() != '') {
+			addFilter('text', searchInputElement.value.trim());
+			searchInputElement.value = '';
 		}
 	}
 
 	const onWindowKeydown = (e: KeyboardEvent): void => {
-		if (e.key === '/') {
-			e.preventDefault();
-			document.getElementById('filter-search')?.focus();
+		if (e.key !== '/') {
+			return;
 		}
+
+		e.preventDefault();
+		document.getElementById('filter-search')?.focus();
 	}
 
 	const focus = (n: HTMLInputElement) => {
@@ -194,11 +199,11 @@
 						>
 							<span>Affects</span>
 
-							<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700"
-								>{$filters.filter((f) => {
+							<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700">
+								{$filters.filter((f) => {
 									return f.type == 'affects';
-								}).length}</span
-							>
+								}).length}
+							</span>
 
 							<svg class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 								<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
@@ -207,7 +212,7 @@
 
 						<div class:hidden={!affectsOpen} class="absolute space-y-2 p-3 right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none">
 							{#each getAllAnimals() as animal}
-								<button class="whitespace-nowrap text-sm font-medium text-gray-900">
+								<button class="w-full text-left whitespace-nowrap text-sm font-medium text-gray-900">
 									<input
 										id="filter-affects-{animal}"
 										name="affects[]"
@@ -240,6 +245,7 @@
 							on:click={() => {
 								symptomsOpen = !symptomsOpen;
 								affectsOpen = false;
+								familyOpen = false;
 							}}
 						>
 							<span>Symptoms</span>
@@ -264,7 +270,7 @@
 							</div>
 							{#if filteredSymptoms.length}
 								{#each filteredSymptoms as symptom, i}
-									<button class="px-3 py-2 whitespace-nowrap text-sm font-medium text-gray-900 block w-max">
+									<button class="text-left w-full px-3 py-2 whitespace-nowrap text-sm font-medium text-gray-900 block">
 										<input
 											id="filter-symptom-{i}"
 											name="symptom[]"
@@ -301,11 +307,11 @@
 						>
 							<span>Family</span>
 
-							<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700"
-								>{$filters.filter((f) => {
+							<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700">
+								{$filters.filter((f) => {
 									return f.type == 'families'
-								}).length}</span
-							>
+								}).length}
+							</span>
 							<svg class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 								<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
 							</svg>
@@ -322,7 +328,7 @@
 							</div>
 							{#if filteredFamilies.length}
 								{#each filteredFamilies as family, i}
-									<button class="px-3 py-2 whitespace-nowrap text-sm font-medium text-gray-900 block w-max">
+									<button class="text-left w-full px-3 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 										<input
 											id="filter-family-{i}"
 											name="family"

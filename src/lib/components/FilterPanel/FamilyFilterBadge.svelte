@@ -4,10 +4,8 @@
 	export let filter: FilterItem;
 </script>
 
-<span
-	class="bg-emerald-600 m-1 inline-flex items-center rounded-md shadow-sm text-white py-1 pl-3 pr-2 text-sm font-medium"
->
-	<svg id="emoji" class="inline-block outline-none fill-current w-6 h-6 mr-1" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+<span class="border border-green-800/50 bg-green-100 m-1 inline-flex items-center rounded-md shadow-sm text-green-800 py-1 pl-3 pr-2 text-sm font-medium">
+	<svg id="emoji" class="w-6 h-6 mr-1" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
 		<g id="color">
 			<path fill="#B1CC33" stroke="none" d="M36.8349,18.0781c1.7393,1.6583,1.6481,4.5775,1.6481,4.5775s-2.9114,0.2303-4.651-1.428 c-1.7396-1.6582-1.6481-4.5775-1.6481-4.5775S35.0958,16.4213,36.8349,18.0781z"/>
 			<path fill="#5C9E31" stroke="none" d="M42.0884,54.3627c-4.6114,1.465-9.3345-1.6943-9.3345-1.6943s2.7546-5.5346,7.3663-7.0003 s9.3345,1.6943,9.3345,1.6943S46.6971,52.8966,42.0884,54.3627z"/>
