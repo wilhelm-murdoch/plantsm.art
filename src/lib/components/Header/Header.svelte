@@ -13,7 +13,6 @@
 		<div class="relative mx-auto max-w-7xl">
 			<nav class="py-4 flex text-center md:text-left">
 				<div class="flex-1 space-x-4">
-					<a href="/" class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium">Home</a>
 					<a href="/why" class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium">Why?</a>
 					<a href="/contribute" class="border-b border-dotted border-b-green-600 hover:border-b-green-800 text-green-600 hover:text-green-500 font-medium">Contribute</a>
 					<a href="/api" class="border-b border-dotted border-b-green-600 text-green-600 hover:text-green-500 font-medium">API</a>

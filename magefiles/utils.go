@@ -13,6 +13,64 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
+type Symptom struct {
+	Id   string `json:"id"`
+	Name string `json:"name"`
+	Slug string `json:"slug"`
+}
+
+type Common struct {
+	Id   string `json:"id"`
+	Name string `json:"name"`
+	Slug string `json:"slug"`
+}
+
+type Image struct {
+	Id          string `json:"id"`
+	SourceUrl   string `json:"source_url"`
+	Attribution string `json:"attribution"`
+	License     string `json:"license"`
+}
+
+type MarshalSymptom struct {
+	Name string `json:"name"`
+	Slug string `json:"slug"`
+}
+
+type MarshalCommon struct {
+	Name string `json:"name"`
+	Slug string `json:"slug"`
+}
+
+type MarshalImage struct {
+	SourceUrl    string `json:"source_url"`
+	Attribution  string `json:"attribution"`
+	License      string `json:"license"`
+	RelativePath string `json:"relative_path"`
+}
+
+type MarshalClassification struct {
+	Kingdom string        `json:"kingdom"`
+	Clades  []interface{} `json:"clades"`
+	Order   string        `json:"order"`
+	Family  string        `json:"family"`
+	Genus   string        `json:"genus"`
+	Species string        `json:"species"`
+}
+
+type MarshalPlant struct {
+	Pid             string                `json:"pid"`
+	Name            string                `json:"name"`
+	Animals         []interface{}         `json:"animals"`
+	Common          []MarshalCommon       `json:"common"`
+	Symptoms        []MarshalSymptom      `json:"symptoms"`
+	Images          []MarshalImage        `json:"images"`
+	WikipediaUrl    string                `json:"wikipedia_url"`
+	DateLastUpdated string                `json:"date_last_updated"`
+	Toxicity        string                `json:"toxicity"`
+	Classification  MarshalClassification `json:"classification"`
+}
+
 var supportedAnimals = []string{"cats", "dogs", "horses", "birds", "reptiles", "small-mammals", "fish"}
 
 var containsAnimal = func(animal string, animals []string) bool {

@@ -27,7 +27,7 @@
 	<button
 		on:click
 		type="button"
-		class="ml-1 inline-flex h-4 w-4 flex-shrink-0 p-1 text-white opacity-50 hover:opacity-100"
+		class="ml-1 inline-flex h-4 w-4 flex-shrink-0 p-1 border-green-800/50 opacity-50 hover:opacity-100"
 	>
 		<svg class="h-2 w-2" stroke="currentColor" fill="none" viewBox="0 0 8 8">
 			<path stroke-linecap="round" stroke-width="1.5" d="M1 1l6 6m0-6L1 7" />

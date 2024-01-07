@@ -15,38 +15,33 @@
 	let symptomsOpen = false;
 	let familyOpen = false;
 	let apiSymptoms: SymptomItem[] = [];
-	let apiFamilies: SymptomItem[] = [];
+	let apiFamilies: FamilyItem[] = [];
+
+	const sortBySlug = (a: any , b: any) => {
+		if (a.slug < b.slug) return -1;
+		if (a.slug > a.slug) return 1;
+		return 0;
+	}
+
+	const filterBlanks = (s: any) => {
+		return s.slug != "";
+	}
 
 	onMount(async () => {
-		fetch('/api/symptoms.json')
-			.then((response) => response.json())
-			.then((data) => {
-				apiSymptoms = data
-					.filter((s: SymptomItem) => s.slug != "")
-					.sort((a: SymptomItem, b: SymptomItem) => {
-						if (a.slug < b.slug) return -1;
-						if (a.slug > a.slug) return 1;
-						return 0;
-					});
-			})
-			.catch((error) => {
-				return [];
-			});
+		const [responseSymptoms, responseFamilies] = await Promise.all([
+			fetch('/api/symptoms.json'),
+			fetch('/api/families.json'),
+		])
 
-		fetch('/api/families.json')
-			.then((response) => response.json())
-			.then((data) => {
-				apiFamilies = data
-					.filter((f: FamilyItem) => f.slug != "")
-					.sort((a: FamilyItem, b: FamilyItem) => {
-						if (a.slug < b.slug) return -1;
-						if (a.slug > a.slug) return 1;
-						return 0;
-					});
-			})
-			.catch((error) => {
-				return [];
-			});
+		if ( responseSymptoms.ok && responseFamilies.ok ) {
+			apiSymptoms = (await responseSymptoms.json())
+				.filter(filterBlanks)
+				.sort(sortBySlug);
+
+			apiFamilies = (await responseFamilies.json())
+				.filter(filterBlanks)
+				.sort(sortBySlug);
+		}
 	});
 
 	let symptomFilterSearch = '';
@@ -92,6 +87,11 @@
 			type: type,
 			term: term
 		};
+
+		if ( filterExists(filter) ) {
+			removeFilter(filter)
+			return
+		}
 
 		removeFilterByType(filter.type);
 
@@ -259,14 +259,14 @@
 							</svg>
 						</button>
 
-						<div class:hidden={!symptomsOpen} class="absolute right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none max-h-96 w-64 overflow-y-scroll">
-							<div class="relative p-2 border-b">
-								<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
+						<div class:hidden={!symptomsOpen} class="absolute text-center right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none max-h-96 w-64 overflow-y-scroll">
+							<div class="relative border-b">
+								<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
 									<svg class="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 									</svg>
 								</div>
-								<input bind:value={symptomFilterSearch} type="text" id="filter-symptom-search" class="pl-8 w-60 rounded-md text-gray-400 border-gray-300 shadow-sm focus:border-green-400 focus:ring-green-400 text-sm" />
+								<input bind:value={symptomFilterSearch} type="text" id="filter-symptom-search" class="my-2 pl-8 w-56 rounded-md text-gray-400 border-gray-300 shadow-sm focus:border-green-400 focus:ring-green-400 text-sm" />
 							</div>
 							{#if filteredSymptoms.length}
 								{#each filteredSymptoms as symptom, i}
@@ -317,14 +317,14 @@
 							</svg>
 						</button>
 
-						<div class:hidden={!familyOpen} class="absolute right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none max-h-96 w-64 overflow-y-scroll">
-							<div class="relative p-2 border-b">
-								<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-4">
+						<div class:hidden={!familyOpen} class="absolute text-center right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none max-h-96 w-64 overflow-y-scroll">
+							<div class="relative border-b">
+								<div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-6">
 									<svg class="h-4 w-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
 									</svg>
 								</div>
-								<input bind:value={familyFilterSearch} type="text" id="filter-symptom-search" class="pl-8 w-60 rounded-md text-gray-400 border-gray-300 shadow-sm focus:border-green-400 focus:ring-green-400 text-sm" />
+								<input bind:value={familyFilterSearch} type="text" id="filter-symptom-search" class="my-2 pl-8 w-56 rounded-md text-gray-400 border-gray-300 shadow-sm focus:border-green-400 focus:ring-green-400 text-sm" />
 							</div>
 							{#if filteredFamilies.length}
 								{#each filteredFamilies as family, i}
@@ -360,6 +360,7 @@
 							on:click={() => {
 								affectsOpen = !affectsOpen;
 								symptomsOpen = false;
+								familyOpen = false;
 							}}
 						>
 							<span>Category</span>
