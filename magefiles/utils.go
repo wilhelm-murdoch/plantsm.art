@@ -64,28 +64,37 @@ var containsAnimal = func(animal string, animals []string) bool {
 	return false
 }
 
+type UnmarshalledPlant struct {
+	Pid    string `json:"pid"`
+	Name   string `json:"name"`
+	Common []struct {
+		Name string `json:"name"`
+		Slug string `json:"slug"`
+	} `json:"common"`
+	Symptoms []struct {
+		Name string `json:"name"`
+		Slug string `json:"slug"`
+	} `json:"symptoms"`
+	Animals  []string `json:"animals"`
+	Severity Severity `json:"severity"`
+	Images   []struct {
+		RelativePath string `json:"relative_path"`
+		SourceUrl    string `json:"source_url"`
+		License      string `json:"license"`
+		Attribution  string `json:"attribution"`
+	} `json:"images"`
+	WikipediaUrl string `json:"wikipedia_url"`
+	Family       string `json:"family"`
+}
+
 type UnmarshalledPlants struct {
-	Data []struct {
-		Pid    string `json:"pid"`
-		Name   string `json:"name"`
-		Common []struct {
-			Name string `json:"name"`
-			Slug string `json:"slug"`
-		} `json:"common"`
-		Symptoms []struct {
-			Name string `json:"name"`
-			Slug string `json:"slug"`
-		} `json:"symptoms"`
-		Animals []string `json:"animals"`
-		Images  []struct {
-			RelativePath string `json:"relative_path"`
-			SourceUrl    string `json:"source_url"`
-			License      string `json:"license"`
-			Attribution  string `json:"attribution"`
-		} `json:"images"`
-		WikipediaUrl string `json:"wikipedia_url"`
-		Family       string `json:"family"`
-	}
+	Data []*UnmarshalledPlant `json:"data"`
+}
+
+type Severity struct {
+	Label string `json:"label"`
+	Slug  string `json:"slug"`
+	Level int    `json:"level"`
 }
 
 type UnmarshalledSeverity struct {
@@ -114,18 +123,18 @@ func unmarshalSeverityFromSource(sourcePath string) (*UnmarshalledSeverity, erro
 	return &severity, nil
 }
 
-func unmarshalPlantsFromSource(sourcePath string) (UnmarshalledPlants, error) {
+func unmarshalPlantsFromSource(sourcePath string) (*UnmarshalledPlants, error) {
 	if _, err := os.Stat(sourcePath); err != nil {
-		return UnmarshalledPlants{}, err
+		return &UnmarshalledPlants{}, err
 	}
 
 	plantsJson, err := os.ReadFile(sourcePath)
 	if err != nil {
-		return UnmarshalledPlants{}, err
+		return &UnmarshalledPlants{}, err
 	}
 
 	var plants UnmarshalledPlants
 	json.Unmarshal(plantsJson, &plants.Data)
 
-	return plants, nil
+	return &plants, nil
 }

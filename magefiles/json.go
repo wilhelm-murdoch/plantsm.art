@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"sort"
 	"strings"
 
 	"github.com/gosimple/slug"
@@ -25,7 +26,7 @@ type SlimPlant struct {
 	CoverImageUrl string   `json:"cover_image_url"`
 	ImageTotal    int      `json:"image_total"`
 	SearchIndex   string   `json:"search_index"`
-	IsDeadly      bool     `json:"is_deadly"`
+	Severity      Severity `json:"severity"`
 	Family        string   `json:"family"`
 }
 
@@ -49,7 +50,6 @@ func (Json) Slim(ctx context.Context, sourcePath string) error {
 	}
 
 	var SlimPlants []SlimPlant
-	var IsDeadly bool
 	for _, plant := range plants.Data {
 		slimCommon := convertToSlim(plant.Common)
 		slimSymptoms := convertToSlim(plant.Symptoms)
@@ -63,10 +63,6 @@ func (Json) Slim(ctx context.Context, sourcePath string) error {
 		}
 
 		for _, s := range slimSymptoms {
-			if strings.ToLower(s) == "death" {
-				IsDeadly = true
-			}
-
 			searchIndex += " " + strings.ToLower(s)
 		}
 
@@ -93,11 +89,9 @@ func (Json) Slim(ctx context.Context, sourcePath string) error {
 			CoverImageUrl: plant.Images[0].RelativePath,
 			ImageTotal:    len(plant.Images),
 			SearchIndex:   searchIndex,
-			IsDeadly:      IsDeadly,
+			Severity:      plant.Severity,
 			Family:        plant.Family,
 		})
-
-		IsDeadly = false
 	}
 
 	if err := json.NewEncoder(os.Stdout).Encode(SlimPlants); err != nil {
@@ -288,14 +282,6 @@ func (Json) Animal(ctx context.Context, sourcePath, toPath string) error {
 }
 
 func (Json) Severity(ctx context.Context, sourcePath, severityPath string) error {
-	if _, err := os.Stat(sourcePath); err != nil {
-		return fmt.Errorf("cannot locate source path %s", sourcePath)
-	}
-
-	if _, err := os.Stat(severityPath); err != nil {
-		return fmt.Errorf("cannot locate severity path %s", severityPath)
-	}
-
 	severity, err := unmarshalSeverityFromSource(severityPath)
 	if err != nil {
 		return err
@@ -317,6 +303,62 @@ func (Json) Severity(ctx context.Context, sourcePath, severityPath string) error
 	}
 
 	if err := json.NewEncoder(os.Stdout).Encode(severity.Data); err != nil {
+		panic(err)
+	}
+
+	return nil
+}
+
+type SortPlantsBySeverity []*struct {
+	Label    string   `json:"label"`
+	Slug     string   `json:"slug"`
+	Level    int      `json:"level"`
+	Symptoms []string `json:"symptoms"`
+	Plants   []string `json:"plants"`
+}
+
+func (s SortPlantsBySeverity) Len() int           { return len(s) }
+func (s SortPlantsBySeverity) Swap(i, j int)      { s[i], s[j] = s[j], s[i] }
+func (s SortPlantsBySeverity) Less(i, j int) bool { return s[i].Level < s[j].Level }
+
+func (Json) SeverityToPlant(ctx context.Context, sourcePath, severityPath string) error {
+	severities, err := unmarshalSeverityFromSource(severityPath)
+	if err != nil {
+		return err
+	}
+
+	sort.Sort(SortPlantsBySeverity(severities.Data))
+
+	plants, err := unmarshalPlantsFromSource(sourcePath)
+	if err != nil {
+		return err
+	}
+
+	var getSeverityFromPlant = func(plant *UnmarshalledPlant) Severity {
+		out := Severity{
+			Label: severities.Data[0].Label,
+			Slug:  severities.Data[0].Slug,
+			Level: severities.Data[0].Level,
+		}
+
+		for _, severity := range severities.Data {
+			if containsPlant(plant.Pid, severity.Plants) && severity.Level > out.Level {
+				out.Label = severity.Label
+				out.Slug = severity.Slug
+				out.Level = severity.Level
+			}
+		}
+
+		return out
+	}
+
+	for idx, plant := range plants.Data {
+		severity := getSeverityFromPlant(plant)
+
+		plants.Data[idx].Severity = severity
+	}
+
+	if err := json.NewEncoder(os.Stdout).Encode(plants.Data); err != nil {
 		panic(err)
 	}
 

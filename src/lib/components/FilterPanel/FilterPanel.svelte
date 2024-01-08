@@ -360,7 +360,7 @@
 						</div>
 					</div>
 
-					<div class="relative inline-block px-4 text-left" on:focusout={handleSeverityDropdownUnfocus}>
+					<div class="hidden relative inline-block px-4 text-left" on:focusout={handleSeverityDropdownUnfocus}>
 						<button
 							type="button"
 							class="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900"
