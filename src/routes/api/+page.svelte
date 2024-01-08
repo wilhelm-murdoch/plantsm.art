@@ -54,8 +54,8 @@ type Plant struct {
 	// The wikipedia entry associated with the plant
 	WikipediaUrl string \`json:"wikipedia_url"\`
 
-	// A timestamp representing the latest changes
-	DateLastUpdated string \`json:"date_last_updated"\`
+	// The family classification of the plant
+	Family string \`json:"family"\`
 }`;
 
 	let snippetSymptomsStruct: string = `type Symptom struct {

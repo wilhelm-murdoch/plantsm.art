@@ -4,11 +4,17 @@
 	import type { PlantSlim } from '$lib/types/plant';
 	import { getImageUrl } from '$lib/utils/urls';
 	import { currentlySelectedPlant } from '$utils/stores/card';
+	import { goto } from '$app/navigation';
 
 	export let plant: PlantSlim;
+
+	const selectPlant = (pid: string) => {
+		currentlySelectedPlant.set(pid);
+		goto(`/plant/${pid}`);
+	}
 </script>
 
-<div class="flex flex-col overflow-hidden rounded-lg shadow-lg fade-in-animation ring-2 ring-emerald-700 border-2 border-emerald-50">
+<div on:keyup={() => selectPlant(plant.pid)} on:click={() => selectPlant(plant.pid)} role="button" tabindex="0" class="flex flex-col overflow-hidden rounded-lg shadow-xl fade-in-animation ring-2 ring-emerald-700 border-2 border-emerald-50 transition hover:scale-102 ease-in-out duration-250">
 	<div class="flex-shrink-0 relative">
 		<div class="overflow-hidden background-fallback relative bg-green-50">
 			<span class="absolute top-1 right-1 inline-flex items-center rounded-md bg-black px-2.5 py-1 text-xs font-medium text-white opacity-75 z-[1]">
@@ -16,8 +22,8 @@
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
 				</svg>+{plant.image_total - 1}
 			</span>
-			<a href="/plant/{plant.pid}" title="Read more about {plant.name}." on:click={() => { currentlySelectedPlant.update(a => plant.pid) }}>
-				<img class="is-lazy hover:scale-105 ease-in-out duration-2000 h-52 w-full object-cover" use:lazy={getImageUrl(plant.cover_image_url, 'medium')} alt="Cover image for {plant.name}." />
+			<a href="/plant/{plant.pid}" title="Read more about {plant.name}.">
+				<img class="is-lazy h-52 w-full object-cover" use:lazy={getImageUrl(plant.cover_image_url, 'medium')} alt="Cover image for {plant.name}." />
 			</a>
 		</div>
 		{#if plant.is_deadly}

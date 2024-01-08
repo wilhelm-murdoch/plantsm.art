@@ -1,0 +1,177 @@
+[
+    {
+        "label": "Oral",
+        "slug": "oral",
+        "symptoms": [
+            "Salivation",
+            "Dry Mouth",
+            "Drooling"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Gastrointestinal",
+        "slug": "gastrointestinal",
+        "symptoms": [
+            "Vomiting",
+            "Diarrhea",
+            "Dry Heaving",
+            "Colic",
+            "Abdominal Pain",
+            "Dark Stools",
+            "Nausea",
+            "Retching",
+            "Extreme Stomach Pain",
+            "Bloat",
+            "Bloody Diarrhea",
+            "Difficulty Swallowing",
+            "Increased Thirst",
+            "Weight Loss"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Neurological",
+        "slug": "neurological",
+        "symptoms": [
+            "Tremors",
+            "High Heart Rate",
+            "Dilated Pupils",
+            "Coma",
+            "Convulsions",
+            "Incoordination",
+            "Seizures",
+            "Head Pressing",
+            "Loss Of Coordination",
+            "Stupor",
+            "Yawning",
+            "Icterus",
+            "Ataxia",
+            "Drowsiness",
+            "Hyper Salivation",
+            "Hallucinations",
+            "Pacing",
+            "CNS Depression",
+            "Pacing"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Respiratory",
+        "slug": "respiratory",
+        "symptoms": [
+            "Shock",
+            "Respiratory Depression",
+            "Difficulty Breathing",
+            "Coughing",
+            "Labored Breathing",
+            "Yawning",
+            "Respiratory Failure",
+            "Panting"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Cardiovascular",
+        "slug": "cardiovascular",
+        "symptoms": [
+            "Cardiovascular Collapse",
+            "Cardiac Arrhythmias",
+            "Low Blood Pressure",
+            "Cardiac Failure",
+            "Increased Heart Rate",
+            "Slow Heart Rate",
+            "Weak Pulse"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Dermatological",
+        "slug": "dermatological",
+        "symptoms": [
+            "Dermatitis",
+            "Hives",
+            "Skin Irritation",
+            "Skin Ulcers",
+            "Oral Ulcers",
+            "Photosensitivity",
+            "Jaundice",
+            "Bruising",
+            "Laminitis"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Renal",
+        "slug": "renal",
+        "symptoms": [
+            "Blood In Urine",
+            "Diuretic",
+            "Kidney Failure",
+            "Increased Urination",
+            "Blood In Urine"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Hepatic",
+        "slug": "hepatic",
+        "symptoms": [
+            "Liver Failure",
+            "Jaundice",
+            "Liver Damage"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Psychological",
+        "slug": "psychological",
+        "symptoms": [
+            "Depression",
+            "Hyperexcitability",
+            "Agitation",
+            "Disorientation",
+            "Hallucinations"
+        ],
+        "plants": [
+
+        ]
+    },
+    {
+        "label": "Muscular/Skeletal",
+        "slug": "Muscular-Skeletal",
+        "symptoms": [
+            "Weakness",
+            "Trembling",
+            "Falling Off Perch",
+            "Muscular Stiffness",
+            "Bone Marrow Suppression",
+            "Paralysis",
+            "Loss Of Appetite",
+            "Weight Loss",
+            "Stiffness",
+            "Recumbency",
+            "Thirst",
+            "Sweating"
+        ],
+        "plants": [
+
+        ]
+    }
+]

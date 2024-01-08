@@ -3,7 +3,11 @@ module.exports = {
 		'./src/**/*.{html,js,svelte,ts}'
 	],
 	theme: {
-		extend: {}
+		extend: {
+			scale: {
+				'102': '1.02',
+			  }
+		}
 	},
 	plugins: [
 		require('@tailwindcss/forms'),

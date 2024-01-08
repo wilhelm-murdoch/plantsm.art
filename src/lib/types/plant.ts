@@ -18,7 +18,7 @@ export type Plant = {
   symptoms: Slugged[];
   images: Image[];
   wikipedia_url: string;
-  date_last_updated: string;
+  family: string;
   index?: string;
 };
 

@@ -14,6 +14,8 @@
 	let affectsOpen = false;
 	let symptomsOpen = false;
 	let familyOpen = false;
+	let severityOpen = false
+
 	let apiSymptoms: SymptomItem[] = [];
 	let apiFamilies: FamilyItem[] = [];
 
@@ -154,6 +156,10 @@
 		symptomsOpen = handleFilterDropdownUnfocus({ relatedTarget, currentTarget });
 	}
 
+	const handleSeverityDropdownUnfocus = ({ relatedTarget, currentTarget }) => {
+		severityOpen = handleFilterDropdownUnfocus({ relatedTarget, currentTarget });
+	}
+
 	const handleFilterDropdownUnfocus = ({ relatedTarget, currentTarget }) => {
 		return currentTarget.contains(relatedTarget);
 	}
@@ -195,6 +201,7 @@
 								affectsOpen = !affectsOpen;
 								symptomsOpen = false;
 								familyOpen = false;
+								severityOpen = false
 							}}
 						>
 							<span>Affects</span>
@@ -206,7 +213,7 @@
 							</span>
 
 							<svg class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+								<path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd" />
 							</svg>
 						</button>
 
@@ -246,6 +253,7 @@
 								symptomsOpen = !symptomsOpen;
 								affectsOpen = false;
 								familyOpen = false;
+								severityOpen = false
 							}}
 						>
 							<span>Symptoms</span>
@@ -255,7 +263,7 @@
 								}).length}</span
 							>
 							<svg class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+								<path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd" />
 							</svg>
 						</button>
 
@@ -313,7 +321,7 @@
 								}).length}
 							</span>
 							<svg class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+								<path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd" />
 							</svg>
 						</button>
 
@@ -352,56 +360,57 @@
 						</div>
 					</div>
 
-					<div class="hidden relative inline-block px-4 text-left">
+					<div class="relative inline-block px-4 text-left" on:focusout={handleSeverityDropdownUnfocus}>
 						<button
 							type="button"
 							class="group inline-flex justify-center text-sm font-medium text-gray-700 hover:text-gray-900"
 							aria-expanded="false"
 							on:click={() => {
-								affectsOpen = !affectsOpen;
+								severityOpen = !severityOpen;
+								affectsOpen = false;
 								symptomsOpen = false;
-								familyOpen = false;
+								familyOpen = false
 							}}
 						>
-							<span>Category</span>
+							<span>Severity</span>
 
-							<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700"
-								>{$filters.filter((f) => {
-									return f.type == 'affects';
-								}).length}</span
-							>
-
+							<span class="ml-1.5 rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700">
+								{$filters.filter((f) => {
+									return f.type == 'families'
+								}).length}
+							</span>
 							<svg class="-mr-1 ml-1 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+								<path fill-rule="evenodd" d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z" clip-rule="evenodd" />
 							</svg>
 						</button>
 
-						<div class:hidden={!affectsOpen} class="absolute space-y-2 p-3 right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none">
-							{#each getAllAnimals() as animal}
-								<button class="whitespace-nowrap text-sm font-medium text-gray-900">
-									<input
-										id="filter-affects-{animal}"
-										name="affects[]"
-										value={animal}
-										type="checkbox"
-										class="h-4 w-4 mb-4 mr-1 rounded border-gray-300 text-green-600 focus:ring-green-500"
-										on:click={() => handleCheckboxFilter('affects', animal)}
-										checked={$filters.some((f) => {
-											return f.type == 'affects' && f.term == animal;
-										})}
-									/>
-									<label for="filter-affects-{animal}">
-										<span class="inline-flex cursor-pointer items-center rounded-md bg-{getByAnimal(animal).background} px-2.5 py-1 text-{getByAnimal(animal).foreground} border-solid border border-{getByAnimal(animal).foreground}/50">
-											<svg id="emoji" class="h-6 w-6 pr-1" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
-												{@html getByAnimal(animal).svg}
-											</svg> 
-											{normalizeAnimal(animal)}
-										</span>
-									</label>
-								</button>
-							{/each}
+						<div class:hidden={!severityOpen} class="absolute text-center right-0 z-10 mt-2 origin-top-right rounded-md bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none max-h-96 w-64 overflow-y-scroll">
+							{#if filteredFamilies.length}
+								{#each filteredFamilies as family, i}
+									<button class="text-left w-full px-3 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
+										<!-- <input
+											id="filter-family-{i}"
+											name="family"
+											value="white"
+											type="radio"
+											class="h-4 w-4 mr-2 rounded border-gray-300 text-green-600 focus:ring-green-500"
+											on:click={() => handleRadioFilter('toxicity', '')}
+											checked={$filters.some((f) => {
+												return f.type == 'families' && f.term == family.name;
+											})}
+										/> -->
+										<label for="filter-family-{i}" class="cursor-pointer">
+											{family.name}
+											<span class="rounded bg-gray-200 py-0.5 px-1.5 text-xs font-semibold tabular-nums text-gray-700">{family.count}</span>
+										</label>
+									</button>
+								{/each}
+							{:else}
+								<div class="items-center my-4 text-center text-gray-400">no matches</div>
+							{/if}
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</div>

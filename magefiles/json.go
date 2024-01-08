@@ -54,7 +54,7 @@ func (Json) Slim(ctx context.Context, sourcePath string) error {
 		slimCommon := convertToSlim(plant.Common)
 		slimSymptoms := convertToSlim(plant.Symptoms)
 
-		var searchIndex = strings.ToLower(plant.Classification.Family)
+		var searchIndex = strings.ToLower(plant.Family)
 
 		searchIndex += " " + strings.ToLower(plant.Name)
 
@@ -94,7 +94,7 @@ func (Json) Slim(ctx context.Context, sourcePath string) error {
 			ImageTotal:    len(plant.Images),
 			SearchIndex:   searchIndex,
 			IsDeadly:      IsDeadly,
-			Family:        plant.Classification.Family,
+			Family:        plant.Family,
 		})
 
 		IsDeadly = false
@@ -148,14 +148,14 @@ func (Json) Families(ctx context.Context, sourcePath string) error {
 
 	for _, plant := range plants.Data {
 		families.PushDistinct(&FamilyItem{
-			Name: plant.Classification.Family,
-			Slug: slug.Make(plant.Classification.Family),
+			Name: plant.Family,
+			Slug: slug.Make(plant.Family),
 		})
 	}
 
 	families.Each(func(i int, s *FamilyItem) bool {
 		for _, plant := range plants.Data {
-			if slug.Make(plant.Classification.Family) == s.Slug {
+			if slug.Make(plant.Family) == s.Slug {
 				s.Count += 1
 			}
 		}
@@ -285,4 +285,62 @@ func (Json) Animal(ctx context.Context, sourcePath, toPath string) error {
 	}
 
 	return nil
+}
+
+func (Json) Severity(ctx context.Context, sourcePath, severityPath string) error {
+	if _, err := os.Stat(sourcePath); err != nil {
+		return fmt.Errorf("cannot locate source path %s", sourcePath)
+	}
+
+	if _, err := os.Stat(severityPath); err != nil {
+		return fmt.Errorf("cannot locate severity path %s", severityPath)
+	}
+
+	severity, err := unmarshalSeverityFromSource(severityPath)
+	if err != nil {
+		return err
+	}
+
+	plants, err := unmarshalPlantsFromSource(sourcePath)
+	if err != nil {
+		return err
+	}
+
+	for _, tox := range severity.Data {
+		for _, symptom := range tox.Symptoms {
+			for _, plant := range plants.Data {
+				if containsSymptom(symptom, plant.Symptoms) && !containsPlant(plant.Pid, tox.Plants) {
+					tox.Plants = append(tox.Plants, plant.Pid)
+				}
+			}
+		}
+	}
+
+	if err := json.NewEncoder(os.Stdout).Encode(severity.Data); err != nil {
+		panic(err)
+	}
+
+	return nil
+}
+
+func containsPlant(pid string, pids []string) bool {
+	for _, p := range pids {
+		if p == pid {
+			return true
+		}
+	}
+	return false
+}
+
+func containsSymptom(symptom string, symptoms []struct {
+	Name string `json:"name"`
+	Slug string `json:"slug"`
+}) bool {
+	for _, s := range symptoms {
+		if s.Slug == slug.Make(symptom) {
+			return true
+		}
+	}
+
+	return false
 }
